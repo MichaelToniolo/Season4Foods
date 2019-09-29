@@ -1,4 +1,0 @@
-#Sun Sep 29 20:16:49 BRT 2019
-base.0=/home/michael/Documentos/Mz3ro/Github/Season4Foods/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
