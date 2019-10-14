@@ -1,0 +1,4 @@
+#Sun Oct 13 21:45:20 BRT 2019
+base.0=C\:\\Users\\samsung\\Documents\\GitHub\\Season4Foods\\Season4Foods\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
