@@ -50,7 +50,8 @@
         android:background="@android:drawable/menuitem_background"
         android:text="Receitas Disponíves"
         android:textSize="20dp"
-        tools:visibility="visible" />
+        tools:visibility="visible"
+        android:onClick="proximaTela"/>
 
 
     </LinearLayout>
