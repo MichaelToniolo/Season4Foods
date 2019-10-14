@@ -5,6 +5,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
             //DEFINE VALOR LIST VIEW
             listView  = (ListView) findViewById(R.id.lista_alimentos);
             CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
+
+
+
         CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int i, int i1, int i2) {
@@ -232,18 +236,15 @@ public class MainActivity extends AppCompatActivity {
             listView.setAdapter(adapter);
 
 
-            listView.setOnItemClickListener((new OnItemClickListener() {
+            listView.setOnItemClickListener(new OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                    int itemPosition = position;
-
-                    String itemvalue = (String) listView.getItemAtPosition(position);
-
-                    Toast.makeText(getApplicationContext(), itemvalue, Toast.LENGTH_LONG).show();
+                        Intent it = new Intent(MainActivity.this, ActivityReceitas.class);
+                        startActivity(it);
 
                 }
-            }));
+            });
         }
     }
 
