@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Season4Foods</string>
+    <string name="title_activity_lista_receita">lista_receita</string>
 </resources>
