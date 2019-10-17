@@ -38,7 +38,8 @@
             android:maxDate="12/31/2019"
             android:minDate="01/01/2019"
 
-            ></CalendarView>
+            >
+        </CalendarView>
     </LinearLayout>
     <TextView
 
