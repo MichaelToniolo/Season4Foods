@@ -78,8 +78,16 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("FEVEREIRO");
                         Omes = new String[]
                                 {
-                                        "ABACAXI",
-                                        "LARANJA"
+                                        "Abacate",
+                                        "Coco Verde",
+                                        "Maçã",
+                                        "Pera",
+                                        "Pêssego",
+                                        "Hortelã",
+                                        "Repolho",
+                                        "Abóbora",
+                                        "Milho Verde",
+                                        "Tomate"
                                 };
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
@@ -92,8 +100,18 @@ public class MainActivity extends AppCompatActivity {
 
                         Omes = new String[]
                                 {
-                                        "ABOBORA",
-                                        "MAÇA"
+                                        "Abacaxi",
+                                        "Alho Poró",
+                                        "Ameixa",
+                                        "Berinjela",
+                                        "Cará",
+                                        "Endívias",
+                                        "Goiaba",
+                                        "Limão",
+                                        "Rúcula",
+                                        "Tangerina",
+
+
                                 };
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
@@ -105,8 +123,16 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("ABRIL");
                         Omes = new String[]
                                 {
-                                        "MORANGO",
-                                        "LARANJINHA"
+                                        "Abobrinha",
+                                        "Alface",
+                                        "Banana-Maçã",
+                                        "Beterraba",
+                                        "Chuchu",
+                                        "Inhame",
+                                        "Kiwi",
+                                        "Mamão",
+                                        "Nabo",
+                                        "Uva"
                                 };
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
@@ -170,8 +196,16 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("SETEMBRO");
                         Omes = new String[]
                                 {
-                                        "ABACAXI",
-                                        "LARANJA"
+                                        "Caju",
+                                        "Jabuticaba",
+                                        "Mamão Havaí",
+                                        "Cará",
+                                        "Agrião",
+                                        "Almeirão",
+                                        "Palmito",
+                                        "Maracujá",
+                                        "Tangerina",
+
                                 };
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
@@ -183,8 +217,16 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("OUTUBRO");
                         Omes = new String[]
                                 {
-                                        "ABACAXI",
-                                        "CEBOLINHA"
+                                        "Banana Prata",
+                                        "Manga",
+                                        "Beterraba",
+                                        "Pepino Japonês",
+                                        "Tomate",
+                                        "Brócolis",
+                                        "Cenoura",
+                                        "Acerola",
+                                        "Noses",
+                                        "Chuchu"
                                 };
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
@@ -196,8 +238,17 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("NOVEMBRO");
                         Omes = new String[]
                                 {
-                                        "maracujá",
-                                        "LARANJA"
+                                        "Alcachofras",
+                                        "Couve-Flor",
+                                        "Abacaxi Pérola",
+                                        "Amendoas",
+                                        "Amora",
+                                        "Castanha Nacional",
+                                        "Jaca",
+                                        "Melão",
+                                        "Berinjela",
+                                        "Maxixe"
+
                                 };
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
@@ -210,8 +261,16 @@ public class MainActivity extends AppCompatActivity {
 
                         Omes = new String[]
                                 {
-                                        "PAPAI NO EL",
-                                        "LARANJA"
+                                        "Abacaxi",
+                                        "Amêndoa",
+                                        "Laranja",
+                                        "Cenoura",
+                                        "Berinjela Japonesa",
+                                        "Palmito",
+                                        "Pernil",
+                                        "Salmão",
+                                        "Bacalhau",
+                                        "Tender"
                                 };
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
@@ -228,7 +287,7 @@ public class MainActivity extends AppCompatActivity {
 
             String[] Omes = new String[]
                     {
-                            "INGREDIENTES"
+
                     };
 
             ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, Omes);
