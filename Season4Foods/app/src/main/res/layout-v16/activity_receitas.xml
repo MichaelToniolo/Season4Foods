@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundmain3"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pratos Disponíves"
+            android:textAlignment="center"
+            android:textSize="38dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="cursive"
+            android:textFontWeight="@android:integer/config_mediumAnimTime"
+            android:background="@color/cardview_light_background"
+            tools:ignore="HardcodedText"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars[3]" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/para_esquerda"
+                android:layout_width="41dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                android:text="<"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/nome_alimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abacate"
+                tools:ignore="HardcodedText">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/para_direita"
+                android:layout_width="41dp"
+                android:layout_height="37dp"
+                android:background="@color/colorPrimary"
+                android:text=">"
+                tools:ignore="HardcodedText"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lista_alimentos"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
