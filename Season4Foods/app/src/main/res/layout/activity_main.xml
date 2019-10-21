@@ -9,6 +9,7 @@
     android:background="@drawable/backgroundmain"
     android:orientation="vertical"
     tools:context=".MainActivity"
+    android:id="@+id/menu_principal"
     >
 
     <TextView

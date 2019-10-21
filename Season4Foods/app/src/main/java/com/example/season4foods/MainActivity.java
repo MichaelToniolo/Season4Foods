@@ -2,15 +2,19 @@ package com.example.season4foods;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.CalendarView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.app.ListActivity;
@@ -23,6 +27,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import org.w3c.dom.Text;
 
 import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -30,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     TextView TxtMain;
     ListView listView;
     String Omes;
+    LinearLayout LinearLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,14 +46,14 @@ public class MainActivity extends AppCompatActivity {
         CalendarioView = (CalendarView) findViewById(R.id.CalendarioView);
         TxtMain = (TextView) findViewById(R.id.TxtMain);
         listView = (ListView) findViewById(R.id.lista_alimentos);
+        LinearLayout = (LinearLayout) findViewById(R.id.menu_principal);
 
             //DEFINE VALOR LIST VIEW
             listView  = (ListView) findViewById(R.id.lista_alimentos);
             CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
 
-
-
         CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int i, int i1, int i2) {
 
@@ -111,8 +117,9 @@ public class MainActivity extends AppCompatActivity {
                                         "Rúcula",
                                         "Tangerina",
 
-
                                 };
+
+                        LinearLayout.setBackgroundResource(R.drawable.outono_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -161,6 +168,8 @@ public class MainActivity extends AppCompatActivity {
                                         "LARANJA"
                                 };
 
+                        LinearLayout.setBackgroundResource(R.drawable.inverno_bg);
+
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
@@ -207,6 +216,8 @@ public class MainActivity extends AppCompatActivity {
                                         "Tangerina",
 
                                 };
+
+                        LinearLayout.setBackgroundResource(R.drawable.primavera_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -273,6 +284,8 @@ public class MainActivity extends AppCompatActivity {
                                         "Tender"
                                 };
 
+                        LinearLayout.setBackgroundResource(R.drawable.verao_bg);
+
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
@@ -281,6 +294,8 @@ public class MainActivity extends AppCompatActivity {
                     default:
 
                 }
+
+
             }
         });
 
@@ -304,6 +319,9 @@ public class MainActivity extends AppCompatActivity {
 
                 }
             });
+
+
+
         }
     }
 
