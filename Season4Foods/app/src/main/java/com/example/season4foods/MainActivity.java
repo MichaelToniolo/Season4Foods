@@ -26,6 +26,7 @@ import android.widget.AdapterView.OnItemClickListener;
 
 import org.w3c.dom.Text;
 
+import java.time.Period;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -51,9 +52,11 @@ public class MainActivity extends AppCompatActivity {
             //DEFINE VALOR LIST VIEW
             listView  = (ListView) findViewById(R.id.lista_alimentos);
             CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
+            CalendarioView.getFirstDayOfWeek();
+            CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+                @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
 
-        CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
-            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int i, int i1, int i2) {
 
@@ -69,10 +72,18 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("JANEIRO");
                         String[] Omes = new String[]
                                 {
-                                        "INGREDIENTES",
-                                        "TOMATE",
-                                        "CEBOLA"
+                                        "Abobrinha",
+                                        "Alface",
+                                        "Couve",
+                                        "Cupuaçu",
+                                        "Goiaba",
+                                        "Limão",
+                                        "Maracujá",
+                                        "Quiabo",
+                                        "Tomate",
+                                        "Pimentão"
                                 };
+                        LinearLayout.setBackgroundResource(R.drawable.summer_bg);
 
                         ArrayAdapter adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -95,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Milho Verde",
                                         "Tomate"
                                 };
-
+                        LinearLayout.setBackgroundResource(R.drawable.summer_bg);
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
@@ -119,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 };
 
-                        LinearLayout.setBackgroundResource(R.drawable.outono_bg);
+                        LinearLayout.setBackgroundResource(R.drawable.autumn_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -141,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Nabo",
                                         "Uva"
                                 };
+                        LinearLayout.setBackgroundResource(R.drawable.autumn_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -155,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
                                         "FEIJÃO"
                                 };
 
+                        LinearLayout.setBackgroundResource(R.drawable.autumn_bg);
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
@@ -164,19 +177,20 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("JUNHO");
                         Omes = new String[]
                                 {
-                                        "Tangerina",
-                                        "Caqui",
-                                        "Batata Doce",
-                                        "Nabo",
-                                        "Kiwi",
                                         "Abacate",
-                                        "Pinhão",
-                                        "Maracuja",
+                                        "Batata Doce",
+                                        "Caqui",
+                                        "Chuchu",
                                         "Inhame",
-                                        "Chuchu"
+                                        "Kiwi",
+                                        "Maracuja",
+                                        "Nabo",
+                                        "Pinhão",
+                                        "Tangerina"
+
                                 };
 
-                        LinearLayout.setBackgroundResource(R.drawable.inverno_bg);
+                        LinearLayout.setBackgroundResource(R.drawable.winter_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -187,16 +201,18 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("JULHO");
                         Omes = new String[]
                                 {
-                                        "Espinafre",
-                                        "Pepino",
-                                        "Mandioca",
-                                        "Goiaba",
-                                        "Rabanete",
-                                        "Milho Verde",
-                                        "Quiabo",
                                         "Cenoura",
-                                        "Pimentão"
+                                        "Espinafre",
+                                        "Goiaba",
+                                        "Mandioca",
+                                        "Milho Verde",
+                                        "Pepino",
+                                        "Pimentão",
+                                        "Quiabo",
+                                        "Rabanete"
+
                                 };
+                        LinearLayout.setBackgroundResource(R.drawable.winter_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -207,17 +223,19 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("AGOSTO");
                         Omes = new String[]
                                 {
-                                        "Banana",
-                                        "Morango",
-                                        "Escarola",
-                                        "Beterraba",
-                                        "Alho",
                                         "Abóbora",
-                                        "Tomate",
-                                        "Alface"
+                                        "Alface",
+                                        "Alho",
+                                        "Banana",
+                                        "Beterraba",
+                                        "Escarola",
+                                        "Morango",
+                                        "Tomate"
+
 
                                 };
 
+                        LinearLayout.setBackgroundResource(R.drawable.winter_bg);
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
@@ -227,19 +245,20 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("SETEMBRO");
                         Omes = new String[]
                                 {
-                                        "Caju",
-                                        "Jabuticaba",
-                                        "Mamão Havaí",
-                                        "Cará",
                                         "Agrião",
                                         "Almeirão",
-                                        "Palmito",
+                                        "Caju",
+                                        "Cará",
+                                        "Jabuticaba",
+                                        "Mamão Havaí",
                                         "Maracujá",
-                                        "Tangerina",
+                                        "Palmito",
+                                        "Tangerina"
+
 
                                 };
 
-                        LinearLayout.setBackgroundResource(R.drawable.primavera_bg);
+                        LinearLayout.setBackgroundResource(R.drawable.winter_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -261,6 +280,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Noses",
                                         "Chuchu"
                                 };
+                        LinearLayout.setBackgroundResource(R.drawable.spring_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -271,18 +291,20 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("NOVEMBRO");
                         Omes = new String[]
                                 {
-                                        "Alcachofras",
-                                        "Couve-Flor",
                                         "Abacaxi Pérola",
+                                        "Alcachofras",
                                         "Amendoas",
                                         "Amora",
-                                        "Castanha Nacional",
-                                        "Jaca",
-                                        "Melão",
                                         "Berinjela",
-                                        "Maxixe"
+                                        "Castanha Nacional",
+                                        "Couve-Flor",
+                                        "Jaca",
+                                        "Maxixe",
+                                        "Melão"
+
 
                                 };
+                        LinearLayout.setBackgroundResource(R.drawable.spring_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -296,17 +318,19 @@ public class MainActivity extends AppCompatActivity {
                                 {
                                         "Abacaxi",
                                         "Amêndoa",
-                                        "Laranja",
-                                        "Cenoura",
+                                        "Bacalhau",
                                         "Berinjela Japonesa",
+                                        "Cenoura",
+                                        "Laranja",
                                         "Palmito",
                                         "Pernil",
                                         "Salmão",
-                                        "Bacalhau",
                                         "Tender"
+
+
                                 };
 
-                        LinearLayout.setBackgroundResource(R.drawable.verao_bg);
+                        LinearLayout.setBackgroundResource(R.drawable.summer_bg);
 
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
@@ -322,7 +346,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-            String[] Omes = new String[]
+            final String[] Omes = new String[]
                     {
 
                     };
@@ -336,8 +360,12 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                        Intent it = new Intent(MainActivity.this, ActivityReceitas.class);
+
+                        Intent it = new Intent(view.getContext(), ActivityReceitas.class);
+
                         startActivity(it);
+
+
 
                 }
             });
