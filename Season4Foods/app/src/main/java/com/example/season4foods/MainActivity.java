@@ -26,6 +26,7 @@ import android.widget.AdapterView.OnItemClickListener;
 
 import org.w3c.dom.Text;
 
+import java.io.StringReader;
 import java.time.Period;
 import java.util.List;
 
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     String Omes;
     LinearLayout LinearLayout;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout = (LinearLayout) findViewById(R.id.menu_principal);
 
             //DEFINE VALOR LIST VIEW
-            listView  = (ListView) findViewById(R.id.lista_alimentos);
             CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
             CalendarioView.getFirstDayOfWeek();
             CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
@@ -351,19 +353,30 @@ public class MainActivity extends AppCompatActivity {
 
                     };
 
-            ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, Omes);
+            final ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, Omes);
 
             listView.setAdapter(adapter);
-
 
             listView.setOnItemClickListener(new OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
-                        Intent it = new Intent(view.getContext(), ActivityReceitas.class);
 
+
+                        int itemPosicao = position;
+                        listView.getItemAtPosition(position);
+                        String itemValor = (String)
+                        listView.getItemAtPosition(position);
+
+
+                        //Toast.makeText(getApplicationContext(), itemValor,Toast.LENGTH_LONG).show();
+                        Intent it = new Intent(MainActivity.this, ActivityReceitas.class);
+                        it.putExtra("posit", position);
+                        it.putExtra("ingre",itemValor);
                         startActivity(it);
+
+
 
 
 
