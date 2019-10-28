@@ -221,7 +221,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Torta de Limão - Chessecake de Limão",
                         "Pudim de Limão",
                         "Bolo de Limão",
-                        "Cupcake de Limão",
+                        "Cupcake de Limão"
 
                 };
 
@@ -565,7 +565,11 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Gelado de Abacaxi",
                         "Torta Gelada de Abacaxi e Coco",
                         "Abacaxi Assado",
-                        "Frango com Abacaxi"
+                        "Frango com Abacaxi",
+                        "Bolo de Abacaxi",
+                        "Mousse de Abacaxi",
+                        "Abacaxi com Calda de Maracujá",
+                        "Taça de Abacaxi"
 
                 };
 
@@ -636,7 +640,11 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Escabiche de Berinjela",
                         "Strogonoff de Berinjela",
                         "Berinjela à Milanesa",
-                        "Bolinho de Berinjela"
+                        "Bolinho de Berinjela",
+                        "Entrada Frio de Berinjela Japonesa",
+                        "Salada de Berinjela Grelhada e Queijo de Cabra",
+                        "Berinjela com Missô",
+                        "Mabonasu (Berinjela Apimentada)"
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -791,7 +799,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Panqueca de Beterraba e Frango",
                         "Carpaccio de Beterraba",
                         "Pão de Beterraba",
-                        "Sopa Russa de Beterraba",
+                        "Sopa Russa de Beterraba"
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -1287,7 +1295,13 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Refogado de Cenoura com Chuchu",
                         "Bolinho de Chuva de Cenoura com Chocolate",
                         "Cupcake de Cenoura e Brigadeiro",
-                        "Hamburguer de Cenoura"
+                        "Hamburguer de Cenoura",
+                        "Cenoura Crocante",
+                        "Cenouras Salteadas com Mel",
+                        "Cenouras Assadas em Palito com Alecrim",
+                        "Salada de Repolho Roxo, Cenoura, Couve e Hortelã",
+                        "Risoto de Cenoura"
+
 
 
                 };
@@ -1480,7 +1494,12 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Pastel de Palmito Cremoso",
                         "Quiche de Palmito e Alho Poró",
                         "Empadão de Palmito",
-                        "Lasanha de Palmito"
+                        "Lasanha de Palmito",
+                        "Palmito Gratinado",
+                        "Lasanha de Palmito Gratinada",
+                        "Creme de Palmito",
+                        "Arroz com Creme de Palmito",
+                        "Refogado de Palmito"
 
                 };
 
@@ -1683,7 +1702,11 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Salgadinhos de Amêndoas",
                         "Cupcake Integral de Amêndoas",
                         "Cookies de Chocolate Branco e Amêndoas",
-                        "Muffins de Amêndoas com Tangerina"
+                        "Muffins de Amêndoas com Tangerina",
+                        "Frango ao Mel, Amêndas e Especiarias",
+                        "Pudim de Amêndoas",
+                        "Amêndoas Caramelizadas",
+                        "Brócolis com Lascas de Amêndoas"
 
 
                 };
@@ -1752,7 +1775,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Fricasse de Jaca",
                         "Carne de Jaca com Creme de Milho",
                         "Curry de Jaca Verde",
-                        "Antepasto de Carne de  Jaca"
+                        "Antepasto de Carne de Jaca"
 
                 };
 
@@ -1796,8 +1819,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Maxixo com Coco",
                         "Maxixe com Carne de Sol",
                         "Maxixada Nordestina",
-                        "Cabrito com Maxixe",
-                        ""
+                        "Cabrito com Maxixe"
 
                 };
 
@@ -1812,6 +1834,29 @@ public class ActivityReceitas extends AppCompatActivity {
                     }
                 });
                 break;
+
+            case "Laranja":
+            valores = new String[]{
+                    "Doce de Laranja",
+                    "Bolo Vulcão de Laranja",
+                    "Laranja em Calda",
+                    "Mix de Laranja",
+                    "Salmão ao Molho Laranja",
+                    "Geleia de Laranja"
+
+            };
+
+            adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+            lista_receitas.setAdapter(adapter);
+
+            lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                }
+            });
+            break;
 
 
 

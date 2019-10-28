@@ -25,6 +25,12 @@
         android:textFontWeight="@android:integer/config_mediumAnimTime"
 
      />
+    <SearchView
+    android:id="@+id/Pesquisa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</SearchView>
 
     //LinearLayout Calendário
     <LinearLayout
@@ -57,6 +63,7 @@
         android:background="@color/MyBackgroundFontColor"
         android:textSize="25dp"
         tools:visibility="visible" />
+
 
 
     <ListView

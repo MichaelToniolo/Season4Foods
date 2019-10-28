@@ -43,6 +43,8 @@ public class ActivityPreparo extends AppCompatActivity {
         }
 
 
+
+
          Preparo.setMovementMethod(new ScrollingMovementMethod());
         Ingredientes.setMovementMethod(new ScrollingMovementMethod());
 

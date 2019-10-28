@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.widget.CalendarView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.app.ListActivity;
 import android.view.View;
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     String Omes;
     LinearLayout LinearLayout;
-
+    SearchView Pesquisa;
 
 
     @Override
@@ -51,6 +52,10 @@ public class MainActivity extends AppCompatActivity {
         TxtMain = (TextView) findViewById(R.id.TxtMain);
         listView = (ListView) findViewById(R.id.lista_alimentos);
         LinearLayout = (LinearLayout) findViewById(R.id.menu_principal);
+        Pesquisa = (SearchView) findViewById(R.id.Pesquisa);
+
+        
+
 
             //DEFINE VALOR LIST VIEW
             CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
