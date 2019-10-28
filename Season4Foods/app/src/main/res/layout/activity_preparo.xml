@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityReceitas"
+    android:background="@drawable/backgroundmain3"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/MyBackgroundFontColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/MyBackgroundFontColor"
+                android:fontFamily="cursive"
+                android:text="Ingredientes"
+                android:gravity="left"
+                android:textColor="@color/colorPrimaryDark"
+                android:textFontWeight="@android:integer/config_mediumAnimTime"
+                android:textSize="30dp" >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Ingredientes"
+                android:height="200dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/MyBackgroundFontColor"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="vertical"
+
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modo de Preparo"
+                android:fontFamily="cursive"
+                android:layout_gravity="left"
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Preparo"
+                android:text="Preparo"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/MyBackgroundFontColor"
+                android:textSize="20dp"
+                android:scrollbars="vertical"
+                android:layout_gravity="left"
+                >
+
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

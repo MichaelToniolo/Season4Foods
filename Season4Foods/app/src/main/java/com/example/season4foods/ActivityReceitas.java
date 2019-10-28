@@ -109,8 +109,15 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Salada de alface americano e abacate",
                         "Panqueca de Alface",
                         "Salada Primavera",
-                        "Salada Grega"
+                        "Salada Grega",
+                        "Salada de Alface com Laranja",
+                        "Salada de Alface e Tomate com Pepino e Queijo",
+                        "Salada de Alface com Frutas",
+                        "Salada de Alface e Tomate com Molho Italiano",
+                        "Salada de Alface com figo e Gorgonzola"
+
                 };
+
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
                 lista_receitas.setAdapter(adapter);
@@ -129,7 +136,11 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Couve Refogada Piná",
                         "Purê de Couve",
                         "Caldo Verde Vegetariano",
-                        "Suco de Couve com Limão"
+                        "Suco de Couve com Limão",
+                        "Cuscuz de Frango e Couve",
+                        "Creme de Feijão com Couve e Alho-Poró",
+                        "Gratinado de Couve Manteiga e Nozes",
+                        "Quiche de Couve"
 
                 };
 
@@ -178,9 +189,12 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Goiabada",
                         "Bolo de Goiaba",
                         "Goiaba Assada com Mel",
-                        ""
-
-
+                        "Cheese de Goiaba",
+                        "Smoothie de Goiaba",
+                        "Tapioca de Romeu e Julieta",
+                        "Geléia de Goiaba",
+                        "Sorvete de Nata com Goiaba",
+                        "Croissant Recheado de Goiaba"
 
                 };
 
@@ -232,7 +246,17 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Minis sonhos de Maracujá",
                         "Brigadeiro de Maracujá",
                         "Cocada de Maracujá",
-                        "Pudim de Maracujá com cobertura de Iogurte"
+                        "Pudim de Maracujá com cobertura de Iogurte",
+                        "Cheesecake de Maracujá",
+                        "Mousse de Maracujá com Geléia de Maracujá",
+                        "Panna Cotta de coco com maracujá",
+                        "Milk-Shake de Maracujá",
+                        "Geléia de Maracujá",
+                        "Bolo Mousse de Maracujá",
+                        "Bolo Vegano de Maracujá",
+                        "Pavê de Maracujá e Chocolate",
+                        "Tora de Manga com Maracujá"
+
 
                 };
 
@@ -259,6 +283,16 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Salada Carpaccio de Tomate",
                         "Pasta de Tomate",
                         "Salada de Tomate ao Curry",
+                        "Quiche de Tomate e Espinafre",
+                        "Tomate Assado",
+                        "Molho de Tomate",
+                        "Sopa de Tomate",
+                        "Salada Caprese no Tomate",
+                        "Tomates Verdes Fritos",
+                        "Tomate com Ovo",
+                        "Risoto de Tomate Seco com Rúcula",
+                        "Patê de Ricota com Tomate Seco"
+
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -281,6 +315,10 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Pimentão Recheador com Carne Móida",
                         "Molho de Pimentão Vermelho Assado",
                         "Chutney de Pimentão",
+                        "Receita de Pimentão",
+                        "Arroz com Pimentão",
+                        "Carne Louca de Festa"
+
 
                 };
 
@@ -305,6 +343,10 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Sopa de Abacate",
                         "Macarrão com molho de abacate",
                         "Chutney de Pimentão",
+                        "Vitamina de Abacate",
+                        "Guacamole",
+                        "Salada de Abacate",
+                        "Nhoque de Abacate"
 
                 };
 
@@ -467,7 +509,13 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Gratinado de abóbora de Frango",
                         "Risoto de Abóbora",
                         "Torta de Abóbora e Couve",
-                        "Abóbora assada com shoyu e mel"
+                        "Abóbora assada com shoyu e mel",
+                        "Sopa de Abóbora com Grão de Bico e Costela",
+                        "Creme de Abóbora com Bacon",
+                        "Bacon Frito e Cebolinha picada para Polvilhar",
+                        "Croquete de Abóbora com Carne-Seca",
+                        "Risoto de Abóbora com Carne-Sca",
+                        "Doce de Abóbora com Coco Ralado"
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -488,7 +536,16 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Cural de Milho Verde",
                         "Brigadeiro de Milho Verde",
                         "Tortilha de Milho",
-                        "Nhoque de Milho Verde"
+                        "Nhoque de Milho Verde",
+                        "Bolo de Milho",
+                        "Curau",
+                        "Canjica",
+                        "Pamonha Assada",
+                        "Creme de Milho",
+                        "Quiabo sem Baba com Molho Delicioso",
+                        "Quiabo com Linguinça",
+                        "Arroz 7 Grãos com Quiabo e Frango Desfiado"
+
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -577,7 +634,9 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Berinjela à Pamegiana",
                         "Antepasto de Berinjela",
                         "Escabiche de Berinjela",
-                        "Strogonoff de Berinjela"
+                        "Strogonoff de Berinjela",
+                        "Berinjela à Milanesa",
+                        "Bolinho de Berinjela"
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -598,7 +657,12 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Sopa de Cará",
                         "Escondidinho de Cará e carne moída",
                         "Pudim de Cará",
-                        "Carne seca com Cará"
+                        "Carne seca com Cará",
+                        "Sopa de Cará",
+                        "Purê de Cará com Bacon",
+                        "Cará Assado",
+                        "Coxinha de Cará",
+                        "Chips de Cará"
 
                 };
 
@@ -669,7 +733,10 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Casquinha Cristalizada de Mexerica",
                         "Bolo de Mexerica",
                         "Mousse de Tangerina",
-                        "Bolo de Mexerica com Cachaça"
+                        "Bolo de Mexerica com Cachaça",
+                        "Geleia de Tangerina",
+                        "Frango Assado ao Molho de Tangerina"
+
 
                 };
 
@@ -715,7 +782,16 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Pasta de Beterraba",
                         "Espagueti ao Molho de Beterraba",
                         "Beterraba em Conserva",
-                        "Bolo de Beterraba"
+                        "Bolo de Beterraba",
+                        "Beterraba Assada",
+                        "Carutinhos de Folhas de Beterraba",
+                        "Crepes de Beterraba",
+                        "Sopa de Beterraba",
+                        "Refresco de Laranja e Beterraba",
+                        "Panqueca de Beterraba e Frango",
+                        "Carpaccio de Beterraba",
+                        "Pão de Beterraba",
+                        "Sopa Russa de Beterraba",
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -739,6 +815,13 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Suflê de Chuchu",
                         "Chuchu Gratinado",
                         "Purê Delicioso de Chuchu",
+                        "Chuchu Crocante",
+                        "Chuchu Refogado",
+                        "Omelete de Chuchu light",
+                        "Sopa de Chuchu",
+                        "Talharim de Chuchu",
+                        "Bolinho de Chucu",
+                        "Chuchu à Milanesa"
 
 
                 };
@@ -761,7 +844,14 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Bolinho de Inhame",
                         "Inhame ao Murro",
                         "Dadinho de Inhame",
-                        "Sopa de Inhame"
+                        "Sopa de Inhame",
+                        "Panqueca de Inhame",
+                        "Brigadeiro de Inhame",
+                        "Creme de Inhame",
+                        "Nhoque de forno de batata-doce e inhame com pesto",
+                        "Pão de Queijo de Inhame"
+
+
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -782,7 +872,9 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Delicia de Kiwi",
                         "Picolé de Kiwi Fit",
                         "Tortinha de Kiwi",
-                        "Bolo de Kiwi"
+                        "Bolo de Kiwi",
+                        "Geléia de Kiwi",
+                        "Panqueca com calda de Kiwi"
 
                 };
 
@@ -825,7 +917,12 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Creme de Nabo",
                         "Salada de Nabo",
                         "Nabo Crocante",
-                        "Nabo Gratinado"
+                        "Nabo Gratinado",
+                        "Salada com nabo light para emagrecer",
+                        "Nabo gratinado light",
+                        "Frango curry com nabo light",
+                        "Sopa de nabo light para emagrece",
+                        "Wrap com Nabo light"
 
                 };
 
@@ -869,7 +966,12 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Batata Doce Assada",
                         "Batata Doce Frita",
                         "Salada de Batata Doce Amarela com Bacalhau",
-                        "Batata Doce Assada com Manjerona"
+                        "Batata Doce Assada com Manjerona",
+                        "Nhoque de Batata Doce",
+                        "Escondidinho de Batata Doce",
+                        "Batata Doce Rústica com Salmão Grelhado",
+                        "Batata Doce Assada na páprica com frango assado",
+                        "Batata Doce Recheada"
 
                 };
 
@@ -891,7 +993,16 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Bolinho de Mandioca",
                         "Mandioca com Bacon e Tomate",
                         "Bolo de Mandioca",
-                        "Almondegas de Mandioca"
+                        "Almondegas de Mandioca",
+                        "Quindim de mandioca",
+                        "Vaca Atolada",
+                        "Bolo de Mandioca",
+                        "Pudim de Mandioca e Coco",
+                        "Creme de Mandioca",
+                        "Mandioca Crocante com Molho Apimentado",
+                        "Gratinado de Mandioca com Carne Moída"
+
+
 
                 };
 
@@ -913,7 +1024,12 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Gratinado de Espinafre",
                         "Torradinha com Creme de Espinafre e Ovo",
                         "Bolinho de Espinafre e aveia",
-                        "Lasanha de Espinafre"
+                        "Lasanha de Espinafre",
+                        "Pão de Espinafre",
+                        "Canelone de Espinafre e Gorgonzola",
+                        "Nhoque de batata com creme de espinafre",
+                        "Bife a Rolê com liguiça defumada e espinafre"
+
 
                 };
 
@@ -935,7 +1051,13 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Pavê de Morangos",
                         "Bombom de Travessa de Morango",
                         "Cheesecake de Morango",
-                        "Morango Frito no Palito"
+                        "Morango Frito no Palito",
+                        "Torta de Morango e Chocolate",
+                        "Bolo Mousse de Morango Base Pão de Ló",
+                        "Ovo de Páscoa de Morango, Leite Ninho e Nutella",
+                        "Salada de Morango",
+                        "Wrap de Rúcula e Morango"
+
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -1063,9 +1185,79 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Doce de Caqui",
                         "Bolo de Caqui",
                         "Salada de Couve-flor, banana e caqui",
-                        "Mufin de Cacqui",
-                        ""
+                        "Mufin de Caqui"
 
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Pinhão":
+                valores = new String[]{
+                        "Badejo em Crosta de Pinhão",
+                        "Brownie de Pinho",
+                        "Nhoque de Pinhão",
+                        "Molho ao sugo com mini almondegas de Pinhão",
+                        "Tapas de Pinhão e Palmito pupunha"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Pepino":
+                valores = new String[]{
+                        "Tzatziki",
+                        "Vinagrede de Pepino",
+                        "Gaspacho de Pepino",
+                        "Suco de Maçã",
+                        "Sunomono",
+                        "Salada de Pepino Japones Simples",
+                        "Pepino Japones em Salmora",
+                        "Salada de Pepino com Molho Agridoce",
+                        "Salada Thai de Pepino"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+
+            case "Rabanete":
+                valores = new String[]{
+                        "Smoothie de Rabanete e Morango",
+                        "Sopa de Rabanete",
+                        "Saladinha de Rabanete",
+                        "Suco de Laranja, Cenoura e Rabanetes",
+                        "Sanduíche de Rabanete",
+                        "Risoto de Rabanete"
 
                 };
 
@@ -1084,22 +1276,573 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
 
+            case "Cenoura":
+                valores = new String[]{
+                        "Suco de Cenoura e Maçã",
+                        "Bolinho de Cenoura",
+                        "Souflê",
+                        "Creme de Cenoura",
+                        "Cookie de Cenoura",
+                        "Bolo de Cenoura",
+                        "Refogado de Cenoura com Chuchu",
+                        "Bolinho de Chuva de Cenoura com Chocolate",
+                        "Cupcake de Cenoura e Brigadeiro",
+                        "Hamburguer de Cenoura"
 
 
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
+                    }
+                });
+                break;
+
+            case "Banana":
+                valores = new String[]{
+                        "Canapé",
+                        "Bolo de Banana",
+                        "Banana-Passa Recheada de Doce de Leite",
+                        "Torta de Banana e Suspiro",
+                        "Torta de Banana e Goiaba"
 
 
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
+                    }
+                });
+                break;
+
+            case "Escarola":
+                valores = new String[]{
+                        "Panqueca Integral de Ricota, Alho-poró, Tomate e Escarola",
+                        "Sopa de Escarola com Arroz",
+                        "Torta di Scarola e Olive",
+                        "Capellini com Escarola e Queijo"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
+                    }
+                });
+                break;
 
+            case "Alho":
+                valores = new String[]{
+                        "Pasta de Alho Assado",
+                        "Pasta de Alho com Maionese para Pão",
+                        "Creme de Alho",
+                        "Pão de Alho para Churrasco com Pão Frances Amanhecido"
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+
+            case "Caju":
+            valores = new String[]{
+                    "Doce de Caju",
+                    "Caipirosca de Caju",
+                    "Suco de Caju Picante",
+                    "Bolo de Caju",
+                    "Caju em Calda"
+            };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Jabuticaba":
+                valores = new String[]{
+                        "Pudim de Ricota com Jabuticaba",
+                        "Suflê Gelado de Jabuticaba",
+                        "Filé de Frango ao Molho de Jabuticaba",
+                        "Torta com Geléia de Jabuticaba"
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+            case "Mamão Havaí":
+                valores = new String[]{
+                        "Franfo ao Molho de Mamão Havaí",
+                        "Salada de Mamão com Aveia",
+                        "Carne Seca com Mamão",
+                        "Doce de Mamão na Panela de Pressão",
+                        "Picadinho de Mamão"
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Agrio":
+                valores = new String[]{
+                        "Rabada com Agrião",
+                        "Creme de Agrião",
+                        "Sopa de Agrião com Azeite e Tomate Seco",
+                        "Vinagrete com Agrião",
+                        "Carne de  Panela com Agrião"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Almeirão":
+                valores = new String[]{
+                        "Salada de Almeirão",
+                        "Salada de Almeirão com Alcaparras",
+                        "Refogado de Almeirão com Feijão",
+                        "Carne Assada com Almeirão",
+                        "Salada de Almeirão com Bacon"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Palmito":
+                valores = new String[]{
+                        "Creme de Palmito",
+                        "Pastel de Palmito Cremoso",
+                        "Quiche de Palmito e Alho Poró",
+                        "Empadão de Palmito",
+                        "Lasanha de Palmito"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Banana Prata":
+                valores = new String[]{
+                       "Cupcake de Banana Prata com Canela",
+                        "Carola de Banana Prata e Queijo",
+                        "Brioche de Banana Prata",
+                        "Torta de Banana Prata Crocante",
+                        "Bolinho de Banana Prata Frito"
+
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Manga":
+                valores = new String[]{
+                        "Mousse de Manga",
+                        "Bavaroise de Manga",
+                        "Doce de Manga",
+                        "Pavê de Manga",
+                        "Juju de Manga"
+
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Brócolis":
+                valores = new String[]{
+                        "Penne aom Molho de Queijo e Brócolis",
+                        "Macarrão com Brócolis e Bacon",
+                        "Souflé de Brócolis",
+                        "Creme de Brócolis",
+                        "Lasanha de Brócolis"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Acerola":
+                valores = new String[]{
+                        "Geleia de Acerola",
+                        "Licor de Acerola",
+                        "Mousse de Acerola",
+                        "Pudim de Acerola",
+                        "Tora de Acerola"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Nozes":
+                valores = new String[]{
+                        "Brownie de Nozes",
+                        "Strogonoff de Nozes",
+                        "Pavê de Nozes",
+                        "Camafeu de Nozes",
+                        "Baklavá de Nozes"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+
+            case "Alcachofras":
+                valores = new String[]{
+                        "Alcachofras Grelhadas",
+                        "Alcachofra com Molho de Ervas",
+                        "Homus de Alcachofra",
+                        "Tapenade de Alcachofra",
+                        "Alcachofra Assada com Limão e Água",
+                        "Alcachofra com Tofu"
+
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Couve-Flor":
+                valores = new String[]{
+                        "Omelete de Forno com Couve-Flor",
+                        "Couve-Flor Recheada de Microondas",
+                        "Couve-Flor ao Forno com Creme de Milho",
+                        "Bolinho de Couve-Flor",
+                        "Sopa de Couve-Flor"
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+
+            case "Abacaxi Pérola":
+                valores = new String[]{
+                        "Doce de Abacaxi Pérola",
+                        "Torta de Abacaxi",
+                        "Bolo de Abacaxi",
+                        "Milk-Shake de Abacaxi e Coco",
+                        "Arroz Frito com Abacaxi"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Amêndoas":
+                valores = new String[]{
+                        "Amêndoas Caramelizadas",
+                        "Salgadinhos de Amêndoas",
+                        "Cupcake Integral de Amêndoas",
+                        "Cookies de Chocolate Branco e Amêndoas",
+                        "Muffins de Amêndoas com Tangerina"
+
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Amora":
+                valores = new String[]{
+                        "Geleia de Morango",
+                        "Mousse de Amora",
+                        "Flan de Amora com Leite Condensado",
+                        "Sorvete de Amora",
+                        "Torta de Amora"
+
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+
+            case "Castanha Nacional":
+                valores = new String[]{
+                        "Mousse de Cupuaçu com Castanha",
+                        "Farofa de Castanha",
+                        "Torta de Chocolate com Castanha",
+                        "Bolo de Banana com Castanha",
+                        "Tota de Maçã Caramelizada com Castanha"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Jaca":
+                valores = new String[]{
+                        "Doce de Jaca em Calda",
+                        "Fricasse de Jaca",
+                        "Carne de Jaca com Creme de Milho",
+                        "Curry de Jaca Verde",
+                        "Antepasto de Carne de  Jaca"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Melão":
+                valores = new String[]{
+                        "Suchá de Melão com Mel",
+                        "Sopa de Melão",
+                        "Sorvete de Melão",
+                        "Petisco de Presunto e Melão",
+                        "Salada de Macarrão, Melão e Presunto Cru"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
+            case "Maxixe":
+                valores = new String[]{
+                        "Ensopadinho de Maxixo",
+                        "Maxixo com Coco",
+                        "Maxixe com Carne de Sol",
+                        "Maxixada Nordestina",
+                        "Cabrito com Maxixe",
+                        ""
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
 
 
 
 
         }
+        AdapterView listView;
+
+        lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                int itemPosicao = position;
+                lista_receitas.getItemAtPosition(position);
+                String receitavalor = (String)
+                        lista_receitas.getItemAtPosition(position);
+
+
+
+                //Toast.makeText(getApplicationContext(), itemValor,Toast.LENGTH_LONG).show();
+                Intent it = new Intent(ActivityReceitas.this, ActivityPreparo.class);
+                it.putExtra("posit", position);
+                it.putExtra("Receita",receitavalor);
+                startActivity(it);
+
+
+
+
+
+            }
+        });
 
 
     }
