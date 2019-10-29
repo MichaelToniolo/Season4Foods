@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout = (LinearLayout) findViewById(R.id.menu_principal);
         Pesquisa = (SearchView) findViewById(R.id.Pesquisa);
 
-        
+
 
 
             //DEFINE VALOR LIST VIEW

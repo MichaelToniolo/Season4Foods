@@ -110,6 +110,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Panqueca de Alface",
                         "Salada Primavera",
                         "Salada Grega",
+                        "Salada Cassar",
                         "Salada de Alface com Laranja",
                         "Salada de Alface e Tomate com Pepino e Queijo",
                         "Salada de Alface com Frutas",
@@ -135,6 +136,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 valores = new String[]{
                         "Couve Refogada Piná",
                         "Purê de Couve",
+                        "Creme de Folha de Couve",
                         "Caldo Verde Vegetariano",
                         "Suco de Couve com Limão",
                         "Cuscuz de Frango e Couve",
@@ -340,7 +342,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 valores = new String[]{
                         "Bolo de Abacate",
                         "Sorvete de Abacate",
-                        "Sopa de Abacate",
+                        "Sopa de Abacate e Tomate",
                         "Macarrão com molho de abacate",
                         "Chutney de Pimentão",
                         "Vitamina de Abacate",
@@ -436,7 +438,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Crocante de Pêssego",
                         "Gelado de Pêssego",
                         "Pavê de Pêssego",
-                        "Gelia de Pêssego",
+                        "Geléia de Pêssego",
                         "Chá Texano de Pêssego"
 
 
@@ -460,8 +462,8 @@ public class ActivityReceitas extends AppCompatActivity {
                        "Molho de Hortelã",
                         "Salada de Frutas com Creme de Hotelã",
                         "Pesto de Hotelã",
-                        "Bolo de Hortlã",
-                        "Creme de Hortlã"
+                        "Bolo de Hortelã",
+                        "Creme de Hortelã"
 
 
 
@@ -485,7 +487,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Torta de Repolho",
                         "Salada Coleslaw",
                         "Creme de Repolho",
-                        "Repolho GRatinado"
+                        "Repolho Gratinado"
 
 
 
@@ -514,7 +516,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Creme de Abóbora com Bacon",
                         "Bacon Frito e Cebolinha picada para Polvilhar",
                         "Croquete de Abóbora com Carne-Seca",
-                        "Risoto de Abóbora com Carne-Sca",
+                        "Risoto de Abóbora com Carne-Seca",
                         "Doce de Abóbora com Coco Ralado"
                 };
 
@@ -542,9 +544,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Canjica",
                         "Pamonha Assada",
                         "Creme de Milho",
-                        "Quiabo sem Baba com Molho Delicioso",
-                        "Quiabo com Linguinça",
-                        "Arroz 7 Grãos com Quiabo e Frango Desfiado"
 
                 };
 
@@ -569,7 +568,8 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Bolo de Abacaxi",
                         "Mousse de Abacaxi",
                         "Abacaxi com Calda de Maracujá",
-                        "Taça de Abacaxi"
+                        "Taça de Abacaxi",
+                        "Doce De Abacaxi Com Doce De Leite"
 
                 };
 
@@ -637,7 +637,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Berijela Recheada",
                         "Berinjela à Pamegiana",
                         "Antepasto de Berinjela",
-                        "Escabiche de Berinjela",
+                        "Escabeche de Berinjela",
                         "Strogonoff de Berinjela",
                         "Berinjela à Milanesa",
                         "Bolinho de Berinjela",
@@ -689,9 +689,9 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Endívias":
                 valores = new String[]{
                        "Endívias Gratinadas",
-                        "Salada de Endívias com cream chese",
+                        "Salada de Endívias com cream cheese",
                         "Endívia Recheada",
-                        "Endívias ao Forno"
+                        ""
 
 
                 };
@@ -1857,6 +1857,32 @@ public class ActivityReceitas extends AppCompatActivity {
                 }
             });
             break;
+
+
+            case "Quiabo":
+                valores = new String[]{
+                        "Quiabo sem Baba com Molho Delicioso",
+                        "Quiabo com Linguinça",
+                        "Arroz 7 Grãos com Quiabo e Frango Desfiado",
+                        "Salada de Quiabo",
+                        "Quabo e Grão de Bico Assados",
+                        "Farofa de Quiabo",
+                        "Salada de Quiabo com Ricota"
+
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
 
 
 
