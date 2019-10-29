@@ -5,6 +5,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -13,6 +14,7 @@ import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -41,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     String Omes;
     LinearLayout LinearLayout;
     SearchView Pesquisa;
+    Button AboutButton;
 
 
     @Override
@@ -53,8 +56,8 @@ public class MainActivity extends AppCompatActivity {
         TxtMain = (TextView) findViewById(R.id.TxtMain);
         listView = (ListView) findViewById(R.id.lista_alimentos);
         LinearLayout = (LinearLayout) findViewById(R.id.menu_principal);
-        Pesquisa = (SearchView) findViewById(R.id.Pesquisa);
-
+        //Pesquisa = (SearchView) findViewById(R.id.Pesquisa);
+        AboutButton = (Button) findViewById(R.id.AboutButton);
 
 
 
@@ -400,6 +403,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+                }
+            });
+
+            AboutButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent it = new Intent(MainActivity.this, ActivityCreditos.class);
+                    startActivity(it);
 
                 }
             });

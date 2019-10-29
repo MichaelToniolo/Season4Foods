@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="MyBackgroundFontColor">#CBFFFFFF</color>
+    <color name="CalendarColor">#3EF7EFEF</color>
 </resources>

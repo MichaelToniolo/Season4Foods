@@ -690,9 +690,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 valores = new String[]{
                        "Endívias Gratinadas",
                         "Salada de Endívias com cream cheese",
-                        "Endívia Recheada",
-                        ""
-
+                        "Endívia Recheada"
 
                 };
 

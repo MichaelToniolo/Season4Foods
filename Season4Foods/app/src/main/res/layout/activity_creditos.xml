@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ActivityReceitas"
+android:background="@drawable/backgroundmain3"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ABOUT US"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorPrimaryDark"
+        >
+
+    </TextView>
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/NomesCredito"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Desenvolvedores:\n\nEvandro Lopes\nMatheus Bondadenco\nMatheus Tomazzo\nMichael Saraiva\nVictor Reis\n\n Receitas\n\n Daniela Oliveira\nLuanna Garcia\nMilena Gonçalves\nTamires Benassi"
+
+        >
+
+    </TextView>
+</LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

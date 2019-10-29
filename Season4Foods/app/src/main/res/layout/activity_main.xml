@@ -11,6 +11,31 @@
     tools:context=".MainActivity"
     android:id="@+id/menu_principal"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/MyBackgroundFontColor"
+        >
+
+        <Button
+            android:id="@+id/AboutButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:background="@drawable/iconabout">
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="About"
+            android:fontFamily="cursive"
+            android:textSize="20dp"
+            android:background="@color/MyBackgroundFontColor">
+
+        </TextView>
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/TxtMain"
@@ -24,14 +49,8 @@
         android:fontFamily="cursive"
         android:textFontWeight="@android:integer/config_mediumAnimTime"
 
-
      />
-    <SearchView
-    android:id="@+id/Pesquisa"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
 
-</SearchView>
 
     //LinearLayout Calendário
     <LinearLayout
@@ -40,12 +59,13 @@
         android:layout_height="310dp"
         >
 
+
         <CalendarView
 
             android:id="@+id/CalendarioView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="50dp"
+            android:background="@color/CalendarColor"
             android:maxDate="12/31/2019"
             android:minDate="01/01/2019"
 
@@ -55,7 +75,7 @@
     <TextView
 
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Receitas Disponíveis"
         android:fontFamily="cursive"
