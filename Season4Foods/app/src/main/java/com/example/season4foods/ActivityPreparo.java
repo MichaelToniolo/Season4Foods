@@ -2,14 +2,19 @@ package com.example.season4foods;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ContentValues;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class ActivityPreparo extends AppCompatActivity {
 
@@ -17,6 +22,8 @@ public class ActivityPreparo extends AppCompatActivity {
     TextView Ingredientes;
     ImageView Foto_alimento;
     LinearLayout GeralLayout;
+    Button ShareButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,11 +32,13 @@ public class ActivityPreparo extends AppCompatActivity {
         Ingredientes = (TextView) findViewById(R.id.Ingredientes);
         Preparo = (TextView) findViewById(R.id.Preparo);
         Foto_alimento = (ImageView) findViewById(R.id.Foto_alimento);
+        ShareButton = (Button) findViewById(R.id.ShareButton);
 
 
-        Bundle bundle = getIntent().getExtras();
+
+        final Bundle bundle = getIntent().getExtras();
         //assert bundle != null;
-        String NomeAlimento = bundle.getString("Receita");
+        final String NomeAlimento = bundle.getString("Receita");
         Ingredientes.setText(NomeAlimento);
 
 
@@ -1735,6 +1744,24 @@ public class ActivityPreparo extends AppCompatActivity {
                     break;
 
             }
+
+
+            //Botão SHARE CRIADO
+        ShareButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent CompartilhaIntent = new Intent(Intent.ACTION_SEND);
+                CompartilhaIntent.setType("text/plain");
+                CompartilhaIntent.setAction(Intent.ACTION_SEND);
+                CharSequence Texto = NomeAlimento.toUpperCase() + "\n \n" + "INGREDIENTES:\n\n" + Ingredientes.getText().toString() + "\n \n" + "MODO DE PREPARO: \n \n" + Preparo.getText().toString();
+                CompartilhaIntent.putExtra(Intent.EXTRA_TEXT, Texto);
+                startActivity(CompartilhaIntent);
+
+
+            }
+        });
+
 
         Ingredientes.setMovementMethod(new ScrollingMovementMethod());
         Preparo.setMovementMethod(new ScrollingMovementMethod());

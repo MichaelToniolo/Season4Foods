@@ -24,6 +24,7 @@
         android:fontFamily="cursive"
         android:textFontWeight="@android:integer/config_mediumAnimTime"
 
+
      />
     <SearchView
     android:id="@+id/Pesquisa"

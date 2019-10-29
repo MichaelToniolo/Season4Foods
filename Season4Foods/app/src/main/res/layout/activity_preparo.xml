@@ -13,12 +13,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/MyBackgroundFontColor"
         >
+
+        <Button
+            android:id="@+id/ShareButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:background="?attr/actionModeShareDrawable"
+            ></Button>
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
 
             <TextView
                 android:id="@+id/titulo"
@@ -33,6 +45,7 @@
                 android:textFontWeight="@android:integer/config_mediumAnimTime"
                 android:textSize="30dp" >
 
+
             </TextView>
 
             <TextView
@@ -45,6 +58,7 @@
                 android:background="@color/MyBackgroundFontColor"
                 android:scrollbarAlwaysDrawVerticalTrack="true"
                 android:scrollbars="vertical"
+
 
                 >
 
@@ -82,7 +96,9 @@
         </TextView>
 
 
+
     </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

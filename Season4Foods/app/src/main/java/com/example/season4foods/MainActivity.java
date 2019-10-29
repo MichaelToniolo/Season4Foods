@@ -24,6 +24,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.SearchView;
 
 import org.w3c.dom.Text;
 
@@ -95,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                         ArrayAdapter adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
+
 
                         break;
                     case 2:
@@ -170,18 +172,29 @@ public class MainActivity extends AppCompatActivity {
                         TxtMain.setText("MAIO");
                         Omes = new String[]
                                 {
-                                        "ARROZ",
-                                        "FEIJÃO"
+                                        "Batata Doce Amarela",
+                                        "Mandioca",
+                                        "Espinafre",
+                                        "Morango",
+                                        "Ovos Brancos",
+                                        "Mandioquinha",
+                                        "Abóbora Moranga",
+                                        "Chicória",
+                                        "Canjica"
+
+
                                 };
 
                         LinearLayout.setBackgroundResource(R.drawable.autumn_bg);
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
+
                         break;
                     case 6:
                         TxtMain.setText(date);
                         TxtMain.setText("JUNHO");
+
                         Omes = new String[]
                                 {
                                         "Abacate",
@@ -292,6 +305,8 @@ public class MainActivity extends AppCompatActivity {
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
+
+
                         break;
                     case 11:
                         TxtMain.setText(date);
@@ -342,6 +357,7 @@ public class MainActivity extends AppCompatActivity {
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
+                       ;
                         break;
 
                     default:
