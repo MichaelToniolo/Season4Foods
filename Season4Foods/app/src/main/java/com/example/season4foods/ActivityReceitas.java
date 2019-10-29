@@ -43,7 +43,6 @@ public class ActivityReceitas extends AppCompatActivity {
 
         nome_alimento = findViewById(R.id.nome_alimento);
         lista_receitas = findViewById(R.id.lista_receitas);
-        texto_Banco = findViewById(R.id.texto_banco);
 
 
         //Carregando dados da Intent Main
@@ -977,7 +976,8 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Escondidinho de Batata Doce",
                         "Batata Doce Rústica com Salmão Grelhado",
                         "Batata Doce Assada na páprica com frango assado",
-                        "Batata Doce Recheada"
+                        "Batata Doce Recheada",
+                        "Escondidinho de Frango com Batata Doce"
 
                 };
 
@@ -1232,9 +1232,9 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Pepino":
                 valores = new String[]{
                         "Tzatziki",
-                        "Vinagrede de Pepino",
+                        "Vinagrete de Pepino",
                         "Gaspacho de Pepino",
-                        "Suco de Maçã",
+                        "Suco de Maçã com Pepino",
                         "Sunomono",
                         "Salada de Pepino Japones Simples",
                         "Pepino Japones em Salmora",
@@ -1286,7 +1286,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 valores = new String[]{
                         "Suco de Cenoura e Maçã",
                         "Bolinho de Cenoura",
-                        "Souflê",
+                        "Souflê de Cenoura",
                         "Creme de Cenoura",
                         "Cookie de Cenoura",
                         "Bolo de Cenoura",
@@ -1318,7 +1318,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
             case "Banana":
                 valores = new String[]{
-                        "Canapé",
+                        "Canapé de Banana com Parmesão",
                         "Bolo de Banana",
                         "Banana-Passa Recheada de Doce de Leite",
                         "Torta de Banana e Suspiro",

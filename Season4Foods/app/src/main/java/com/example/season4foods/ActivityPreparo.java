@@ -31,7 +31,6 @@ public class ActivityPreparo extends AppCompatActivity {
 
         Ingredientes = (TextView) findViewById(R.id.Ingredientes);
         Preparo = (TextView) findViewById(R.id.Preparo);
-        Foto_alimento = (ImageView) findViewById(R.id.Foto_alimento);
         ShareButton = (Button) findViewById(R.id.ShareButton);
 
 
@@ -45,7 +44,335 @@ public class ActivityPreparo extends AppCompatActivity {
         //Carrega Receitas
 
         switch (NomeAlimento) {
-            case "Vazio":
+
+            case "CaGeleia de Caqui":
+                Ingredientes.setText("- 5 caquis bem maduros\n- 1/2 de xícara de açúcar \n- 3/4 de xícara de água\n- Casca de meio limão  ");
+                Preparo.setText("Tire a pele dos caquis e passe por uma peneira grossa. Leve uma panela ao fogo com o açúcar e a água, assim que o açúcar estiver derretido acrescente a casca de limão, deixe tomar gosto e descarte. Acrescente o caqui e continue cozinhando em fogo baixo, mexendo com frequência até ficar com consistência de geleia.\n");
+                break;
+
+            case "Doce de Caqui":
+                Ingredientes.setText("- 6 caquis moles maduros sem a casca\n- 2 colheres (sopa) de conhaque\n- 1/2 colher (chá) de açúcar de baunilha\n- 4 bolas de sorvete de creme\n- Conversão de pesos e medidas ");
+                Preparo.setText("Ponha no liquidificador os caquis, o conhaque e o açúcar de baunilha. Bata bem até obter uma mistura homogênea. Transfira para uma tigela e leve à geladeira por duas horas. Sirva gelada com sorvete de creme. ");
+                break;
+
+            case "Bolo de Caqui":
+                Ingredientes.setText("Salada de Couve-flor, banana e caqui");
+                Preparo.setText("Preaqueça o forno (180°C). Unte e enfarinhe uma forma redonda média com furo central. Processe a polpa dos caquis com o bicarbonato de sódio e reserve. Em uma tigela grande (ou na batedeira), bata a manteiga com o açúcar até ficar claro. Adicione os ovos, suco de limão e a essência de baunilha e bata até ficar fofo. Junte a mistura de caqui e bata até incorporar. Peneire juntos a farinha, o fermento, sal, cravo, canela e a noz moscada. Acrescente à mistura de caqui e misture até a massa fique homogênea. Junte as nozes e as passas e misture com uma espátula. Coloque na forma preparada e asse por 50-60 minutos ou até que enfiando um palito no centro, ele saia limpo. Deixe esfriar na forma por uns 15 minutos antes de desenformar sobre uma grade. Espere esfriar completamente antes de servir. ");
+                break;
+
+            case "Salada de Couve-flor, banana e caqui":
+                Ingredientes.setText("Preaqueça o forno (180°C). Unte e enfarinhe uma forma redonda média com furo central. Processe a polpa dos caquis com o bicarbonato de sódio e reserve. Em uma tigela grande (ou na batedeira), bata a manteiga com o açúcar até ficar claro. Adicione os ovos, suco de limão e a essência de baunilha e bata até ficar fofo. Junte a mistura de caqui e bata até incorporar. Peneire juntos a farinha, o fermento, sal, cravo, canela e a noz moscada. Acrescente à mistura de caqui e misture até a massa fique homogênea. Junte as nozes e as passas e misture com uma espátula. Coloque na forma preparada e asse por 50-60 minutos ou até que enfiando um palito no centro, ele saia limpo. Deixe esfriar na forma por uns 15 minutos antes de desenformar sobre uma grade. Espere esfriar completamente antes de servir. ");
+                Preparo.setText("Leve uma panela com água e sal para ferver.  Corte a couve flor em pequenos floretes e coloque na panela para uma fervura rápida, durante poucos minutos. Escorra imediatamente numa panela e esfrie sob água corrente e deixe secar totalmente. Toste levemente as amêndoas ou castanha de caju junto com as sementes de cominho e as folhas de tomilho, numa frigideira pequena. Retire da frigideira e reserve até esfriar. Fatie as bananas e coloque em uma tigela grande. Em seguida, adicione o suco de meio limão e misture bem. Junte a couve flor, as sementes e amêndoas tostadas (reserve um pouquinho para decoração) e o azeite e mexa cuidadosamente. Adicione os pedaços de caqui, mexa com bastante cuidado e cubra a tigela com filme plástico. Deixe marinando por 15-30 minutos, e sirva em seguida, com a ciboulette, os galhos de tomilho e um pouco de pimenta-do-reino, moída na hora. ");
+                break;
+
+            case "Mufin de Caqui":
+                Ingredientes.setText("Leve uma panela com água e sal para ferver.  Corte a couve flor em pequenos floretes e coloque na panela para uma fervura rápida, durante poucos minutos. Escorra imediatamente numa panela e esfrie sob água corrente e deixe secar totalmente. Toste levemente as amêndoas ou castanha de caju junto com as sementes de cominho e as folhas de tomilho, numa frigideira pequena. Retire da frigideira e reserve até esfriar. Fatie as bananas e coloque em uma tigela grande. Em seguida, adicione o suco de meio limão e misture bem. Junte a couve flor, as sementes e amêndoas tostadas (reserve um pouquinho para decoração) e o azeite e mexa cuidadosamente. Adicione os pedaços de caqui, mexa com bastante cuidado e cubra a tigela com filme plástico. Deixe marinando por 15-30 minutos, e sirva em seguida, com a ciboulette, os galhos de tomilho e um pouco de pimenta-do-reino, moída na hora. ");
+                Preparo.setText("Leve uma panela com água e sal para ferver.  Corte a couve flor em pequenos floretes e coloque na panela para uma fervura rápida, durante poucos minutos. Escorra imediatamente numa panela e esfrie sob água corrente e deixe secar totalmente. Toste levemente as amêndoas ou castanha de caju junto com as sementes de cominho e as folhas de tomilho, numa frigideira pequena. Retire da frigideira e reserve até esfriar. Fatie as bananas e coloque em uma tigela grande. Em seguida, adicione o suco de meio limão e misture bem. Junte a couve flor, as sementes e amêndoas tostadas (reserve um pouquinho para decoração) e o azeite e mexa cuidadosamente. Adicione os pedaços de caqui, mexa com bastante cuidado e cubra a tigela com filme plástico. Deixe marinando por 15-30 minutos, e sirva em seguida, com a ciboulette, os galhos de tomilho e um pouco de pimenta-do-reino, moída na hora. ");
+                break;
+
+            case "Nhoque de Batata Doce:":
+
+                Ingredientes.setText("- Massa\n- 2 kg de batata doce;\n- 1 ovo;\n- 1 colher de chá de sal;\n- 1 xícara de chá de farinha de trigo.\n- Molho\n- 2 colheres de sopa de azeite de oliva;\n- 1 cebola média picada;\n- 2 dentes de alho amassados;\n- 500 g de patinho moído;\n- 2 colheres de sopa de extrato de tomate;\n- 1 maço de cebolinha verde picada;\n- 1 colher de chá de açúcar;\n- sal a gosto;\n- pimenta do reino à gosto;\n- 2 colheres de sopa de azeite. ");
+                Preparo.setText("- Massa\n- 2 kg de batata doce;\n- 1 ovo;\n- 1 colher de chá de sal;\n- 1 xícara de chá de farinha de trigo.\n- Molho\n- 2 colheres de sopa de azeite de oliva;\n- 1 cebola média picada;\n- 2 dentes de alho amassados;\n- 500 g de patinho moído;\n- 2 colheres de sopa de extrato de tomate;\n- 1 maço de cebolinha verde picada;\n- 1 colher de chá de açúcar;\n- sal a gosto;\n- pimenta do reino à gosto;\n- 2 colheres de sopa de azeite. ");
+                break;
+
+            case "Purê de Batata Doce Amarela":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Escondidinho de Frango com Batata Doce":
+                Ingredientes.setText("- Recheio\n- 150 gramas de frango desossado;\n- 1 dente de alho amassado;\n- salsinha a gosto;\n- pimenta do reino a gosto;\n- sal a gosto.\n- Purê\n- 130 gramas de batata doce;\n- 1 colher de chá de requeijão light;\n- 2 colheres de sopa de leite desnatado;\n- sal a gosto;\n- queijo parmesão. ");
+                Preparo.setText("Cozinhe o frango na panela de pressão até estar macio. Então retire a pressão e balance a panela para desfiar. Refogue com azeite junto do alho e adicione os temperos. Deixe refogar por alguns minutos e reserve. Higienize as batatas e descasque. Leve para cozinhar em uma panela com água até que estejam macias. Então escorra e amasse com um garfo ou bata em um mixer para homogenizar melhor o purê. Incorpore o leite e o requeijão até que ganhe a consistência desejada. Em uma travessa adicione o recheio e por cima o purê. Leve ao forno para gratinar com queijo parmesão e sirva. ");
+                break;
+
+            case "Escondidinho de Batata Doce":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Batata Doce Rústica com Salmão Grelhado":
+                Ingredientes.setText("Cozinhe o frango na panela de pressão até estar macio. Então retire a pressão e balance a panela para desfiar. Refogue com azeite junto do alho e adicione os temperos. Deixe refogar por alguns minutos e reserve. Higienize as batatas e descasque. Leve para cozinhar em uma panela com água até que estejam macias. Então escorra e amasse com um garfo ou bata em um mixer para homogenizar melhor o purê. Incorpore o leite e o requeijão até que ganhe a consistência desejada. Em uma travessa adicione o recheio e por cima o purê. Leve ao forno para gratinar com queijo parmesão e sirva. ");
+                Preparo.setText("Acenda o forno a 200°C. Lave as batatas e seque. Corte as batatas em gomos no sentido do comprimento (com as cascas). Leve as batatas para cozinhar em uma panela com água e uma colher de sal por 5 minutos a contar depois que começar a ferver. Escorra a água e deixe descansar alguns minutos. Disponha as batatas em uma assadeira antiaderente, salpique as ervas por cima, coloque o alho e regue com azeite. Tempere com sal e pimenta e leve ao forno por 40 minutos ou até ficarem crocantes. Na metade do tempo vire as batatas para dourarem por igual. Tempere o salmão e grelhe a gosto. Sirva a batata com o salmão grelhado. ");
+                break;
+
+            case "Batata Doce Assada na páprica com frango assado":
+                Ingredientes.setText("- 1 peito de frango;\n- 2 batatas doces;\n- páprica em pó a gosto;\n- pitada de sal;\n- azeite de oliva. ");
+                Preparo.setText("- 1 peito de frango;\n- 2 batatas doces;\n- páprica em pó a gosto;\n- pitada de sal;\n- azeite de oliva. ");
+                break;
+
+            case "Batata Doce Recheada":
+                Ingredientes.setText("- 1 peito de frango;\n- 2 batatas doces;\n- páprica em pó a gosto;\n- pitada de sal;\n- azeite de oliva. ");
+                Preparo.setText("- 1 peito de frango;\n- 2 batatas doces;\n- páprica em pó a gosto;\n- pitada de sal;\n- azeite de oliva. ");
+                break;
+
+            case "Badejo em Crosta de Pinhão":
+                Ingredientes.setText("- 300g de filé de badejo fresco\n- sal grosso moído \n- pimenta-do-reino moída na hora a gosto\n- 10 unidades de pinhão cozido \n- 1 colher (chá) de manteiga \n- 2 colheres (chá) de clara de ovo\n- Para o molho:\n- 100g de abobrinha\n- 1 colher (sopa) de azeite de oliva\n- 1 colher (sopa) de cebola picada\n- 40 ml de vinho branco seco\n- 1 xícara de chá de caldo das aparas de abobrinha\n- 2 colheres de creme de leite fresco\n- Sal e pimenta a gosto ");
+                Preparo.setText("Badejo: Tempere o peixe com sal e pimenta. Em uma frigideira antiaderente quente, sele os dois lados do peixe por 2 min cada. Em um processador de alimentos ou liquidificador, processe o pinhão cozido e descascado até formar uma farinha. Em seguida, junte a clara e a manteiga até formar uma farofa.  Cubra a superfície dos filés de badejo com a farofa e leve ao forno quente a 190°C por 6 minutos ou até dourar a crosta.  Molho: Em uma panela aquecida refogue levemente a cebola com o azeite até ficar transparente. Em seguida junte o vinho e deixe reduzir o álcool, acrescente a abobrinha cortada (somente a parte da casca com pouca poupa. Reserve as aparas para o caldo).  Faça um caldo com as aparas de abobrinha e acrescente ao veloute. Deixe reduzir 20%, junte o creme de leite, tempere e reserve. ");
+                break;
+
+            case "Brownie de Pinho":
+                Ingredientes.setText("- 250g de chocolate meio amargo picado grosseiramente\n- 180g de chocolate ao leite picado em pedaços pequenos\n- 150g de manteiga sem sal\n- 150g de farinha de trigo peneirada\n- 180g de açúcar refinado\n- 100g de açúcar mascavo\n- 4 ovos inteiros\n- 120g de pinhão pré-cozido e picado\n- 2 colheres (café) de essência de baunilha\n- Pitada de sal  ");
+                Preparo.setText("- 250g de chocolate meio amargo picado grosseiramente\n- 180g de chocolate ao leite picado em pedaços pequenos\n- 150g de manteiga sem sal\n- 150g de farinha de trigo peneirada\n- 180g de açúcar refinado\n- 100g de açúcar mascavo\n- 4 ovos inteiros\n- 120g de pinhão pré-cozido e picado\n- 2 colheres (café) de essência de baunilha\n- Pitada de sal  ");
+                break;
+
+            case "Nhoque de Pinhão":
+                Ingredientes.setText("- 1 kg de pinhão cozido, \n- descascado e triturado,\n- 2 ovos batidos\n- 1 e 1/2 xícaras de farinha de trigo\n- 20 ml de azeite de oliva \n- Sal e pimenta a gosto ");
+                Preparo.setText("Moa o pinhão no liquidificador ou processador. Reserve.  Bata os ovos e junte ao pinhão. Acrescente a farinha de trigo, o azeite, sal e pimenta a gosto. Sove até que fique uma massa lisa e bonita.  Para abrir a massa utilize um pouco de farinha em uma superfície lisa para não grudar. Abra a massa em tiras cilíndricas de 30 cm e fatie em pequenos cubos. Reserve. Para cozinhar a massa, pegue uma panela grande e esquente 3 litros de água. Quando levantar fervura acrescente o nhoque pouco a pouco. Quando as bolinhas subirem até a superfície, retire-as com uma escumadeira reservando em uma assadeira de vidro previamente untada.   ");
+                break;
+
+            case "Molho ao sugo com mini almondegas de Pinhão":
+                Ingredientes.setText("- 400g de molho de tomate ou uma lata de tomate pelado \n- 1 cebola cortado em cubinhos (brunoise)\n- 15g de manjericão fresco\n- 250g de carne de porco moída\n- 250g de carne de moída de vaca\n- 50g de bacon moído\n- 50g de pinhão cozido e moído\n- Sal e pimenta a gosto\n- 100 ml de azeite de oliva ");
+                Preparo.setText("- 400g de molho de tomate ou uma lata de tomate pelado \n- 1 cebola cortado em cubinhos (brunoise)\n- 15g de manjericão fresco\n- 250g de carne de porco moída\n- 250g de carne de moída de vaca\n- 50g de bacon moído\n- 50g de pinhão cozido e moído\n- Sal e pimenta a gosto\n- 100 ml de azeite de oliva ");
+                break;
+
+            case "Tapas de Pinhão e Palmito pupunha":
+                Ingredientes.setText("- 1 pupunha orgânica (ou palmito em conserva com toletes grandes)\n- 100g de queijo (sugestões: boursin, chevré, búfala ou ricota)\n- 12 pinhões cozidos e descascados\n- 100ml de azeite de oliva\n- 10 folhas de manjericão fresco\n- 1 pimenta dedo-de-moça\n- 4 folhas de louro\n- 4 ramos de alecrim\n- 1 colher (sopa) de açúcar mascavo\n- Pimenta-do-reino e flor de sal a gosto ");
+                Preparo.setText("Descasque o palmito pupunha e corte em toletes de aproximadamente 10 cm. Disponha em uma forma de alumínio e tempere com o alecrim, o louro, o mascavo, 80 ml do azeite, pimenta e flor de sal (ou sal).  Leve o palmito para assar* por 120 minutos a 180ºC, coberto com papel alumínio.  Em uma frigideira antiaderente toste os pinhões com o restante do azeite e, ao final, adicione as folhas de manjericão.  Pegue os toletes de pupunha e corte-os ao meio no sentido horizontal, formando uma espécie de canoa, como na foto. Disponha sobre cada um o queijo e o pinhão tostado. Sirva em seguida. ");
+                break;
+
+            case "Tzatziki":
+                Ingredientes.setText("- 250 gramas de iogurte grego\n- 2 colheres de sopa de azeite de oliva extra-virgem\n- 2 dentes de alho\n- 2 colheres de chá de endro picado\n- 2 pepinos\n- 1 colher de chá de vinagre de vinho branco\n- 1 pitada de sal ");
+                Preparo.setText("Rale os pepinos com a parte grossa do ralador, sem as cascas e as sementes e coloque-os sobre um papel toalha ou pano de prato limpo para perder o excesso d'água. Pique o alho e o endro bem fininhos. Misture estes ingredientes com o iogurte grego, o azeite extra-virgem e bata tudo muito bem com uma colher. Acrescente o sal e o vinagre. Deixe repousar na geladeira por pelo menos meia hora e sirva. ");
+                break;
+
+
+            case "Vinagrede de Pepino- Vinagre branco\n- 1 colher de café de sal\n- 1 colher de café de açúcar\n- 2 pepinos japonês\n- 2 pimentões vermelhos\n- 4 tomates\n- 2 cebolas grandes sem casca ":
+                Ingredientes.setText("- Vinagre branco\n- 1 colher de café de sal\n- 1 colher de café de açúcar\n- 2 pepinos japonês\n- 2 pimentões vermelhos\n- 4 tomates\n- 2 cebolas grandes sem casca ");
+                Preparo.setText("");
+                break;
+
+            case "Vinagrete de Pepino":
+                Ingredientes.setText("- Vinagre branco\n- 1 colher de café de sal\n- 1 colher de café de açúcar\n- 2 pepinos japonês\n- 2 pimentões vermelhos\n- 4 tomates\n- 2 cebolas grandes sem casca ");
+                Preparo.setText("- Vinagre branco\n- 1 colher de café de sal\n- 1 colher de café de açúcar\n- 2 pepinos japonês\n- 2 pimentões vermelhos\n- 4 tomates\n- 2 cebolas grandes sem casca ");
+                break;
+
+            case "Gaspacho de Pepino":
+                Ingredientes.setText("- 4 xícaras (chá) de pepino em cubos\n- ½ xícara (chá) de cebola em cubos\n- Suco de 1 limão\n- ¼ xícara (chá) de salsa picada\n- 1 colher (chá) de sal\n- 1/3 xícara (chá) de azeite\n- 2 xícaras (chá) de água ");
+                Preparo.setText("Em um processador, coloque pepino, cebola, suco de limão e salsa. Pulse para que tudo fique picado finamente. Com o processador em funcionamento, acrescente lentamente o azeite. Bata até ficar homogêneo. Vá colocando água aos poucos, até obter a consistência desejada. Retire e leve à geladeira por 30 minutos. ");
+                break;
+
+            case "Suco de Maçã com Pepino":
+                Ingredientes.setText("- ½ maçã\n- ½ Pepino descascado\n- ½ beterraba descascada e ralada\n- Uma cenoura ralada.");
+                Preparo.setText("- ½ maçã\n- ½ Pepino descascado\n- ½ beterraba descascada e ralada\n- Uma cenoura ralada. ");
+                break;
+
+            case "Sunomono":
+                Ingredientes.setText("- ½ maçã\n- ½ Pepino descascado\n- ½ beterraba descascada e ralada\n- Uma cenoura ralada. ");
+                Preparo.setText("Lave bem o pepino e corte-o em fatias bem fininhas. Em seguida, em um prato fundo, tempere-os com o sal, misturando bem. Os pepinos vão desidratar, liberando muita água, então transfira as fatias para um escorredor com um prato embaixo, deixando assim por 15 minutos. Em uma panela, coloque o açúcar, o vinagre e ligue em fogo baixo. Deixe aquecer até que o açúcar derreta e se misture ao vinagre, mas não deixe ferver. Reserve e deixe esfriar. Enxágue os pepinos em água corrente para tirar o excesso de sal. Depois, esprema bem com as mãos para tirar o excesso de água. Após secar com um papel toalha, tempere os pepinos com o molho de vinagre e açúcar. Sirva com gergelim por cima. ");
+                break;
+
+            case "Salada de Pepino Japones Simples":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Pepino Japones em Salmora":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Salada de Pepino com Molho Agridoce":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Salada Thai de Pepino":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Smoothie de Rabanete e Morango":
+                Ingredientes.setText("Lave o alho-poró, o rabanete e suas folhas. Pique as folhas, corte o alho-poró e o rabanete em cubinhos. Coloque tudo para cozinhar rapidamente, em uma frigideira, com 1 colher do caldo de galinha. Acrescente o restante do caldo bem quente e cozinhe em fogo alto por mais 5 minutos. Desligue o fogo e deixe esfriar um pouco. Bata no liquidificador. Tempere com o sal e a pimenta, e volte ao fogo para esquentar. Na hora de servir, acrescente o creme de leite e misture. ");
+                Preparo.setText("Bata todos os ingredientes no liquidificador e sirva. ");
+                break;
+
+            case "Sopa de Rabanete":
+                Ingredientes.setText("- 2 maços de rabanetes com as folhas\n- 2 alhos-porós\n- ½ copo de creme de leite\n- 1 litro de caldo de galinha aquecido\n- Sal e pimenta-do-reino ");
+                Preparo.setText("Lave o alho-poró, o rabanete e suas folhas. Pique as folhas, corte o alho-poró e o rabanete em cubinhos. Coloque tudo para cozinhar rapidamente, em uma frigideira, com 1 colher do caldo de galinha. Acrescente o restante do caldo bem quente e cozinhe em fogo alto por mais 5 minutos. Desligue o fogo e deixe esfriar um pouco. Bata no liquidificador. Tempere com o sal e a pimenta, e volte ao fogo para esquentar. Na hora de servir, acrescente o creme de leite e misture. ");
+                break;
+
+            case "Saladinha de Rabanete":
+                Ingredientes.setText("- 5 folhas de alface\n- 3 rabanetes picados\n- 3 tomates\n- Gotas de limão a gosto ");
+                Preparo.setText("- 5 folhas de alface\n- 3 rabanetes picados\n- 3 tomates\n- Gotas de limão a gosto ");
+                break;
+
+            case "Suco de Laranja, Cenoura e Rabanetes":
+                Ingredientes.setText("- suco de 1 laranja\n- ½ cenoura ralada\n- 1 rabanete picado ");
+                Preparo.setText("- suco de 1 laranja\n- ½ cenoura ralada\n- 1 rabanete picado ");
+                break;
+
+            case "Sanduíche de Rabanete":
+                Ingredientes.setText("- 1 xícara de chá de rabanetes picadinhos\n- ½ xícara de chá de requeijão cremoso\n- ½ xícara de chá de maionese\n- 1 colher de sopa de limão\n- 1 colher de sopa de cheiro-verde\n- 12 fatias de pão\n- ½ xícara de chá de salsa\n- 1 dente de alho picadinho\n- Sal e pimenta a gosto\n- 4 folhas de alface picada ");
+                Preparo.setText("- 1 xícara de chá de rabanetes picadinhos\n- ½ xícara de chá de requeijão cremoso\n- ½ xícara de chá de maionese\n- 1 colher de sopa de limão\n- 1 colher de sopa de cheiro-verde\n- 12 fatias de pão\n- ½ xícara de chá de salsa\n- 1 dente de alho picadinho\n- Sal e pimenta a gosto\n- 4 folhas de alface picada ");
+                break;
+
+            case "Risoto de Rabanete":
+                Ingredientes.setText("- 1 cebola média picada\n- 4 colheres de azeite\n- 6 rabanetes médios picados em quadradinhos pequenos\n- 1/2 taça de vinho branco\n- 1/2 litro de caldo de legumes\n- sal e pimenta do reino a gosto\n- salsinha picada a gosto\n- 2 xícaras de chá de arroz arbóreo ");
+                Preparo.setText("- 1 cebola média picada\n- 4 colheres de azeite\n- 6 rabanetes médios picados em quadradinhos pequenos\n- 1/2 taça de vinho branco\n- 1/2 litro de caldo de legumes\n- sal e pimenta do reino a gosto\n- salsinha picada a gosto\n- 2 xícaras de chá de arroz arbóreo ");
+                break;
+
+            case "Suco de Cenoura e Maçã":
+                Ingredientes.setText("- 1 cenoura ralada\n- 1 maçã picada com a casca\n- 1/2 litro de água de coco\n- 1 colher de sopa de gengibre picadinho ");
+                Preparo.setText("Bata todos os ingredientes no liquidificador com muito gelo. Se achar necessário, adoce a gosto. Sirva gelado. ");
+                break;
+
+            case "Bolinho de Cenoura":
+                Ingredientes.setText("- 2 ovos inteiros\n- 2 cenouras grandes, raladas\n- 1 colher de chá de fermento em pó\n- Aproximadamente 1 xícara de café de farinha de trigo\n- Sal ");
+                Preparo.setText("- 2 ovos inteiros\n- 2 cenouras grandes, raladas\n- 1 colher de chá de fermento em pó\n- Aproximadamente 1 xícara de café de farinha de trigo\n- Sal ");
+                break;
+
+            case "Souflê de Cenoura":
+                Ingredientes.setText("- 4 cenouras cozidas e amassadas\n- 1 colher de margarina\n- 1 cebola ralada\n- 1 pitada de sal\n- 1 copo de leite\n- 2 colheres de farinha de trigo\n- 100g de queijo picado\n- 3 gemas e claras separadas ");
+                Preparo.setText("- 4 cenouras cozidas e amassadas\n- 1 colher de margarina\n- 1 cebola ralada\n- 1 pitada de sal\n- 1 copo de leite\n- 2 colheres de farinha de trigo\n- 100g de queijo picado\n- 3 gemas e claras separadas ");
+                break;
+
+            case "Creme de Cenoura":
+                Ingredientes.setText("- 4 cenouras cozidas e amassadas\n- 1 colher de margarina\n- 1 cebola ralada\n- 1 pitada de sal\n- 1 copo de leite\n- 2 colheres de farinha de trigo\n- 100g de queijo picado\n- 3 gemas e claras separadas ");
+                Preparo.setText("- 4 cenouras cozidas e amassadas\n- 1 colher de margarina\n- 1 cebola ralada\n- 1 pitada de sal\n- 1 copo de leite\n- 2 colheres de farinha de trigo\n- 100g de queijo picado\n- 3 gemas e claras separadas ");
+                break;
+
+            case "Cookie de Cenoura":
+                Ingredientes.setText("- 3 cenouras médias\n- óleo ou azeite\n- 1 cebola pequena\n- 2 dentes de alho\n- 1 tablete de caldo de galinha\n- 1 lata ou caixa de creme de leite\n- 1,5 litros de água\n- 1 colher de sopa com gengibre ralado\n- tempero a gosto\n- salsinha picadinha ");
+                Preparo.setText("Pré aqueça o forno em temperatura média. Lave a cenoura sob água corrente, raspe a casca e lave novamente. Rale a cenoura na parte grossa do ralador e reserve. Peneire a farinha de trigo com o fermento em pó. Coloque em uma tigela. Junte o azeite de oliva, o açúcar, o ovo e a cenoura. Misture até ficar homogêneo. Transfira a massa para uma superfície lisa e sove por 2 minutos ou até ficar homogênea e soltar das mãos. Com a massa faça bolinhas e marque-as com as pontas de um garfo. Arrume-as em assadeiras. Leve ao forno por 15 minutos ou até os biscoitos dourarem a superfície inferior. Retire do forno, desenforme ainda morno e sirva frio. ");
+                break;
+
+            case "Bolo de Cenoura":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Refogado de Cenoura com Chuchu":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Cupcake de Cenoura e Brigadeiro":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Bolinho de Chuva de Cenoura com Chocolate":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Hamburguer de Cenoura":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Cenoura Crocante":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Cenouras Salteadas com Mel":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Cenouras Assadas em Palito com Alecrim":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Salada de Repolho Roxo, Cenoura, Couve e Hortelã":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Risoto de Cenoura":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Canapé de Banana com Parmesão":
+                Ingredientes.setText("- Banana\n- Pão francês ou baguete\n- Queijo ralado ");
+                Preparo.setText("Corte o pão em rodelas e leve ao forno para tostar levemente. Coloque uma rodela de banana e um pouco do parmesão ralado sobre as fatias de pão tostado. Leve o canapé montado ao forno até o queijo derreter e a fruta dourar um pouco. ");
+                break;
+
+            case "Bolo de Banana":
+                Ingredientes.setText("- 3 bananas bem maduras\n- ⅓ de xícara de manteiga derretida\n- 1 colher (chá) de bicarbonato de sódio\n- 1 pitada de sal\n- ½ xícara de açúcar\n- 1 ovo batido\n- 1 ½ xícara de farinha de trigo\n- 1 colher (chá) de extrato de baunilha\n- 1 punhado de uvas passas ou mirtilos\n- 1 punhado de amêndoas laminadas ");
+                Preparo.setText("Amasse as bananas com um garfo e misture-as à manteiga derretida. Mexendo com uma colher, junte o bicarbonato, o sal, o açúcar, o ovo, a farinha, as uvas passas ou mirtilos e a baunilha. Despeje a massa em uma forma untada e enfarinhada. Salpique as amêndoas por cima. Leve ao forno pré-aquecido a 180ºC. O bolo estará pronto quando ficar levemente dourado e, quando espetado com um palito de madeira no centro, o palito sair seco, sem massa grudada. ");
+                break;
+
+            case "Banana-Passa Recheada de Doce de Leite":
+                Ingredientes.setText("Amasse as bananas com um garfo e misture-as à manteiga derretida. Mexendo com uma colher, junte o bicarbonato, o sal, o açúcar, o ovo, a farinha, as uvas passas ou mirtilos e a baunilha. Despeje a massa em uma forma untada e enfarinhada. Salpique as amêndoas por cima. Leve ao forno pré-aquecido a 180ºC. O bolo estará pronto quando ficar levemente dourado e, quando espetado com um palito de madeira no centro, o palito sair seco, sem massa grudada. ");
+                Preparo.setText("Amasse as bananas com um garfo e misture-as à manteiga derretida. Mexendo com uma colher, junte o bicarbonato, o sal, o açúcar, o ovo, a farinha, as uvas passas ou mirtilos e a baunilha. Despeje a massa em uma forma untada e enfarinhada. Salpique as amêndoas por cima. Leve ao forno pré-aquecido a 180ºC. O bolo estará pronto quando ficar levemente dourado e, quando espetado com um palito de madeira no centro, o palito sair seco, sem massa grudada. ");
+                break;
+
+            case "Torta de Banana e Suspiro":
+                Ingredientes.setText("Amasse as bananas com um garfo e misture-as à manteiga derretida. Mexendo com uma colher, junte o bicarbonato, o sal, o açúcar, o ovo, a farinha, as uvas passas ou mirtilos e a baunilha. Despeje a massa em uma forma untada e enfarinhada. Salpique as amêndoas por cima. Leve ao forno pré-aquecido a 180ºC. O bolo estará pronto quando ficar levemente dourado e, quando espetado com um palito de madeira no centro, o palito sair seco, sem massa grudada. ");
+                Preparo.setText("Amasse as bananas com um garfo e misture-as à manteiga derretida. Mexendo com uma colher, junte o bicarbonato, o sal, o açúcar, o ovo, a farinha, as uvas passas ou mirtilos e a baunilha. Despeje a massa em uma forma untada e enfarinhada. Salpique as amêndoas por cima. Leve ao forno pré-aquecido a 180ºC. O bolo estará pronto quando ficar levemente dourado e, quando espetado com um palito de madeira no centro, o palito sair seco, sem massa grudada. ");
+                break;
+
+            case "Torta de Banana e Goiaba":
+                Ingredientes.setText("- Para a massa:\n- 120 gramas de farinha de trigo\n- 60 gramas de manteiga\n- 60 gramas de açúcar\n- 1 gema\n- 1/2 colher (sopa) de fermento químico\n- 1 pitada de sal\n- Para o recheio:\n- 150 gramas de goiabada\n- 5 bananas bem maduras ");
+                Preparo.setText("- Para a massa:\n- 120 gramas de farinha de trigo\n- 60 gramas de manteiga\n- 60 gramas de açúcar\n- 1 gema\n- 1/2 colher (sopa) de fermento químico\n- 1 pitada de sal\n- Para o recheio:\n- 150 gramas de goiabada\n- 5 bananas bem maduras ");
+                break;
+
+            case "Panqueca Integral de Ricota, Alho-poró, Tomate e Escarola":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Sopa de Escarola com Arroz":
+                Ingredientes.setText("- 1 pé de escarola\n- sal a gosto\n- 4 colh. (sopa) manteiga\n- 2 colh. (sopa) cebola picada\n- 3 1/2 xic. de caldo de carne (usei legumes) caseiro\n- 1/3 xic. arroz\n- 3 colh. (sopa) parmesão ralado na hora ");
+                Preparo.setText("Lave, seque e corte em tirar de 1cm de largura a escarola. Não use folhas murchas, machucadas ou descoloridas. Em fogo alto, derreta a manteiga e refogue a cebola picada até começar a dourar. Acrescente a escarola e coloque uma pitada de sal para manter a cor. Mexa duas ou três vezes. Junte 1/2 xic. do caldo, abaixe o fogo e tampe a panela. Cozinhe por 20-40 minutos, até que murche bem.  Atenção:  se a escarola estiver novinha e macia ou se você estiver fazendo porções menores, o tempo é bem menor. Dez minutos podem bastar. Fique sempre de olho na panela para não queimar. Junte o restante do caldo, cubra novamente e deixe levantar fervura. Acrescente o arroz, mexa duas ou três vezes, tampe e cozinhe em fogo baixo por cerca de vinte minutos ou até que o arroz esteja cozido. Ele deve ficar firme, porém macio, mas sem se desmanchar. A sopa deve ficar densa mas fluida. Se o arroz absorver água demais e a sopa começar a ficar muito grossa, acrescente uma concha de água ou caldo. Só não deixe a sopa rala demais. Quando o arroz estiver pronto, desligue, acrescente o parmesão ralado e acerte o sal. Sirva imediatamente. (Se precisar preparar a sopa com antecedência, pare quando a escarola estiver junto de todo o caldo, e só acrescente o arroz e termine perto da hora de servir, ou o arroz ficará empapado. Não coloque a sopa na geladeira. ) ");
+                break;
+
+            case "Torta di Scarola e Olive":
+                Ingredientes.setText("- Massa:\n- 5g fermento biológico fresco\n- 1 colh. (chá) açúcar\n- 100ml água\n- 250g farinha de trigo\n- 50g manteiga em temperatura ambiente\n- 1 colh. (chá) sal\n- Pimenta-do-reino moída na hora a gosto\n- azeite e 1 ovo para pincelar\n- Recheio:\n- 500g escarola cortada em tiras\n- 1 dente de alho grande picado\n- 3 colh. (sopa) azeite\n- 100g de azeitonas pretas sem caroço\n- 70g uva passa (clara ou escura)\n- 70g pinoli (ou castanha-do-Pará picada)\n- 1 colh. (sopa) alcaparras\n- 3 colh. (sopa) salsinha picada ");
+                Preparo.setText("Dissolva o fermento com o açúcar e a água e deixe descansar por alguns minutos. Junte o restante dos ingredientes da massa e sove até obter uma massa elástica e lisa, por uns 10 minutos. Cubra com um pano e deixe fermentar por 1 hora. Refogue o alho no azeite até começar a dourar. Junte a escarola aos poucos, mexendo, até que murche e toda a sua água evapore. Pique as azeitonas e as alcaparras juntas e junte à escarola. Junte também os pinoli, a uva-passa e a salsinha e misture muito bem, deixando no fogo por mais um minuto. Experimente para acertar o sal. Se as alcaparras e azeitonas forem bastante salgadas, talvez (como eu) você não precise acrescentar sal nenhum. Tempere com pimenta a gosto e reserve, deixando que esfrie. Sove a massa fermentada por meio minuto e divida em duas partes. Abra uma das metades com um rolo e forre uma forma de torta (22-23cm) untada com um pouquinho de azeite. Espalhe muito bem o recheio frio, abra a outra parte da massa e cubra o recheio. Dobre e pressione bem as abas das massas, fechando a torta. Pincele com azeite e deixe descansar por meia hora. Pré-aqueça o forno a 200ºC. Pincele a torta com um ovo ligeiramente batido e leve ao forno já quente por 45 minutos. ");
+                break;
+
+            case "Capellini com Escarola e Queijo":
+                Ingredientes.setText("Dissolva o fermento com o açúcar e a água e deixe descansar por alguns minutos. Junte o restante dos ingredientes da massa e sove até obter uma massa elástica e lisa, por uns 10 minutos. Cubra com um pano e deixe fermentar por 1 hora. Refogue o alho no azeite até começar a dourar. Junte a escarola aos poucos, mexendo, até que murche e toda a sua água evapore. Pique as azeitonas e as alcaparras juntas e junte à escarola. Junte também os pinoli, a uva-passa e a salsinha e misture muito bem, deixando no fogo por mais um minuto. Experimente para acertar o sal. Se as alcaparras e azeitonas forem bastante salgadas, talvez (como eu) você não precise acrescentar sal nenhum. Tempere com pimenta a gosto e reserve, deixando que esfrie. Sove a massa fermentada por meio minuto e divida em duas partes. Abra uma das metades com um rolo e forre uma forma de torta (22-23cm) untada com um pouquinho de azeite. Espalhe muito bem o recheio frio, abra a outra parte da massa e cubra o recheio. Dobre e pressione bem as abas das massas, fechando a torta. Pincele com azeite e deixe descansar por meia hora. Pré-aqueça o forno a 200ºC. Pincele a torta com um ovo ligeiramente batido e leve ao forno já quente por 45 minutos. ");
+                Preparo.setText("Em fogo baixo, frite na manteiga o alho e a farinha de trigo. Quando estiver douradinho junte bem pouquinho do leite e misture bem, vá juntando o leite aos pouquinhos para não empelotar. Adicione o creme de leite e o queijo e deixe apurar. Se achar que está muito espesso, acrescente um pouquinho mais de leite. Quando estiver cremoso adicione a escarola e desligue o fogo. Misture bem e reserve. Ferva 250ml de água e adicione o sal e o macarrão. Deixe cozinhar pelo tempo indicado pelo fabricante ou até que esteja al dente. Escorra e misture ao molho já pronto. Sirva imediatamente. ");
+                break;
+
+            case "Pasta de Alho Assado":
+                Ingredientes.setText("- UMA CABEÇA DE ALHO\n- AZEITE DE OLIVA\n- SAL E PIMENTA DO REINO\n- 300GR DE CREAM CHEESE\n- 3 COL. DE SOPA DE MAIONESE ");
+                Preparo.setText("Em fogo baixo, frite na manteiga o alho e a farinha de trigo. Quando estiver douradinho junte bem pouquinho do leite e misture bem, vá juntando o leite aos pouquinhos para não empelotar. Adicione o creme de leite e o queijo e deixe apurar. Se achar que está muito espesso, acrescente um pouquinho mais de leite. Quando estiver cremoso adicione a escarola e desligue o fogo. Misture bem e reserve. Ferva 250ml de água e adicione o sal e o macarrão. Deixe cozinhar pelo tempo indicado pelo fabricante ou até que esteja al dente. Escorra e misture ao molho já pronto. Sirva imediatamente. ");
+                break;
+
+            case "Pasta de Alho com Maionese para Pão":
+                Ingredientes.setText("Em fogo baixo, frite na manteiga o alho e a farinha de trigo. Quando estiver douradinho junte bem pouquinho do leite e misture bem, vá juntando o leite aos pouquinhos para não empelotar. Adicione o creme de leite e o queijo e deixe apurar. Se achar que está muito espesso, acrescente um pouquinho mais de leite. Quando estiver cremoso adicione a escarola e desligue o fogo. Misture bem e reserve. Ferva 250ml de água e adicione o sal e o macarrão. Deixe cozinhar pelo tempo indicado pelo fabricante ou até que esteja al dente. Escorra e misture ao molho já pronto. Sirva imediatamente. ");
+                Preparo.setText("Em fogo baixo, frite na manteiga o alho e a farinha de trigo. Quando estiver douradinho junte bem pouquinho do leite e misture bem, vá juntando o leite aos pouquinhos para não empelotar. Adicione o creme de leite e o queijo e deixe apurar. Se achar que está muito espesso, acrescente um pouquinho mais de leite. Quando estiver cremoso adicione a escarola e desligue o fogo. Misture bem e reserve. Ferva 250ml de água e adicione o sal e o macarrão. Deixe cozinhar pelo tempo indicado pelo fabricante ou até que esteja al dente. Escorra e misture ao molho já pronto. Sirva imediatamente. ");
+                break;
+            case "Creme de Alho":
+                Ingredientes.setText("- 3 dentes de alho\n- 1 copo de Leite\n- 1 pitada de Sal\n- Óleo ou Azeite ");
+                Preparo.setText("Junte o alho, o leite e o sal no Liquidificador . Bata tudo em velocidade média . Acrescente o Óleo ou o Azeite em Fio até ficar em consistência de creme . Está prontinho ! , ideal para servir em churrascos ");
+                break;
+            case "Pão de Alho para Churrasco com Pão Frances Amanhecido":
+                Ingredientes.setText("- 6 pães franceses (médios)\n- 1 vidro pequeno de maionese\n- 2 colheres de sopa de alho picadinho\n- 1 colher de sopa não muito cheia de orégano\n- ½ xícara de chá de cheiro-verde picado\n- ½ xícara de chá de parmesão ralado\n- Sal e pimenta a gosto ");
+                Preparo.setText("Em um recipiente misture a maionese, o alho, o orégano, o cheiro-verde, o sal e a pimenta e reserve. Faça cortes horizontais no pão francês de maneira a formar pequenas fatias (mais ou menos 4), mas sem esprende-las umas das outras (como no pão de alho comprado). Passe a mistura reservada entre as fatias e depois envolvendo todo os pães. Polvilhe sobre os pães o parmesão ralado. Leve à churrasqueira e asse bem de ambos os lados. ");
+                break;
+
+
+            case "Doce de Caju":
+                Ingredientes.setText("- cravo-da-índia a gosto \n- 2 1/2 litros de água \n- 1 kg de açúcar \n- 20 unidades de caju ");
+                Preparo.setText("Primeiro, lave bem os cajus. Depois, tire a castanha, descasque e reserve. A calda é feita com a água e o açúcar até borbulhar e ficar consistente. Faça furos no caju com um palito e, delicadamente, esprema, tirando o excesso do suco. Esse passo é importante para que o caju absorva bem a calda do doce. Depois de espremer, coloque os cajus um a um dentro da calda, que não deve ser retirada do fogo. Com generosidade acrescente o cravo - além de dar sabor, ele perfuma o doce. Cozinhe em fogo baixo por cerca de uma hora, até que o doce fique bem dourado. ");
+                break;
+
+            case "Caipirosca de Caju":
+                Ingredientes.setText("- 1/2 unidade de caju \n- 1/2 unidade de limão \n- vodka a gosto \n- adoçante a gosto ");
+                Preparo.setText("1/2 unidade de caju 1/2 unidade de limão vodka a gosto adoçante a gosto ");
+                break;
+
+            case "Suco de Caju Picante":
+                Ingredientes.setText("1/2 unidade de caju 1/2 unidade de limão vodka a gosto adoçante a gosto ");
+                Preparo.setText("Bata o caju, a tangerina e a cenoura na centrífuga. Em seguida misture a água de coco e o açúcar. Se necessário, acrescente gelo. Enfeite com uma fatia fina de pimenta e uma folha de hortelã. ");
+                break;
+
+
+            case "Bolo de Caju":
+                Ingredientes.setText("");
+                Preparo.setText("");
+                break;
+
+            case "Caju em Calda":
                 Ingredientes.setText("");
                 Preparo.setText("");
                 break;
@@ -360,28 +687,27 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Cuscuz de Frango e Couve":
-                Ingredientes.setText("");
-                Preparo.setText("");
+                Ingredientes.setText("- 300 gramas de peito de frango\n- 1 tablete de caldo de frango\n- 5 colheres (sopa) de óleo\n- 1 colher (sopa) de margarina\n- 1 cebola grande picada\n- 2 dentes de alho picados\n- 2 tomate sem pele e sem sementes\n- 1/2 pimentão vermelho picado\n- 4 folhas de couve cortadas finas\n- 3 xícaras (chá) de caldo de frango\n- 1/2 xícara (chá) de azeitona verde picadas\n- 1 xícara (chá) de farinha de mandioca tostada\n- 1 xícara (chá) de farinha de milho\n- Água quente (suficiente para cozinhar o frango)\n- pimenta-dedo-de-moça picada a gosto\n- salsa (ou salsinha) picada a gosto ");
+                Preparo.setText("Dissolva o caldo de frango na água quente e cozinhe o peito até ficar macio. Deixe esfriar e desfie. Reserve o caldo do cozimento. Em uma panela, aqueça o óleo, a margarina e doure a cebola e o alho. Junte o tomate, o pimentão e refogue até o tomate começar a desmanchar. Acrescente o frango, a couve e refogue até a couve murchar. Misture a pimenta, a azeitona, o caldo do cozimento, as farinhas e a salsa. Desligue o fogo, prove o tempero e, se necessário, acrescente sal. Coloque em uma forma com buraco central untada com azeite. Pressione bem o cuscuz, deixe amornar e desenforme. Sirva em seguida. ");
                 break;
 
 
             case "Creme de Feijão com Couve e Alho-Poró":
-                Ingredientes.setText("");
-                Preparo.setText("");
+                Ingredientes.setText("Dissolva o caldo de frango na água quente e cozinhe o peito até ficar macio. Deixe esfriar e desfie. Reserve o caldo do cozimento. Em uma panela, aqueça o óleo, a margarina e doure a cebola e o alho. Junte o tomate, o pimentão e refogue até o tomate começar a desmanchar. Acrescente o frango, a couve e refogue até a couve murchar. Misture a pimenta, a azeitona, o caldo do cozimento, as farinhas e a salsa. Desligue o fogo, prove o tempero e, se necessário, acrescente sal. Coloque em uma forma com buraco central untada com azeite. Pressione bem o cuscuz, deixe amornar e desenforme. Sirva em seguida. ");
+                Preparo.setText("Numa panela antiaderente, aqueça a margarina e refogue a cebola picada, o alho amassado, o louro e o sal. Junte o feijão cozido com o caldo. Mantenha em fogo baixo por 5 minutos. Agora, retire as folhas de louro e pegue a mistura do feijão com os outros ingredientes e bata no liquidificador com o requeijão. Volte o creme à panela para apurar. Acerte o sal, corte a couve e o alho-poró em tiras finas e coloque-os no creme. Deixe por 2 minutos no fogo e sirva. ");
                 break;
 
 
             case "Gratinado de Couve Manteiga e Nozes":
-                Ingredientes.setText("");
-                Preparo.setText("");
+                Ingredientes.setText("- 400 gramas de couve-manteiga\n- 2 clara de ovo\n- 200 creme de leite\n- 30 gramas de queijo parmesão ralado\n- 40 gramas de noz descascadas\n- noz-moscada ralada a gosto\n- sal a gosto\n- pimenta-do-reino a gosto ");
+                Preparo.setText("- 400 gramas de couve-manteiga\n- 2 clara de ovo\n- 200 creme de leite\n- 30 gramas de queijo parmesão ralado\n- 40 gramas de noz descascadas\n- noz-moscada ralada a gosto\n- sal a gosto\n- pimenta-do-reino a gosto ");
                 break;
 
 
             case "Quiche de Couve":
-                Ingredientes.setText("");
-                Preparo.setText("");
+                Ingredientes.setText("- 1 xícara (chá) de farinha de trigo\n- 1 pitada de açúcar\n- 2 xícaras (chá) de manteiga\n- 1 maço de couve em tiras finas\n- 1 colher (sopa) de azeite de oliva\n- 3 ovo\n- 3 gema de ovo\n- 1 xícara (chá) de creme de leite\n- 1 xícara (chá) de leite\n- pimenta-do-reino a gosto\n- sal a gosto ");
+                Preparo.setText("Preaqueça o forno em temperatura média (180 ºC). Misture a farinha, o sal e o açúcar com a manteiga. Junte 1 ovo e mexa até formar uma bola. Enrole em filme plástico e leve à geladeira por 10 minutos. Abra a massa e forre a lateral e o fundo de uma forma. Leve ao forno por 20 minutos. Deixe esfriar bem. Refogue a couve com sal no azeite. Junte o restante dos ingredientes e despeje na massa. Asse até dourar a massa. ");
                 break;
-
 
             case "Trouxinha de Alface (Embrulhadinho Veloz)":
                 Ingredientes.setText("- 1 xícara (chá) de queijo branco em cubos bem pequenos\n- 1 tomate grande, sem sementes, em cubos bem pequenos\n- 1 pitada de orégano\n- meia colher (chá) de azeite\n- 1 pitada de sal\n- 1 colher (sopa) de requeijão \n- 6 folhas de alface lisa");

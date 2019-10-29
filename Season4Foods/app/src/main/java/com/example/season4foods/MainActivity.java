@@ -63,10 +63,12 @@ public class MainActivity extends AppCompatActivity {
 
             //DEFINE VALOR LIST VIEW
             CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
+
             CalendarioView.getFirstDayOfWeek();
+
+
             CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
                 @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
-
 
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int i, int i1, int i2) {

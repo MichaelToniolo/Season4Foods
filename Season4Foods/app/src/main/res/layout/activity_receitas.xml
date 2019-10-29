@@ -6,13 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/backgroundmain3"
+    android:orientation="vertical"
     >
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,89 +26,50 @@
                 android:id="@+id/titulo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:background="@color/MyBackgroundFontColor"
                 android:fontFamily="cursive"
                 android:text="Receitas"
+                android:gravity="center"
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimaryDark"
                 android:textFontWeight="@android:integer/config_mediumAnimTime"
                 android:textSize="30dp" />
 
-            <ImageView
-                android:id="@+id/Foto_alimento"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                tools:srcCompat="@tools:sample/avatars[3]" />
-
         </LinearLayout>
 
         <TextView
             android:id="@+id/nome_alimento"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Alimento"
-            android:fontFamily="cursive"
-            android:layout_gravity="center"
-            android:background="@color/MyBackgroundFontColor"
-            android:textSize="35dp"/>
-
-        <TextView
-            android:id="@+id/texto_banco"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:fontFamily="cursive"
-            android:layout_gravity="center"
-            android:background="@color/MyBackgroundFontColor"
-            android:textSize="35dp"/>
-
-        <!--<LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pra Traz" />
-
-            <TextView
-                android:id="@+id/nome_alimento"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Alimento" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Pra Frente" />
-        </LinearLayout>-->
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:layout_gravity="center"
+            android:background="@color/MyBackgroundFontColor"
+            android:textSize="35dp"/>
 
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-
-        <ListView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/lista_receitas"
-            android:background="@color/MyBackgroundFontColor"
+            >
+            <ListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lista_receitas"
+                android:background="@color/MyBackgroundFontColor"
 
-            ></ListView>
+                ></ListView>
+
+
         </LinearLayout>
+
+
 
 
 
 
     </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
