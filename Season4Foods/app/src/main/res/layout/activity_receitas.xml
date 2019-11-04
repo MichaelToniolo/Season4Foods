@@ -20,20 +20,25 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:background="#CBFFFFFF">
+
+            <Button
+                android:id="@+id/btn_volte"
+                android:layout_width="53dp"
+                android:layout_height="wrap_content"
+                android:background="?attr/actionModeCloseDrawable" />
 
             <TextView
                 android:id="@+id/titulo"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/MyBackgroundFontColor"
+                android:layout_height="match_parent"
                 android:fontFamily="cursive"
-                android:text="Receitas"
                 android:gravity="center"
+                android:text="Receitas"
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimaryDark"
                 android:textFontWeight="@android:integer/config_mediumAnimTime"
-                android:textSize="30dp" />
+                android:textSize="35dp" />
 
         </LinearLayout>
 
@@ -41,10 +46,10 @@
             android:id="@+id/nome_alimento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="cursive"
             android:layout_gravity="center"
             android:background="@color/MyBackgroundFontColor"
-            android:textSize="35dp"/>
+            android:fontFamily="cursive"
+            android:textSize="45dp" />
 
 
         <LinearLayout

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.app.ListActivity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,6 +33,7 @@ public class ActivityReceitas extends AppCompatActivity {
     TextView nome_alimento;
     TextView texto_Banco;
     String IngredienteReceita;
+    Button button;
 
     DbHelper db;
 
@@ -43,6 +46,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
         nome_alimento = findViewById(R.id.nome_alimento);
         lista_receitas = findViewById(R.id.lista_receitas);
+        button = findViewById(R.id.btn_volte);
 
 
         //Carregando dados da Intent Main
@@ -1892,13 +1896,10 @@ public class ActivityReceitas extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-
                 int itemPosicao = position;
                 lista_receitas.getItemAtPosition(position);
                 String receitavalor = (String)
                         lista_receitas.getItemAtPosition(position);
-
-
 
                 //Toast.makeText(getApplicationContext(), itemValor,Toast.LENGTH_LONG).show();
                 Intent it = new Intent(ActivityReceitas.this, ActivityPreparo.class);
@@ -1906,13 +1907,16 @@ public class ActivityReceitas extends AppCompatActivity {
                 it.putExtra("Receita",receitavalor);
                 startActivity(it);
 
-
-
-
-
             }
         });
 
+        button .setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(ActivityReceitas.this, MainActivity.class);
+                startActivity(it);
+            }
+        });
 
     }
 }

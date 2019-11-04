@@ -12,18 +12,40 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/MyBackgroundFontColor"
-        >
+        android:background="#CBFFFFFF"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/ShareButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="right"
-            android:background="?attr/actionModeShareDrawable"
-            ></Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+
+            <Button
+                android:id="@+id/btn_volte"
+                android:layout_width="53dp"
+                android:layout_height="wrap_content"
+                android:background="?attr/actionModeCloseDrawable" />
+
+            <TextView
+                android:id="@+id/nome_do_prato"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textFontWeight="@android:integer/config_mediumAnimTime"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/ShareButton"
+                android:layout_width="48dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:background="?attr/actionModeShareDrawable"
+                android:fontFamily="cursive"></Button>
+        </LinearLayout>
 
 
         <LinearLayout
@@ -37,64 +59,64 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@color/MyBackgroundFontColor"
+                android:background="#327E7878"
                 android:fontFamily="cursive"
+                android:gravity="center_horizontal"
                 android:text="Ingredientes"
-                android:gravity="left"
                 android:textColor="@color/colorPrimaryDark"
                 android:textFontWeight="@android:integer/config_mediumAnimTime"
-                android:textSize="30dp" >
+                android:textSize="30dp">
 
 
             </TextView>
 
             <TextView
+                android:id="@+id/Ingredientes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/Ingredientes"
                 android:height="200dp"
-                android:textSize="15dp"
-                android:textColor="@color/colorPrimaryDark"
                 android:background="@color/MyBackgroundFontColor"
+                android:padding="6dp"
                 android:scrollbarAlwaysDrawVerticalTrack="true"
                 android:scrollbars="vertical"
 
 
-                >
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
 
             </TextView>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Modo de Preparo"
+                android:background="#327E7878"
                 android:fontFamily="cursive"
-                android:layout_gravity="left"
-                android:textSize="30dp"
+                android:gravity="center"
+                android:text="Modo de Preparo"
                 android:textColor="@color/colorPrimaryDark"
-                android:background="@color/MyBackgroundFontColor"
-                >
+                android:textSize="30dp">
 
             </TextView>
 
         </LinearLayout>
+
         <TextView
+            android:id="@+id/Preparo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/Preparo"
-            android:textColor="@color/colorPrimaryDark"
-            android:background="@color/MyBackgroundFontColor"
-            android:textSize="20dp"
             android:layout_gravity="left"
-            android:scrollbars="vertical"
-            android:layout_marginTop="0dp"
             android:layout_marginLeft="3dp"
-            android:layout_marginBottom="3dp"
+            android:layout_marginTop="0dp"
             android:layout_marginRight="3dp"
-            >
+            android:layout_marginBottom="3dp"
+            android:background="@color/MyBackgroundFontColor"
+            android:padding="6dp"
+            android:scrollbars="vertical"
+            android:textColor="@android:color/black"
+            android:textSize="15dp">
 
 
         </TextView>
-
 
 
     </LinearLayout>

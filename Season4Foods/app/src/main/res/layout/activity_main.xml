@@ -11,20 +11,40 @@
     tools:context=".MainActivity"
     android:id="@+id/menu_principal"
     >
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Season4Foods"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="40dp"
-        android:gravity="center"
-        android:fontFamily="cursive"
+        android:orientation="horizontal">
 
-        >
+        <Button
+            android:id="@+id/AboutButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@android:drawable/ic_dialog_info" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Season4Foods"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="40dp">
 
 
-    </TextView>
+        </TextView>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
 
 
     <TextView
@@ -54,7 +74,7 @@
 
             android:id="@+id/CalendarioView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="296dp"
             android:background="@color/CalendarColor"
 
             android:maxDate="12/31/2019"
@@ -62,8 +82,7 @@
             android:weekDayTextAppearance="@color/cardview_dark_background"
 
 
-            >
-        </CalendarView>
+            ></CalendarView>
     </LinearLayout>
     <TextView
 
@@ -89,38 +108,6 @@
 
         ></ListView>
 
-
-
-    <!--AQUI COMEÇA O BOTÃO + TEXTO ABOUT US-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/MyBackgroundFontColor"
-        android:gravity="right"
-        >
-
-        <Button
-            android:id="@+id/AboutButton"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="bottom"
-            android:background="@drawable/iconabout">
-
-        </Button>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="About Us"
-            android:fontFamily="cursive"
-            android:textSize="20dp"
-            android:textColor="@color/colorPrimaryDark"
-            >
-
-        </TextView>
-    </LinearLayout>
-    <!--AQUI TERMINA O B.O. DO ABOUT-->
-    </LinearLayout>
-
-
+</LinearLayout>
 
 

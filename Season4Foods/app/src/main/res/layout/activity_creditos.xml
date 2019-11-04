@@ -11,43 +11,49 @@ android:background="@drawable/backgroundmain3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="ABOUT US"
+        android:fontFamily="cursive"
         android:gravity="center"
-        android:textSize="50dp"
-        android:fontFamily="cursive"
+        android:text="Quem Somos"
         android:textColor="@color/colorPrimaryDark"
-        >
+        android:textSize="50dp">
 
     </TextView>
 
 </LinearLayout>
 
-<LinearLayout
-    android:id="@+id/NomesCredito"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="15dp">
-
-
-    <TextView
+    <LinearLayout
+        android:id="@+id/NomesCredito"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:layout_marginTop="100dp"
-        android:fontFamily="cursive"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="Desenvolvedores:\n\nEvandro Lopes\nMatheus Bondadenco\nMatheus Tomazzo\nMichael Saraiva\nVictor Reis\n\n Receitas\n\n Daniela Oliveira\nLuanna Garcia\nMilena Gonçalves\nTamires Benassi"
-
-        >
-
-    </TextView>
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="15dp">
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="cursive"
+            android:text="Desenvolvedores:\n\nEvandro Lopes\nMatheus Bondadenco\nMatheus Tomazzo\nMichael Saraiva\nVictor Reis\n\n Receitas\n\n Daniela Oliveira\nLuanna Garcia\nMilena Gonçalves\nTamires Benassi"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+
+            >
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_volte_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar" />
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

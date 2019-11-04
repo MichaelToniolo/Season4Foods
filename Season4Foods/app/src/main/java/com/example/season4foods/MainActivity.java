@@ -336,6 +336,7 @@ public class MainActivity extends AppCompatActivity {
                         adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.support_simple_spinner_dropdown_item, Omes);
 
                         listView.setAdapter(adapter);
+
                         break;
                     case 12:
                         TxtMain.setText(date);
@@ -388,8 +389,6 @@ public class MainActivity extends AppCompatActivity {
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
-
-
                         int itemPosicao = position;
                         listView.getItemAtPosition(position);
                         String itemValor = (String)
@@ -401,10 +400,6 @@ public class MainActivity extends AppCompatActivity {
                         it.putExtra("posit", position);
                         it.putExtra("ingre",itemValor);
                         startActivity(it);
-
-
-
-
 
                 }
             });
@@ -421,7 +416,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
-    }
+}
 
 
 

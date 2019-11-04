@@ -20,9 +20,11 @@ public class ActivityPreparo extends AppCompatActivity {
 
     TextView Preparo;
     TextView Ingredientes;
+    TextView Nome_prato;
     ImageView Foto_alimento;
     LinearLayout GeralLayout;
     Button ShareButton;
+    Button btn_volte;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,20 +34,21 @@ public class ActivityPreparo extends AppCompatActivity {
         Ingredientes = (TextView) findViewById(R.id.Ingredientes);
         Preparo = (TextView) findViewById(R.id.Preparo);
         ShareButton = (Button) findViewById(R.id.ShareButton);
-
-
+        btn_volte =  findViewById(R.id.btn_volte);
+        Nome_prato = (TextView) findViewById(R.id.nome_do_prato);
 
         final Bundle bundle = getIntent().getExtras();
         //assert bundle != null;
         final String NomeAlimento = bundle.getString("Receita");
         Ingredientes.setText(NomeAlimento);
+        Nome_prato.setText(NomeAlimento);
 
 
         //Carrega Receitas
 
         switch (NomeAlimento) {
 
-            case "CaGeleia de Caqui":
+            case "Geleia de Caqui":
                 Ingredientes.setText("- 5 caquis bem maduros\n- 1/2 de xícara de açúcar \n- 3/4 de xícara de água\n- Casca de meio limão  ");
                 Preparo.setText("Tire a pele dos caquis e passe por uma peneira grossa. Leve uma panela ao fogo com o açúcar e a água, assim que o açúcar estiver derretido acrescente a casca de limão, deixe tomar gosto e descarte. Acrescente o caqui e continue cozinhando em fogo baixo, mexendo com frequência até ficar com consistência de geleia.\n");
                 break;
@@ -2072,6 +2075,7 @@ public class ActivityPreparo extends AppCompatActivity {
             }
 
 
+
             //Botão SHARE CRIADO
         ShareButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -2084,11 +2088,17 @@ public class ActivityPreparo extends AppCompatActivity {
                 CompartilhaIntent.putExtra(Intent.EXTRA_TEXT, Texto);
                 startActivity(CompartilhaIntent);
 
-
             }
         });
 
+        btn_volte.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(ActivityPreparo.this, ActivityReceitas.class);
+                startActivity(it);
 
+            }
+        });
         Ingredientes.setMovementMethod(new ScrollingMovementMethod());
         Preparo.setMovementMethod(new ScrollingMovementMethod());
 
