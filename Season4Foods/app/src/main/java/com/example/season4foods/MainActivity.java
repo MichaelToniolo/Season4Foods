@@ -236,6 +236,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Quiabo",
                                         "Rabanete"
 
+
                                 };
                         LinearLayout.setBackgroundResource(R.drawable.winter_bg);
 
@@ -301,6 +302,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Tomate",
                                         "Brócolis",
                                         "Cenoura",
+                                        "Pepino Japonês",
                                         "Acerola",
                                         "Noses",
                                         "Chuchu"

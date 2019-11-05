@@ -662,6 +662,26 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
+            case "Berinjela Japonesa":
+                valores = new String[]{
+                        "Entrada Frio de Berinjela Japonesa",
+                        "Salada de Berinjela Grelhada e Queijo de Cabra",
+                        "Berinjela com Missô",
+                        "Mabonasu (Berinjela Apimentada)"
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
             case "Cará":
                 valores = new String[]{
                         "Bolinho de Cará",
@@ -1233,6 +1253,28 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
+            case "Pepino Japonês":
+                valores = new String[]{
+                        "Salada de Pepino Japones Simples",
+                        "Pepino Japones em Salmora",
+                        "Salada de Pepino com Molho Agridoce",
+                        "Salada Thai de Pepino"
+
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
             case "Pepino":
                 valores = new String[]{
                         "Tzatziki",
@@ -1411,7 +1453,8 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Pudim de Ricota com Jabuticaba",
                         "Suflê Gelado de Jabuticaba",
                         "Filé de Frango ao Molho de Jabuticaba",
-                        "Torta com Geléia de Jabuticaba"
+                        "Torta com Geléia de Jabuticaba",
+                        "Crostata com Geleia de Jabuticaba"
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -1427,7 +1470,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
             case "Mamão Havaí":
                 valores = new String[]{
-                        "Franfo ao Molho de Mamão Havaí",
+                        "Frango ao Molho de Mamão Havaí",
                         "Salada de Mamão com Aveia",
                         "Carne Seca com Mamão",
                         "Doce de Mamão na Panela de Pressão",
@@ -1499,7 +1542,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Lasanha de Palmito",
                         "Palmito Gratinado",
                         "Lasanha de Palmito Gratinada",
-                        "Creme de Palmito",
                         "Arroz com Creme de Palmito",
                         "Refogado de Palmito"
 
@@ -1591,7 +1633,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Licor de Acerola",
                         "Mousse de Acerola",
                         "Pudim de Acerola",
-                        "Tora de Acerola"
+                        "Torta de Acerola"
 
                 };
 
@@ -1708,7 +1750,8 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Frango ao Mel, Amêndas e Especiarias",
                         "Pudim de Amêndoas",
                         "Amêndoas Caramelizadas",
-                        "Brócolis com Lascas de Amêndoas"
+                        "Brócolis com Lascas de Amêndoas",
+                        "Arroz com Amêndoas",
 
 
                 };
@@ -1755,7 +1798,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Farofa de Castanha",
                         "Torta de Chocolate com Castanha",
                         "Bolo de Banana com Castanha",
-                        "Tota de Maçã Caramelizada com Castanha"
+                        "Torta de Maçã Caramelizada com Castanha"
 
                 };
 
@@ -1817,8 +1860,8 @@ public class ActivityReceitas extends AppCompatActivity {
 
             case "Maxixe":
                 valores = new String[]{
-                        "Ensopadinho de Maxixo",
-                        "Maxixo com Coco",
+                        "Ensopadinho de Maxixe",
+                        "Maxixe com Coco",
                         "Maxixe com Carne de Sol",
                         "Maxixada Nordestina",
                         "Cabrito com Maxixe"
