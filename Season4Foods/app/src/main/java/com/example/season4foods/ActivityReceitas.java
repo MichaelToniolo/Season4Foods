@@ -50,12 +50,23 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
         //Carregando dados da Intent Main
-        Bundle bundle = getIntent().getExtras();
+        final Bundle bundle = getIntent().getExtras();
         //assert bundle != null;
-        String NomeAlimento = bundle.getString("ingre");
-        nome_alimento.setText(NomeAlimento);
 
+        //Caso o usuario use o botão de voltar do app ele vai verificar se uma variavel da outra tela existe
+        //se ela existir vai ser armazenada na variavel "NomeAlimento" do contrário logicamente ele estará vindo da pagina main e então ele carrega normal a variavel que veio da main
 
+        //se a variavel da tela preparo estiver preenchdia ele a variavel NomeAlimento receberá o valor
+
+        //String receita = bundle.getString("receita");
+        final String  NomeAlimento =bundle.getString("ingre");
+        //if(receita !="") {
+            //NomeAlimento = receita;
+            //}else {
+
+            //}
+
+        nome_alimento.setText( NomeAlimento);
         ///BANCO DE DADOS ESQUECEEEE
         /*
         db = new DbHelper(this);
@@ -1914,7 +1925,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Farofa de Quiabo",
                         "Salada de Quiabo com Ricota"
 
-
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -1929,15 +1939,14 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
-
-
-
         }
         AdapterView listView;
 
         lista_receitas.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                String  NomeAlimento =bundle.getString("ingre");
 
                 int itemPosicao = position;
                 lista_receitas.getItemAtPosition(position);
@@ -1948,6 +1957,10 @@ public class ActivityReceitas extends AppCompatActivity {
                 Intent it = new Intent(ActivityReceitas.this, ActivityPreparo.class);
                 it.putExtra("posit", position);
                 it.putExtra("Receita",receitavalor);
+
+                //esse putExtra ingrediente vai ser usado no botão voltar da proxima tela, para que ele saiba para qual receita listar, do contrario ele vai dar erro ao voltar
+                //ele só vai carregar esssa variavel lá quando ele clicar no botão voltar da tela "preparo"
+                it.putExtra("ingrediente",NomeAlimento);
                 startActivity(it);
 
             }
@@ -1963,4 +1976,3 @@ public class ActivityReceitas extends AppCompatActivity {
 
     }
 }
-

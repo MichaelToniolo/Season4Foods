@@ -37,13 +37,13 @@ public class ActivityPreparo extends AppCompatActivity {
         btn_volte = (Button) findViewById(R.id.btn_volte);
         Nome_prato = (TextView) findViewById(R.id.nome_do_prato);
 
+        String teste ="";
 
         final Bundle bundle = getIntent().getExtras();
         //assert bundle != null;
         final String NomeAlimento = bundle.getString("Receita");
         Ingredientes.setText(NomeAlimento);
         Nome_prato.setText(NomeAlimento);
-
 
         //Carrega Receitas
 
@@ -2414,7 +2414,7 @@ public class ActivityPreparo extends AppCompatActivity {
             case "Alcachofra com Molho de Ervas":
                 Ingredientes.setText("- 4 alcachofras\n- 2 dentes de alho\n- Rodelas de limão\n- Sal\n- \n- Molho:\n- \n- 1 tomate sem sementes\n- Azeite de oliva\n- Salsinha\n- Manjericão\n- Cebolinha\n- Tomilho\n- Sal\n- Pimenta ");
                 Preparo.setText("Começando pelas alcachofras, retire o talo e as folhas externas e descarte. Com uma tesoura, corte as pontas das folhas, coloque em uma panela com os dentes de alho, as rodelas de limão e cubra com água. Leve a panela ao fogo por aproximadamente 40 minutos, para testar arranque uma folha, elas devem soltar com facilidade. Para o molho, pique finamente o tomate sem sementes, adicione todas as ervas picadas, adicione azeite de oliva, sal e pimenta a gosto. Regue as alcachofras ainda quentes com o molho e sirva em seguida. ");
-
+                teste = "Alcachofras";
                 break;
 
             case "Homus de Alcachofra":
@@ -2750,10 +2750,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-
         }
-
-
 
             //Botão SHARE CRIADO
         ShareButton.setOnClickListener(new View.OnClickListener() {
@@ -2773,7 +2770,18 @@ public class ActivityPreparo extends AppCompatActivity {
         btn_volte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent it = new Intent(ActivityPreparo.this, ActivityReceitas.class);
+
+                //tá ok, funciona assim, aqui ele pega uma variavel da tela de receita, é o nome do alimento tipo "amora", "morango", "ovo", para que ele consiga voltar a tela anterior sem dar bug, ele só pega aqui essa
+                //variavel, em nenhum outro lugar;
+                String NomeAlimento = bundle.getString("ingrediente");
+
+                //aqui se vc observaro o nome da variavel é o mesmo da tela anterior q ele usa para carregar as receitas daquele alimento em especifico, pq se fose outro nome teria q fazer um if ou seja oq for
+                //para dar certo, enfim assim achei mais facil, como o nome vai ser trocado constantemente não tem problema,
+                it.putExtra("ingre", NomeAlimento);
+                //onde entre aspas é o nome da variavel e o segundo é o tipo de elemento
+
                 startActivity(it);
 
             }
