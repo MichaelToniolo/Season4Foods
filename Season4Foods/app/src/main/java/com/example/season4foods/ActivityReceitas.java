@@ -97,7 +97,8 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Lasanha de Abobrinha",
                         "Macarrão com Abobrinha",
                         "Mil folhas de Abobrinha",
-                        "Abobrinha à Milanesa"
+                        "Abobrinha à Milanesa",
+                        "Rolinhos de Abobrinha"
 
 
                 };
@@ -174,6 +175,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
             case "Cupuaçu":
                 valores = new String[]{
+                        "Mousse de Cupuaçu",
                         "Bolo de Cupuaçu",
                         "Geleia de Cupuaçu",
                         "Pavê de Cupuaçu",
@@ -237,7 +239,8 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Torta de Limão - Chessecake de Limão",
                         "Pudim de Limão",
                         "Bolo de Limão",
-                        "Cupcake de Limão"
+                        "Cupcake de Limão",
+                        "Creme de Limão"
 
                 };
 
@@ -328,7 +331,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 valores = new String[]{
                         "Antepasto de Pimentão Assado",
                         "Geléia de Pimentão",
-                        "Pimentão Recheador com Carne Móida",
+                        "Pimentão Recheado com Carne Móida",
                         "Molho de Pimentão Vermelho Assado",
                         "Chutney de Pimentão",
                         "Receita de Pimentão",
@@ -700,7 +703,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Escondidinho de Cará e carne moída",
                         "Pudim de Cará",
                         "Carne seca com Cará",
-                        "Sopa de Cará",
                         "Purê de Cará com Bacon",
                         "Cará Assado",
                         "Coxinha de Cará",
@@ -914,7 +916,11 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Tortinha de Kiwi",
                         "Bolo de Kiwi",
                         "Geléia de Kiwi",
-                        "Panqueca com calda de Kiwi"
+                        "Panqueca com calda de Kiwi",
+                        "Suco de Uva, Kiwi e Laranja",
+                        "Picolé de Kiwi"
+
+
 
                 };
 
