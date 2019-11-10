@@ -21,7 +21,7 @@
             android:id="@+id/AboutButton"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:background="@android:drawable/ic_dialog_info" />
+            android:background="@drawable/btn_sobre" />
 
         <TextView
             android:layout_width="match_parent"
