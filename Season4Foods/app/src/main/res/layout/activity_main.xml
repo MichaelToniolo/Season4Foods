@@ -84,26 +84,25 @@
 
             ></CalendarView>
     </LinearLayout>
+
     <TextView
 
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alimentos Sazonais Disponíveis"
-        android:fontFamily="cursive"
-        android:textColor="@color/colorPrimaryDark"
-        android:textAlignment="center"
         android:background="@color/MyBackgroundFontColor"
+        android:fontFamily="cursive"
+        android:text="Alimentos Sazonais Disponíveis"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="25dp"
         tools:visibility="visible" />
 
 
-
     <ListView
-        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/lista_alimentos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/lista_alimentos"
         android:background="@color/MyBackgroundFontColor"
 
         ></ListView>

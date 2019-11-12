@@ -47,8 +47,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@color/MyBackgroundFontColor"
+            android:background="#CBFFFFFF"
             android:fontFamily="cursive"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="45dp" />
 
         <LinearLayout
@@ -63,7 +64,7 @@
                 android:background="@color/MyBackgroundFontColor"
 
                 ></ListView>
-            
+
         </LinearLayout>
 
     </LinearLayout>
