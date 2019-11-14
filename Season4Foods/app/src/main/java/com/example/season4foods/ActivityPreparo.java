@@ -1590,9 +1590,6 @@ public class ActivityPreparo extends AppCompatActivity {
                 Ingredientes.setText("- 800 g dMandioquinha SautéMandioquinha Sautée mandioquinha picada\n- 1/2 cebola picada\n- 2 dentes de alho picado\n- 100 g de creme de leite (1/2 caixinha)\n- 1,2 L de Água (quente)\n- 13 mL de óleo (1 colher de sopa)\n- sal a gosto\n- salsinha a gosto");
 
                 Preparo.setText("" +
-                        "" +
-                        "" +
-                        "" +
                         "");
                 break;
 
