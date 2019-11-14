@@ -10,11 +10,11 @@ public class DbHelper extends SQLiteOpenHelper {
     SQLiteDatabase db;
 
     private static final String DATABASE_NOME = "database.db";
-    private static final int DATABASE_VERSION=201;
+    private static final int DATABASE_VERSION=1;
 
-    public static final String INGREDIENTES = "ingredientes";
+    public static final String INGREDIENTE = "ingrediente";
 
-    public static final String IG_NOME = "lksjadlkajdlkj";
+    public static final String IG_NOME = "ig_nome";
     public static final String IG_ID = "ig_id";
     private static final String IG_MES = "ig_mes";
     private static final String IG_DESC = "ig_desc";
@@ -27,7 +27,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db){
-        db.execSQL("CREATE TABLE " + INGREDIENTES + "("
+        db.execSQL("CREATE TABLE " + INGREDIENTE + "("
                 + IG_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + IG_NOME + " TEXT, "
                 + IG_DESC + " TEXT, "
@@ -37,7 +37,7 @@ public class DbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion){
-        db.execSQL("DROP TABLE IF EXISTS "+INGREDIENTES);
+        db.execSQL("DROP TABLE IF EXISTS "+INGREDIENTE);
         onCreate(db);
     }
 
@@ -47,9 +47,9 @@ public class DbHelper extends SQLiteOpenHelper {
 
         db=this.getWritableDatabase();
         ContentValues valores = new ContentValues();
-        valores.put(IG_NOME,"aa_nome");
+        valores.put(IG_NOME, "ig_nome");
 
-        long resultado = db.insert(DbHelper.INGREDIENTES,null,valores);
+        long resultado = db.insert(DbHelper.INGREDIENTE,null,valores);
         db.close();
     }
 

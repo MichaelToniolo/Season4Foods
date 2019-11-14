@@ -12,10 +12,14 @@
     android:id="@+id/menu_principal"
     >
 
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
+
 
         <Button
             android:id="@+id/AboutButton"
@@ -76,13 +80,11 @@
             android:layout_width="match_parent"
             android:layout_height="296dp"
             android:background="@color/CalendarColor"
-
             android:maxDate="12/31/2019"
             android:minDate="01/01/2019"
-            android:weekDayTextAppearance="@color/cardview_dark_background"
 
 
-            ></CalendarView>
+            android:weekDayTextAppearance="@color/cardview_dark_background"></CalendarView>
     </LinearLayout>
 
     <TextView

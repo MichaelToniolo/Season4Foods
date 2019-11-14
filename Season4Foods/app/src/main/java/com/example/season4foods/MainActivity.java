@@ -44,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout LinearLayout;
     SearchView Pesquisa;
     Button AboutButton;
+    TextView MeuTeste;
+
 
 
     @Override
@@ -58,6 +60,14 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout = (LinearLayout) findViewById(R.id.menu_principal);
         //Pesquisa = (SearchView) findViewById(R.id.Pesquisa);
         AboutButton = (Button) findViewById(R.id.AboutButton);
+        //MeuTeste = (TextView) findViewById(R.id.MeuTeste);
+
+
+        BancoController crud = new BancoController(getBaseContext());
+        String A = crud.carregaDados().toString();
+
+       // MeuTeste.setText(A);
+
 
 
 

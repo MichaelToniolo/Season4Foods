@@ -25,7 +25,7 @@ public class BancoController {
         valores.put(DbHelper.IG_NOME, Nome);
 
 
-        resultado = db.insert(DbHelper.INGREDIENTES, null, valores);
+        resultado = db.insert(DbHelper.INGREDIENTE, null, valores);
         db.close();
 
 
@@ -38,7 +38,7 @@ public class BancoController {
         Cursor cursor;
         String[] campos =  {banco.IG_ID,banco.IG_NOME};
         db = banco.getReadableDatabase();
-        cursor = db.query(banco.INGREDIENTES, campos, null, null, null, null, null, null);
+        cursor = db.query(banco.INGREDIENTE, campos, null, null, null, null, null, null);
 
         if(cursor!=null){
             cursor.moveToFirst();

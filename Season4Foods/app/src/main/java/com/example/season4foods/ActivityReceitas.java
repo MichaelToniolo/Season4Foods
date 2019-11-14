@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -34,7 +35,7 @@ public class ActivityReceitas extends AppCompatActivity {
     TextView texto_Banco;
     String IngredienteReceita;
     Button button;
-
+    ImageView Imagem;
     DbHelper db;
 
 
@@ -47,7 +48,7 @@ public class ActivityReceitas extends AppCompatActivity {
         nome_alimento = findViewById(R.id.nome_alimento);
         lista_receitas = findViewById(R.id.lista_receitas);
         button = findViewById(R.id.btn_volte);
-
+        Imagem = findViewById(R.id.Imagem);
 
         //Carregando dados da Intent Main
         final Bundle bundle = getIntent().getExtras();
@@ -577,6 +578,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Abacaxi":
+                Imagem.setImageResource(R.drawable.abacaxi);
                 valores = new String[]{
                         "Gelado de Abacaxi",
                         "Torta Gelada de Abacaxi e Coco",
@@ -586,7 +588,17 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Mousse de Abacaxi",
                         "Abacaxi com Calda de Maracujá",
                         "Taça de Abacaxi",
-                        "Doce De Abacaxi Com Doce De Leite"
+                        "Doce De Abacaxi Com Doce De Leite",
+                        "Gelado de Abacaxi",
+                        "Torta Gelada de Abacaxi e Coco",
+                        "Abacaxi Assado",
+                        "Frango com Abacaxi",
+                        "Bolo de Abacaxi",
+                        "Mousse de Abacaxi",
+                        "Abacaxi com Calda de Maracujá",
+                        "Taça de Abacaxi",
+                        "Doce De Abacaxi Com Doce De Leite",
+                        "hajjhahkjakjhajhkajhjahkhjahkja"
 
                 };
 

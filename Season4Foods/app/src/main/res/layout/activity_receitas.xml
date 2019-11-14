@@ -51,6 +51,14 @@
             android:fontFamily="cursive"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="45dp" />
+        <ImageView
+            android:id="@+id/Imagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+        </ImageView>
 
         <LinearLayout
             android:layout_width="match_parent"
