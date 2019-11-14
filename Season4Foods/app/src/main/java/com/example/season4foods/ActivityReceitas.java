@@ -588,7 +588,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Mousse de Abacaxi",
                         "Abacaxi com Calda de Maracujá",
                         "Taça de Abacaxi",
-                        "Doce De Abacaxi Com Doce De Leite",
+                        "Doce De Abacaxi Com Doce De Leite",o
                         "Gelado de Abacaxi",
                         "Torta Gelada de Abacaxi e Coco",
                         "Abacaxi Assado",
