@@ -59,22 +59,22 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Ponha no liquidificador os caquis, o conhaque e o açúcar de baunilha. Bata bem até obter uma mistura homogênea. Transfira para uma tigela e leve à geladeira por duas horas. Sirva gelada com sorvete de creme. ");
                 break;
 
-            case "Bolo de Caqui":
-                Ingredientes.setText("Salada de Couve-flor, banana e caqui");
-                Preparo.setText("Preaqueça o forno (180°C). Unte e enfarinhe uma forma redonda média com furo central. Processe a polpa dos caquis com o bicarbonato de sódio e reserve. Em uma tigela grande (ou na batedeira), bata a manteiga com o açúcar até ficar claro. Adicione os ovos, suco de limão e a essência de baunilha e bata até ficar fofo. Junte a mistura de caqui e bata até incorporar. Peneire juntos a farinha, o fermento, sal, cravo, canela e a noz moscada. Acrescente à mistura de caqui e misture até a massa fique homogênea. Junte as nozes e as passas e misture com uma espátula. Coloque na forma preparada e asse por 50-60 minutos ou até que enfiando um palito no centro, ele saia limpo. Deixe esfriar na forma por uns 15 minutos antes de desenformar sobre uma grade. Espere esfriar completamente antes de servir. ");
+            case "Salada De Couve-Flor, Banana E Caqui":
+                Ingredientes.setText("- 300g de couve-flor (era o que tinha na bandejinha que eu comprei)\n- 2 bananas maduras\n- 3 caquis rama forte, sem a casca e cortado em pedaços mais grossos\n- suco de meio limão siciliano \n- 1 ou 2 colheres de sopa de azeite \n- um punhado de amêndoas picadas ou castanha de caju (uns 40-60g)\n- 1 colher de chá de sementes de cominho\n- folhas de tomilho\n- pimenta-do-reino\n- ciboulette e galhos de tomilho para decoração");
+                Preparo.setText("Leve uma panela com água e sal para ferver.  Corte a couve flor em pequenos floretes e coloque na panela para uma fervura rápida, durante poucos minutos. Escorra imediatamente numa panela e esfrie sob água corrente e deixe secar totalmente. Toste levemente as amêndoas ou castanha de caju junto com as sementes de cominho e as folhas de tomilho, numa frigideira pequena. Retire da frigideira e reserve até esfriar. Fatie as bananas e coloque em uma tigela grande. Em seguida, adicione o suco de meio limão e misture bem. Junte a couve flor, as sementes e amêndoas tostadas (reserve um pouquinho para decoração) e o azeite e mexa cuidadosamente. Adicione os pedaços de caqui, mexa com bastante cuidado e cubra a tigela com filme plástico. Deixe marinando por 15-30 minutos, e sirva em seguida, com a ciboulette, os galhos de tomilho e um pouco de pimenta-do-reino, moída na hora.");
                 break;
 
-            case "Salada de Couve-flor, banana e caqui":
-                Ingredientes.setText("Preaqueça o forno (180°C). Unte e enfarinhe uma forma redonda média com furo central. Processe a polpa dos caquis com o bicarbonato de sódio e reserve. Em uma tigela grande (ou na batedeira), bata a manteiga com o açúcar até ficar claro. Adicione os ovos, suco de limão e a essência de baunilha e bata até ficar fofo. Junte a mistura de caqui e bata até incorporar. Peneire juntos a farinha, o fermento, sal, cravo, canela e a noz moscada. Acrescente à mistura de caqui e misture até a massa fique homogênea. Junte as nozes e as passas e misture com uma espátula. Coloque na forma preparada e asse por 50-60 minutos ou até que enfiando um palito no centro, ele saia limpo. Deixe esfriar na forma por uns 15 minutos antes de desenformar sobre uma grade. Espere esfriar completamente antes de servir. ");
-                Preparo.setText("Leve uma panela com água e sal para ferver.  Corte a couve flor em pequenos floretes e coloque na panela para uma fervura rápida, durante poucos minutos. Escorra imediatamente numa panela e esfrie sob água corrente e deixe secar totalmente. Toste levemente as amêndoas ou castanha de caju junto com as sementes de cominho e as folhas de tomilho, numa frigideira pequena. Retire da frigideira e reserve até esfriar. Fatie as bananas e coloque em uma tigela grande. Em seguida, adicione o suco de meio limão e misture bem. Junte a couve flor, as sementes e amêndoas tostadas (reserve um pouquinho para decoração) e o azeite e mexa cuidadosamente. Adicione os pedaços de caqui, mexa com bastante cuidado e cubra a tigela com filme plástico. Deixe marinando por 15-30 minutos, e sirva em seguida, com a ciboulette, os galhos de tomilho e um pouco de pimenta-do-reino, moída na hora. ");
+            case "Bolo De Caqui":
+                Ingredientes.setText("- 2 colheres (chá) de bicarbonato de sódio\n- 3 xícaras de polpa de caqui\n- 1/2 xícara de manteiga em temperatura ambiente\n- 1 2/3 xícara de açúcar\n- 2 ovos\n- 2 colheres (chá) de suco de limão\n- 2 colheres (chá) de essência de baunilha\n- 2 xícaras de farinha de trigo\n- 1 colher (chá) de fermento em pó\n- 1/2 colher (chá) de sal\n- 1/2 colher (chá) de cravo moído\n- 1 colher (chá) de canela moída\n- 1/4 colher (chá) de noz moscada\n- 1/2 xícara de nozes picadas\n- 1/2 xícara de passas");
+                Preparo.setText("Preaqueça o forno (180°C). Unte e enfarinhe uma forma redonda média com furo central. Processe a polpa dos caquis com o bicarbonato de sódio e reserve. Em uma tigela grande (ou na batedeira), bata a manteiga com o açúcar até ficar claro. Adicione os ovos, suco de limão e a essência de baunilha e bata até ficar fofo. Junte a mistura de caqui e bata até incorporar. Peneire juntos a farinha, o fermento, sal, cravo, canela e a noz moscada. Acrescente à mistura de caqui e misture até a massa fique homogênea. Junte as nozes e as passas e misture com uma espátula. Coloque na forma preparada e asse por 50-60 minutos ou até que enfiando um palito no centro, ele saia limpo. Deixe esfriar na forma por uns 15 minutos antes de desenformar sobre uma grade. Espere esfriar completamente antes de servir.");
                 break;
 
-            case "Mufin de Caqui":
-                Ingredientes.setText("Leve uma panela com água e sal para ferver.  Corte a couve flor em pequenos floretes e coloque na panela para uma fervura rápida, durante poucos minutos. Escorra imediatamente numa panela e esfrie sob água corrente e deixe secar totalmente. Toste levemente as amêndoas ou castanha de caju junto com as sementes de cominho e as folhas de tomilho, numa frigideira pequena. Retire da frigideira e reserve até esfriar. Fatie as bananas e coloque em uma tigela grande. Em seguida, adicione o suco de meio limão e misture bem. Junte a couve flor, as sementes e amêndoas tostadas (reserve um pouquinho para decoração) e o azeite e mexa cuidadosamente. Adicione os pedaços de caqui, mexa com bastante cuidado e cubra a tigela com filme plástico. Deixe marinando por 15-30 minutos, e sirva em seguida, com a ciboulette, os galhos de tomilho e um pouco de pimenta-do-reino, moída na hora. ");
-                Preparo.setText("Leve uma panela com água e sal para ferver.  Corte a couve flor em pequenos floretes e coloque na panela para uma fervura rápida, durante poucos minutos. Escorra imediatamente numa panela e esfrie sob água corrente e deixe secar totalmente. Toste levemente as amêndoas ou castanha de caju junto com as sementes de cominho e as folhas de tomilho, numa frigideira pequena. Retire da frigideira e reserve até esfriar. Fatie as bananas e coloque em uma tigela grande. Em seguida, adicione o suco de meio limão e misture bem. Junte a couve flor, as sementes e amêndoas tostadas (reserve um pouquinho para decoração) e o azeite e mexa cuidadosamente. Adicione os pedaços de caqui, mexa com bastante cuidado e cubra a tigela com filme plástico. Deixe marinando por 15-30 minutos, e sirva em seguida, com a ciboulette, os galhos de tomilho e um pouco de pimenta-do-reino, moída na hora. ");
+            case "Mufin":
+                Ingredientes.setText("- Polpa de 2 caqui médios(um xícara de polpa)\n- 1 colher (sopa) de fermento em pó\n- 100 g de margarina culinária(1 tablete)\n- 3/4 xícara de açúcar\n- 2 ovos\n- 1 1/2 xícara de farinha de trigo\n- 100 g de iogurte natural com mel (como não tinha, coloquei na balança uma colher de chá de mel e completei as 100grs com leite integral)\n- 1 pitada de sal\n- 1 colher (chá) de canela em pó(acabou caindo um pouco mais)\n- 1 colher (chá) de essência de baunilha\n- 1 colher (chá) de suco de limão\n- 1/2 xíc de chá de nozes grosseiramente picadas");
+                Preparo.setText("Pré-aqueça o forno a 200°C. Em uma tigela média, misture o caqui amassado(deixei uns pedaços maiores) ao fermento em pó e reserve(não se assuste irá espumar). Em outra tigela ou na batedeira, bata a margarina e o açúcar até virar um creme. Acrescente os ovos e bata mais. Sem bater muito, vá adicionando a farinha, o sal, a canela, o iogurte(ou leite), a baunilha, o suco de limão Por último, acrescente a mistura de caqui com o fermento e as nozes, mexa delicadamente. Unte uma forma para 12 muffins ou use forminhas de papel. Encha as forminhas até 2/3 da capacidade. Asse por 15 a 20 minutos ou até dourar (os meus precisaram de bem mais tempo de forno, cerca de 30-35 minutos)." );
                 break;
 
-                ///// BATATA DOCE
+            ///// BATATA DOCE
             case "Nhoque de Batata Doce:":
 
                 Ingredientes.setText("- Massa\n- 2 kg de batata doce;\n- 1 ovo;\n- 1 colher de chá de sal;\n- 1 xícara de chá de farinha de trigo.\n- Molho\n- 2 colheres de sopa de azeite de oliva;\n- 1 cebola média picada;\n- 2 dentes de alho amassados;\n- 500 g de patinho moído;\n- 2 colheres de sopa de extrato de tomate;\n- 1 maço de cebolinha verde picada;\n- 1 colher de chá de açúcar;\n- sal a gosto;\n- pimenta do reino à gosto;\n- 2 colheres de sopa de azeite. ");
@@ -112,7 +112,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
 
-                ///// PINHÃO
+            ///// PINHÃO
             case "Badejo em Crosta de Pinhão":
                 Ingredientes.setText("- 300g de filé de badejo fresco\n- sal grosso moído \n- pimenta-do-reino moída na hora a gosto\n- 10 unidades de pinhão cozido \n- 1 colher (chá) de manteiga \n- 2 colheres (chá) de clara de ovo\n- Para o molho:\n- 100g de abobrinha\n- 1 colher (sopa) de azeite de oliva\n- 1 colher (sopa) de cebola picada\n- 40 ml de vinho branco seco\n- 1 xícara de chá de caldo das aparas de abobrinha\n- 2 colheres de creme de leite fresco\n- Sal e pimenta a gosto ");
                 Preparo.setText("Badejo: Tempere o peixe com sal e pimenta. Em uma frigideira antiaderente quente, sele os dois lados do peixe por 2 min cada. Em um processador de alimentos ou liquidificador, processe o pinhão cozido e descascado até formar uma farinha. Em seguida, junte a clara e a manteiga até formar uma farofa.  Cubra a superfície dos filés de badejo com a farofa e leve ao forno quente a 190°C por 6 minutos ou até dourar a crosta.  Molho: Em uma panela aquecida refogue levemente a cebola com o azeite até ficar transparente. Em seguida junte o vinho e deixe reduzir o álcool, acrescente a abobrinha cortada (somente a parte da casca com pouca poupa. Reserve as aparas para o caldo).  Faça um caldo com as aparas de abobrinha e acrescente ao veloute. Deixe reduzir 20%, junte o creme de leite, tempere e reserve. ");
@@ -128,9 +128,9 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Moa o pinhão no liquidificador ou processador. Reserve.  Bata os ovos e junte ao pinhão. Acrescente a farinha de trigo, o azeite, sal e pimenta a gosto. Sove até que fique uma massa lisa e bonita.  Para abrir a massa utilize um pouco de farinha em uma superfície lisa para não grudar. Abra a massa em tiras cilíndricas de 30 cm e fatie em pequenos cubos. Reserve. Para cozinhar a massa, pegue uma panela grande e esquente 3 litros de água. Quando levantar fervura acrescente o nhoque pouco a pouco. Quando as bolinhas subirem até a superfície, retire-as com uma escumadeira reservando em uma assadeira de vidro previamente untada.   ");
                 break;
 
-            case "Molho ao sugo com mini almondegas de Pinhão":
-                Ingredientes.setText("- 400g de molho de tomate ou uma lata de tomate pelado \n- 1 cebola cortado em cubinhos (brunoise)\n- 15g de manjericão fresco\n- 250g de carne de porco moída\n- 250g de carne de moída de vaca\n- 50g de bacon moído\n- 50g de pinhão cozido e moído\n- Sal e pimenta a gosto\n- 100 ml de azeite de oliva ");
-                Preparo.setText("- 400g de molho de tomate ou uma lata de tomate pelado \n- 1 cebola cortado em cubinhos (brunoise)\n- 15g de manjericão fresco\n- 250g de carne de porco moída\n- 250g de carne de moída de vaca\n- 50g de bacon moído\n- 50g de pinhão cozido e moído\n- Sal e pimenta a gosto\n- 100 ml de azeite de oliva ");
+            case "Molho Ao Sugo Com Mini Almôndegas De Pinhão":
+                Ingredientes.setText("- 400g de molho de tomate ou uma lata de tomate pelado \n- 1 cebola cortado em cubinhos (brunoise)\n- 15g de manjericão fresco\n- 250g de carne de porco moída\n- 250g de carne de moída de vaca\n- 50g de bacon moído\n- 50g de pinhão cozido e moído\n- Sal e pimenta a gosto\\n- 100 ml de azeite de oliva");
+                Preparo.setText("Em uma panela ao fogo, refogue a cebola com um fio de azeite e acrescente o tomate e depois o manjericão. Deixe refogar por 10 minutos em fogo baixo. Quando o molho estiver homogêneo, ajuste o sal e reserve. Em uma bacia, acrescente as carnes e o pinhão. Misture bem os ingredientes. Com as mãos untadas comece a fazer mini almôndegas do tamanho de um grão de bico. Coloque as bolinhas em uma assadeira com azeite.  Depois de todas as bolinhas prontas na assadeira leve ao forno e asse a 150ºC por 10 min. Ou até ficarem levemente douradas. Depois de assadas, junte ao molho e sirva em cima do nhoque. ");
                 break;
 
             case "Tapas de Pinhão e Palmito pupunha":
@@ -160,13 +160,13 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Sunomono":
-                Ingredientes.setText("- ½ maçã\n- ½ Pepino descascado\n- ½ beterraba descascada e ralada\n- Uma cenoura ralada. ");
+                Ingredientes.setText("- 1 pepino japonês\n- 1 colher (sopa) de sal\n- 3 colheres (sopa) de vinagre de arroz\n- 2 colheres (sopa) de açúcar\n- 2 colheres (sopa) de gergelim branco e preto");
                 Preparo.setText("Lave bem o pepino e corte-o em fatias bem fininhas. Em seguida, em um prato fundo, tempere-os com o sal, misturando bem. Os pepinos vão desidratar, liberando muita água, então transfira as fatias para um escorredor com um prato embaixo, deixando assim por 15 minutos. Em uma panela, coloque o açúcar, o vinagre e ligue em fogo baixo. Deixe aquecer até que o açúcar derreta e se misture ao vinagre, mas não deixe ferver. Reserve e deixe esfriar. Enxágue os pepinos em água corrente para tirar o excesso de sal. Depois, esprema bem com as mãos para tirar o excesso de água. Após secar com um papel toalha, tempere os pepinos com o molho de vinagre e açúcar. Sirva com gergelim por cima. ");
                 break;
 
 
             case "Smoothie de Rabanete e Morango":
-                Ingredientes.setText("Lave o alho-poró, o rabanete e suas folhas. Pique as folhas, corte o alho-poró e o rabanete em cubinhos. Coloque tudo para cozinhar rapidamente, em uma frigideira, com 1 colher do caldo de galinha. Acrescente o restante do caldo bem quente e cozinhe em fogo alto por mais 5 minutos. Desligue o fogo e deixe esfriar um pouco. Bata no liquidificador. Tempere com o sal e a pimenta, e volte ao fogo para esquentar. Na hora de servir, acrescente o creme de leite e misture. ");
+                Ingredientes.setText("- 1 xicara de chá de leite\n- 2 rabanetes\n- 3 morangos grandes\n- 1 colher de sopa de iogurte\n- 1 colher de chá de mel\n- pedras de gelo");
                 Preparo.setText("Bata todos os ingredientes no liquidificador e sirva. ");
                 break;
 
@@ -272,7 +272,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
 
-                ///Banana
+            ///Banana
             case "Canapé de Banana com Parmesão":
                 Ingredientes.setText("- Banana\n- Pão francês ou baguete\n- Queijo ralado ");
                 Preparo.setText("Corte o pão em rodelas e leve ao forno para tostar levemente. Coloque uma rodela de banana e um pouco do parmesão ralado sobre as fatias de pão tostado. Leve o canapé montado ao forno até o queijo derreter e a fruta dourar um pouco. ");
@@ -388,7 +388,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Derreta o açúcar em uma panela até forma uma calda e despeje em uma forma própria para pudim;No liquidificador, despeje o leite condensado, a polpa e o suco de cupuaçu, o amido de milho e os ovos e bata até formar um creme homogêneo;Despeje a mistura formada na forma caramelizada;Leve a forma em banho maria para o forno preaquecido em temperatura média por 40 a 50 minutos;Desenforme o pudim ainda morno, leve à geladeira e sirva gelado. ");
                 break;
 
-                /////////////////// GOIABA
+            /////////////////// GOIABA
             case "Doce De Goiaba":
                 Ingredientes.setText("- 1 kg de goiaba madura\n- 500 g de açúcar\n- 1/2 lde água\n- Canela em pau a gosto");
                 Preparo.setText("Lave e descasque a goiaba. Corte - as ao meio e retire as sementes. Em uma panela grande, dissolva o açúcar na água. Junte a canela e leve ao fogo. Deixe a calda engrossar ligeiramente. Junte as goiabas e cozinhe por 15 minutos, cuidando para que a fruta não desmanche. Retire do fogo e dixe esfriar.");
@@ -452,7 +452,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
 
 
-                ////////// Limão
+            ////////// Limão
             case "Pudim de Limão":
                 Ingredientes.setText("- 360ml de ÁGUA\n- 200 gramas de AÇÚCAR\n- 65ml de SUCO DE LIMÃO SICILIANO\n- 60ml de SUCO DE LIMÃO TAITI\n- 6 GEMAS\n- 45 gramas de AMIDO DE MILHO\n- raspas de 2 LIMÕES (1 SICILIANO E 1 TAITI)\n- 1/4 colher de chá de SAL\n- 30 gramas de MANTEIGA SEM SAL GELADA E CORTADA EM CUBOS");
                 Preparo.setText("Peneire as gemas para retirar a película. Em uma panela, misture todos os ingredientes exceto a manteiga. Leve ao fogo baixo, mexendo sempre até engrossar (quase quando começar a ferver). Retire do fogo e acrescente a manteiga. Mexa até incorporar. Empregue ainda quente na torta. Coloque na geladeira para gelar (no caso de tortas). DICAS: Quanto mais velhos forem os ovos usados, mais a gema fica com aquele cheiro forte característico, portanto sempre use ovos frescos. Se você quiser substituir o suco do limão taiti pelo limão siciliano, o recheio ficará menos ácido e mais perfumado. No entando, não aconselharia o contrário, pois o recheio ficará muito azedo. Para mim, a melhor massa de torta para empregar o lemon curd é a sucrée, pois ela é a mais doce de todas. Ela tem que estar assada e fria antes de você colocar o recheio. DURAÇÃO: 1 semana..");
@@ -804,7 +804,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
 
-            case "Quabo e Grão de Bico Assados":
+            case "Quiabo e Grão de Bico Assados":
                 Ingredientes.setText("- 450g de quiabo\n- 1 colher de sopa de óleo vegetal\n- 1 lata de 400g de grão-de-bico drenado\n- 2 colheres de chá de garam masala ou outro tipo de curry em pó\n- Sal Kosher e pimenta-do-reino moída na hora");
                 Preparo.setText("Preaqueça o forno a 220°C. Retire os topos dos quiabos, que geralmente ficam marrons. Depois, corte-os na diagonal em pedaços de 3cm e coloque-os numa assadeira. Misture com o óleo. Seque os grãos-de-bico no papel toalha e coloque-os na assadeira. Em uma tigela, misture o garam masala com ½ colher de chá de sal e ½ colher de chá de pimenta. Polvilhe a mistura sobre o quiabo e o grão-de-bico e misture até que todos os vegetais estejam cobertos. Espalhe os ingredientes em uma só camada e asse até o quiabo ficar macio quando perfurado com a ponta de uma faca e os grãos-debico estejam crocantes, por 25 a 30 minutos. Acerte o sal. Mexa e sirva enquanto estiver quente.");
                 break;
@@ -814,7 +814,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Lave os quiabos, corte em pedaços de 2 cm, coloque de molho em uma bacia com água e vinagre por uns 15 minutos. Enxágue e escorra bem. Em uma panela, refogue o alho e a cebola no óleo, junte o quiabo e refogue até ficar al dente. e junte a farinha de milho aos poucos, mexendo até misturar bem. Quando der o ponto,e coloque o sal e a pimento do reino, desligue o fogo e junte o cheiro verde, misture e sirva a seguir. Fica maravilhosa como acompanhamento para frango assado ou ao molho.");
                 break;
 
-                case "Salada de Quiabo com Ricota":
+            case "Salada de Quiabo com Ricota":
                 Ingredientes.setText("- 200 gramas de quiabo;\n- 1 pimentão amarelo;\n- 1 cebola média;\n- 50 gramas de azeitonas pretas em lascas;\n- 150 gramas de ricota fresca;\n- 3 colheres de sopa de vinagre;\n- 3 colheres de sopa de azeite;\n- suco de ½ limão;\n- sal a gosto.");
                 Preparo.setText("Lave bem o quiabo, corte as duas pontas e despreze. Deixe o quiabo de molho em uma solução com suco de limão por uns 5 minutos. Escorra e leve para cozinhar numa panela com água e sal por 10 minutos. Escorra, deixe esfriar e depois corte em rodelas. Corte a cebola em rodelas, ferva, escorra e reserve. Esfarele a ricota e reserve. Asse o pimentão no forno alto por 10 minutos. Retire a pele, as sementes e corte em rodelas. Reserve. Quando todo pré-prearo estiver pronto. Basta misturar todos os ingredientes numa saladeira, colocar as azeitonas e temperar com vinagre azeite e sal a gosto. Sirva.");
                 break;
@@ -860,7 +860,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Pré-aqueça o forno a 180 graus. Use uma assadeira média e adicione os tomates, o pimentão, a cebola e o alho. Regue com azeite e tempere o CURRY e sal. Leve ao forno por 20 minutos até que os legumes estejam macios e levemente tostados. Transfira os legumes assados para o liquidificador e adicione água fervente. Tampe e bata até a sopa ficar lisa e cremosa. Sirva a seguir com lascas de parmesão e pão italiano para acompanhar.");
                 break;
 
-                case "Tomate Assado":
+            case "Tomate Assado":
                 Ingredientes.setText("- 6 tomates bem maduros\n- 10 dentes de alho picados\n- Suco de 1/2 limão\n- Sal a gosto\n- Azeite de oliva\n- Você vai preciar de:\n- 1 assadeira ");
                 Preparo.setText("Preaqueça o forno em 180 graus. Lave bem e corte os tomates ao meio, arrumando-os em uma assadeira de modo que as sementes fiquem para cima. Arrume os dentes de alho na assadeira. Regue com azeite de oliva e tempere com o suco de limão, sal e pimenta. Asse por 25 a 30 minutos, até que os tomates murchem um pouco e fiquem levemente dourados (só cuide para não queimar o alho). Sirva em seguida. Dica:  Você pode guardar os tomates em um vidro na geladeira com azeite de oliva, azeitonas e pimenta. ");
                 break;
@@ -916,7 +916,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Em um copo, misture o leite, açúcar e baunilha. Coloque no liquidificador junto com o abacate e bata até ficar um creme consistente. Transfira para uma tigela e leve ao congelador por 4h. Ao completar 3h no congelador, retire e misture um pouco com uma colher. (Não deixe de fazer este passo, pois ajuda a dar a consistência). Volte ao congelador para completar o restante do tempo, retire, misture e sirva em seguida. Ele deve ser consumido neste momento, não retorne ao congelador caso contrário perderá consistência e sabor, podendo amargar. Rende uma tigela pequena.");
                 break;
 
-                case "Sopa de Abacate e Tomate":
+            case "Sopa de Abacate e Tomate":
                 Ingredientes.setText("- 4 tomates grandes bem maduros (de preferência orgânicos)\n- 1 abacate pequeno bem maduro\n- 1 dente de alho pequeno\n- sal e pimenta a gosto\n- cebolinha verde picada\n- um fiozinho de azeite de oliva extra virgem\n- 1 colher de sopa de suco de limão\n- salsinha picada para decorar\n- 1 xícara de água filtrada");
                 Preparo.setText("Se usar tomates orgânicos pode mantenha a pele e sementes. Caso contrário, remova a pele e corte em pedaços grandes. Coloque os tomates e o alho no liquidificador e bata bem. Adicione o sal e pimenta a gosto e uma pequena porção de cebolinha verde picada (1 colher de sopa). Bata novamente. Coloque água aos poucos e continue batendo. Acrescente o abacate e o limão e bata de novamente. Regule a cremosidade da sopa conforme a quantidade de água que acrescentar. Bata em velocidade máxima por uns 3 minutos. Por último acrescente um fiozinho de azeite de oliva extra virgem, leve ao fogo para esquentar. Sirva imediatamente com ervas frescas.");
                 break;
@@ -943,7 +943,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-                case "Nhoque de Abacate":
+            case "Nhoque de Abacate":
                 Ingredientes.setText("- Para a massa:\n- 2 abacates amassados\n- 1 ovo\n- 250 g de ricota\n- 100 g de parmesão ralado\n- ½ xícara de chá de farinha de trigo\n- Noz-moscada, se quiser\n- Para o molho:\n- 1 cebola cortada\n- 2 dentes de alho amassados\n- 4 tomates sem sementes, cortados e sem peles\n- Manjericão, tomilho e orégano a gosto ");
                 Preparo.setText("Rale 300g de abobrinha no ralo grosso, coloque em um pano seco, esprema com as mãos até retirar todo o líquido e reserve. (Rende 2 xícaras de chá)Numa tigela, coloque a abobrinha (ralada e espremida), 1 ovo grande, ¼ xícara (chá) de queijo parmesão ralado no ralo fino, ¼ xícara (chá) de amido de milho, sal e pimenta-do-reino moída a gosto, ¼ xícara (chá) de cebolinha picada e misture até formar uma massa homogênea. Transfira metade da massa para uma frigideira antiaderente (20 cm de diâmetro), untada com 1 fio de azeite. Espalhe bem a massa até cobrir todo fundo da frigideira. Deixe cozinhar em fogo baixo até começar a dourar (+/- 2 minutos). Com uma espátula vire o disco de massa com cuidado e deixe por mais 1 minuto ou até dourar levemente do outro lado. Retire o disco de abobrinha da frigideira e faça outro disco com o restante da massa. Coloque o disco de abobrinha sobre papel filme, espalhe um pouco de creme de ricota, distribua fatias de peito de peru defumado, fatias de alface e tiras de tomate sem sementes. Enrole, apertando bem com ajuda do filme plástico e leve à geladeira para firmar. Sirva em seguida. ");
                 break;
@@ -985,12 +985,12 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Para a maçã: Em uma panela pequena adicione o açúcar, mexa em fogo baixo até virar um caramelo. Acrescente a manteiga, as maçãs cortadas em cubos, canela em pau e o gengibre em pó. Deixe cozinhar até que a maçã solte bem a água e vire uma calda grossa, retire os pedaços da canela em pau e reserve. Para farofa de amêndoas: Em um recipiente fundo adicione o açúcar mascavo, a aveia em flocos, a farinha de amêndoas, a canela em pó e a manteiga. Misture os ingredientes com um garfo até criar uma farofa homogênea. Para montagem do prato: Em um bowl ou um refratário adicione a maça caramelizada com a calda, a farofa de amêndoas e coloque no forno pré aquecido a 180ºC por aproximadamente 20 minutos ou até dourarPronto para servir!");
                 break;
 
-                case "Donuts de Maçã":
+            case "Donuts de Maçã":
                 Ingredientes.setText("- 2 xícaras (chá) de farinha de trigo\n- 2 xícaras (chá) de água com gás\n- 1 colher (café) de canela em pó\n- 3 maçãs sem sementes em rodelas grossas\n- Açúcar e canela em pó para polvilhar\n- Óleo para fritar\n- Doce de leite cremoso para acompanhar");
                 Preparo.setText("Em uma tigela, misture a farinha, a água com gás e a canela em pó até ficar homogêneo. Passe as rodelas de maça por essa mistura de farinha e frite, aos poucos, em óleo quente, até dourar. Retire e escorra sobre papel-toalha. Passe por açúcar e canela em pó misturados e sirva em seguida acompanhado de doce de leite.");
                 break;
 
-                case "Salpicão de Frango":
+            case "Salpicão de Frango":
                 Ingredientes.setText("- 1 quilo de filé de frango cozido com sal\n- 2 cenouras grandes\n- 300g de azeitona\n- 200g passas pretas sem caroço\n- 1 pimentão vermelho pequeno\n- 2 maçãs\n- 2 cebolas pequenas\n- maionese para dar ponto\n- salsinha, azeite e limão a gosto\n- 300g batata palha\n- folhas de alface para decoração");
                 Preparo.setText("Cozinhe o frango, desfie e reserve. Rale a cenoura no ralo grosso e leve ao fogo com água e sal só para ferver. Coe e reserve. Descaroce a azeitona no sentido do comprimento bem fininha. Corte o pimentão em tirinhas bem fininhas. Rale a cebola no ralo grosso e esprema para tirar todo o excesso de líquido. Misture com os outros ingredientes, inclusive com as passas, a salsa picada e a maçã cortada também em tirinhas sem casca. Tempere todos os ingredientes com sal, limão e azeite e coloque maionese, até dar ponto. Reserve na geladeira até a hora de servir. Para servir, misture um pouco da batata palha e arrume numa tigela sobre as folhas de alface. Cubra com o restante da batata e decore com ramos de salsa e pimentão em tiras.");
                 break;
@@ -1245,7 +1245,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Em um recipiente, coloque a farinha (reserve um pouco), a margarina ou manteiga, creme de leite (sem soro), o sal e o fermento. Misture com as mãos (neste momento, se necessário, utilize a farinha reservada). Sove sobre superfície levemente enfarinhada. Deixe descansar por 10 minutos (opcional). Distribua a massa em uma assadeira redonda n°25 (não precisa untar). Fure com auxílio de um garfo toda a superfície. Leve ao forno 200° graus por 10 minutos (pré-asse a massa). Retire do forno e espalhe o recheio e sobre ele a cobertura. Polvilhe com queijo ralado. Leve novamente ao forno pré-aquecido 200° graus por aproximadamente 15 a 20 minutos. RECHEIO: Em uma panela, derreta a manteiga e refogue a cebola. Coloque a farinha e mexa. Junte o leite aos poucos, sempre mexendo, até engrossar. A seguir, adicione o sal, pimenta, gemas, creme de leite, queijo ralado, cebolinha ou salsinha e o alho poro fatiado e aferventado previamente. Misture. COBERTURA: Na vasilha da batedeira coloque as claras e bata em neve. Desligue. Adicione o queijo ralado e misture com auxílio de uma colher.");
                 break;
 
-                case "Sopa de Alho Poró":
+            case "Sopa de Alho Poró":
                 Ingredientes.setText("- 7 ou 8 batatas médias \n- 1 alho-poró grande\n- 1 cebola pequena \n- 2 colheres (sopa) de azeite virgem\n- 2 cubos de caldo de galinha (ou de legumes)\n- 2 litros de água\n- sal e pimenta-do-reino a gosto");
                 Preparo.setText("Lave e descasque as batatas. Corte-as em cubos grandes. Lave e corte o alho-poró em rodelas grossas. Reserve uma porção pequena para finalização do prato. Corte a cebola em pedaços pequenos. Em uma panela grande, refogue a cebola e o alho-poró no azeite até que a cebola fique transparente. Refogue por cerca de 4 minutos. Acrescente as batatas cruas cortadas e refogue mais um pouco. Junte a água, os tabletes de caldo (galinha ou legumes) e cozinhe até que as batatas estejam no ponto de purê. Tempere com sal e pimenta a gosto. Espere esfriar um pouco e bata tudo no liquidificador até ficar bem homogêneo. Coloque em uma travessa para ser servida e acrescente o alho-poró reservado por cima. Aproveite para consumi-la quente ou fria!");
                 break;
@@ -1469,442 +1469,440 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Faça uma marinada para o frango misturando numa vasilha o alho, as rapas de tangerina, o suco de limão e sal e pimenta. Deixe os filés pegarem gosto por meia hora. Arrume os pedaços numa assadeira – deixe a pele para cima –, espalhe o tempero por cima deles e leve, cobertos com papel-alumínio, ao forno preaquecido a temperatura média. Quando já estiverem quase prontos, retire o papel-alumínio e deixe até a pele ficar bem dourada. Para o molho, deglaceie o que ficou dentro da assadeira com o suco de tangerina e a água. Deixe reduzir um pouco e retire. Para servir, fatie os pedaços, despeje o molho por cima e decore com gomos de tangerina e de alecrim fresco. Sirva com Arroz Branco. ");
                 break;
 
-                case "Canjica Vegana":
-                    Ingredientes.setText("- 1 xícara (de chá) de canjica crua (canjica de milho)\n- 500ml de leite de amendoim (Veja como fazer aqui)\n- 1 xícara (de chá) de açúcar demerara ou cristal\n- 5 unidades de cravo-da-Índia (ou anis estrelado)\n- 1 unidade de canela em pau\n- 1/4 de xícara (de chá) de coco ralado seco\n- 1 colher (de sopa) de farinha de trigo ou amido de milho misturada em 1/4 de xícara (de chá) de água\n- 1/2 xícara (de chá) de leite de coco\n- Canela em pó\n- Resíduos de leite de amêndoas/amendoim ou paçoca esfarelada");
+            case "Canjica Vegana":
+                Ingredientes.setText("- 1 xícara (de chá) de canjica crua (canjica de milho)\n- 500ml de leite de amendoim (Veja como fazer aqui)\n- 1 xícara (de chá) de açúcar demerara ou cristal\n- 5 unidades de cravo-da-Índia (ou anis estrelado)\n- 1 unidade de canela em pau\n- 1/4 de xícara (de chá) de coco ralado seco\n- 1 colher (de sopa) de farinha de trigo ou amido de milho misturada em 1/4 de xícara (de chá) de água\n- 1/2 xícara (de chá) de leite de coco\n- Canela em pó\n- Resíduos de leite de amêndoas/amendoim ou paçoca esfarelada");
 
-                    Preparo.setText("Coloque a canjica em uma vasilha, cubra com o dobro de água e deixe de molho por 12 horas. Escorra, lave e coloque em uma panela de pressão juntamente com 1 litro de água. Deixe cozinhar em fogo médio por 30 minutos depois que pegar pressão e desligue. Caso ainda não estiver macio, deixe cozinhar por mais tempo. Adicione o leite de amendoim, o açúcar, os cravos-da-Índia, a canela, o coco ralado seco e deixe ferver. Quando estiver fervendo, adicione a farinha (ou amido de milho) misturada com a água, misture e deixe engrossar. Em seguida, acrescente o leite de coco, misture e desligue. Sirva quente ou gelado, com canela em pó salpicada por cima. Você pode salpicar também os resíduos do leite de amendoim torrados ou paçoca esfarelada.");
-                    break;
+                Preparo.setText("Coloque a canjica em uma vasilha, cubra com o dobro de água e deixe de molho por 12 horas. Escorra, lave e coloque em uma panela de pressão juntamente com 1 litro de água. Deixe cozinhar em fogo médio por 30 minutos depois que pegar pressão e desligue. Caso ainda não estiver macio, deixe cozinhar por mais tempo. Adicione o leite de amendoim, o açúcar, os cravos-da-Índia, a canela, o coco ralado seco e deixe ferver. Quando estiver fervendo, adicione a farinha (ou amido de milho) misturada com a água, misture e deixe engrossar. Em seguida, acrescente o leite de coco, misture e desligue. Sirva quente ou gelado, com canela em pó salpicada por cima. Você pode salpicar também os resíduos do leite de amendoim torrados ou paçoca esfarelada.");
+                break;
 
-                case "Sorvete de Canjica":
-                    Ingredientes.setText("- 200g de canjica cozida (sem o caldo onde foi cozida)\n- 200ml de leite de coco\n- 1 colher de chá de canela\n- 1 lata de leite condensado\n- 100ml de creme de leite gelado ");
+            case "Sorvete de Canjica":
+                Ingredientes.setText("- 200g de canjica cozida (sem o caldo onde foi cozida)\n- 200ml de leite de coco\n- 1 colher de chá de canela\n- 1 lata de leite condensado\n- 100ml de creme de leite gelado ");
 
-                    Preparo.setText("Junte a canjica cozida com o leite de coco e a canela e leve ao fogo, fervendo por 5 minutos. Com o leite fervido, processe a canjica até que forme um creme, sem pedaços grandes, e adicione o leite condensado. (Eu usei um hand mixer diretamente na panela, mas se não tiver, o liquidificador dá conta do recado. Basta adicionar o leite condensado aos poucos e bater na opção “pulsar”). Leve para o congelador até ficar completamente congelado (o tempo vai variar de acordo com a temperatura do congelador, mas será cerca de 6 horas). Depois de congelado, leve ele ao liquidificador com o creme de leite e bata até virar creme. Sirva com canela ou amendoim moído.");
-                    break;
+                Preparo.setText("Junte a canjica cozida com o leite de coco e a canela e leve ao fogo, fervendo por 5 minutos. Com o leite fervido, processe a canjica até que forme um creme, sem pedaços grandes, e adicione o leite condensado. (Eu usei um hand mixer diretamente na panela, mas se não tiver, o liquidificador dá conta do recado. Basta adicionar o leite condensado aos poucos e bater na opção “pulsar”). Leve para o congelador até ficar completamente congelado (o tempo vai variar de acordo com a temperatura do congelador, mas será cerca de 6 horas). Depois de congelado, leve ele ao liquidificador com o creme de leite e bata até virar creme. Sirva com canela ou amendoim moído.");
+                break;
 
-                case "Canjica Temperada com Limão e Lavanda":
-                    Ingredientes.setText("- 500 g de milho branco para canjica\n- Casca de 1 limão (somente a parte verde)\n- 1 colher de chá rasa de lavanda\n- 500 ml de leite\n- 600 ml de leite de coco\n- 2 latas de leite condensado\n- Raspas de limão a gosto para servir ");
+            case "Canjica Temperada com Limão e Lavanda":
+                Ingredientes.setText("- 500 g de milho branco para canjica\n- Casca de 1 limão (somente a parte verde)\n- 1 colher de chá rasa de lavanda\n- 500 ml de leite\n- 600 ml de leite de coco\n- 2 latas de leite condensado\n- Raspas de limão a gosto para servir ");
 
-                    Preparo.setText("Deixe o milho de molho de véspera. Escorra e descarte a água. Leve o milho para cozinhar em panela de pressão coberto com água, com a lavanda e cascas do limão. Cozinhe por mais ou menos 40 minutos após a panela chiar, e até que o milho esteja bem macio. Prove!Com a panela de pressão aberta, adicione os outros ingredientes e deixe cozinhando por 20 minutos para que engrosse a gosto e o sabor fique mais apurado. Adicione mais açúcar se achar necessário. Retire a casca de limão e ao servir salpique mais raspas se quiser. Dicas / Substituições: Você pode usar casca de laranja, tangerina ou de outra fruta cítrica a gosto. A lavanda é opcional, Mas recomendo.");
-                    break;
+                Preparo.setText("Deixe o milho de molho de véspera. Escorra e descarte a água. Leve o milho para cozinhar em panela de pressão coberto com água, com a lavanda e cascas do limão. Cozinhe por mais ou menos 40 minutos após a panela chiar, e até que o milho esteja bem macio. Prove!Com a panela de pressão aberta, adicione os outros ingredientes e deixe cozinhando por 20 minutos para que engrosse a gosto e o sabor fique mais apurado. Adicione mais açúcar se achar necessário. Retire a casca de limão e ao servir salpique mais raspas se quiser. Dicas / Substituições: Você pode usar casca de laranja, tangerina ou de outra fruta cítrica a gosto. A lavanda é opcional, Mas recomendo.");
+                break;
 
 
-                case "Canjica Doce com Leite Condensado":
-                    Ingredientes.setText("- Canjica: 250 g\n- Leite: 1 litro(s)\n- Leite condensado: 1 lata(s)\n- Creme de leite: 1 caixinha\n- Amendoim, tostado, sem pele: 2 xíc. (chá)\n- Canela em pau: a gosto");
+            case "Canjica Doce com Leite Condensado":
+                Ingredientes.setText("- Canjica: 250 g\n- Leite: 1 litro(s)\n- Leite condensado: 1 lata(s)\n- Creme de leite: 1 caixinha\n- Amendoim, tostado, sem pele: 2 xíc. (chá)\n- Canela em pau: a gosto");
 
-                    Preparo.setText("Coloque a canjica em uma tigela e cubra com água. Deixe descansar de um dia para o outro. Escorra e transfira para uma panela de pressão. Cubra a canjica com água e cozinhe por 20 minutos, depois de pegar pressão. Espere a pressão sair sozinha, abra a panela e acrescente o leite, o leite condensado e a canela em pau à panela de pressão e cozinhe por mais10 minutos. Enquanto a canjica cozinha, triture o amendoim torrado. Quando a canjica estiver pronta, desligue o fogo, acrescente o amendoim e o creme de leite. Mexa bem. Sirva em seguida. Se preferir, polvilhe canela em pó por cima. NOTA: Você pode substituir o amendoim por coco ralado e o creme de leite por leite de coco.");
-                    break;
+                Preparo.setText("Coloque a canjica em uma tigela e cubra com água. Deixe descansar de um dia para o outro. Escorra e transfira para uma panela de pressão. Cubra a canjica com água e cozinhe por 20 minutos, depois de pegar pressão. Espere a pressão sair sozinha, abra a panela e acrescente o leite, o leite condensado e a canela em pau à panela de pressão e cozinhe por mais10 minutos. Enquanto a canjica cozinha, triture o amendoim torrado. Quando a canjica estiver pronta, desligue o fogo, acrescente o amendoim e o creme de leite. Mexa bem. Sirva em seguida. Se preferir, polvilhe canela em pó por cima. NOTA: Você pode substituir o amendoim por coco ralado e o creme de leite por leite de coco.");
+                break;
 
-                case "Canjica Doce":
-                    Ingredientes.setText("- 500g de milho para canjica\n- cravo e canela em pau a gosto\n- 0.5 xícara de chá de açúcar\n- 1l de leite\n- 1 lata de leite condensado (395 g)\n- 500ml de leite de coco\n- coco ralado a gosto.");
+            case "Canjica Doce":
+                Ingredientes.setText("- 500g de milho para canjica\n- cravo e canela em pau a gosto\n- 0.5 xícara de chá de açúcar\n- 1l de leite\n- 1 lata de leite condensado (395 g)\n- 500ml de leite de coco\n- coco ralado a gosto.");
 
-                    Preparo.setText("Deixe a canjica de molho por 4 horasDepois desse tempo, escorra a água e coloque a canjica numa panela de pressão, cubra totalmente com água (4 dedos acima da canjica)Adicione o cravo, a canela em pau, o açúcarLeve ao fogo médio e deixe por 30 minutos após pegar pressãoApague o fogo, retire a pressão, adicione o leite, o leite condensado, o leite de coco, o coco raladoFerva e em fogo baixo até reduzir o líquido pela metade e a canjica ficar cremosa (+/- 10 minutos)Apague o fogo deixe esfriar e sirva.");
-                    break;
+                Preparo.setText("Deixe a canjica de molho por 4 horasDepois desse tempo, escorra a água e coloque a canjica numa panela de pressão, cubra totalmente com água (4 dedos acima da canjica)Adicione o cravo, a canela em pau, o açúcarLeve ao fogo médio e deixe por 30 minutos após pegar pressãoApague o fogo, retire a pressão, adicione o leite, o leite condensado, o leite de coco, o coco raladoFerva e em fogo baixo até reduzir o líquido pela metade e a canjica ficar cremosa (+/- 10 minutos)Apague o fogo deixe esfriar e sirva.");
+                break;
 
-                case "Torta Cremosa de Chicória":
-                    Ingredientes.setText("- 2 pés de chicória\n- 2 unidades de cebola\n- 1 pitada de orégano\n- 2 colheres (sopa) de vinagre\n- 13 colheres (sopa) de farinha de trigo\n- 3 unidades de ovo\n- 1/2 copo de óleo\n- 4 copos de leite desnatado\n- 1 colher (sopa) de fermento químico em pó\n- sal a gosto");
+            case "Torta Cremosa de Chicória":
+                Ingredientes.setText("- 2 pés de chicória\n- 2 unidades de cebola\n- 1 pitada de orégano\n- 2 colheres (sopa) de vinagre\n- 13 colheres (sopa) de farinha de trigo\n- 3 unidades de ovo\n- 1/2 copo de óleo\n- 4 copos de leite desnatado\n- 1 colher (sopa) de fermento químico em pó\n- sal a gosto");
 
-                    Preparo.setText("Lave bem as folhas de chicória, escorra e pique-as bem fininhos. Corte a cebola em rodelas finas. Misture a chicória com a cebola e tempere com sal, orégano e vinagre, e reserve. Bata no liquidificador a farinha de trigo com os ovos, o óleo, o sal, o leite e o fermento. Espalhe a chicória em um refratário untado e cubra com a massa batida. Leve a torta ao forno médio (170 °C a 190 °C), preaquecido, por 40 minutos aproximadamente. Sirva morna ou fria.");
-                    break;
+                Preparo.setText("Lave bem as folhas de chicória, escorra e pique-as bem fininhos. Corte a cebola em rodelas finas. Misture a chicória com a cebola e tempere com sal, orégano e vinagre, e reserve. Bata no liquidificador a farinha de trigo com os ovos, o óleo, o sal, o leite e o fermento. Espalhe a chicória em um refratário untado e cubra com a massa batida. Leve a torta ao forno médio (170 °C a 190 °C), preaquecido, por 40 minutos aproximadamente. Sirva morna ou fria.");
+                break;
 
-                case "Salada de Chicória Light com Frango":
-                    Ingredientes.setText("- 150 gramas de frango em cubos;\n- suco de 1 limão;\n- sal a gosto;\n- pimenta a gosto;\n- 1 colher de sopa de azeite de oliva;\n- 1 maço de chicória picado. \n Tempere o frango em cubos com limão, sal e pimenta. Leve para refogar em uma frigideira com azeite. Quando estiver douradinho, reserve. Lave a chicória, pique e misture com o frango. Adicione mais azeite e acerte sal e pimenta. Sirva.");
+            case "Salada de Chicória Light com Frango":
+                Ingredientes.setText("- 150 gramas de frango em cubos;\n- suco de 1 limão;\n- sal a gosto;\n- pimenta a gosto;\n- 1 colher de sopa de azeite de oliva;\n- 1 maço de chicória picado. \n Tempere o frango em cubos com limão, sal e pimenta. Leve para refogar em uma frigideira com azeite. Quando estiver douradinho, reserve. Lave a chicória, pique e misture com o frango. Adicione mais azeite e acerte sal e pimenta. Sirva.");
 
-                    Preparo.setText("Tempere o frango em cubos com limão, sal e pimenta. Leve para refogar em uma frigideira com azeite. Quando estiver douradinho, reserve. Lave a chicória, pique e misture com o frango. Adicione mais azeite e acerte sal e pimenta. Sirva.");
-                    break;
+                Preparo.setText("Tempere o frango em cubos com limão, sal e pimenta. Leve para refogar em uma frigideira com azeite. Quando estiver douradinho, reserve. Lave a chicória, pique e misture com o frango. Adicione mais azeite e acerte sal e pimenta. Sirva.");
+                break;
 
-                case "Salada de Chicória Light com Abobrinha":
-                    Ingredientes.setText("- 1 abobrinha cortada em rodelas;\n- 1 maço de chicória lavado e picado;\n- 1 dente de alho picado;\n- azeite de oliva a gosto;\n- sal a gosto;\n- pimenta a gosto. ");
+            case "Salada de Chicória Light com Abobrinha":
+                Ingredientes.setText("- 1 abobrinha cortada em rodelas;\n- 1 maço de chicória lavado e picado;\n- 1 dente de alho picado;\n- azeite de oliva a gosto;\n- sal a gosto;\n- pimenta a gosto. ");
 
-                    Preparo.setText("Lave a chicória, pique e reserve. Leve as rodelas de abobrinha para grelhar em uma frigideira com azeite e alho. Tempere com sal e pimenta. Adicione a chicória, dê uma leve refogada e sirva em seguida como acompanhamento de alguma proteína.");
-                    break;
+                Preparo.setText("Lave a chicória, pique e reserve. Leve as rodelas de abobrinha para grelhar em uma frigideira com azeite e alho. Tempere com sal e pimenta. Adicione a chicória, dê uma leve refogada e sirva em seguida como acompanhamento de alguma proteína.");
+                break;
 
-                case "Salada de Chicória Light com Tomate":
-                    Ingredientes.setText("- 3 pés de chicória;\n- 1 rodela de cebola;\n- 3 tomates grandes;\n- 2 colheres de sopa de azeite;\n- 2 colheres de sopa de vinagre branco;\n- sal a gosto;\n- 1 colher de chá de pimenta-do-reino branca. ");
+            case "Salada de Chicória Light com Tomate":
+                Ingredientes.setText("- 3 pés de chicória;\n- 1 rodela de cebola;\n- 3 tomates grandes;\n- 2 colheres de sopa de azeite;\n- 2 colheres de sopa de vinagre branco;\n- sal a gosto;\n- 1 colher de chá de pimenta-do-reino branca. ");
 
-                    Preparo.setText("Corte a chicória em tirinhas e deixe de molho em água com uma rodela de cebola por cerca de duas horas. Passado esse tempo escorra e coloque as folhas nas bordas do prato. Corte os tomates em fatias e coloque no centro do prato. A parte misture azeite, vinagre e tempere com sal e pimenta. Regue a salada e sirva.");
-                    break;
+                Preparo.setText("Corte a chicória em tirinhas e deixe de molho em água com uma rodela de cebola por cerca de duas horas. Passado esse tempo escorra e coloque as folhas nas bordas do prato. Corte os tomates em fatias e coloque no centro do prato. A parte misture azeite, vinagre e tempere com sal e pimenta. Regue a salada e sirva.");
+                break;
 
-                case "Salada de Chicória Light com Damasco e Nozes":
-                    Ingredientes.setText("- 50 g de nozes picadas;\n- 1 xícara de damascos sem calda picados;\n- 100 g de queijo roquefort;\n- sal a gosto;\n- pimenta do reino branca a gosto;\n- 500 g de chicoria;\n- 1 cabeça de radicchio. ");
+            case "Salada de Chicória Light com Damasco e Nozes":
+                Ingredientes.setText("- 50 g de nozes picadas;\n- 1 xícara de damascos sem calda picados;\n- 100 g de queijo roquefort;\n- sal a gosto;\n- pimenta do reino branca a gosto;\n- 500 g de chicoria;\n- 1 cabeça de radicchio. ");
 
-                    Preparo.setText("Pique as nozes e leve ao forno para dourar rapidamente. Escorra os damascos. Pique o queijo. Retire as folhas externas das chicórias e radicchio, lave bem e coloque as folhas cortadas ao meio em uma saladeira. Incorpore os damascos e o queijo por cima. Finalize com as nozes e tempere com sal e pimenta a gosto. Sirva!");
-                    break;
+                Preparo.setText("Pique as nozes e leve ao forno para dourar rapidamente. Escorra os damascos. Pique o queijo. Retire as folhas externas das chicórias e radicchio, lave bem e coloque as folhas cortadas ao meio em uma saladeira. Incorpore os damascos e o queijo por cima. Finalize com as nozes e tempere com sal e pimenta a gosto. Sirva!");
+                break;
 
 
-                case "Costelinha de Porco com Moranga Caramelizada e Abobrinha":
-                    Ingredientes.setText("- 500 g de costelinha de porco\n- 50 ml de aceto balsâmico\n- 6 colheres (sopa) de açúcar\n- 4 tomates\n- 3 dentes de alho\n- 1 abóbora moranga\n- 1 abobrinha\n- 1 cebola roxa\n- 1 limão");
+            case "Costelinha de Porco com Moranga Caramelizada e Abobrinha":
+                Ingredientes.setText("- 500 g de costelinha de porco\n- 50 ml de aceto balsâmico\n- 6 colheres (sopa) de açúcar\n- 4 tomates\n- 3 dentes de alho\n- 1 abóbora moranga\n- 1 abobrinha\n- 1 cebola roxa\n- 1 limão");
 
-                    Preparo.setText("Sele a costelinha de porco. Reserve. Descasque a cebola roxa, três dentes de alho e quatro tomates médios. Adicione a costelinha e coloque na panela de pressão por 20 minutos. Descasque a moranga, corte em gominhos, espalhe no fundo da panela e acrescente água até a metade do recipiente. Não deixe cozinhar totalmente. Na sequência, adicione cinco colheres de açúcar. Quando secar o restante da água, o açúcar irá caramelizar a abóbora. Corte uma abobrinha em brunoise, dê um susto colocando na água quente e na água fria logo depois. A água precisa estar salgada, tempere com limão. Faça uma redução com 50ml de alceto balsâmico e uma colher de sopa de açúcar. Sirva as costelinhas com molho, a moranga cortada em meia lua, o picadinho de abóbora e puxe um risco com a redução.");
-                    break;
+                Preparo.setText("Sele a costelinha de porco. Reserve. Descasque a cebola roxa, três dentes de alho e quatro tomates médios. Adicione a costelinha e coloque na panela de pressão por 20 minutos. Descasque a moranga, corte em gominhos, espalhe no fundo da panela e acrescente água até a metade do recipiente. Não deixe cozinhar totalmente. Na sequência, adicione cinco colheres de açúcar. Quando secar o restante da água, o açúcar irá caramelizar a abóbora. Corte uma abobrinha em brunoise, dê um susto colocando na água quente e na água fria logo depois. A água precisa estar salgada, tempere com limão. Faça uma redução com 50ml de alceto balsâmico e uma colher de sopa de açúcar. Sirva as costelinhas com molho, a moranga cortada em meia lua, o picadinho de abóbora e puxe um risco com a redução.");
+                break;
 
-                case "Docinho de Abóbora Moranga":
-                    Ingredientes.setText("- 1 lata de leite condensado Mococa\n- 250 gramas de abóbora (tipo moranga de casca verde) cozida, bem escorrida e amassada\n- 1 colher (café) de manteiga Mococa\n- Granulado laranja para passar");
+            case "Docinho de Abóbora Moranga":
+                Ingredientes.setText("- 1 lata de leite condensado Mococa\n- 250 gramas de abóbora (tipo moranga de casca verde) cozida, bem escorrida e amassada\n- 1 colher (café) de manteiga Mococa\n- Granulado laranja para passar");
 
-                    Preparo.setText("Misture a abóbora tipo moranga bem amassada (purê) com o leite condensado e manteiga e leve ao fogo, mexendo sempre até começar a soltar da panela. Deixe esfriar e faça bolinhas, passe pelo confeito laranja.");
-                    break;
+                Preparo.setText("Misture a abóbora tipo moranga bem amassada (purê) com o leite condensado e manteiga e leve ao fogo, mexendo sempre até começar a soltar da panela. Deixe esfriar e faça bolinhas, passe pelo confeito laranja.");
+                break;
 
-                case "Camarão na Moranga (Prático E Delicioso)":
-                    Ingredientes.setText("- 1 abóbora moranga\n- 500 g de camarão (fresco ou congelado)\n- 2 colheres (de sopa) de azeite de oliva\n- ½ cebola ralada\n- 2 dentes de alho amassados\n- 2 tomates bem picadinhos\n- Pimenta do reino (moída na hora) a gosto\n- Sal a gosto\n- 1 caixinha de creme de leite de 200 g\n- 1 copo de requeijão cremoso de 200 g\n- 3 fatias de muçarela. \n ");
+            case "Camarão na Moranga (Prático E Delicioso)":
+                Ingredientes.setText("- 1 abóbora moranga\n- 500 g de camarão (fresco ou congelado)\n- 2 colheres (de sopa) de azeite de oliva\n- ½ cebola ralada\n- 2 dentes de alho amassados\n- 2 tomates bem picadinhos\n- Pimenta do reino (moída na hora) a gosto\n- Sal a gosto\n- 1 caixinha de creme de leite de 200 g\n- 1 copo de requeijão cremoso de 200 g\n- 3 fatias de muçarela. \n ");
 
-                    Preparo.setText("Preparando a abóbora: Lave a abóbora moranga e enrole em papel alumínio. Leve ao forno médio até ela ficar cozida. A minha ficou cerca de 40 minutos. Espete um garfo para ver se ela está macia. Depois retire do forno, tire o papel alumínio e corte a “tampa” dela com uma faquinha. Com uma colher, retire todas as sementes e os fiapos e jogue fora. Polvilhe sal em toda a cavidade da abóbora e reserve. Preparando o creme de camarão: A primeira coisa é limpar os camarões (claro se é que você não comprou limpo como eu), tire a cabeça, as cascas, as perninhas e abra nas costas dele com uma faca para tirar o intestino. Reserve uns camarões inteiros para a decoração. Em uma panela coloque o azeite, o alho amassado e a cebola ralada e deixe fritar um pouco. Acrescente os tomates picadinhos e frite mais. Tempere com sal e pimenta do reino. Junte os camarões limpos e misture, assim que eles mudarem de cor, já está bom (uns dois minutinhos). Acrescente o creme de leite, misture e desligue o fogo. Reserve. Montagem do Camarão na Moranga: Espalhe metade do requeijão cremoso pelo interior da abóbora, lambuzando bem. Despeje o creme de camarão dentro da abóbora. Espalhe o restante do requeijão cremoso por cima. Cubra com as fatias de muçarela. Leve ao forno alto para gratinar (ou só para derreter o queijo). Passe os camarões inteiros (reservados para a decoração) em uma frigideira com azeite, tempere com sal e pimenta do reino. Quando o queijo da abóbora derreter, tire do forno, decore com os camarões inteiros e com a tampa da abóbora e sirva quente.");
-                    break;
+                Preparo.setText("Preparando a abóbora: Lave a abóbora moranga e enrole em papel alumínio. Leve ao forno médio até ela ficar cozida. A minha ficou cerca de 40 minutos. Espete um garfo para ver se ela está macia. Depois retire do forno, tire o papel alumínio e corte a “tampa” dela com uma faquinha. Com uma colher, retire todas as sementes e os fiapos e jogue fora. Polvilhe sal em toda a cavidade da abóbora e reserve. Preparando o creme de camarão: A primeira coisa é limpar os camarões (claro se é que você não comprou limpo como eu), tire a cabeça, as cascas, as perninhas e abra nas costas dele com uma faca para tirar o intestino. Reserve uns camarões inteiros para a decoração. Em uma panela coloque o azeite, o alho amassado e a cebola ralada e deixe fritar um pouco. Acrescente os tomates picadinhos e frite mais. Tempere com sal e pimenta do reino. Junte os camarões limpos e misture, assim que eles mudarem de cor, já está bom (uns dois minutinhos). Acrescente o creme de leite, misture e desligue o fogo. Reserve. Montagem do Camarão na Moranga: Espalhe metade do requeijão cremoso pelo interior da abóbora, lambuzando bem. Despeje o creme de camarão dentro da abóbora. Espalhe o restante do requeijão cremoso por cima. Cubra com as fatias de muçarela. Leve ao forno alto para gratinar (ou só para derreter o queijo). Passe os camarões inteiros (reservados para a decoração) em uma frigideira com azeite, tempere com sal e pimenta do reino. Quando o queijo da abóbora derreter, tire do forno, decore com os camarões inteiros e com a tampa da abóbora e sirva quente.");
+                break;
 
-                case "Abóbora Recheada com Ricota":
-                    Ingredientes.setText("- 4 unidades de abóbora moranga (tamanho mini, ou 1 abóbora japonesa grande)\n- 300 gramas de ricota amassada (sugestão: marca Tirolez)\n- 1 colher de sopa de azeite\n- 1 colher de café de sal (colher rasa)\n- 1 colheres de sopa de sálvia picada ");
+            case "Abóbora Recheada com Ricota":
+                Ingredientes.setText("- 4 unidades de abóbora moranga (tamanho mini, ou 1 abóbora japonesa grande)\n- 300 gramas de ricota amassada (sugestão: marca Tirolez)\n- 1 colher de sopa de azeite\n- 1 colher de café de sal (colher rasa)\n- 1 colheres de sopa de sálvia picada ");
 
-                    Preparo.setText("Em uma panela com água fervente, cozinhe as abóboras. Quando estiverem macias, retire a “tampa” (não jogue fora) e dispense as sementes. Retire também parte da polpa, reservando. Em um recipiente, coloque a polpa das abóboras, a ricota (sugestão da marca Tirolez) e tempere com azeite, sal e sálvia. Preencha as abóboras com o recheio de ricota e leve-as ao forno para assar por 15 minutos. Sirva.");
-                    break;
+                Preparo.setText("Em uma panela com água fervente, cozinhe as abóboras. Quando estiverem macias, retire a “tampa” (não jogue fora) e dispense as sementes. Retire também parte da polpa, reservando. Em um recipiente, coloque a polpa das abóboras, a ricota (sugestão da marca Tirolez) e tempere com azeite, sal e sálvia. Preencha as abóboras com o recheio de ricota e leve-as ao forno para assar por 15 minutos. Sirva.");
+                break;
 
-                case "Frango Cremoso na Moranga":
-                    Ingredientes.setText("- 1 kg de filé de peito em cubos \n- Óleo para grelhar\n- Sal a gosto\n- 1 abóbora moranga grande\n- Papel alumínio\n- 2 colheres (sopa) de azeite extra virgem\n- 1 cebola picada\n- 2 dentes de alho picados\n- 2 colheres (sopa) de extrato de tomate\n- 4 tomates sem pele e sem sementes cortados em cubos\n- 1 pimenta dedo de moça sem sementes cortada em cubos\n- 1 caixinha de creme de leite (200 ml)\n- 4 colheres (sopa) de salsinha e cebolinha verde picada\n- 250 g de requeijão cremoso\n- Sal a gosto");
+            case "Frango Cremoso na Moranga":
+                Ingredientes.setText("- 1 kg de filé de peito em cubos \n- Óleo para grelhar\n- Sal a gosto\n- 1 abóbora moranga grande\n- Papel alumínio\n- 2 colheres (sopa) de azeite extra virgem\n- 1 cebola picada\n- 2 dentes de alho picados\n- 2 colheres (sopa) de extrato de tomate\n- 4 tomates sem pele e sem sementes cortados em cubos\n- 1 pimenta dedo de moça sem sementes cortada em cubos\n- 1 caixinha de creme de leite (200 ml)\n- 4 colheres (sopa) de salsinha e cebolinha verde picada\n- 250 g de requeijão cremoso\n- Sal a gosto");
 
-                    Preparo.setText("Preaqueça o forno a 180°C. Corte a tampa da abóbora moranga e retire todas as sementes. Embrulhe a moranga com papel alumínio (pelo menos 3 camadas com o lado brilhante para dentro) e leve ao forno por 40 minutos. Aqueça uma panela com o óleo e doure os cubos de frango. Depois que estiverem bem dourados, transfira-os para um recipiente e tempere com sal. Na mesma panela que dourou os cubos de frango, adicione o azeite e refogue a cebola e o alho. Junte o extrato de tomates, os tomates, a pimenta e o frango em cubos e cozinhe em fogo baixo e com a panela tampada por 15 minutos. Retire a moranga do forno e, com cuidado, retire um pouco da polpa. Misture a polpa no creme de frango e cozinhe por mais 2 minutos. Junte o creme de leite, o cheiro verde e metade do requeijão cremoso. Espalhe o restante do requeijão cremoso no interior da moranga e recheie-a com o creme de frango. Leve ao forno (180°C) por mais 15 minutos antes de servir.");
-                    break;
+                Preparo.setText("Preaqueça o forno a 180°C. Corte a tampa da abóbora moranga e retire todas as sementes. Embrulhe a moranga com papel alumínio (pelo menos 3 camadas com o lado brilhante para dentro) e leve ao forno por 40 minutos. Aqueça uma panela com o óleo e doure os cubos de frango. Depois que estiverem bem dourados, transfira-os para um recipiente e tempere com sal. Na mesma panela que dourou os cubos de frango, adicione o azeite e refogue a cebola e o alho. Junte o extrato de tomates, os tomates, a pimenta e o frango em cubos e cozinhe em fogo baixo e com a panela tampada por 15 minutos. Retire a moranga do forno e, com cuidado, retire um pouco da polpa. Misture a polpa no creme de frango e cozinhe por mais 2 minutos. Junte o creme de leite, o cheiro verde e metade do requeijão cremoso. Espalhe o restante do requeijão cremoso no interior da moranga e recheie-a com o creme de frango. Leve ao forno (180°C) por mais 15 minutos antes de servir.");
+                break;
 
 
-                case "Sopa de Mandioquinha com Carne":
-                    Ingredientes.setText("- 1 kg de mandioquinha descascadas e cortadas em 4 pedaços\n- 3 cenouras médias em cubos de 1 centímetro\n- 100 g de vagem fatiadas em rodelinhas\n- 2 astes de salsão fatiadas\n- 1 cebola média em cubos pequenos\n- 2 dentes de alho em cubos pequenos ou amassado\n- 250 g de carne moída\n- 1 lata de tomate pelado ou 3 tomates sem sementes em cubos pequenos\n- 1 colher (de café) de cúrcuma (açafrão da terra),\n- 1 colher (de sopa) de manteiga\n- Cheiro verde sal, azeite e pimenta. ");
+            case "Sopa de Mandioquinha com Carne":
+                Ingredientes.setText("- 1 kg de mandioquinha descascadas e cortadas em 4 pedaços\n- 3 cenouras médias em cubos de 1 centímetro\n- 100 g de vagem fatiadas em rodelinhas\n- 2 astes de salsão fatiadas\n- 1 cebola média em cubos pequenos\n- 2 dentes de alho em cubos pequenos ou amassado\n- 250 g de carne moída\n- 1 lata de tomate pelado ou 3 tomates sem sementes em cubos pequenos\n- 1 colher (de café) de cúrcuma (açafrão da terra),\n- 1 colher (de sopa) de manteiga\n- Cheiro verde sal, azeite e pimenta. ");
 
-                    Preparo.setText("Coloque um caldeirão com água salgada no fogo,Assim que a água ferver adicione a mandioquinha, os cubinhos de cenoura e a vagem,Assim que a água voltar a borbulhar conte 5 minutos e com a ajuda de uma escumadeira, retire metade dos cubinhos de cenoura e a vagem (não se preocupe em retirar exatamente metade da cenoura, parte vamos processar com a mandioquinha e parte usaremos na carne moída) e reserve,Aqueça uma frigideira, coloque um fio de azeite e assim que estiver quente junte a cebola até ficar transparente, na sequência adicione as fatias de salsão, refogue um pouco mais, separe metade em um potinho para adicionar a mandioquinha depois e adicione a carne moída, refogue até perder o tom cor de rosa, tempere com sal e pimenta, adicione o alho, a cenoura e a vagem que separamos,Acrescente o tomate pelado desmanchando o tomate com a carne, se seu molho estiver muito sequinho com o auxílio de uma concha pegue um pouco a água do cozimento da mandioquinha e regue, deixe cozinhar a carne moída por mais 20 minutos em fogo baixo,Verifique o cozimento da mandioquinha espetando um garfo em um pedaço grande dela, se estiver macia desligue o fogo, separe 500 ml da água do cozimento e escorra a mandioquinha e o que restou da cenoura,Transfira para um bowl a mandioquinha, a cenoura, a cebola e o salsão reservados, a manteiga e a cúrcuma, com a ajuda de um mixer processe e se achar necessário adicione um pouco de água até chegar ao ponto que você prefere ( adicione pouca água se prefere uma sopa creme e mais se prefere uma sopa mais ralinha, lembre-se de sempre fazer isso aos poucos e enquanto processa com o mixer para não perder a textura desejada),Verifique o sal e a pimenta do seu caldo de mandioquinha, sirva o caldo acompanhado (ou misturado) da carne moída com legumes e cheiro verde.");
-                    break;
+                Preparo.setText("Coloque um caldeirão com água salgada no fogo,Assim que a água ferver adicione a mandioquinha, os cubinhos de cenoura e a vagem,Assim que a água voltar a borbulhar conte 5 minutos e com a ajuda de uma escumadeira, retire metade dos cubinhos de cenoura e a vagem (não se preocupe em retirar exatamente metade da cenoura, parte vamos processar com a mandioquinha e parte usaremos na carne moída) e reserve,Aqueça uma frigideira, coloque um fio de azeite e assim que estiver quente junte a cebola até ficar transparente, na sequência adicione as fatias de salsão, refogue um pouco mais, separe metade em um potinho para adicionar a mandioquinha depois e adicione a carne moída, refogue até perder o tom cor de rosa, tempere com sal e pimenta, adicione o alho, a cenoura e a vagem que separamos,Acrescente o tomate pelado desmanchando o tomate com a carne, se seu molho estiver muito sequinho com o auxílio de uma concha pegue um pouco a água do cozimento da mandioquinha e regue, deixe cozinhar a carne moída por mais 20 minutos em fogo baixo,Verifique o cozimento da mandioquinha espetando um garfo em um pedaço grande dela, se estiver macia desligue o fogo, separe 500 ml da água do cozimento e escorra a mandioquinha e o que restou da cenoura,Transfira para um bowl a mandioquinha, a cenoura, a cebola e o salsão reservados, a manteiga e a cúrcuma, com a ajuda de um mixer processe e se achar necessário adicione um pouco de água até chegar ao ponto que você prefere ( adicione pouca água se prefere uma sopa creme e mais se prefere uma sopa mais ralinha, lembre-se de sempre fazer isso aos poucos e enquanto processa com o mixer para não perder a textura desejada),Verifique o sal e a pimenta do seu caldo de mandioquinha, sirva o caldo acompanhado (ou misturado) da carne moída com legumes e cheiro verde.");
+                break;
 
-                case "Escondidinho de Frango com Purê de Mandioquinha":
-                    Ingredientes.setText("- 1 kg de filezinho de peito \n- 500 ml de água\n- 2 colheres (sopa) de azeite de oliva extra virgem\n- 1 cebola cortada em cubos\n- 2 dentes de alho picados\n- 3 tomates sem pele e sem sementes cortados em cubos\n- 1 colher (sopa) de farinha de trigo\n- 300 ml de leite integral\n- ½ xícara (chá) de requeijão\n- Sal e pimenta do reino a gosto\n- Purê de mandioquinha\n- ½ xícara (chá) de leite integral\n- 700 g de mandioquinha descascada, cozida e espremida\n- 1 colher (sopa) de manteiga sem sal\n- Noz moscada ralada na hora\n- Sal e pimenta do reino a gosto\n- Óleo para untar\n- ½ xícara (chá) de queijo parmesão ralado fino.");
+            case "Escondidinho de Frango com Purê de Mandioquinha":
+                Ingredientes.setText("- 1 kg de filezinho de peito \n- 500 ml de água\n- 2 colheres (sopa) de azeite de oliva extra virgem\n- 1 cebola cortada em cubos\n- 2 dentes de alho picados\n- 3 tomates sem pele e sem sementes cortados em cubos\n- 1 colher (sopa) de farinha de trigo\n- 300 ml de leite integral\n- ½ xícara (chá) de requeijão\n- Sal e pimenta do reino a gosto\n- Purê de mandioquinha\n- ½ xícara (chá) de leite integral\n- 700 g de mandioquinha descascada, cozida e espremida\n- 1 colher (sopa) de manteiga sem sal\n- Noz moscada ralada na hora\n- Sal e pimenta do reino a gosto\n- Óleo para untar\n- ½ xícara (chá) de queijo parmesão ralado fino.");
 
-                    Preparo.setText("Coloque em uma panela de pressão os filezinhos de peito e a água. Cozinhe por 20 minutos a partir do momento que iniciar a pressão. Passados os 20 minutos, desligue o fogo e espere a pressão ceder totalmente. Retire o frango da panela e desfie-o em lascas grandes. Aqueça uma panela e adicione o azeite, a cebola e o alho, refogue por 2 minutos e junte o tomate em cubos, o frango desfiado, a farinha de trigo, o leite e o requeijão. Cozinhe por mais 5 minutos em fogo médio e tempere com sal e pimenta do reino. Reserve. Para o purê, aqueça o leite em uma panela média, adicione a mandioquinha espremida e a manteiga e misture até formar um purê cremoso. Tempere com a noz moscada, sal e a pimenta do reino a gosto. Preaqueça o forno a 220°C e unte um refratário com um fio de óleo e disponha o refogado de frango sobre ele. Cubra com o purê e polvilhe o queijo ralado. Leve ao forno por 20 minutos e sirva em seguida.");
-                    break;
+                Preparo.setText("Coloque em uma panela de pressão os filezinhos de peito e a água. Cozinhe por 20 minutos a partir do momento que iniciar a pressão. Passados os 20 minutos, desligue o fogo e espere a pressão ceder totalmente. Retire o frango da panela e desfie-o em lascas grandes. Aqueça uma panela e adicione o azeite, a cebola e o alho, refogue por 2 minutos e junte o tomate em cubos, o frango desfiado, a farinha de trigo, o leite e o requeijão. Cozinhe por mais 5 minutos em fogo médio e tempere com sal e pimenta do reino. Reserve. Para o purê, aqueça o leite em uma panela média, adicione a mandioquinha espremida e a manteiga e misture até formar um purê cremoso. Tempere com a noz moscada, sal e a pimenta do reino a gosto. Preaqueça o forno a 220°C e unte um refratário com um fio de óleo e disponha o refogado de frango sobre ele. Cubra com o purê e polvilhe o queijo ralado. Leve ao forno por 20 minutos e sirva em seguida.");
+                break;
 
-                case "Purê de Mandioquinha":
-                    Ingredientes.setText("- 500 g de mandioquinha\n- 1 cebola piquena\n- 2 dentes de alho\n- Salsinha picada a gosto\n- 2 colheres (sopa) cheia de manteiga\n- Sal a gosto\n- Pimenta do reino a gosto");
+            case "Purê de Mandioquinha":
+                Ingredientes.setText("- 500 g de mandioquinha\n- 1 cebola piquena\n- 2 dentes de alho\n- Salsinha picada a gosto\n- 2 colheres (sopa) cheia de manteiga\n- Sal a gosto\n- Pimenta do reino a gosto");
 
-                    Preparo.setText("Descasque e pique a mandioquinha e deixe de molho por alguns minutos. Pique bem o alho e a cebola. Em uma panela média, refogue a cebola e o alho na mantegia até que a cebola fique transparente (não deixe queimar). Desligue o fogo, junte a mandioquinha sem a água (reserve a água para o cozimento), leve em fogo baixo e refogue por alguns minutosAdicione a água e deixe cozinhar por cerca de 10-15 minutos. Depois comece amassar até que fique no ponto que desejado. Pique bem a sasinha ou triture-a, junte ao pure, misture bem e desligue o fogo. Está pronto para servir. DICA: Se preferir um purê mais cremoso, adicione 1/2 xícara de creme de leite.");
-                    break;
+                Preparo.setText("Descasque e pique a mandioquinha e deixe de molho por alguns minutos. Pique bem o alho e a cebola. Em uma panela média, refogue a cebola e o alho na mantegia até que a cebola fique transparente (não deixe queimar). Desligue o fogo, junte a mandioquinha sem a água (reserve a água para o cozimento), leve em fogo baixo e refogue por alguns minutosAdicione a água e deixe cozinhar por cerca de 10-15 minutos. Depois comece amassar até que fique no ponto que desejado. Pique bem a sasinha ou triture-a, junte ao pure, misture bem e desligue o fogo. Está pronto para servir. DICA: Se preferir um purê mais cremoso, adicione 1/2 xícara de creme de leite.");
+                break;
 
-                case "Mandioquinha Sauté":
-                    Ingredientes.setText("- 3 mandioquinhas (cerca de 500g)\n- 2 dentes de alho\n- 3 colheres (sopa) de manteiga\n- 4 ramos de salsinha\n- sal a gosto.");
+            case "Mandioquinha Sauté":
+                Ingredientes.setText("- 3 mandioquinhas (cerca de 500g)\n- 2 dentes de alho\n- 3 colheres (sopa) de manteiga\n- 4 ramos de salsinha\n- sal a gosto.");
 
-                    Preparo.setText("Descasque e corte as mandioquinhas em cubos médios de cerca de 2 cm. Transfira para uma panela, cubra com água e leve ao fogo alto. Assim que ferver, diminua o fogo e deixe cozinhar por 15 minutos - espete com um garfo para verificar: a mandioquinha deve estar cozida, mas ainda firme. Descasque e pique fino o alho. Lave, seque e pique fino a salsinha. Assim que estiverem cozidas, escorra as mandioquinhas numa peneira. Numa frigideira, coloque a manteiga e leve ao fogo médio. Assim que derreter, junte as mandioquinhas, tempere com sal e deixe cozinhar por cerca de 10 minutos, mexendo de vez em quando, até começar a dourar. Junte o alho e mexa por mais 2 minutos. Desligue o fogo e misture a salsinha picada. Sirva a seguir.");
-                    break;
+                Preparo.setText("Descasque e corte as mandioquinhas em cubos médios de cerca de 2 cm. Transfira para uma panela, cubra com água e leve ao fogo alto. Assim que ferver, diminua o fogo e deixe cozinhar por 15 minutos - espete com um garfo para verificar: a mandioquinha deve estar cozida, mas ainda firme. Descasque e pique fino o alho. Lave, seque e pique fino a salsinha. Assim que estiverem cozidas, escorra as mandioquinhas numa peneira. Numa frigideira, coloque a manteiga e leve ao fogo médio. Assim que derreter, junte as mandioquinhas, tempere com sal e deixe cozinhar por cerca de 10 minutos, mexendo de vez em quando, até começar a dourar. Junte o alho e mexa por mais 2 minutos. Desligue o fogo e misture a salsinha picada. Sirva a seguir.");
+                break;
 
-                case "Creme de Mandioquinha":
-                    Ingredientes.setText("- 800 g de mandioquinha picada\n- 1/2 cebola picada\n- 2 dentes de alho picado\n- 100 g de creme de leite (1/2 caixinha)\n- 1,2 L de Água (quente)\n- 13 mL de óleo (1 colher de sopa)\n- sal a gosto\n- salsinha a gosto");
+            case "Creme de Mandioquinha":
+                Ingredientes.setText("- 800 g de mandioquinha picada\n- 1/2 cebola picada\n- 2 dentes de alho picado\n- 100 g de creme de leite (1/2 caixinha)\n- 1,2 L de Água (quente)\n- 13 mL de óleo (1 colher de sopa)\n- sal a gosto\n- salsinha a gosto");
 
-                    Preparo.setText("Coloque o óleo em uma panela e deixe aquecerAcrescente a cebola picada, mexa de vez em quando e deixe até que fique levemente douradaEm seguida adicione o alho e refogue mais um poucoJunte a mandioquinha picada e mexa, deixe refogar por uns 2 minutinhosAcrescente a água e um pouco de sal, misture bem e deixe cozinhar em fogo baixo até amolecer a mandioquinhaAssim que as mandioquinhas estiverem bem cozidas, desligue o fogo e bata o creme com a ajuda de um mixer. Você também pode usar um liquidificador. Assim que estiver homogênea coloque o creme de leite e coloque mais um pouquinho de sal a gostoNa hora de servir decore com um pouquinho de creme de leite e salsinha");
-                    break;
+                Preparo.setText("Coloque o óleo em uma panela e deixe aquecerAcrescente a cebola picada, mexa de vez em quando e deixe até que fique levemente douradaEm seguida adicione o alho e refogue mais um poucoJunte a mandioquinha picada e mexa, deixe refogar por uns 2 minutinhosAcrescente a água e um pouco de sal, misture bem e deixe cozinhar em fogo baixo até amolecer a mandioquinhaAssim que as mandioquinhas estiverem bem cozidas, desligue o fogo e bata o creme com a ajuda de um mixer. Você também pode usar um liquidificador. Assim que estiver homogênea coloque o creme de leite e coloque mais um pouquinho de sal a gostoNa hora de servir decore com um pouquinho de creme de leite e salsinha");
+                break;
 
 
-                case "Ovo Mexido Cremoso":
-                    Ingredientes.setText("- 3 ovos\n- 1 colher de sopa rasa manteiga (cerca de 10 a 12 gramas)\n- Sal a gosto\n- Pimenta a gosto (opcional)");
+            case "Ovo Mexido Cremoso":
+                Ingredientes.setText("- 3 ovos\n- 1 colher de sopa rasa manteiga (cerca de 10 a 12 gramas)\n- Sal a gosto\n- Pimenta a gosto (opcional)");
 
-                    Preparo.setText("Adicionar ingredientes: Em uma panela fria antiaderente, adicione os ovos e a manteigaMexer: ligue o fogo em temperatura bastante baixa, fure a gema dos ovos e mexa sem pararCoagular: Depois de alguns minutos, a misture estará bem líquida. Mais alguns minutos e começaremos a ver o fundo da panela; o ovo começará a coagular. Se estiver coagulando muito rapidamente, retire to fogo por alguns segundos e mexa bemSalgar e finalizar: coloque o sal e retire do fogo um pouco antes de estar no ponto desejado; continue mexendo até que atinja a consitência desejada; o calor da panela continuará a cozinhar o ovoRetirar da panela: retire da panela imediatamente para que os ovos mexidos não fiquem secos; sirva com torradas e manteiga");
-                    break;
+                Preparo.setText("Adicionar ingredientes: Em uma panela fria antiaderente, adicione os ovos e a manteigaMexer: ligue o fogo em temperatura bastante baixa, fure a gema dos ovos e mexa sem pararCoagular: Depois de alguns minutos, a misture estará bem líquida. Mais alguns minutos e começaremos a ver o fundo da panela; o ovo começará a coagular. Se estiver coagulando muito rapidamente, retire to fogo por alguns segundos e mexa bemSalgar e finalizar: coloque o sal e retire do fogo um pouco antes de estar no ponto desejado; continue mexendo até que atinja a consitência desejada; o calor da panela continuará a cozinhar o ovoRetirar da panela: retire da panela imediatamente para que os ovos mexidos não fiquem secos; sirva com torradas e manteiga");
+                break;
 
-                case "Ovos Benedict":
-                    Ingredientes.setText("- Para o molho holandês:\n- 4 gemas de ovo\n- 1 colher de sopa de suco de limão espremido na hora\n- 1/2 xícara de manteiga sem sal (corte a manteiga em dez pedaços e congele-os)\n- 1 pitada de sal\n- 1 pitada de pimenta\n- Para os ovos benedict:\n- 4 fatias de salmão defumado\n- 2 pães do tipo forma cortados em dois (se não tiver, pode fazer com 4 fatias de outro pão, como o francês)\n- 2 colheres de chá de vinagre branco\n- 4 ovos\n- Sal e pimenta a gosto\n- Molho holandês (receita acima)");
+            case "Ovos Benedict":
+                Ingredientes.setText("- Para o molho holandês:\n- 4 gemas de ovo\n- 1 colher de sopa de suco de limão espremido na hora\n- 1/2 xícara de manteiga sem sal (corte a manteiga em dez pedaços e congele-os)\n- 1 pitada de sal\n- 1 pitada de pimenta\n- Para os ovos benedict:\n- 4 fatias de salmão defumado\n- 2 pães do tipo forma cortados em dois (se não tiver, pode fazer com 4 fatias de outro pão, como o francês)\n- 2 colheres de chá de vinagre branco\n- 4 ovos\n- Sal e pimenta a gosto\n- Molho holandês (receita acima)");
 
-                    Preparo.setText("Faça primeiro o molho holandês. Bata vigorosamente as gemas e o suco de limão em uma tigela de aço inox até a mistura engrossar e dobrar de volume. Coloque a tigela sobre uma panela com água quase fervendo (banho-maria), de modo que a água não encoste no fundo da tigela. Continue batendo rapidamente. Tenha cuidado para não deixar os ovos ficarem quentes demais, senão vão virar ovos mexidos. crescente a manteiga e continue batendo até a manteiga derreter, o molho engrossar e dobrar de volume. Tire do calor, adicione sal e pimenta. Tampe e coloque em um local quente até a hora de usar com os ovos. Se o molho engrossar demais, bata novamente com algumas gotas de água morna antes de servir. Para os ovos, encha uma frigideira antiaderente de 25 cm até a metade com água. Acrescente vinagre branco à água de cozimento – isso faz com que a clara do ovo cozinhe mais rápido e não se espalhe. Deixe ferver. Quebre um dos ovos em uma tigela pequena, tomando cuidado para não furar a gema. Aproxime cuidadosamente a borda da tigela à água, deixando que um pouco da água escorra para dentro da tigela. Deixe que o ovo escorregue para fora da tigela e vá para dentro da água. Repita rapidamente com os ovos restantes. Diminua o fogo. Cozinhe durante três minutos e meio, até a clara do ovo cozinhar e a gema permanecer mole. Pegue os ovos com uma escumadeira, deixando a água escorrer. Coloque uma fatia de salmão defumado sobre cada metade de pão de forma, seguida por um ovo poché. Tempere com sal e pimenta. Coloque o molho holandês sobre os ovos. Enfeite o prato com salsa.");
-                    break;
+                Preparo.setText("Faça primeiro o molho holandês. Bata vigorosamente as gemas e o suco de limão em uma tigela de aço inox até a mistura engrossar e dobrar de volume. Coloque a tigela sobre uma panela com água quase fervendo (banho-maria), de modo que a água não encoste no fundo da tigela. Continue batendo rapidamente. Tenha cuidado para não deixar os ovos ficarem quentes demais, senão vão virar ovos mexidos. crescente a manteiga e continue batendo até a manteiga derreter, o molho engrossar e dobrar de volume. Tire do calor, adicione sal e pimenta. Tampe e coloque em um local quente até a hora de usar com os ovos. Se o molho engrossar demais, bata novamente com algumas gotas de água morna antes de servir. Para os ovos, encha uma frigideira antiaderente de 25 cm até a metade com água. Acrescente vinagre branco à água de cozimento – isso faz com que a clara do ovo cozinhe mais rápido e não se espalhe. Deixe ferver. Quebre um dos ovos em uma tigela pequena, tomando cuidado para não furar a gema. Aproxime cuidadosamente a borda da tigela à água, deixando que um pouco da água escorra para dentro da tigela. Deixe que o ovo escorregue para fora da tigela e vá para dentro da água. Repita rapidamente com os ovos restantes. Diminua o fogo. Cozinhe durante três minutos e meio, até a clara do ovo cozinhar e a gema permanecer mole. Pegue os ovos com uma escumadeira, deixando a água escorrer. Coloque uma fatia de salmão defumado sobre cada metade de pão de forma, seguida por um ovo poché. Tempere com sal e pimenta. Coloque o molho holandês sobre os ovos. Enfeite o prato com salsa.");
+                break;
 
-                case "Arrumadinho de Vegetais com Ovos":
-                    Ingredientes.setText("- 2 colheres (sopa) de óleo\n- 1 cebola em meia-lua\n- 1 chuchu cubos pequenos\n- 2 tomates sem sementes, picados\n- 1 xícara (chá) de couve picada finamente\n- 1 xícara (chá) de brócolis\n- 1 abobrinha média em cubos\n- 4 ovos\n- Sal a gosto ");
+            case "Arrumadinho de Vegetais com Ovos":
+                Ingredientes.setText("- 2 colheres (sopa) de óleo\n- 1 cebola em meia-lua\n- 1 chuchu cubos pequenos\n- 2 tomates sem sementes, picados\n- 1 xícara (chá) de couve picada finamente\n- 1 xícara (chá) de brócolis\n- 1 abobrinha média em cubos\n- 4 ovos\n- Sal a gosto ");
 
-                    Preparo.setText("Em uma panela grande ou caçarola, aqueça o óleo e refogue a cebola. Junte o chuchu, o 1 xícara (chá) de água e cozinhe por cerca de 5 minutos em fogo baixo, com a panela tampada. Coloque o restante dos vegetais e refogue, adicione mais meia xícara (chá) de água e cozinhe, com a panela tampada, até que amoleçam levemente, sem deixar que a água seque totalmente. Faça 4 cavidades entre os vegetais e coloque 1 ovo em cada uma das cavidades, com cuidado para que não espalhem. Tampe a panela e deixe cozinhar até que os ovos fiquem firmes (cerca de 8 minutos). Abra a panela e sirva a seguir.");
-                    break;
+                Preparo.setText("Em uma panela grande ou caçarola, aqueça o óleo e refogue a cebola. Junte o chuchu, o 1 xícara (chá) de água e cozinhe por cerca de 5 minutos em fogo baixo, com a panela tampada. Coloque o restante dos vegetais e refogue, adicione mais meia xícara (chá) de água e cozinhe, com a panela tampada, até que amoleçam levemente, sem deixar que a água seque totalmente. Faça 4 cavidades entre os vegetais e coloque 1 ovo em cada uma das cavidades, com cuidado para que não espalhem. Tampe a panela e deixe cozinhar até que os ovos fiquem firmes (cerca de 8 minutos). Abra a panela e sirva a seguir.");
+                break;
 
-                case "Ovos no Purgatório":
-                    Ingredientes.setText("- 2 ovos\n- 1 lata de tomates pelados em cubos (400 g)\n- ¼ de pimentão vermelho\n- ½ cebola\n- 1 dente de alho\n- 1 colher (sopa) de azeite\n- ½ colher (chá) de orégano seco\n- 1 pitada de pimenta calabresa seca\n- sal a gosto ");
+            case "Ovos no Purgatório":
+                Ingredientes.setText("- 2 ovos\n- 1 lata de tomates pelados em cubos (400 g)\n- ¼ de pimentão vermelho\n- ½ cebola\n- 1 dente de alho\n- 1 colher (sopa) de azeite\n- ½ colher (chá) de orégano seco\n- 1 pitada de pimenta calabresa seca\n- sal a gosto ");
 
-                    Preparo.setText("Descasque e pique fino a cebola e o alho. Lave, seque e corte ¼ do pimentão - reserve o restante na geladeira para outra receita. Descarte as sementes e corte em cubos pequenos. Leve uma frigideira de 26 cm de diâmetro ao fogo médio. Quando aquecer, regue com o azeite e junte a cebola e o pimentão. Tempere com uma pitada de sal e refogue por cerca de 4 minutos, até murchar. Junte o alho, tempere com a pimenta calabresa - cuidado para não exagerar, vá aos poucos! - e mexa por mais 1 minuto. Abaixe o fogo, junte o tomate pelado (com o líquido), misture e deixe cozinhar por cerca de 5 minutos, mexendo de vez em quando, até o molho encorpar. Tempere com o orégano, sal e misture bem. Numa tigela pequena, quebre um ovo de cada vez. Com uma espátula, abra duas cavidades no molho e transfira os ovos com cuidado para não estourar a gema. Tempere cada um com uma pitada de sal e deixe cozinhar em fogo baixo por 5 minutos. Tampe a frigideira e deixe cozinhar por mais 3 minutos, até que as claras fiquem cozidas e as gemas permaneçam moles (se preferir as gemas cozidas, deixe cozinhar por mais tempo). Sirva a seguir com pão italiano.");
+                Preparo.setText("Descasque e pique fino a cebola e o alho. Lave, seque e corte ¼ do pimentão - reserve o restante na geladeira para outra receita. Descarte as sementes e corte em cubos pequenos. Leve uma frigideira de 26 cm de diâmetro ao fogo médio. Quando aquecer, regue com o azeite e junte a cebola e o pimentão. Tempere com uma pitada de sal e refogue por cerca de 4 minutos, até murchar. Junte o alho, tempere com a pimenta calabresa - cuidado para não exagerar, vá aos poucos! - e mexa por mais 1 minuto. Abaixe o fogo, junte o tomate pelado (com o líquido), misture e deixe cozinhar por cerca de 5 minutos, mexendo de vez em quando, até o molho encorpar. Tempere com o orégano, sal e misture bem. Numa tigela pequena, quebre um ovo de cada vez. Com uma espátula, abra duas cavidades no molho e transfira os ovos com cuidado para não estourar a gema. Tempere cada um com uma pitada de sal e deixe cozinhar em fogo baixo por 5 minutos. Tampe a frigideira e deixe cozinhar por mais 3 minutos, até que as claras fiquem cozidas e as gemas permaneçam moles (se preferir as gemas cozidas, deixe cozinhar por mais tempo). Sirva a seguir com pão italiano.");
 
-                    break;
+                break;
 
-                case "Ovos Gratinados":
-                    Ingredientes.setText("- 4 ovo cozidos em rodelas\n- 2 xícaras (chá) de leite\n- 2 colheres (sopa) de amido de milho\n- 2 colheres (sopa) de margarina\n- 1/2 xícara (chá) de presunto picadinho\n- 1 colher (sopa) de queijo ralado\n- pimenta-do-reino a gosto.");
+            case "Ovos Gratinados":
+                Ingredientes.setText("- 4 ovo cozidos em rodelas\n- 2 xícaras (chá) de leite\n- 2 colheres (sopa) de amido de milho\n- 2 colheres (sopa) de margarina\n- 1/2 xícara (chá) de presunto picadinho\n- 1 colher (sopa) de queijo ralado\n- pimenta-do-reino a gosto.");
 
-                    Preparo.setText("Leve ao fogo o leite com o amido de milho mexendo até engrossar. Retire do fogo, acrescente a margarina, o sal e a pimenta a gosto, assim como o presunto picadinho. Coloque as rodelas de ovos numa forma refratária, cubra com o molho e polvilhe com o queijo. Leve ao forno médio por 10 minutos. Sirva quente.");
+                Preparo.setText("Leve ao fogo o leite com o amido de milho mexendo até engrossar. Retire do fogo, acrescente a margarina, o sal e a pimenta a gosto, assim como o presunto picadinho. Coloque as rodelas de ovos numa forma refratária, cubra com o molho e polvilhe com o queijo. Leve ao forno médio por 10 minutos. Sirva quente.");
 
-                    break;
+                break;
 
 
-                case "Morango Frito no Palito":
-                    Ingredientes.setText("- 300g de chocolate meio amargo picado\n- 1 colher de sopa de óleo de coco\n- 300g de morangos\n- 1 xícara de farinha de trigo\n- 1 ovo\n- 1 xícara de leite \n");
+            case "Morango Frito no Palito":
+                Ingredientes.setText("- 300g de chocolate meio amargo picado\n- 1 colher de sopa de óleo de coco\n- 300g de morangos\n- 1 xícara de farinha de trigo\n- 1 ovo\n- 1 xícara de leite \n");
 
-                    Preparo.setText("Em banho maria, derreter o chocolate. 2.        Juntar o óleo de coco. Reservar. Com o auxílio de um palito, mergulhar os morangos no chocolate. Levar ao congelador por 1 hora. Em um recipiente, misturar bem a farinha, o ovo e o leite. Mergulhar os morangos congelados nessa mistura e fritar em óleo quente. Finalizar com açúcar de confeiteiro.");
+                Preparo.setText("Em banho maria, derreter o chocolate. 2.        Juntar o óleo de coco. Reservar. Com o auxílio de um palito, mergulhar os morangos no chocolate. Levar ao congelador por 1 hora. Em um recipiente, misturar bem a farinha, o ovo e o leite. Mergulhar os morangos congelados nessa mistura e fritar em óleo quente. Finalizar com açúcar de confeiteiro.");
 
-                    break;
+                break;
 
-                case "Cheesecake de Morango":
-                    Ingredientes.setText("- Massa:\n- 1 pacote de biscoito maisena\n- 100g de manteiga em temperatura ambiente\n- ½ xícara (chá) de açúcar\n- 2 colheres (sopa) de chocolate em pó\n- Recheio:\n- 3 ovos\n- 2 potes de cream cheese\n- 1 lata de leite condensado\n- Cobertura:\n- 120 g de morango\n- ¾ de xícara (chá) de açúcar\n- Caldo de ½ limão\n- Morangos para decorar");
+            case "Cheesecake de Morango":
+                Ingredientes.setText("- Massa:\n- 1 pacote de biscoito maisena\n- 100g de manteiga em temperatura ambiente\n- ½ xícara (chá) de açúcar\n- 2 colheres (sopa) de chocolate em pó\n- Recheio:\n- 3 ovos\n- 2 potes de cream cheese\n- 1 lata de leite condensado\n- Cobertura:\n- 120 g de morango\n- ¾ de xícara (chá) de açúcar\n- Caldo de ½ limão\n- Morangos para decorar");
 
-                    Preparo.setText("Massa: Coloque os biscoitos no liquidificador e bata até obter uma farofa. Transfira para um recipiente, junte a manteiga, o açúcar, e o chocolate em pó e misture bem até formar uma bola de massa. Forre o fundo de uma fôrma de aro removível com a massa, apertando com os dedos. Reserve. RecheioNo liquidificador, bata os ovos, o cream cheese e o leite condensado, até obter um creme homogêneo. Distribua o creme sobre a massa e leve ao forno médio (180°C), preaquecido, por 30 minutos ou até que o recheio fique firme. Deixe esfriar. CoberturaLave os morangos sob água corrente. Retire as folhas e reserve. Acrescente os morangos em uma panela e leve ao fogo baixo e deixe cozinhar por 8 minutos ou até que fiquem macios. Retire do fogo e transfira para o liquidificador. Bata por 20 segundos na velocidade média. Coloque a mistura na mesma panela, acrescente o açúcar e leve ao fogo baixo por 10 minutos. Junte o suco de limão e deixe cozinhar por mais 8 minutos. Retire do fogo e leve para a geladeira. Na hora de servir, espalhe a geleia sobre a cheesecake e decore com os morangos cortados ao meio.");
+                Preparo.setText("Massa: Coloque os biscoitos no liquidificador e bata até obter uma farofa. Transfira para um recipiente, junte a manteiga, o açúcar, e o chocolate em pó e misture bem até formar uma bola de massa. Forre o fundo de uma fôrma de aro removível com a massa, apertando com os dedos. Reserve. RecheioNo liquidificador, bata os ovos, o cream cheese e o leite condensado, até obter um creme homogêneo. Distribua o creme sobre a massa e leve ao forno médio (180°C), preaquecido, por 30 minutos ou até que o recheio fique firme. Deixe esfriar. CoberturaLave os morangos sob água corrente. Retire as folhas e reserve. Acrescente os morangos em uma panela e leve ao fogo baixo e deixe cozinhar por 8 minutos ou até que fiquem macios. Retire do fogo e transfira para o liquidificador. Bata por 20 segundos na velocidade média. Coloque a mistura na mesma panela, acrescente o açúcar e leve ao fogo baixo por 10 minutos. Junte o suco de limão e deixe cozinhar por mais 8 minutos. Retire do fogo e leve para a geladeira. Na hora de servir, espalhe a geleia sobre a cheesecake e decore com os morangos cortados ao meio.");
 
-                    break;
+                break;
 
 
-                case "Bombom de Travessa de Morango":
-                    Ingredientes.setText("- 4 latas de leite condensado\n- 4 caixas de creme de leite\n- 3 caixas de morangos lavados e cortados ao meio\n- 450 gramas de chocolate amargo ou ao leite picado\n- 100 gramas de chocolate branco picado\n- 50 gramas de manteiga.");
+            case "Bombom de Travessa de Morango":
+                Ingredientes.setText("- 4 latas de leite condensado\n- 4 caixas de creme de leite\n- 3 caixas de morangos lavados e cortados ao meio\n- 450 gramas de chocolate amargo ou ao leite picado\n- 100 gramas de chocolate branco picado\n- 50 gramas de manteiga.");
 
-                    Preparo.setText("Creme brancoEm uma panela, adicione o leite condensado, o chocolate branco e a manteiga. Mexa até ficar em ponto de brigadeiro mole. Em seguida, adicione duas caixas de creme de leite. Misture bem até ficar homogêneo. Reserve. Ganache de chocolateNo micro-ondas, derreta o chocolate, aquecendo-o de 30 em 30 segundos e mexendo bem a cada pausa (isso evita que o chocolate queime). Em seguida, adicione duas caixinhas de creme de leite e mexa até a mistura ficar homogênea e brilhante. Montagem Forre uma travessa com os morangos lavados e cortados na metade. Adicione o creme branco por cima, cobrindo os morangos completamente. Cubra tudo com a ganache de chocolate. ");
-                    break;
+                Preparo.setText("Creme brancoEm uma panela, adicione o leite condensado, o chocolate branco e a manteiga. Mexa até ficar em ponto de brigadeiro mole. Em seguida, adicione duas caixas de creme de leite. Misture bem até ficar homogêneo. Reserve. Ganache de chocolateNo micro-ondas, derreta o chocolate, aquecendo-o de 30 em 30 segundos e mexendo bem a cada pausa (isso evita que o chocolate queime). Em seguida, adicione duas caixinhas de creme de leite e mexa até a mistura ficar homogênea e brilhante. Montagem Forre uma travessa com os morangos lavados e cortados na metade. Adicione o creme branco por cima, cobrindo os morangos completamente. Cubra tudo com a ganache de chocolate. ");
+                break;
 
-                case "Pavê de Morangos":
-                    Ingredientes.setText("- Massa:\n- 1 pacote de biscoito de maizena\n- 2 colheres de margarina\n- Creme:\n- 1 lata de leite condensado\n- 2 gemas\n- 2 colheres de maizena\n- 2 copos de leite (500 ml )\n- Para decorar:\n- 2 caixas de morango\n- 1 caixa de creme de leite\n- 1 barra de chocolate (de sua preferência) \n");
+            case "Pavê de Morangos":
+                Ingredientes.setText("- Massa:\n- 1 pacote de biscoito de maizena\n- 2 colheres de margarina\n- Creme:\n- 1 lata de leite condensado\n- 2 gemas\n- 2 colheres de maizena\n- 2 copos de leite (500 ml )\n- Para decorar:\n- 2 caixas de morango\n- 1 caixa de creme de leite\n- 1 barra de chocolate (de sua preferência) \n");
 
-                    Preparo.setText("Massa: Quebre os biscoitos e bata-os no liquidificador até formar uma farinha, junte a margarina, e forme uma massa tipo de empadãoColoque em um pirex ou tabuleiro e reserveCreme: Em uma panela misture os igredientes até dissolver a maizena e as gemasDepois leve ao fogo baixo, mexa até engrossar o creme, se preferir coloque mais leite até obter um creme consistenteColoque o creme sobre a massa e leve ao forno por 6 minutos para dourar a massaDepois espere esfriarPara Decorar: Coloque o creme de leite no pavê e rale uma barra de chocolate de sua preferência, depois coloque os morangos cortados ao meio, leve à geladeira por alguns minutos.");
+                Preparo.setText("Massa: Quebre os biscoitos e bata-os no liquidificador até formar uma farinha, junte a margarina, e forme uma massa tipo de empadãoColoque em um pirex ou tabuleiro e reserveCreme: Em uma panela misture os igredientes até dissolver a maizena e as gemasDepois leve ao fogo baixo, mexa até engrossar o creme, se preferir coloque mais leite até obter um creme consistenteColoque o creme sobre a massa e leve ao forno por 6 minutos para dourar a massaDepois espere esfriarPara Decorar: Coloque o creme de leite no pavê e rale uma barra de chocolate de sua preferência, depois coloque os morangos cortados ao meio, leve à geladeira por alguns minutos.");
 
-                    break;
+                break;
 
-                case "Bolo de Morango Low Carb":
-                    Ingredientes.setText("- 1 colher (sopa) de farinha de coco\n- 1 colher (sopa) leite em pó\n- 1 colher (sobremesa) de gelatina zero de morango\n- 1 colher (sopa) de aveia\n- 1 clara \n ");
+            case "Bolo de Morango Low Carb":
+                Ingredientes.setText("- 1 colher (sopa) de farinha de coco\n- 1 colher (sopa) leite em pó\n- 1 colher (sobremesa) de gelatina zero de morango\n- 1 colher (sopa) de aveia\n- 1 clara \n ");
 
-                    Preparo.setText("Bata a clara a ponto de neve. Separadamente dissolva a gelatina no leite, acrescente a farinha de coco e a aveia, misture bem, em seguida acrescente a clara e bata tudo ate formar uma massa cremosa. Despeje dentro de um travessa que possa ir ao micro-ondas, asse em potência alta por 1 minuto e meio no máximo e sirva. Você pode aumentar a quantidade, e fazer no forno dentro de forminhas de cupcake.");
+                Preparo.setText("Bata a clara a ponto de neve. Separadamente dissolva a gelatina no leite, acrescente a farinha de coco e a aveia, misture bem, em seguida acrescente a clara e bata tudo ate formar uma massa cremosa. Despeje dentro de um travessa que possa ir ao micro-ondas, asse em potência alta por 1 minuto e meio no máximo e sirva. Você pode aumentar a quantidade, e fazer no forno dentro de forminhas de cupcake.");
 
-                    break;
+                break;
 
 
-                case "Lasanha de Espinafre":
-                    Ingredientes.setText("- 1 pacote de massa de lasanha pré-cozida\n- 1 maço de espinafre\n- 1 pimenta-de-cheiro\n- 1 cebola grande\n- 4 dentes de alho\n- 2 colheres (sopa) de farinha de trigo\n- 2 colheres (sopa) de requeijão\n- 2 copos (americanos) de leite\n- 300 g de queijo mussarela\n- sal, pimenta-do-reino e azeite a gosto.");
+            case "Lasanha de Espinafre":
+                Ingredientes.setText("- 1 pacote de massa de lasanha pré-cozida\n- 1 maço de espinafre\n- 1 pimenta-de-cheiro\n- 1 cebola grande\n- 4 dentes de alho\n- 2 colheres (sopa) de farinha de trigo\n- 2 colheres (sopa) de requeijão\n- 2 copos (americanos) de leite\n- 300 g de queijo mussarela\n- sal, pimenta-do-reino e azeite a gosto.");
 
-                    Preparo.setText("Antes de começar a sua receita é importante lembrar de higienizar bem o espinafre. Em seguida, pique suas folhas, dispensando o talo. Reserve. Aqueça uma panela com um pouco de azeite. Adicione a cebola e o alho e refogue até que fiquem levemente dourados. Acrescente o espinafre picado e refogue em fogo médio. Dissolva a farinha de trigo no leite e adicione, aos poucos, ao refogado. Misture bem e cozinhe até que o creme comece a engrossar. Adicione o sal e a pimenta-do-reino e misture bem. Desligue o fogo, acrescente o requeijão e misture bem até dissolver. MontagemEm um refratário grande, coloque um pouco de molho no fundo. Faça uma camada de massa, cubra com molho e queijo mussarela. Repita esse procedimento até chegar ao topo do refratário, finalizando com molho e queijo mussarela. Cubra com um fio de azeite de oliva e salpique pimenta-do-reino a gosto. Leve para assar em forno preaquecido a 200º C até gratinar.");
+                Preparo.setText("Antes de começar a sua receita é importante lembrar de higienizar bem o espinafre. Em seguida, pique suas folhas, dispensando o talo. Reserve. Aqueça uma panela com um pouco de azeite. Adicione a cebola e o alho e refogue até que fiquem levemente dourados. Acrescente o espinafre picado e refogue em fogo médio. Dissolva a farinha de trigo no leite e adicione, aos poucos, ao refogado. Misture bem e cozinhe até que o creme comece a engrossar. Adicione o sal e a pimenta-do-reino e misture bem. Desligue o fogo, acrescente o requeijão e misture bem até dissolver. MontagemEm um refratário grande, coloque um pouco de molho no fundo. Faça uma camada de massa, cubra com molho e queijo mussarela. Repita esse procedimento até chegar ao topo do refratário, finalizando com molho e queijo mussarela. Cubra com um fio de azeite de oliva e salpique pimenta-do-reino a gosto. Leve para assar em forno preaquecido a 200º C até gratinar.");
 
-                    break;
+                break;
 
-                case "Bolinho de Espinafre e Aveia":
-                    Ingredientes.setText("- 1 folha de espinafre picadas\n- 3 colheres (sopa) de queijo parmesão ralado\n- 3 clara de ovo\n- 1 cebola picada\n- 2 dentes de alho picados\n- 3 colheres (sopa) de azeite de oliva\n- 1 xícara (chá) de aveia em flocos finos\n- 1 colher (café) de fermento químico em pó em pó\n- sal a gosto\n- noz-moscada a gosto.");
+            case "Bolinho de Espinafre e Aveia":
+                Ingredientes.setText("- 1 folha de espinafre picadas\n- 3 colheres (sopa) de queijo parmesão ralado\n- 3 clara de ovo\n- 1 cebola picada\n- 2 dentes de alho picados\n- 3 colheres (sopa) de azeite de oliva\n- 1 xícara (chá) de aveia em flocos finos\n- 1 colher (café) de fermento químico em pó em pó\n- sal a gosto\n- noz-moscada a gosto.");
 
-                    Preparo.setText("Aqueça bem uma frigideira e refogue a cebola e o alho no azeite. Junte o espinafre e refogue-o até murchar e secar a água do fundo da frigideira. Deixe esfriar. Transfira-o para uma tigela, acrescente o restante dos ingredientes e misture bem. Divida a massa em 15 porções iguais e achate-as como um hambúrguer. Aqueça uma frigideira antiaderente e grelhe os bolinhos dos dois lados até dourar. Sirva em seguida.");
+                Preparo.setText("Aqueça bem uma frigideira e refogue a cebola e o alho no azeite. Junte o espinafre e refogue-o até murchar e secar a água do fundo da frigideira. Deixe esfriar. Transfira-o para uma tigela, acrescente o restante dos ingredientes e misture bem. Divida a massa em 15 porções iguais e achate-as como um hambúrguer. Aqueça uma frigideira antiaderente e grelhe os bolinhos dos dois lados até dourar. Sirva em seguida.");
 
-                    break;
+                break;
 
-                case "Torradinha com Creme de Espinafre e Ovo":
-                    Ingredientes.setText("- 3 ou 4 pães franceses amanhecidos (evite os muito inflados, com pouco miolo, pode ser baguete)\n- 1/2 maço de espinafre\n- 3 ovos\n- 1/4 de xícara de leite\n- 1/4 de xícara de creme de leite fresco\n- 2 cebolas pequenas\n- 4 colheres (sopa) de manteiga (2 para o creme e 2 para as torradas)\n- 1/4 de dente de alho picadinho \n- 1/4 de xícara de parmesão ralado\n- Sal e pimenta a gosto ");
+            case "Torradinha com Creme de Espinafre e Ovo":
+                Ingredientes.setText("- 3 ou 4 pães franceses amanhecidos (evite os muito inflados, com pouco miolo, pode ser baguete)\n- 1/2 maço de espinafre\n- 3 ovos\n- 1/4 de xícara de leite\n- 1/4 de xícara de creme de leite fresco\n- 2 cebolas pequenas\n- 4 colheres (sopa) de manteiga (2 para o creme e 2 para as torradas)\n- 1/4 de dente de alho picadinho \n- 1/4 de xícara de parmesão ralado\n- Sal e pimenta a gosto ");
 
-                    Preparo.setText("Corte os pães em rodelas e ponha numa assadeira. Misture o alho e 2 colheres de manteiga e espalhe sobre o pão. Leve ao forno para assar sem deixar escurecer. Tire do forno e espere esfriar. Cozinhe os ovos, descasque, deixe esfriar e pique bem. Pique a cebola e refogue com a manteiga restante numa frigideira. Acrescente as folhas de espinafre lavadas e secas, refogue por 2 ou 3 minutos, mexendo. Ponha o leite e deixe cozinhar por mais dois ou três minutos. Adicione o creme de leite fresco, o queijo ralado, tempere com sal e pimenta-do-reino, deixe cozinhar até reduzir bem o líquido. Desligue o fogo e espere esfriar. Bata a mistura no liquidificador ou processador. Ponha uma boa quantidade de creme de espinafre em cada torrada e leve ao forno para aquecer. Tire as torradas do forno espalhe ovo cozido ralado por cima, pimenta-do-reino e sirva quente.");
+                Preparo.setText("Corte os pães em rodelas e ponha numa assadeira. Misture o alho e 2 colheres de manteiga e espalhe sobre o pão. Leve ao forno para assar sem deixar escurecer. Tire do forno e espere esfriar. Cozinhe os ovos, descasque, deixe esfriar e pique bem. Pique a cebola e refogue com a manteiga restante numa frigideira. Acrescente as folhas de espinafre lavadas e secas, refogue por 2 ou 3 minutos, mexendo. Ponha o leite e deixe cozinhar por mais dois ou três minutos. Adicione o creme de leite fresco, o queijo ralado, tempere com sal e pimenta-do-reino, deixe cozinhar até reduzir bem o líquido. Desligue o fogo e espere esfriar. Bata a mistura no liquidificador ou processador. Ponha uma boa quantidade de creme de espinafre em cada torrada e leve ao forno para aquecer. Tire as torradas do forno espalhe ovo cozido ralado por cima, pimenta-do-reino e sirva quente.");
 
-                    break;
+                break;
 
-                case "Gratinado de Espinafre":
-                    Ingredientes.setText("- 2 dentes de alho\n- 1 cebola\n- 3 maços de espinafre\n- 2 colheres de sopa de farinha de trigo\n- 400ml de leite\n- Sal\n- Noz-moscada\n- 150g de muçarela ralada.");
+            case "Gratinado de Espinafre":
+                Ingredientes.setText("- 2 dentes de alho\n- 1 cebola\n- 3 maços de espinafre\n- 2 colheres de sopa de farinha de trigo\n- 400ml de leite\n- Sal\n- Noz-moscada\n- 150g de muçarela ralada.");
 
-                    Preparo.setText("Em uma panela, refogar a cebola até dourar. Adicionar o alho e refogar mais um pouco. Adicionar o espinafre picado e cozinhar até murchar. Adicionar a farinha de trigo e deixar cozinhando por alguns minutos. Adicionar o leite aos poucos e misturar sem parar. Temperar com sal e noz-moscada. Quando estiver um creme mais espesso, retirar do fogo e passar para um refratário. Cobrir com o queijo e levar ao forno preaquecido a 180 graus até dourar.");
+                Preparo.setText("Em uma panela, refogar a cebola até dourar. Adicionar o alho e refogar mais um pouco. Adicionar o espinafre picado e cozinhar até murchar. Adicionar a farinha de trigo e deixar cozinhando por alguns minutos. Adicionar o leite aos poucos e misturar sem parar. Temperar com sal e noz-moscada. Quando estiver um creme mais espesso, retirar do fogo e passar para um refratário. Cobrir com o queijo e levar ao forno preaquecido a 180 graus até dourar.");
 
-                    break;
+                break;
 
-                case "Espinafre Cremoso":
-                    Ingredientes.setText("- 1 maço de espinafre\n- 2 colheres de sopa de margarina\n- 2 colheres de sopa de farinha de trigo\n- 1/2 xícara chá de leite\n- Sal a gosto\n- Pimenta do reino a gosto\n- 1/2 lata de creme de leite\n- Queijo parmesão a gosto. \n Limpe, lave o espinafre e coloque-o em uma panela tampada. Leve ao fogo até murchar. Espere esfriar, esprema com as mãos para soltar a aguá e pique. Reserve. Na mesma panela, derreta a margarina, junte a farinhas de trigo e mexa até dourar. Retire do fogo e adicione o leite, aos poucos, mexendo para não enpelotar volte ao fogo. Tempere com sal e pimenta do reino. Junte o espinafre reservado e o creme de leite, mexa bem retire do fogo antes que ferva. Coloque em uma travessa e polvilhe com queijo. Sirva a seguir.");
+            case "Espinafre Cremoso":
+                Ingredientes.setText("- 1 maço de espinafre\n- 2 colheres de sopa de margarina\n- 2 colheres de sopa de farinha de trigo\n- 1/2 xícara chá de leite\n- Sal a gosto\n- Pimenta do reino a gosto\n- 1/2 lata de creme de leite\n- Queijo parmesão a gosto.");
 
-                    Preparo.setText("Limpe, lave o espinafre e coloque-o em uma panela tampada. Leve ao fogo até murchar. Espere esfriar, esprema com as mãos para soltar a aguá e pique. Reserve. Na mesma panela, derreta a margarina, junte a farinhas de trigo e mexa até dourar. Retire do fogo e adicione o leite, aos poucos, mexendo para não enpelotar volte ao fogo. Tempere com sal e pimenta do reino. Junte o espinafre reservado e o creme de leite, mexa bem retire do fogo antes que ferva. Coloque em uma travessa e polvilhe com queijo. Sirva a seguir.");
+                Preparo.setText("Limpe, lave o espinafre e coloque-o em uma panela tampada. Leve ao fogo até murchar. Espere esfriar, esprema com as mãos para soltar a aguá e pique. Reserve. Na mesma panela, derreta a margarina, junte a farinhas de trigo e mexa até dourar. Retire do fogo e adicione o leite, aos poucos, mexendo para não enpelotar volte ao fogo. Tempere com sal e pimenta do reino. Junte o espinafre reservado e o creme de leite, mexa bem retire do fogo antes que ferva. Coloque em uma travessa e polvilhe com queijo. Sirva a seguir.");
 
-                    break;
+                break;
 
-                case "Almondegas de Mandioca":
-                    Ingredientes.setText("- Massa :\n- 500g de macarrão se preferir.\n- Almôndega:\n- 3 xícaras (chá) de carne moída\n- 2 xícaras (chá) de mandioca cozida e espremida\n- 1 pacote de sopa de cebola\n- 2 colheres (sopa) de manteiga\n- ½ xícara (chá) de salsa picada\n- Sal a gosto\n- Empanar (opcional):\n- Óleo para fritar ou grelhar\n- Fubá ou farinha de rosca\n- Molho de tomate:\n- 3 colheres (sopa) de azeite\n- 2 dentes de alho picado\n- 1 xícara (chá) de cebola picada\n- 3 xícaras (chá) de molho de tomate\n- 1 colher (sopa) de açúcar\n- ½ xícara (chá) de cebolinha picada\n- Sal a gosto.");
+            case "Almondegas de Mandioca":
+                Ingredientes.setText("- Massa :\n- 500g de macarrão se preferir.\n- Almôndega:\n- 3 xícaras (chá) de carne moída\n- 2 xícaras (chá) de mandioca cozida e espremida\n- 1 pacote de sopa de cebola\n- 2 colheres (sopa) de manteiga\n- ½ xícara (chá) de salsa picada\n- Sal a gosto\n- Empanar (opcional):\n- Óleo para fritar ou grelhar\n- Fubá ou farinha de rosca\n- Molho de tomate:\n- 3 colheres (sopa) de azeite\n- 2 dentes de alho picado\n- 1 xícara (chá) de cebola picada\n- 3 xícaras (chá) de molho de tomate\n- 1 colher (sopa) de açúcar\n- ½ xícara (chá) de cebolinha picada\n- Sal a gosto.");
 
-                    Preparo.setText("Massa: em uma panela com água e sal, cozinhe a massa desejada até ficar “al dente”. Almôndega: em uma tigela, misture a carne, a mandioca, a sopa de cebola, a manteiga, a salsa e o sal. Faça as bolinhas e passe no fubá ou na farinha de rosca se desejar. Frite em óleo quente ou grelhe em uma frigideira. Molho de tomate: em uma panela, refogue o alho e a cebola com um pouco de azeite. Acrescente o molho de tomate e deixe ferver um pouco. Coloque um pouco de açúcar para tirar a acidez. Finalize com cebolinha e sal.");
+                Preparo.setText("Massa: em uma panela com água e sal, cozinhe a massa desejada até ficar “al dente”. Almôndega: em uma tigela, misture a carne, a mandioca, a sopa de cebola, a manteiga, a salsa e o sal. Faça as bolinhas e passe no fubá ou na farinha de rosca se desejar. Frite em óleo quente ou grelhe em uma frigideira. Molho de tomate: em uma panela, refogue o alho e a cebola com um pouco de azeite. Acrescente o molho de tomate e deixe ferver um pouco. Coloque um pouco de açúcar para tirar a acidez. Finalize com cebolinha e sal.");
 
-                    break;
+                break;
 
-                case "Bolo de Mandioca":
-                    Ingredientes.setText("- 1 kg Mandioca (Macaxeira, aipim)\n- 3 unidades Ovos\n- 2 colheres (sopa) Margarina ou Manteiga\n- 1 lata Leite Condensado\n- 1 garrafa Leite de Coco\n- 2 xícaras (chá) Açúcar\n- 1 pacote Coco ralado\n- 1 pacote Queijo Ralado Caldo Bom\n- 2 xícaras (chá) Leite de vaca ( de preferência integral)\n- 1 colher (chá) Sal.");
+            case "Bolo de Mandioca":
+                Ingredientes.setText("- 1 kg Mandioca (Macaxeira, aipim)\n- 3 unidades Ovos\n- 2 colheres (sopa) Margarina ou Manteiga\n- 1 lata Leite Condensado\n- 1 garrafa Leite de Coco\n- 2 xícaras (chá) Açúcar\n- 1 pacote Coco ralado\n- 1 pacote Queijo Ralado Caldo Bom\n- 2 xícaras (chá) Leite de vaca ( de preferência integral)\n- 1 colher (chá) Sal.");
 
-                    Preparo.setText("Primeiro, descasque a mandioca, corte em pedaços pequenos. No liquidificador, junte todos os ingredientes, inclusive a mandioca. Bata bem, até que fique tudo bem misturadinho. Separe uma forma de sua preferência e unte com margarina e farinha de trigo. Despeje a mistura do liquidificador na forma e leve ao forno . Siga o tempo indicado para assar e vai prestando atenção até que fique dourado. Bom apetite!!!");
+                Preparo.setText("Primeiro, descasque a mandioca, corte em pedaços pequenos. No liquidificador, junte todos os ingredientes, inclusive a mandioca. Bata bem, até que fique tudo bem misturadinho. Separe uma forma de sua preferência e unte com margarina e farinha de trigo. Despeje a mistura do liquidificador na forma e leve ao forno . Siga o tempo indicado para assar e vai prestando atenção até que fique dourado.");
 
-                    break;
+                break;
 
-                case "Mandioca com Bacon e Tomate":
-                    Ingredientes.setText("- 500 gramas de mandioca sem casca\n- 1/2 xícara de chá de bacon cortado em cubos\n- 1 lata de tomates pelado picado e com o líquido\n- 1 unidade de cebola cortada em cubos\n- 2 dentes de alho\n- 3 1/2 xícaras de chá de água\n- 2 colheres de sopa de azeite\n- sal, pimenta-do-reino e cheiro verde a gosto.");
+            case "Mandioca com Bacon e Tomate":
+                Ingredientes.setText("- 500 gramas de mandioca sem casca\n- 1/2 xícara de chá de bacon cortado em cubos\n- 1 lata de tomates pelado picado e com o líquido\n- 1 unidade de cebola cortada em cubos\n- 2 dentes de alho\n- 3 1/2 xícaras de chá de água\n- 2 colheres de sopa de azeite\n- sal, pimenta-do-reino e cheiro verde a gosto.");
 
-                    Preparo.setText("Corte a mandioca em cubo grande para médio. Reserve. Leve uma panela média ao fogo médio. Regue com o azeite, acrescente o bacon e deixe cozinhar por 2 minutos, mexendo de vez em quando, até começar a dourar. Junte a cebola e refogue até murchar. Adicione o alho e refogue por apenas 1 minuto. Acrescente a mandioca e o tomate pelado (com o líquido), tempere com sal e misture bem. Regue com a água, tampe a panela e deixe cozinhar por cerca de 30 minutos, mexendo de vez em quando, até a mandioca ficar macia e o molho encorpar. Acerte o sal e a pimenta, misture o cheiro verde e sirva a seguir.");
+                Preparo.setText("Corte a mandioca em cubo grande para médio. Reserve. Leve uma panela média ao fogo médio. Regue com o azeite, acrescente o bacon e deixe cozinhar por 2 minutos, mexendo de vez em quando, até começar a dourar. Junte a cebola e refogue até murchar. Adicione o alho e refogue por apenas 1 minuto. Acrescente a mandioca e o tomate pelado (com o líquido), tempere com sal e misture bem. Regue com a água, tampe a panela e deixe cozinhar por cerca de 30 minutos, mexendo de vez em quando, até a mandioca ficar macia e o molho encorpar. Acerte o sal e a pimenta, misture o cheiro verde e sirva a seguir.");
 
-                    break;
+                break;
 
-                case "Bolinho de Mandioca":
-                    Ingredientes.setText("- 300 g de mandioca cozida e amassada\n- 2 ovos\n- Cheiro verde, pimenta- do- reino e pimenta a gosto\n- 2 colheres de farinha de trigo\n- Sal a gosto\n- Se quiser um pouco de queijo ralado . \n Misture tudo. Depois de misturados os ingredientes faça bolinhas Frite em óleo quente.");
+            case "Bolinho de Mandioca":
+                Ingredientes.setText("- 300 g de mandioca cozida e amassada\n- 2 ovos\n- Cheiro verde, pimenta- do- reino e pimenta a gosto\n- 2 colheres de farinha de trigo\n- Sal a gosto\n- Se quiser um pouco de queijo ralado . \n Misture tudo. Depois de misturados os ingredientes faça bolinhas Frite em óleo quente.");
 
-                    Preparo.setText("Misture tudo. Depois de misturados os ingredientes faça bolinhasFrite em óleo quente.");
+                Preparo.setText("Misture tudo. Depois de misturados os ingredientes faça bolinhas. Frite em óleo quente.");
 
-                    break;
+                break;
 
-                case "Palitos de Mandioca Assada":
-                    Ingredientes.setText("- 1,5 kg de mandioca (cerca de 1,2 kg se comprar já descascada)\n- 3 colheres (sopa) de azeite\n- sal e pimenta-do-reino moída na hora a gosto. ");
+            case "Palitos de Mandioca Assada":
+                Ingredientes.setText("- 1,5 kg de mandioca (cerca de 1,2 kg se comprar já descascada)\n- 3 colheres (sopa) de azeite\n- sal e pimenta-do-reino moída na hora a gosto. ");
+                Preparo.setText("Preaqueça o forno a 220 ºC (temperatura alta). Corte a mandioca em fatias grandes de cerca 8 cm de comprimento, descasque e lave bem sob água corrente. Transfira os pedaços para a panela de pressão e cubra com água, sem ultrapassar o nível máximo de ⅔ da panela. Tampe e leve a panela ao fogo alto. Quando começar a apitar, abaixe o fogo e deixe cozinhar por mais 5 minutos - a mandioca deve estar cozida mas ainda firme para ser cortada em palitos. Desligue o fogo e, importante, deixe todo o vapor sair antes de abrir a panela. Transfira a mandioca cozida para um escorredor, deixe escorrer bem a água e amornar o suficiente para você conseguir manusear os pedaços. Regue uma assadeira grande com metade do azeite. Corte cada pedaço de mandioca ao meio, no sentido do comprimento, e cada metade em palitos de cerca de 2 cm de espessura. Disponha os palitos na assadeira, um ao lado do outro, e regue com o azeite restante. Tempere com sal e pimenta a gosto. Leve ao forno para assar por cerca de 40 minutos, até os pedaços ficarem dourados - na metade do tempo, vire com uma espátula para assar por igual. Retire do forno e sirva a seguir.");
 
+                break;
 
-                    Preparo.setText("Preaqueça o forno a 220 ºC (temperatura alta). Corte a mandioca em fatias grandes de cerca 8 cm de comprimento, descasque e lave bem sob água corrente. Transfira os pedaços para a panela de pressão e cubra com água, sem ultrapassar o nível máximo de ⅔ da panela. Tampe e leve a panela ao fogo alto. Quando começar a apitar, abaixe o fogo e deixe cozinhar por mais 5 minutos - a mandioca deve estar cozida mas ainda firme para ser cortada em palitos. Desligue o fogo e, importante, deixe todo o vapor sair antes de abrir a panela. Transfira a mandioca cozida para um escorredor, deixe escorrer bem a água e amornar o suficiente para você conseguir manusear os pedaços. Regue uma assadeira grande com metade do azeite. Corte cada pedaço de mandioca ao meio, no sentido do comprimento, e cada metade em palitos de cerca de 2 cm de espessura. Disponha os palitos na assadeira, um ao lado do outro, e regue com o azeite restante. Tempere com sal e pimenta a gosto. Leve ao forno para assar por cerca de 40 minutos, até os pedaços ficarem dourados - na metade do tempo, vire com uma espátula para assar por igual. Retire do forno e sirva a seguir.");
 
-                    break;
+            case "Batata Doce Assada com Manjerona":
+                Ingredientes.setText("- 1 un batata doce\n- manjerona seca a gosto\n- azeite de oliva a gosto");
 
+                Preparo.setText("Corte a batata doce em palitos. Disponha em uma assadeira e regue com azeite de oliva. Salpique com a manjerona seca. Asse em forno pré-aquecido a 200ºC por 40 minutos ou até que a batata esteja bem macia. Anotações: A batata deve estar macia o suficiente para que seu bebê consiga mastigá-la mesmo quando ainda não tiver dentes. Para saber se está no ponto adequado coloque um pedaço de batata na boca e pressione-o com a língua contra o céu da boca. Caso você consiga amassá-lo sem muito esforço já pode servir a seu bebê.");
 
-                case "Batata Doce Assada com Manjerona":
-                    Ingredientes.setText("- 1 un batata doce\n- manjerona seca a gosto\n- azeite de oliva a gosto");
+                break;
 
-                    Preparo.setText("Corte a batata doce em palitos. Disponha em uma assadeira e regue com azeite de oliva. Salpique com a manjerona seca. Asse em forno pré-aquecido a 200ºC por 40 minutos ou até que a batata esteja bem macia. Anotações: A batata deve estar macia o suficiente para que seu bebê consiga mastigá-la mesmo quando ainda não tiver dentes. Para saber se está no ponto adequado coloque um pedaço de batata na boca e pressione-o com a língua contra o céu da boca. Caso você consiga amassá-lo sem muito esforço já pode servir a seu bebê.");
+            case "Salada de Batata Doce Amarela com Bacalhau":
+                Ingredientes.setText("- ½ xícara de azeite de oliva\n- 2 dentes de alho picados\n- 1 kg de batata doce amarela cozida e cortada em cubos\n- 500g de bacalhau desfiado dessalgado\n- 1 cebola roxa cortada em tiras\n- ½ pimentão vermelho cortado em tiras\n- ½ pimentão amarelo cortado em tiras\n- 200g de azeitona preta\n- Sal a gosto\n- Salsinha picada a gosto\n- 4 ovos cozidos cortados em canoa.");
 
-                    break;
+                Preparo.setText("Em uma panela pequena dispor o azeite de oliva e o alho e levar ao fogo baixo por 5 minutos. Reservar para esfriar. Em um recipiente, dispor a batata doce, o bacalhau, a cebola roxa, os pimentões, as azeitonas, o sal e a salsinha. Juntar o azeite e misturar bem. Dispor os ovos cortados por cima.");
 
-                case "Salada de Batata Doce Amarela com Bacalhau":
-                    Ingredientes.setText("- ½ xícara de azeite de oliva\n- 2 dentes de alho picados\n- 1 kg de batata doce amarela cozida e cortada em cubos\n- 500g de bacalhau desfiado dessalgado\n- 1 cebola roxa cortada em tiras\n- ½ pimentão vermelho cortado em tiras\n- ½ pimentão amarelo cortado em tiras\n- 200g de azeitona preta\n- Sal a gosto\n- Salsinha picada a gosto\n- 4 ovos cozidos cortados em canoa.");
+                break;
 
-                    Preparo.setText("Em uma panela pequena dispor o azeite de oliva e o alho e levar ao fogo baixo por 5 minutos. Reservar para esfriar. Em um recipiente, dispor a batata doce, o bacalhau, a cebola roxa, os pimentões, as azeitonas, o sal e a salsinha. Juntar o azeite e misturar bem. Dispor os ovos cortados por cima.");
+            case "Batata Doce Frita":
+                Ingredientes.setText("- 1 kg de batata doce amarela \n- Sal a gosto\n- Óleo para fritar. \n Cozinhe a batata-doce com casca com um pouco de sal. Descasque as batatas e corte em rodelas. Frite em óleo quente, o suficiente para cobri-las. Escorra em guardanapo e sirva ainda quente.");
 
-                    break;
+                Preparo.setText("Cozinhe a batata-doce com casca com um pouco de sal. Descasque as batatas e corte em rodelas. Frite em óleo quente, o suficiente para cobri-las. Escorra em guardanapo e sirva ainda quente.");
 
-                case "Batata Doce Frita":
-                    Ingredientes.setText("- 1 kg de batata doce amarela \n- Sal a gosto\n- Óleo para fritar. \n Cozinhe a batata-doce com casca com um pouco de sal. Descasque as batatas e corte em rodelas. Frite em óleo quente, o suficiente para cobri-las. Escorra em guardanapo e sirva ainda quente.");
+                break;
 
-                    Preparo.setText("Cozinhe a batata-doce com casca com um pouco de sal. Descasque as batatas e corte em rodelas. Frite em óleo quente, o suficiente para cobri-las. Escorra em guardanapo e sirva ainda quente.");
+            case "Batata Doce Assada":
+                Ingredientes.setText("- 4 batatas doce (amarelas e roxas)\n- temperos a gosto: \n- sal \n- pimenta \n- paprica doce \n- alecrim\n- azeite");
 
-                    break;
+                Preparo.setText("Forrar uma assadeira com papel alumínio ou papel manteiga. (ajuda na limpeza)Descascar as batatas e cortar em rodelas de aproximadamente 3cm de espessura (2 dedos) e dispor na assadeira. Salpicar sobre as batatas os temperos (sal, pimenta, páprica doce, alecrim fresco). Acrescentar o azeite sobre as batatas e mexer bem para envolver os temperos. Cobrir com papel alumínio e levar para assar em forno pré-aquecido 200ºC por 30 minutos, ou até que as batatas estejam macias. Retirar o alumínio e deixar dourar por mais uns 10 minutos, para ficar douradinha por fora e macia por dentro.");
 
-                case "Batata Doce Assada":
-                    Ingredientes.setText("- 4 batatas doce (amarelas e roxas)\n- temperos a gosto: \n- sal \n- pimenta \n- paprica doce \n- alecrim\n- azeite");
+                break;
 
-                    Preparo.setText("Forrar uma assadeira com papel alumínio ou papel manteiga. (ajuda na limpeza)Descascar as batatas e cortar em rodelas de aproximadamente 3cm de espessura (2 dedos) e dispor na assadeira. Salpicar sobre as batatas os temperos (sal, pimenta, páprica doce, alecrim fresco). Acrescentar o azeite sobre as batatas e mexer bem para envolver os temperos. Cobrir com papel alumínio e levar para assar em forno pré-aquecido 200ºC por 30 minutos, ou até que as batatas estejam macias. Retirar o alumínio e deixar dourar por mais uns 10 minutos, para ficar douradinha por fora e macia por dentro.");
+            case "Pure de Batata Doce Amarela":
+                Ingredientes.setText("- 3 batatas-doces Amarelas\n- 1 xícara (chá) da água do cozimento\n- 2 colheres (sopa) de manteiga gelada\n- sal a gosto.");
 
-                    break;
+                Preparo.setText("Lave, seque e descasque as batatas-doces. Corte em meias-luas grossas e transfira para uma panela média. Cubra com água e tempere com ½ colher (chá) de sal. Leve ao fogo alto e, assim que ferver, deixe cozinhar por cerca de 20 minutos, ou até ficarem macias - para verificar, espete com um garfo. Desligue o fogo e reserve 1 xícara (chá) da água do cozimento. Escorra as batatas por uma peneira. Volte as batatas, ainda quentes, para a mesma panela e bata com um mixer até ficar bem liso. Acrescente, aos poucos, a água do cozimento para dar o ponto. Se preferir um purê mais rústico, passe as batatas por um espremedor. Junte a manteiga e mexa bem com uma espátula até derreter e o purê ficar cremoso. Prove e, se necessário, tempere com mais sal. Sirva a seguir.");
 
-                case "Pure de Batata Doce Amarela":
-                    Ingredientes.setText("- 3 batatas-doces Amarelas\n- 1 xícara (chá) da água do cozimento\n- 2 colheres (sopa) de manteiga gelada\n- sal a gosto.");
+                break;
 
-                    Preparo.setText("Lave, seque e descasque as batatas-doces. Corte em meias-luas grossas e transfira para uma panela média. Cubra com água e tempere com ½ colher (chá) de sal. Leve ao fogo alto e, assim que ferver, deixe cozinhar por cerca de 20 minutos, ou até ficarem macias - para verificar, espete com um garfo. Desligue o fogo e reserve 1 xícara (chá) da água do cozimento. Escorra as batatas por uma peneira. Volte as batatas, ainda quentes, para a mesma panela e bata com um mixer até ficar bem liso. Acrescente, aos poucos, a água do cozimento para dar o ponto. Se preferir um purê mais rústico, passe as batatas por um espremedor. Junte a manteiga e mexa bem com uma espátula até derreter e o purê ficar cremoso. Prove e, se necessário, tempere com mais sal. Sirva a seguir.");
 
-                    break;
+            case "Geleia de Uva":
+                Ingredientes.setText("- 1 kg de uva\n- açúcar a gosto\n- 1 unidade de maçã sem sementes, picada");
 
+                Preparo.setText("Retirar as uvas do cacho e lavarEm uma panela, colocar pra ferver com a água as uvas, a água tem que cobri-las. Quando estiver um caldo escuro, desligar e deixar esfriar. Passar no liquidificador juntamente com a maçã em pedaços e depois coar. Voltar a ferver em fogo baixo, mexer de vez em quando até engrossar.");
 
-                case "Geleia de Uva":
-                    Ingredientes.setText("- 1 kg de uva\n- açúcar a gosto\n- 1 unidade de maçã sem sementes, picada");
+                break;
 
-                    Preparo.setText("Retirar as uvas do cacho e lavarEm uma panela, colocar pra ferver com a água as uvas, a água tem que cobri-las. Quando estiver um caldo escuro, desligar e deixar esfriar. Passar no liquidificador juntamente com a maçã em pedaços e depois coar. Voltar a ferver em fogo baixo, mexer de vez em quando até engrossar.");
+            case "Crème Brulée":
+                Ingredientes.setText("- 2 xícaras de suco de uva integral\n- 1/2 xícara de castanha de caju crua deixada de molho por 6 horas\n- 1 e 1/2 xícaras de leite de coco\n- 1/4 xícara de goma de tapioca\n- 1/4 xícara de açúcar demerara\n- 1/2 colher (chá) de ágar-ágar\n- 1 fatia fina de beterraba cozida (opcional)\n- 1/4 de xícara de açúcar demerara");
 
-                    break;
+                Preparo.setText("Escorra as castanhas e bata com todos os ingredientes no liquidificador até obter um creme homogêneo. Passe para uma panela e mexa até ferver e engrossar. Distribua em ramekins e leve à geladeira por 2 horas, no mínimo. Bata o açúcar para o brulée no processador ou liquidificador para que ele fique com uma textura mais fina. Polvilhe um pouco de açúcar sobre cada um dos cremes gelados. Caramelize o açúcar com ajuda de um maçarico. Sirva com uvas frescas.");
 
-                case "Crème Brulée":
-                    Ingredientes.setText("- 2 xícaras de suco de uva integral\n- 1/2 xícara de castanha de caju crua deixada de molho por 6 horas\n- 1 e 1/2 xícaras de leite de coco\n- 1/4 xícara de goma de tapioca\n- 1/4 xícara de açúcar demerara\n- 1/2 colher (chá) de ágar-ágar\n- 1 fatia fina de beterraba cozida (opcional)\n- 1/4 de xícara de açúcar demerara");
+                break;
 
-                    Preparo.setText("Escorra as castanhas e bata com todos os ingredientes no liquidificador até obter um creme homogêneo. Passe para uma panela e mexa até ferver e engrossar. Distribua em ramekins e leve à geladeira por 2 horas, no mínimo. Bata o açúcar para o brulée no processador ou liquidificador para que ele fique com uma textura mais fina. Polvilhe um pouco de açúcar sobre cada um dos cremes gelados. Caramelize o açúcar com ajuda de um maçarico. Sirva com uvas frescas.");
+            case "Uvas no Mar Negro":
+                Ingredientes.setText("- 790g de leite condensado\n- 3 colheres de sopa de cacau em pó\n- 50g de manteiga\n- 200g de creme de leite\n- ½ kg de uva sem semente cortadas ao meio\n- 3 claras\n- 1 xícara de açúcar\n- 175g de creme de leite fresco");
 
-                    break;
+                Preparo.setText("Em uma panela misturar o leite condensado, o cacau em pó e a manteiga, levar ao fogo médio até a mistura começar a soltar do fundo da panela. Misturar o creme de leite e mexer por mais 2 minutos. Desligar o fogo e reservar. Com a ajuda da batedeira, bater as claras em neves até obter picos firmes, então juntar o açúcar aos poucos até o merengue estar liso. Adicionar o creme de leite e reservar. Dispor as uvas em um refratário, cobrir com o creme de chocolate e finalizar com a camada de merengue. Refrigerar por 1 hora.");
 
-                case "Uvas no Mar Negro":
-                    Ingredientes.setText("- 790g de leite condensado\n- 3 colheres de sopa de cacau em pó\n- 50g de manteiga\n- 200g de creme de leite\n- ½ kg de uva sem semente cortadas ao meio\n- 3 claras\n- 1 xícara de açúcar\n- 175g de creme de leite fresco");
+                break;
 
-                    Preparo.setText("Em uma panela misturar o leite condensado, o cacau em pó e a manteiga, levar ao fogo médio até a mistura começar a soltar do fundo da panela. Misturar o creme de leite e mexer por mais 2 minutos. Desligar o fogo e reservar. Com a ajuda da batedeira, bater as claras em neves até obter picos firmes, então juntar o açúcar aos poucos até o merengue estar liso. Adicionar o creme de leite e reservar. Dispor as uvas em um refratário, cobrir com o creme de chocolate e finalizar com a camada de merengue. Refrigerar por 1 hora.");
+            case "Surpresa de Uva":
+                Ingredientes.setText("- 1 LATA DE LEITE CONDENSADO\n- 400 gramas de UVAS SEM SEMENTES\n- 300 gramas de AÇÚCAR DE CONFEITEIRO ou GLAÇÚCAR");
 
-                    break;
+                Preparo.setText("Remova as uvas do cacho. DICA: Segure a base do talo que prende a uva ao cacho com uma mão, com a outra mão segure e gire a uva como se fosse desparafusá-la do cacho. Dessa forma, você corre menos risco de abrir fissuras na fruta. Reserve as uvas higienizadas e secas. Na hora de usá-las, evite as que tiverem fissuras e as que estiverem escorrendo. Coloque o leite condensado numa panela em fogo baixo e mexa até que chegue ao ponto de desgrudar do fundo. Não é preciso adicionar mais nada. DICA 2: Se perceber que o fundo da panela está caramelizando mais rápido, tire a panela do fogo mexendo para homogeneizar o preparo, até perder um pouco a temperatura, então volte com a panela ao fogo baixo (repita este processo quantas vezes achar necessário). Despeje o preparo num prato untado com manteiga sem sal e aguarde esfriar. Com uma colher, coloque pequenas porções do doce sobre o açúcar peneirado. Em vez de untar as mãos e enrolar em bolinhas, você vai empanar o docinho no açúcar e achatar com os dedos para abrir um disco. Ao perceber que a massinha está ficando pegajosa, é só passá-la no açúcar e continuar abrindo entre os dedos. Posicione a uva no meio do disco e a envolva com a massinha, sempre passando no açúcar quando começar a ficar pegajosa nos dedos. Com a massa já envolvendo a uva, molde do centro da uva para as extremidades (assim evita a formação de bolhas de ar e a massa fica toda grudadinha na fruta). Tire os excessos que vão se formar nas extremidades. Para um acabamento melhor, passe a surpresa de uva novamente no açúcar e delicadamente enrole na mão para ficar lisinha.");
 
-                case "Surpresa de Uva":
-                    Ingredientes.setText("- 1 LATA DE LEITE CONDENSADO\n- 400 gramas de UVAS SEM SEMENTES\n- 300 gramas de AÇÚCAR DE CONFEITEIRO ou GLAÇÚCAR");
+                break;
 
-                    Preparo.setText("Remova as uvas do cacho. DICA: Segure a base do talo que prende a uva ao cacho com uma mão, com a outra mão segure e gire a uva como se fosse desparafusá-la do cacho. Dessa forma, você corre menos risco de abrir fissuras na fruta. Reserve as uvas higienizadas e secas. Na hora de usá-las, evite as que tiverem fissuras e as que estiverem escorrendo. Coloque o leite condensado numa panela em fogo baixo e mexa até que chegue ao ponto de desgrudar do fundo. Não é preciso adicionar mais nada. DICA 2: Se perceber que o fundo da panela está caramelizando mais rápido, tire a panela do fogo mexendo para homogeneizar o preparo, até perder um pouco a temperatura, então volte com a panela ao fogo baixo (repita este processo quantas vezes achar necessário). Despeje o preparo num prato untado com manteiga sem sal e aguarde esfriar. Com uma colher, coloque pequenas porções do doce sobre o açúcar peneirado. Em vez de untar as mãos e enrolar em bolinhas, você vai empanar o docinho no açúcar e achatar com os dedos para abrir um disco. Ao perceber que a massinha está ficando pegajosa, é só passá-la no açúcar e continuar abrindo entre os dedos. Posicione a uva no meio do disco e a envolva com a massinha, sempre passando no açúcar quando começar a ficar pegajosa nos dedos. Com a massa já envolvendo a uva, molde do centro da uva para as extremidades (assim evita a formação de bolhas de ar e a massa fica toda grudadinha na fruta). Tire os excessos que vão se formar nas extremidades. Para um acabamento melhor, passe a surpresa de uva novamente no açúcar e delicadamente enrole na mão para ficar lisinha.");
+            case "Escondidinho de Uva":
 
-                    break;
+                Ingredientes.setText("- 1 lata de leite condensado\n- 1 lata de suco de uva concentrado (mesma medida da lata de leite condensando)\n- 1 lata de leite integral (mesma medida da lata de leite condensando)\n- 1 lata de creme de leite\n- 350 g de chocolate meio amargo ou ao leite picado\n- 1 colher (sopa) de amido de milho\n- 10 uvas para decorar\n- 50 ml de conhaque");
 
-                case "Escondidinho de Uva":
+                Preparo.setText("Higienizar as uvas. Em seguida, coloque as uvas arrumadas no fundo de um refratário de vidro no formato de sua preferência. Dissolva o amido de milho em menos da metade do leite e reserve. Em uma panela, coloque o leite condensado, as gemas e o restante do leite. Misture bem e leve ao fogo baixo. Continue mexendo até levantar fervura. Quando isso acontecer, acrescente aos poucos o amido de milho dissolvido no leite, sem parar de mexer. Cozinhe até engrossar e começar a desgrudar do fundo da panela. Desligue o fogo e despeje o creme ainda quente por cima das uvas e leve para a geladeira. Reserve por 3 horas. Assim que o creme branco já estiver frio, é hora de preparar o creme preto. Ferva o creme de leite e despeje-o sobre o chocolate picado. Mexa bem até que o chocolate tenha sido completamente derretido. Acrescente o conhaque e misture tudo até obter um creme liso e brilhante. Despeje por cima do creme branco e volte com o recipiente para a geladeira por mais 5 horas.");
 
-                    Ingredientes.setText("- 1 lata de leite condensado\n- 1 lata de suco de uva concentrado (mesma medida da lata de leite condensando)\n- 1 lata de leite integral (mesma medida da lata de leite condensando)\n- 1 lata de creme de leite\n- 350 g de chocolate meio amargo ou ao leite picado\n- 1 colher (sopa) de amido de milho\n- 10 uvas para decorar\n- 50 ml de conhaque");
+                break;
 
-                    Preparo.setText("Higienizar as uvas. Em seguida, coloque as uvas arrumadas no fundo de um refratário de vidro no formato de sua preferência. Dissolva o amido de milho em menos da metade do leite e reserve. Em uma panela, coloque o leite condensado, as gemas e o restante do leite. Misture bem e leve ao fogo baixo. Continue mexendo até levantar fervura. Quando isso acontecer, acrescente aos poucos o amido de milho dissolvido no leite, sem parar de mexer. Cozinhe até engrossar e começar a desgrudar do fundo da panela. Desligue o fogo e despeje o creme ainda quente por cima das uvas e leve para a geladeira. Reserve por 3 horas. Assim que o creme branco já estiver frio, é hora de preparar o creme preto. Ferva o creme de leite e despeje-o sobre o chocolate picado. Mexa bem até que o chocolate tenha sido completamente derretido. Acrescente o conhaque e misture tudo até obter um creme liso e brilhante. Despeje por cima do creme branco e volte com o recipiente para a geladeira por mais 5 horas.");
+            case "Nabo Gratinado":
+                Ingredientes.setText("- 1/2 kg de nabo\n- 250 ml de leite\n- 1 e 1/2 colher de sopa de manteiga\n- 1 e 1/2 colher de sopa de farinha de trigo\n- Sal\n- Pimenta do reino\n- 1 pitada de noz-moscada\n- Queijo mussarela ralada");
 
-                    break;
+                Preparo.setText("Descascar os nabos, lavar, e cortar em rodelas bem finas. Dispor em camadas num recipiente para ir ao forno. Derreta a manteiga, juntar a farinha e mexa até dourar. Juntar o leite morno, temperar com sal, pimenta e noz moscada e mexer até engrossar. Retirar do fogo. Coloque sobre os nabos. Polvilhe o queijo ralado. Levar ao forno a 200ºC até dourar.");
 
-                case "Nabo Gratinado":
-                    Ingredientes.setText("- 1/2 kg de nabo\n- 250 ml de leite\n- 1 e 1/2 colher de sopa de manteiga\n- 1 e 1/2 colher de sopa de farinha de trigo\n- Sal\n- Pimenta do reino\n- 1 pitada de noz-moscada\n- Queijo mussarela ralada");
+                break;
 
-                    Preparo.setText("Descascar os nabos, lavar, e cortar em rodelas bem finas. Dispor em camadas num recipiente para ir ao forno. Derreta a manteiga, juntar a farinha e mexa até dourar. Juntar o leite morno, temperar com sal, pimenta e noz moscada e mexer até engrossar. Retirar do fogo. Coloque sobre os nabos. Polvilhe o queijo ralado. Levar ao forno a 200ºC até dourar.");
+            case "Nabo Crocante":
+                Ingredientes.setText("- 1 kg de nabo\n- 250 ml de óleo para fritar\n- Sal");
 
-                    break;
+                Preparo.setText("Corte o nabo em rodelas finas e frite em óleo quente. Após frito coloque 1 pitada de sal. Coloque no papel toalha e sirva quentinho.");
 
-                case "Nabo Crocante":
-                    Ingredientes.setText("- 1 kg de nabo\n- 250 ml de óleo para fritar\n- Sal");
+                break;
 
-                    Preparo.setText("Corte o nabo em rodelas finas e frite em óleo quente. Após frito coloque 1 pitada de sal. Coloque no papel toalha e sirva quentinho.");
+            case "Salada de Nabo":
+                Ingredientes.setText("- Suco de um limão (+/-50ml)\n- 200gr de Cenouras\n- 350gr de Nabos\n- 1 colher de sopa rasa de sal marinho\n- coentro a gosto");
 
-                    break;
+                Preparo.setText("Adicionar o sumo de limão e o sal ao nabo e cenoura ralada. Com a ajuda das mãos, amassar / pressionar a salada com carinho. Assim que o nabo deixar de ficar rijo, e começar a ficar maleável, parar e deixar repousar por 30 minutos (ou mais se desejar). Antes de servir, escorrer bem toda a água. Provar e acertar o tempero. Se estiver insosso colocar mais sal a gosto, se estiver muito salgado passar por um pouco de água e voltar a escorrer bem. Picar os coentros e colocar por cima, está prontinha a servir!");
 
-                case "Salada de Nabo":
-                    Ingredientes.setText("- Suco de um limão (+/-50ml)\n- 200gr de Cenouras\n- 350gr de Nabos\n- 1 colher de sopa rasa de sal marinho\n- coentro a gosto");
+                break;
 
-                    Preparo.setText("Adicionar o sumo de limão e o sal ao nabo e cenoura ralada. Com a ajuda das mãos, amassar / pressionar a salada com carinho. Assim que o nabo deixar de ficar rijo, e começar a ficar maleável, parar e deixar repousar por 30 minutos (ou mais se desejar). Antes de servir, escorrer bem toda a água. Provar e acertar o tempero. Se estiver insosso colocar mais sal a gosto, se estiver muito salgado passar por um pouco de água e voltar a escorrer bem. Picar os coentros e colocar por cima, está prontinha a servir!");
+            case "Creme de Nabo":
+                Ingredientes.setText("- 50 g de batatas\n- 2 Cebolas\n- 2 dentes de Alho\n- 500 g de nabo\n- 150 g de alho-francês\n- 200 g de couve-flor\n- 1,2 l de água fria\n- 2 c. (de sopa) de Manteiga\n- 1 c. (de sopa) de mel\n- 1/2 limão\n- 1 dl de natas\n- 1 c. (de sopa) de coentros picados\n- sal q.b.");
 
-                    break;
+                Preparo.setText("Descasque as batatas, as cebolas, os alhos e os nabos. Corte-os em pedaços, juntamente com o alho-francês e a couve-flor, reservando um nabo inteiro. Coloque tudo num tacho, verta a água e tempere com sal. Entretanto, corte o nabo reservado em cubinhos e salteie-os na manteiga. Junte o mel, o sumo de limão e sal. Deixe caramelizar um pouco e reserve. Assim que os legumes se encontrarem todos cozidos, retire do lume e triture bem a sopa. Leve-a novamente a lume brando com as natas e deixe ferver. Por fim, retifique os temperos e sirva a sopa com o nabo caramelizado e os coentros picado.");
 
-                case "Creme de Nabo":
-                    Ingredientes.setText("- 50 g de batatas\n- 2 Cebolas\n- 2 dentes de Alho\n- 500 g de nabo\n- 150 g de alho-francês\n- 200 g de couve-flor\n- 1,2 l de água fria\n- 2 c. (de sopa) de Manteiga\n- 1 c. (de sopa) de mel\n- 1/2 limão\n- 1 dl de natas\n- 1 c. (de sopa) de coentros picados\n- sal q.b.");
+                break;
 
-                    Preparo.setText("Descasque as batatas, as cebolas, os alhos e os nabos. Corte-os em pedaços, juntamente com o alho-francês e a couve-flor, reservando um nabo inteiro. Coloque tudo num tacho, verta a água e tempere com sal. Entretanto, corte o nabo reservado em cubinhos e salteie-os na manteiga. Junte o mel, o sumo de limão e sal. Deixe caramelizar um pouco e reserve. Assim que os legumes se encontrarem todos cozidos, retire do lume e triture bem a sopa. Leve-a novamente a lume brando com as natas e deixe ferver. Por fim, retifique os temperos e sirva a sopa com o nabo caramelizado e os coentros picado.");
 
-                    break;
+            case "Smoothie Caroteno":
+                Ingredientes.setText("- meio mamão picado\n- polpa de meio maracujá\n- meia cenoura sem casca\n- 1 xícara (chá) de leite gelado\n- meia colher (sopa) de linhaça\n- 1 colher (sopa) de mel");
 
+                Preparo.setText("Em um liquidificador bata bem todos os ingredientes. Sirva gelado.");
 
-                case "Smoothie Caroteno":
-                    Ingredientes.setText("- meio mamão picado\n- polpa de meio maracujá\n- meia cenoura sem casca\n- 1 xícara (chá) de leite gelado\n- meia colher (sopa) de linhaça\n- 1 colher (sopa) de mel");
+                break;
 
-                    Preparo.setText("Em um liquidificador bata bem todos os ingredientes. Sirva gelado.");
+            case "Sorvete de Mamão":
+                Ingredientes.setText("- 2 mamões sem casca e sem sementes\n- 1 xícara (chá) de água quente\n- 1/2 xícara (chá) de adoçante\n- 1/2 xícara (chá) de iogurte natural desnatado\n- 1/2 colher (chá) de essência de baunilha");
 
-                    break;
+                Preparo.setText("Corte o mamão em pedaços e coloque no liquidificador. Bata até obter um creme. Reserve 2 xícaras. Em uma panela, misture a água quente e o adoçante. Leve ao fogo até dissolver completamente. Acrescente o adoçante dissolvido ao mamão e misture bem. Leve para congelar por 4 a 6 horas. Mexa de hora em hora para desmanchar os cristais de gelo. Transfira a mistura para o liquidificador. Adicione o iogurte e a baunilha. Bata até obter um creme liso. Congele.");
 
-                case "Sorvete de Mamão":
-                    Ingredientes.setText("- 2 mamões sem casca e sem sementes\n- 1 xícara (chá) de água quente\n- 1/2 xícara (chá) de adoçante\n- 1/2 xícara (chá) de iogurte natural desnatado\n- 1/2 colher (chá) de essência de baunilha");
+                break;
 
-                    Preparo.setText("Corte o mamão em pedaços e coloque no liquidificador. Bata até obter um creme. Reserve 2 xícaras. Em uma panela, misture a água quente e o adoçante. Leve ao fogo até dissolver completamente. Acrescente o adoçante dissolvido ao mamão e misture bem. Leve para congelar por 4 a 6 horas. Mexa de hora em hora para desmanchar os cristais de gelo. Transfira a mistura para o liquidificador. Adicione o iogurte e a baunilha. Bata até obter um creme liso. Congele.");
+            case "Chutney de Mamão":
+                Ingredientes.setText("- 2xic de papaia\n- 2 c. sopa de cebola picada fino\n- 1 xic de maçã picada fino\n- 1/4 xic de passas\n- 1/2 xic de vinagre de vinho branco\n- 1/2 xíc de açúcar mascavo\n- 1 c. sopa de suco de limão\n- 1/4 xic. de água\n- 1 c. sopa pimentão picadinho\n- 1/2 c. sopa de gengibre ralado\n- 1 dente de alho amassado\n- 1/2 c. cha de sal");
 
-                    break;
+                Preparo.setText("Faço todo o pré preparo com os ingredientes já picados meço as porções e coloco todos em uma panela tampada por 30-40 minutos, mexendo de vez em quando. O ponto é de uma geleia, sem que comece a pegar no fundo.");
 
-                case "Chutney de Mamão":
-                    Ingredientes.setText("- 2xic de papaia\n- 2 c. sopa de cebola picada fino\n- 1 xic de maçã picada fino\n- 1/4 xic de passas\n- 1/2 xic de vinagre de vinho branco\n- 1/2 xíc de açúcar mascavo\n- 1 c. sopa de suco de limão\n- 1/4 xic. de água\n- 1 c. sopa pimentão picadinho\n- 1/2 c. sopa de gengibre ralado\n- 1 dente de alho amassado\n- 1/2 c. cha de sal");
+                break;
 
-                    Preparo.setText("Faço todo o pré preparo com os ingredientes já picados meço as porções e coloco todos em uma panela tampada por 30-40 minutos, mexendo de vez em quando. O ponto é de uma geleia, sem que comece a pegar no fundo.");
+            case "Ceviche de Mamão":
+                Ingredientes.setText("- 500g de mamão de vez (alaranjado, mas ainda bem firme) \n- 4 colheres (sopa) de coentro picado \n- 1 xícara de suco de limão \n- Sal a gosto \n- 1/4 de pimentão vermelho picado\n- 2 pimentas dedo-de-moça, uma verde e uma vermelha, picadas (com ou sem sementes, se quiser mais ou menos picante) \n- 1 cebola roxa fatiada");
 
-                    break;
+                Preparo.setText("Descasque o mamão, tire as sementes e corte-o em pedaços pequenos. Misture-o aos outros ingredientes, espere meia hora e sirva com chips de mandioca (lascas de mandioca feitas com descascador de legumes e fritas).");
 
-                case "Ceviche de Mamão":
-                    Ingredientes.setText("- 500g de mamão de vez (alaranjado, mas ainda bem firme) \n- 4 colheres (sopa) de coentro picado \n- 1 xícara de suco de limão \n- Sal a gosto \n- 1/4 de pimentão vermelho picado\n- 2 pimentas dedo-de-moça, uma verde e uma vermelha, picadas (com ou sem sementes, se quiser mais ou menos picante) \n- 1 cebola roxa fatiada");
+                break;
 
-                    Preparo.setText("Descasque o mamão, tire as sementes e corte-o em pedaços pequenos. Misture-o aos outros ingredientes, espere meia hora e sirva com chips de mandioca (lascas de mandioca feitas com descascador de legumes e fritas).");
+            case "Doce de Mamão":
+                Ingredientes.setText("- 1 mamão grande e maduro (350 g)\n- 200 gramas de coco\n- 3 1/2 xícara (chá) de açúcar (500 g aproximadamente)\n- 3 cravo-da-índia (ou cravinho)\n- 1 pedaço de canela em pau");
 
-                    break;
+                Preparo.setText("Descasque e retire as sementes do mamão. Bata no liquidificador. Em uma panela, coloque o mamão, o coco, o açúcar, o cravo e a canela. Leve ao fogo baixo (160 ºC), mexendo sempre até chegar ao ponto de pegar o doce com a colher.");
 
-                case "Doce de Mamão":
-                    Ingredientes.setText("- 1 mamão grande e maduro (350 g)\n- 200 gramas de coco\n- 3 1/2 xícara (chá) de açúcar (500 g aproximadamente)\n- 3 cravo-da-índia (ou cravinho)\n- 1 pedaço de canela em pau");
+                break;
 
-                    Preparo.setText("Descasque e retire as sementes do mamão. Bata no liquidificador. Em uma panela, coloque o mamão, o coco, o açúcar, o cravo e a canela. Leve ao fogo baixo (160 ºC), mexendo sempre até chegar ao ponto de pegar o doce com a colher.");
 
-                    break;
+            case "Bolo de Kiwi":
+                Ingredientes.setText("- 1 xícara (chá) de Água\n- 1/2 xícara (chá) de linhaça dourada\n- 2 xícaras (chá) de açúcar demerara\n- 3 unidades de kiwi sem casca fatiados\n- 1/2 xícara (chá) de óleo de canola\n- 1/2 xícara (chá) de leite semidesnatado\n- 2 unidades de ovo\n- 1 1/2 xícara (chá) de farinha de trigo\n- 1/2 xícara (chá) de farinha de aveia\n- 1 colher (sopa) de fermento químico em pó");
 
+                Preparo.setText("No liquidificador, bata a água com a linhaça e deixe descansar por 1 hora. Unte uma forma com 25 cm de diâmetro, polvilhe 1/2 xícara (chá) de açúcar no fundo e cubra com o kiwi. Reserve. Bata no liquidificador o óleo com o leite, os ovos e o açúcar restante. Junte a linhaça e bata até a mistura ficar homogênea. Passe para uma tigela e adicione as farinhas e o fermento, misturando com uma colher. Transfira para a forma e leve ao forno, preaquecido, em temperatura média (170 °C a 190 °C) por 40 minutos, ou até dourar. Retire do forno, passe uma faca em volta da massa e desenforme. Sirva frio.");
 
-                case "Bolo de Kiwi":
-                    Ingredientes.setText("- 1 xícara (chá) de Água\n- 1/2 xícara (chá) de linhaça dourada\n- 2 xícaras (chá) de açúcar demerara\n- 3 unidades de kiwi sem casca fatiados\n- 1/2 xícara (chá) de óleo de canola\n- 1/2 xícara (chá) de leite semidesnatado\n- 2 unidades de ovo\n- 1 1/2 xícara (chá) de farinha de trigo\n- 1/2 xícara (chá) de farinha de aveia\n- 1 colher (sopa) de fermento químico em pó");
+                break;
 
-                    Preparo.setText("No liquidificador, bata a água com a linhaça e deixe descansar por 1 hora. Unte uma forma com 25 cm de diâmetro, polvilhe 1/2 xícara (chá) de açúcar no fundo e cubra com o kiwi. Reserve. Bata no liquidificador o óleo com o leite, os ovos e o açúcar restante. Junte a linhaça e bata até a mistura ficar homogênea. Passe para uma tigela e adicione as farinhas e o fermento, misturando com uma colher. Transfira para a forma e leve ao forno, preaquecido, em temperatura média (170 °C a 190 °C) por 40 minutos, ou até dourar. Retire do forno, passe uma faca em volta da massa e desenforme. Sirva frio.");
+            case "Tortinha de Kiwi":
+                Ingredientes.setText("- Massa:\n- 2 xícaras (chá) de farinha de trigo\n- 1 xícara (chá) de manteiga (cerca de 200g)\n- 2 gemas\n- meia xícara (chá) de açúcar de confeiteiro (cerca de 100g)\n- 170 g de chocolate meio amargo\n- Recheio:\n- 2 xícaras (chá) de leite em pó\n- meia xícara (chá) de açúcar\n- 2 gemas\n- 2 colheres (sopa) de amido de milho\n- 6 kiwis em cubos pequenos");
 
-                    break;
+                Preparo.setText("Massa: Em uma tigela, misture a farinha de trigo com a manteiga, as gemas e o açúcar de confeiteiro, até obter uma massa homogênea. Cubra com filme plástico e leve à geladeira por cerca de 30 minutos. Faça dez bolinhas e forre o fundo e as laterais de formas individuais (7 cm de diâmetro). Leve ao forno médio-alto (200°C), preaquecido, por cerca de 30 minutos. Com a massa ainda quente, coloque pedaços do chocolate, espalhe sobre a massa para derreter e deixe esfriar. Desenforme e reserve. Recheio: Em uma panela, misture o leite em pó com o açúcar, as gemas e o amido de milho. Misture bem e cozinhe, em fogo médio, por cerca de 5 minutos. Despeje o creme sobre a massa reservada e distribua o kiwi. Leve à geladeira por cerca de 2 horas. Sirva.");
 
-                case "Tortinha de Kiwi":
-                    Ingredientes.setText("- Massa:\n- 2 xícaras (chá) de farinha de trigo\n- 1 xícara (chá) de manteiga (cerca de 200g)\n- 2 gemas\n- meia xícara (chá) de açúcar de confeiteiro (cerca de 100g)\n- 170 g de chocolate meio amargo\n- Recheio:\n- 2 xícaras (chá) de leite em pó\n- meia xícara (chá) de açúcar\n- 2 gemas\n- 2 colheres (sopa) de amido de milho\n- 6 kiwis em cubos pequenos");
+                break;
 
-                    Preparo.setText("Massa: Em uma tigela, misture a farinha de trigo com a manteiga, as gemas e o açúcar de confeiteiro, até obter uma massa homogênea. Cubra com filme plástico e leve à geladeira por cerca de 30 minutos. Faça dez bolinhas e forre o fundo e as laterais de formas individuais (7 cm de diâmetro). Leve ao forno médio-alto (200°C), preaquecido, por cerca de 30 minutos. Com a massa ainda quente, coloque pedaços do chocolate, espalhe sobre a massa para derreter e deixe esfriar. Desenforme e reserve. Recheio: Em uma panela, misture o leite em pó com o açúcar, as gemas e o amido de milho. Misture bem e cozinhe, em fogo médio, por cerca de 5 minutos. Despeje o creme sobre a massa reservada e distribua o kiwi. Leve à geladeira por cerca de 2 horas. Sirva.");
+            case "Picolé de Kiwi Fit":
+                Ingredientes.setText("- 3 Xícaras (chá) Kiwi picado\n- 1 Colher (sopa) Açúcar demerara ou adoçante\n- 400 ml Água de coco");
 
-                    break;
+                Preparo.setText("Misture o açúcar ou o adoçante a água de coco. Coloque os kiwis picadinhos em forminhas de picolé (um pouquinho em cada) e complete com a água de coco. Leve ao congelador por pelo menos 2 horas. Caso não queira seu picolé fit com pedaços da fruta, bata todos os ingredientes no liquidificador e coloque nas forminhas.");
 
-                case "Picolé de Kiwi Fit":
-                    Ingredientes.setText("- 3 Xícaras (chá) Kiwi picado\n- 1 Colher (sopa) Açúcar demerara ou adoçante\n- 400 ml Água de coco");
+                break;
 
-                    Preparo.setText("Misture o açúcar ou o adoçante a água de coco. Coloque os kiwis picadinhos em forminhas de picolé (um pouquinho em cada) e complete com a água de coco. Leve ao congelador por pelo menos 2 horas. Caso não queira seu picolé fit com pedaços da fruta, bata todos os ingredientes no liquidificador e coloque nas forminhas.");
+            case "Delícia de Kiwi":
+                Ingredientes.setText("- 1 litro de leite integral\n- 1 caixa de leite condensado\n- 1 gema de ovo\n- 2 colheres de amido de milho\n- 1 barra de chocolate meio amargo ou ao leite\n- 1 caixa de creme de leite\n- 3 kiwis descascados e cortados em rodelas");
 
-                    break;
+                Preparo.setText("Em uma panela coloque o leite, o leite condensado, a gema e o amido (previamente diluído em um pouco de leite). Misture bem e leve a fogo brando mexendo sempre. Mexa até chegar em ponto de mingau (o volume da mistura aumentará bastante) e reserve até esfriar. Em taças individuais coloque algumas rodelas de kiwi no fundo. Coloque o creme sobre o kiwi até cobrir completamente e chegar até mais da metade da taça. Coloque mais rodelas de kiwi sobre o creme e reserve. Quebre o chocolate em pedaços e leve em um recipiente adequado ao micro-ondas, coloque uns 30 segundos, retire e mexa, coloque mais 30 segundos e retire. Mexa até o chocolate derreter-se por completo. Acrescente aos poucos o creme de leite ao chocolate derretido, mexendo até formar um ganache. Despeje o ganache sobre os kiwis. Leve a geladeira até servir.");
 
-                case "Delícia de Kiwi":
-                    Ingredientes.setText("- 1 litro de leite integral\n- 1 caixa de leite condensado\n- 1 gema de ovo\n- 2 colheres de amido de milho\n- 1 barra de chocolate meio amargo ou ao leite\n- 1 caixa de creme de leite\n- 3 kiwis descascados e cortados em rodelas");
+                break;
 
-                    Preparo.setText("Em uma panela coloque o leite, o leite condensado, a gema e o amido (previamente diluído em um pouco de leite). Misture bem e leve a fogo brando mexendo sempre. Mexa até chegar em ponto de mingau (o volume da mistura aumentará bastante) e reserve até esfriar. Em taças individuais coloque algumas rodelas de kiwi no fundo. Coloque o creme sobre o kiwi até cobrir completamente e chegar até mais da metade da taça. Coloque mais rodelas de kiwi sobre o creme e reserve. Quebre o chocolate em pedaços e leve em um recipiente adequado ao micro-ondas, coloque uns 30 segundos, retire e mexa, coloque mais 30 segundos e retire. Mexa até o chocolate derreter-se por completo. Acrescente aos poucos o creme de leite ao chocolate derretido, mexendo até formar um ganache. Despeje o ganache sobre os kiwis. Leve a geladeira até servir.");
+            case "Vinagrete de Kiwi":
+                Ingredientes.setText("- 6 unidades Kiwi\n- 2 colheres sopa Azeite de oliva extravirgem\n- 1 colher sopa Vinagre de vinho branco\n- 4 unidades Pimenta do reino em grão\n- À gosto Sal");
 
-                    break;
+                Preparo.setText("Descasque os kiwis e coloque no liquidificador. Adicione os demais ingredientes e processe até ficar cremoso. Caso queira mais espesso, adicione mais kiwi. Sirva acompanhando com salada de folhas normal.");
 
-                case "Vinagrete de Kiwi":
-                    Ingredientes.setText("- 6 unidades Kiwi\n- 2 colheres sopa Azeite de oliva extravirgem\n- 1 colher sopa Vinagre de vinho branco\n- 4 unidades Pimenta do reino em grão\n- À gosto Sal");
-
-                    Preparo.setText("Descasque os kiwis e coloque no liquidificador. Adicione os demais ingredientes e processe até ficar cremoso. Caso queira mais espesso, adicione mais kiwi. Sirva acompanhando com salada de folhas normal.");
-
-                    break;
+                break;
 
             case "Geléia de Kiwi":
                 Ingredientes.setText("- 5 kiwis\n- 1/2 xícara de açúcar\n- 1 maçã sem casca e sem sementes ralada ");
@@ -1925,38 +1923,38 @@ public class ActivityPreparo extends AppCompatActivity {
 
 /// Inhame
 
-                case "Sopa de Inhame":
-                    Ingredientes.setText("- 4 inhames de tamanho médio\n- 1 colher (de sopa) de tempero de alho e cebola\n- 2 colheres (de sopa) de óleo\n- 1 colher (de sopa) de sal\n- 2 colheres (de sopa) de cheiro verde\n- 50 g de bacon\n- Meio litro de água");
+            case "Sopa de Inhame":
+                Ingredientes.setText("- 4 inhames de tamanho médio\n- 1 colher (de sopa) de tempero de alho e cebola\n- 2 colheres (de sopa) de óleo\n- 1 colher (de sopa) de sal\n- 2 colheres (de sopa) de cheiro verde\n- 50 g de bacon\n- Meio litro de água");
 
-                    Preparo.setText("Descascar o inhame, lavá-lo bem e cortá-lo em pedaços. Pôr o óleo numa panela e refogar o inhame com o tempero, cheiro verde e bacon. Adicionar a água e tampar. Cozinhar durante 20 minutos. O resultado final é um caldo grosso, com pedaços menores do inhame. Na hora de servir, coloque mais um pouco de cheiro verde sobre a sopa.");
+                Preparo.setText("Descascar o inhame, lavá-lo bem e cortá-lo em pedaços. Pôr o óleo numa panela e refogar o inhame com o tempero, cheiro verde e bacon. Adicionar a água e tampar. Cozinhar durante 20 minutos. O resultado final é um caldo grosso, com pedaços menores do inhame. Na hora de servir, coloque mais um pouco de cheiro verde sobre a sopa.");
 
-                    break;
+                break;
 
-                case "Dadinho de Inhame":
-                    Ingredientes.setText("- 250 g de inhame \n- Pimenta-do-reino a gosto \n- Sal marinho a gosto \n- 100 ml de azeite \n- ½ pimenta dedo-de-moça \n- 1 talo de tomilho pequeno \n- 1 talo de alecrim pequeno");
+            case "Dadinho de Inhame":
+                Ingredientes.setText("- 250 g de inhame \n- Pimenta-do-reino a gosto \n- Sal marinho a gosto \n- 100 ml de azeite \n- ½ pimenta dedo-de-moça \n- 1 talo de tomilho pequeno \n- 1 talo de alecrim pequeno");
 
-                    Preparo.setText("250 g de inhame Pimenta-do-reino a gosto Sal marinho a gosto 100 ml de azeite ½ pimenta dedo-de-moça 1 talo de tomilho pequeno 1 talo de alecrim pequeno");
+                Preparo.setText("250 g de inhame Pimenta-do-reino a gosto Sal marinho a gosto 100 ml de azeite ½ pimenta dedo-de-moça 1 talo de tomilho pequeno 1 talo de alecrim pequeno");
 
-                    break;
+                break;
 
-                case "Inhame do Murro":
-                    Ingredientes.setText("- 4 inhames (cerca de 500 g)\n- 2 colheres (sopa) de azeite\n- tomilho a gosto\n- sal e pimenta-do-reino moída na hora a gosto");
+            case "Inhame do Murro":
+                Ingredientes.setText("- 4 inhames (cerca de 500 g)\n- 2 colheres (sopa) de azeite\n- tomilho a gosto\n- sal e pimenta-do-reino moída na hora a gosto");
 
-                    Preparo.setText("Pré aqueça o forno a 200 ºC (temperatura média). Regue uma assadeira pequena com 1 colher (sopa) de azeite. Com uma escovinha para legumes, lave bem os inhames sob água corrente, esfregando bem para tirar os pelinhos da casca. Transfira para uma panela média, cubra com água e leve para cozinhar em fogo alto. Quando começar a ferver, diminua o fogo e deixar cozinhar por mais 30 minutos, até ficarem macios. Assim que estiverem cozidos, escorra a água. Sobre a tábua, abra um pano de prato limpo e coloque um inhame, ainda quente, no centro - cuidado para não se queimar. Dobre o pano sobre o inhame e dê um murro certeiro para achatar levemente o inhame, sem rachar completamente. Transfira para a assadeira e repita com os demais. Debulhe as folhas de tomilho sobre os inhames, regue com o azeite restante e tempere com sal a gosto - o sal moído na hora, além de temperar, dá uma textura crocante. Leve ao forno para assar por cerca de 30 minutos, ou até ficarem dourados. Retire do forno e sirva a seguir. Fica ótimo servido com ragu de carne.");
+                Preparo.setText("Pré aqueça o forno a 200 ºC (temperatura média). Regue uma assadeira pequena com 1 colher (sopa) de azeite. Com uma escovinha para legumes, lave bem os inhames sob água corrente, esfregando bem para tirar os pelinhos da casca. Transfira para uma panela média, cubra com água e leve para cozinhar em fogo alto. Quando começar a ferver, diminua o fogo e deixar cozinhar por mais 30 minutos, até ficarem macios. Assim que estiverem cozidos, escorra a água. Sobre a tábua, abra um pano de prato limpo e coloque um inhame, ainda quente, no centro - cuidado para não se queimar. Dobre o pano sobre o inhame e dê um murro certeiro para achatar levemente o inhame, sem rachar completamente. Transfira para a assadeira e repita com os demais. Debulhe as folhas de tomilho sobre os inhames, regue com o azeite restante e tempere com sal a gosto - o sal moído na hora, além de temperar, dá uma textura crocante. Leve ao forno para assar por cerca de 30 minutos, ou até ficarem dourados. Retire do forno e sirva a seguir. Fica ótimo servido com ragu de carne.");
 
-                    break;
+                break;
 
-                case "Bolinho de Inhame":
-                    Ingredientes.setText("- 500 g de inhame, cozido e espremido\n- 1 ovo\n- 3 colheres (sopa) de margarina sem sal\n- 2 e meia colheres (sopa) de queijo tipo parmesão ralado\n- 1 xícara (chá) de farinha de trigo\n- 1 sachê de caldo de legumes");
+            case "Bolinho de Inhame":
+                Ingredientes.setText("- 500 g de inhame, cozido e espremido\n- 1 ovo\n- 3 colheres (sopa) de margarina sem sal\n- 2 e meia colheres (sopa) de queijo tipo parmesão ralado\n- 1 xícara (chá) de farinha de trigo\n- 1 sachê de caldo de legumes");
 
-                    Preparo.setText("Em uma tigela grande, coloque o inhame, o ovo, a margarina, o queijo ralado e a farinha de trigo. Polvilhe com caldo de legumes e misture bem como auxílio de uma colher, até obter uma massa homogênea. Molde esferas de 3 cm de diâmetro entre a palma das mãos enfarinhadas. Frite-as em imersão, em óleo quente, por 5 minutos ou até dourarem. Escorra em papel toalha e sirva em seguida");
+                Preparo.setText("Em uma tigela grande, coloque o inhame, o ovo, a margarina, o queijo ralado e a farinha de trigo. Polvilhe com caldo de legumes e misture bem como auxílio de uma colher, até obter uma massa homogênea. Molde esferas de 3 cm de diâmetro entre a palma das mãos enfarinhadas. Frite-as em imersão, em óleo quente, por 5 minutos ou até dourarem. Escorra em papel toalha e sirva em seguida");
 
-                    break;
+                break;
 
-                case "Pure de Inhame":
-                    Ingredientes.setText("- 4 inhames\n- 1 xícara (chá) de leite\n- 2 dentes de alho descascados\n- 2 colheres (sopa) de manteiga\n- noz-moscada ralada na hora a gosto\n- sal e pimenta-do-reino moída na hora a gosto");
+            case "Pure de Inhame":
+                Ingredientes.setText("- 4 inhames\n- 1 xícara (chá) de leite\n- 2 dentes de alho descascados\n- 2 colheres (sopa) de manteiga\n- noz-moscada ralada na hora a gosto\n- sal e pimenta-do-reino moída na hora a gosto");
 
-                    Preparo.setText("Lave, descasque, seque e corte os inhames em pedaços médios. Transfira para uma panela média, cubra com água e junte 1 colher (chá) de sal e os alhos já descascados.  Leve para cozinhar em fogo alto. Assim que começar a ferver, abaixe o fogo para médio e cozinhe por 25 minutos, ou até que os pedaços fiquem macios - espete com um garfo para verificar.  Desligue o fogo e escorra a água numa peneira. Enquanto isso, numa panelinha, leve o leite ao fogo baixo para aquecer, sem deixar ferver - para o purê não empelotar, o leite deve estar na mesma temperatura do inhame. Passe os inhames com os dentes de alho ainda quentes pelo espremedor e volte para a mesma panela. Leve ao fogo médio e acrescente o leite, aos poucos, mexendo com um batedor de arame para incorporar. Desligue o fogo, misture a manteiga e tempere com sal, pimenta-do-reino moída na hora a gosto e uma pitada de noz-moscada e sirva.");
+                Preparo.setText("Lave, descasque, seque e corte os inhames em pedaços médios. Transfira para uma panela média, cubra com água e junte 1 colher (chá) de sal e os alhos já descascados.  Leve para cozinhar em fogo alto. Assim que começar a ferver, abaixe o fogo para médio e cozinhe por 25 minutos, ou até que os pedaços fiquem macios - espete com um garfo para verificar.  Desligue o fogo e escorra a água numa peneira. Enquanto isso, numa panelinha, leve o leite ao fogo baixo para aquecer, sem deixar ferver - para o purê não empelotar, o leite deve estar na mesma temperatura do inhame. Passe os inhames com os dentes de alho ainda quentes pelo espremedor e volte para a mesma panela. Leve ao fogo médio e acrescente o leite, aos poucos, mexendo com um batedor de arame para incorporar. Desligue o fogo, misture a manteiga e tempere com sal, pimenta-do-reino moída na hora a gosto e uma pitada de noz-moscada e sirva.");
 
             case "Panqueca de Inhame":
                 Ingredientes.setText("- 2inhames pequenos descascados e cozidos\n- 2 ovos\n- 1 xícara (chá) de água filtrada\n- ½ xícara (chá) de farinha de arroz\n- ½ xícara (chá) de fécula de batata ou amido de milho\n- 2 colheres (sopa) de azeite\n- Sal integral a gosto\n- Azeite para untar ");
@@ -1988,69 +1986,69 @@ public class ActivityPreparo extends AppCompatActivity {
 
 
 
-                case "Suflê de Chuchu":
-                    Ingredientes.setText("- 3 unidade(s) chuchus cortados em pedaços pequenos\n- 1 unidade(s) celoba grande (bem picadinha)\n- 1 colher(es) de sopa manteiga extra sem sal\n- 2 unidade(s) ovos grandes (separe as claras)\n- 1 colher(es) de sopa queijo ralado\n- 4 colher(es) de sopa farinha de trigo (sem fermento)\n- 1 copo(s) leite integral (250ml)\n- 1 colher(es) de sopa fermento químico em pó\n- 5 dente(s) alho (bem picadinhos)\n- a gosto sal e pimenta do reino (branca ou preta)");
+            case "Suflê de Chuchu":
+                Ingredientes.setText("- 3 unidade(s) chuchus cortados em pedaços pequenos\n- 1 unidade(s) celoba grande (bem picadinha)\n- 1 colher(es) de sopa manteiga extra sem sal\n- 2 unidade(s) ovos grandes (separe as claras)\n- 1 colher(es) de sopa queijo ralado\n- 4 colher(es) de sopa farinha de trigo (sem fermento)\n- 1 copo(s) leite integral (250ml)\n- 1 colher(es) de sopa fermento químico em pó\n- 5 dente(s) alho (bem picadinhos)\n- a gosto sal e pimenta do reino (branca ou preta)");
 
-                    Preparo.setText("Cozinhe os chuchus até ficarem macios (porém firme)Escorra-os e reserve-osEm uma panela, prepare um refogado: doure a cebola, o alho na manteiga. Acrescente as gemas dos ovos, o queijo ralado, a farinha de trigo, o leite, o fermento, o sal e a pimenta do reino. Reserve o refogado. A parte, bata as claras até que fiquem 'claras em neve'. Unte e enfarinhe uma forma retangular (média) de vidro e/ ou alumíniu. Ligue o forno (para pré-aquecer) em 180ºCMisture delicadamente no refogado os chuchus previamente cozidos e escorridos e as 'claras em nove'. Coloque a mistura na forma (já untada e enfarinhada) e leve ao forno na mesma temperatura (180ºC) até dourar . Sirva a seguir.");
+                Preparo.setText("Cozinhe os chuchus até ficarem macios (porém firme)Escorra-os e reserve-osEm uma panela, prepare um refogado: doure a cebola, o alho na manteiga. Acrescente as gemas dos ovos, o queijo ralado, a farinha de trigo, o leite, o fermento, o sal e a pimenta do reino. Reserve o refogado. A parte, bata as claras até que fiquem 'claras em neve'. Unte e enfarinhe uma forma retangular (média) de vidro e/ ou alumíniu. Ligue o forno (para pré-aquecer) em 180ºCMisture delicadamente no refogado os chuchus previamente cozidos e escorridos e as 'claras em nove'. Coloque a mistura na forma (já untada e enfarinhada) e leve ao forno na mesma temperatura (180ºC) até dourar . Sirva a seguir.");
 
-                    break;
+                break;
 
-                case "Purê Delicioso de Chuchu":
-                    Ingredientes.setText("- 3 chuchus médios\n- 2 colheres (sopa) de manteiga\n- 3 colheres (sopa) de farinha detrigo\n- 2 colheres (sopa) de queijo tipo parmesão ralado ? e mais um pouco para salpicar sobre o purê\n- Sal a gosto");
+            case "Purê Delicioso de Chuchu":
+                Ingredientes.setText("- 3 chuchus médios\n- 2 colheres (sopa) de manteiga\n- 3 colheres (sopa) de farinha detrigo\n- 2 colheres (sopa) de queijo tipo parmesão ralado ? e mais um pouco para salpicar sobre o purê\n- Sal a gosto");
 
-                    Preparo.setText("Coloque uma panela com uma pouco de água para ferver (quantidade que cubra os chuchus). Enquanto isso descasque os chuchus, retire-lhes os centros e corte-os em pedaços médios. Coloque-os na água que já deve estar a ferver e junte 1 colher (chá) cheia de açúcar. Cozinhe até que fiquem macios, então os escorra dentro de uma peneira grande ou de um escorredor de massas. Jogue imediatamente sobre os chuchus uma boa quantidade de água gelada para que eles voltem a ter uma bonita cor. Coloque os pedaços do legume dentro do copo do liquidificador e bata no início usando a tecla pulsar até obter um creme liso e homogêneo - não coloque líquido nenhum. Reserve. Derreta a manteiga numa panela e junte a farinha de trigo. Cozinhe por alguns minutos sempre mexendo e depois vá adicionado o creme de chuchu. Vá o adicionado aos poucos e mexendo vigorosamente com um batedor de arame (fouet) ou com uma colher de pau até que fique um creme bem liso e sem grumos. Cozinhe por mais alguns minutos sempre mexendo, junte o parmesão e coloque sal a gosto (não coloque muito). Passe para uma travessa de serviço e salpique mais um pouco de parmesão, se quiser decore com fatias de chuchu cozidas com um pouco de sal.");
+                Preparo.setText("Coloque uma panela com uma pouco de água para ferver (quantidade que cubra os chuchus). Enquanto isso descasque os chuchus, retire-lhes os centros e corte-os em pedaços médios. Coloque-os na água que já deve estar a ferver e junte 1 colher (chá) cheia de açúcar. Cozinhe até que fiquem macios, então os escorra dentro de uma peneira grande ou de um escorredor de massas. Jogue imediatamente sobre os chuchus uma boa quantidade de água gelada para que eles voltem a ter uma bonita cor. Coloque os pedaços do legume dentro do copo do liquidificador e bata no início usando a tecla pulsar até obter um creme liso e homogêneo - não coloque líquido nenhum. Reserve. Derreta a manteiga numa panela e junte a farinha de trigo. Cozinhe por alguns minutos sempre mexendo e depois vá adicionado o creme de chuchu. Vá o adicionado aos poucos e mexendo vigorosamente com um batedor de arame (fouet) ou com uma colher de pau até que fique um creme bem liso e sem grumos. Cozinhe por mais alguns minutos sempre mexendo, junte o parmesão e coloque sal a gosto (não coloque muito). Passe para uma travessa de serviço e salpique mais um pouco de parmesão, se quiser decore com fatias de chuchu cozidas com um pouco de sal.");
 
-                    break;
+                break;
 
-                case "Chuchu Gratinado":
-                    Ingredientes.setText("- 2 colheres (sopa) de manteiga\n- 2 colheres (sopa) de farinha de trigo\n- 2 xícaras de leite fervido\n- sal a gosto\n- pimenta-do-reino branca a gosto\n- noz-moscada a gosto\n- 1 kg de chuchu descascado\n- 1 fio de azeite\n- 100 g de parmesão ralado");
+            case "Chuchu Gratinado":
+                Ingredientes.setText("- 2 colheres (sopa) de manteiga\n- 2 colheres (sopa) de farinha de trigo\n- 2 xícaras de leite fervido\n- sal a gosto\n- pimenta-do-reino branca a gosto\n- noz-moscada a gosto\n- 1 kg de chuchu descascado\n- 1 fio de azeite\n- 100 g de parmesão ralado");
 
-                    Preparo.setText("Em uma panela, adicione a manteiga, a farinha e o leite fervido, mexa até engrossar. Tempere com sal, pimenta-do-reino branca e noz-moscada, reserve. Corte os chuchus em fatias finas e tempere com sal. Deixe descansar por 5 minutos. Em seguida, lave e deixe secar. Em outra panela, adicione 1 fio de óleo e as fatias de chuchu. Tempere com sal e pimenta-do-reino. Unte uma travessa com azeite e cloque as fatias de chuchu. Cubra-as com o molho reservado. Adicione queijo parmesão ralado por cima. Leve ao forno para gratinar (180° C), por cerca de 30 minutos. Sirva quente");
+                Preparo.setText("Em uma panela, adicione a manteiga, a farinha e o leite fervido, mexa até engrossar. Tempere com sal, pimenta-do-reino branca e noz-moscada, reserve. Corte os chuchus em fatias finas e tempere com sal. Deixe descansar por 5 minutos. Em seguida, lave e deixe secar. Em outra panela, adicione 1 fio de óleo e as fatias de chuchu. Tempere com sal e pimenta-do-reino. Unte uma travessa com azeite e cloque as fatias de chuchu. Cubra-as com o molho reservado. Adicione queijo parmesão ralado por cima. Leve ao forno para gratinar (180° C), por cerca de 30 minutos. Sirva quente");
 
-                    break;
+                break;
 
 
-                case "Chuchu Assado":
-                    Ingredientes.setText("- 2 unidades de chuchu\n- a gosto de azeite de oliva\n- a gosto de pimenta do reino\n- a gosto de orégano fresco\n- a gosto de sal");
+            case "Chuchu Assado":
+                Ingredientes.setText("- 2 unidades de chuchu\n- a gosto de azeite de oliva\n- a gosto de pimenta do reino\n- a gosto de orégano fresco\n- a gosto de sal");
 
-                    Preparo.setText("Descasque os chuchus e corte-os ao meio. Corte cada metade em mais 4 ou 6 fatias de aproximadamente 1 cm. Unte uma assadeira com azeite de oliva e arrume os chuchus enfileirados. Tempere com sal e pimenta-do-reino por cima e regue com um fio de azeite de oliva. Coloque folhas de orégano fresco e leve ao forno pré-aquecido a 180°, por 30 minutos.");
+                Preparo.setText("Descasque os chuchus e corte-os ao meio. Corte cada metade em mais 4 ou 6 fatias de aproximadamente 1 cm. Unte uma assadeira com azeite de oliva e arrume os chuchus enfileirados. Tempere com sal e pimenta-do-reino por cima e regue com um fio de azeite de oliva. Coloque folhas de orégano fresco e leve ao forno pré-aquecido a 180°, por 30 minutos.");
 
-                    break;
+                break;
 
-                case "Chuchu ao Alho e Óleo":
-                    Ingredientes.setText("- 200 gr de chuchu descascado sem semente e cortado em cubos (se você estiver usando o grande) ou 200 gr de mini chuchu branco cortado em 4 sem a semente.\n- 2 dentes de alho picados bem pequenininho.\n- azeite e sal à gosto.");
+            case "Chuchu ao Alho e Óleo":
+                Ingredientes.setText("- 200 gr de chuchu descascado sem semente e cortado em cubos (se você estiver usando o grande) ou 200 gr de mini chuchu branco cortado em 4 sem a semente.\n- 2 dentes de alho picados bem pequenininho.\n- azeite e sal à gosto.");
 
-                    Preparo.setText("Em uma panela com água fervente e sal cozinhe os cubinhos de chuchu até que ao furar com um garfo não tenha resistência, mas continuem firmes. Em uma frigideira coloque o azeite em abundância e o alho, leve ao fogo médio e deixe o alho dourar. Escorra o chuchu e coloque no azeite e no alho, mexendo para que todo pedacinho ganhe sua dose de sabor. Tempere com sal e pimenta e sirva!");
+                Preparo.setText("Em uma panela com água fervente e sal cozinhe os cubinhos de chuchu até que ao furar com um garfo não tenha resistência, mas continuem firmes. Em uma frigideira coloque o azeite em abundância e o alho, leve ao fogo médio e deixe o alho dourar. Escorra o chuchu e coloque no azeite e no alho, mexendo para que todo pedacinho ganhe sua dose de sabor. Tempere com sal e pimenta e sirva!");
 
-                    break;
+                break;
 
-                case "Chuchu Recheado":
-                    Ingredientes.setText("- 2 chuchu\n- 1 xícara (chá) de carne bovina moída\n- 1 colher (sopa) de azeite de oliva\n- 1 colher (sopa) de cebola picada\n- 1 dente de alho amassado\n- 1/2 xícara (chá) de molho de tomate\n- sal a gosto\n- cheiro-verde picado a gosto\n- queijo parmesão ralado");
+            case "Chuchu Recheado":
+                Ingredientes.setText("- 2 chuchu\n- 1 xícara (chá) de carne bovina moída\n- 1 colher (sopa) de azeite de oliva\n- 1 colher (sopa) de cebola picada\n- 1 dente de alho amassado\n- 1/2 xícara (chá) de molho de tomate\n- sal a gosto\n- cheiro-verde picado a gosto\n- queijo parmesão ralado");
 
-                    Preparo.setText("Descasque e corte o chuchu na horizontal. Retire o miolo e cozinhe por 5 minutos em água fervente e sal. Escorra e reserve. Aqueça o azeite e refogue a cebola e o alho. Junte a carne moída e deixe dourar. Ponha o molho de tomate, tempere com o sal e o cheiro-verde e ferva por 5 minutos. Distribua a carne na cavidade dos chuchus e polvilhe com o queijo ralado. Disponha os chuchus em um refratário untado e leve ao forno para gratinar.");
+                Preparo.setText("Descasque e corte o chuchu na horizontal. Retire o miolo e cozinhe por 5 minutos em água fervente e sal. Escorra e reserve. Aqueça o azeite e refogue a cebola e o alho. Junte a carne moída e deixe dourar. Ponha o molho de tomate, tempere com o sal e o cheiro-verde e ferva por 5 minutos. Distribua a carne na cavidade dos chuchus e polvilhe com o queijo ralado. Disponha os chuchus em um refratário untado e leve ao forno para gratinar.");
 
-                    break;
+                break;
 
-                case "Chuchu Mexicano":
-                    Ingredientes.setText("- 5 xícaras de água\n- 1/2 colher de chá de sal\n- 450 g de chuchu, sem sementes e cortado longitudinalmente, em 8 fatias\n- Para o Molho de Iogurte:\n- 1 pimentão verde, picado para produzir 1 xícara\n- 1/2 abacate, sem caroço\n- 1/4 colher de chá de cominho em pó\n- 3/4 de xícara de iogurte natural desnatado\n- 1/4 de xícara de maionese com baixo teor de gordura\n- Sal e pimenta-do-reino, moída na hora.");
+            case "Chuchu Mexicano":
+                Ingredientes.setText("- 5 xícaras de água\n- 1/2 colher de chá de sal\n- 450 g de chuchu, sem sementes e cortado longitudinalmente, em 8 fatias\n- Para o Molho de Iogurte:\n- 1 pimentão verde, picado para produzir 1 xícara\n- 1/2 abacate, sem caroço\n- 1/4 colher de chá de cominho em pó\n- 3/4 de xícara de iogurte natural desnatado\n- 1/4 de xícara de maionese com baixo teor de gordura\n- Sal e pimenta-do-reino, moída na hora.");
 
-                    Preparo.setText("Em uma panela média, coloque a água e sal e ferva, em fogo médio-alto. Adicione o chuchu e cozinhe até ficar macio, cerca de 10 minutos. Coe e reserve. Para o Molho de Iogurte: Em um processador de alimentos, misture o pimentão, o abacate, o cominho em pó, o iogurte, a maionese até ficar homogêneo, cerca de 1 minuto. Tempere com sal e pimenta a gosto. Transfira para uma tigela e deixe descansar por 10 minutos para engrossar. Sirva o molho com chuchu quente ou à temperatura ambiente.");
+                Preparo.setText("Em uma panela média, coloque a água e sal e ferva, em fogo médio-alto. Adicione o chuchu e cozinhe até ficar macio, cerca de 10 minutos. Coe e reserve. Para o Molho de Iogurte: Em um processador de alimentos, misture o pimentão, o abacate, o cominho em pó, o iogurte, a maionese até ficar homogêneo, cerca de 1 minuto. Tempere com sal e pimenta a gosto. Transfira para uma tigela e deixe descansar por 10 minutos para engrossar. Sirva o molho com chuchu quente ou à temperatura ambiente.");
 
-                    break;
+                break;
 
             case "Chuchu Crocante":
                 Ingredientes.setText("- 4 a 6 chuchus medianos cortados em fatias finas e compridas\n- 1 cebola cortada em fatias\n- azeitonas verdes fatiadas\n- oregano\n- tempero japones (furikake) de qualquer sabor!\n- azeite de oliva\n- pitada de sal\n- vinagre de maça\n- shoyo\n- pitada de pimenta do reino ");
-                Preparo.setText("Limpe os quiabos, cortando apenas a pontinha superior. Mergulhe-os inteiros em água fervente com 2 colheres (sopa) de suco de limão e sal. Deixe-os imersos por uns 8 minutos e escorra. Corte-os então em pedaços menores. Divida a cebola e o tomate em rodelas. Limpe o pimentão e pique-o em tirinhas. Arrume todos esse ingredientes em uma travessa. Para o molho, misture 3 colheres (sopa) de suco de limão com 2 colheres (sopa) de azeite, sal e pimenta-do-reino. Pingue sobre a salada e salpique, por fim, a salsa e o gergelim. ");
+                Preparo.setText(" Primeiro corta os chuchus debaixo d agua tirando a casca porque é meio grudento. Depois cortá-los ao meio, tirando a parte da semente e ficando o chuchu em duas partes. Colocá-lo em uma tábua, o em multi processador o até mesmo num ralador, para cortá-lo em fatias compridas bem fininhas. Durante este processo, por uma panela com agua e bastante vinagre branco e deixar aquecendo um pouco esta agua. Depois de cortar todos os chcuhcus, e vendo que a agua já esta aquecida, por dentro de esta panela las fatias de chuchu e esperar que fiquem um pouco amarelinhos, mas só um pouquinho. Tirá-los já quentes com uma escumadeira e por em um escorredor de macarao dentro da pia debaixo d agua fria, deixando esta correr dentro do escorredor. Com suas duas maos, por um pouco das fatias e apertar tirando todo o excesso de agua. Pode apertar bem, o chuchu vai parecer que está meio amassado. Este é o ponto certo!Logo que vai amassando, vai pondo numa travessa de vidro de forma retangular para fazer os temperos. Nesta hora, as cebolas e as azeitonas jádevem ter sido cortadas em fatias bem finas. Por todo o chuchu enxugado e amassado com a pressao das maos. Colocar as cebolas e as azeitonas. O segredo é que o vinagre na agua quente deixará o chuchu bem crocante, quando você for comer nao saberá que é chcuchu, é impressionante, mas nao dá para saber. É uma delicia. Depois do chuchcu, cebola e azeitonas colocadas na travessa, temprerar com mais vinagre de maça, azeite de oliva, pitada de sal, soyo, oregano, furikake ( tempero japones) e uma pitada de pimenta do reino. Se nao tiver o furikake pode fazer o seu proprio tempero. Mexer tudocom uma colher , misturando bem todos os ingredientes e por na geladeira até na hora de servir");
                 break;
 
             case "Chuchu Refogado":
                 Ingredientes.setText("- 2 colheres (sopa) de manteiga\n- meia xícara (chá) de cebola picada\n- 3 chuchus em cubos\n- 1 sachê de MAGGI Natusabor Salsinha, Orégano, Cebolinha\n- 1 colher (sopa) de salsa picada ");
-                Preparo.setText("Preaqueça o forno a 220°C. Retire os topos dos quiabos, que geralmente ficam marrons. Depois, corte-os na diagonal em pedaços de 3cm e coloque-os numa assadeira. Misture com o óleo. Seque os grãos-de-bico no papel toalha e coloque-os na assadeira. Em uma tigela, misture o garam masala com ½ colher de chá de sal e ½ colher de chá de pimenta. Polvilhe a mistura sobre o quiabo e o grão-de-bico e misture até que todos os vegetais estejam cobertos. Espalhe os ingredientes em uma só camada e asse até o quiabo ficar macio quando perfurado com a ponta de uma faca e os grãos-debico estejam crocantes, por 25 a 30 minutos. Acerte o sal. Mexa e sirva enquanto estiver quente. ");
+                Preparo.setText("Em uma panela, derreta a manteiga e refogue a cebola. Junte o chuchu, o MAGGI Natusabor e deixe refogar até que os chuchus estejam macios. Polvilhe a salsa e sirva.");
                 break;
 
             case "Omelete de Chuchu light":
                 Ingredientes.setText("- 1 dente de alho picadol\n- 1 chuchu ralado crul\n- 2 ovosl\n- salsinha a gostol\n- sal a gostol\n- pimenta a gostol\n- parmesão a gosto. ");
-                Preparo.setText("Lave os quiabos, corte em pedaços de 2 cm, coloque de molho em uma bacia com água e vinagre por uns 15 minutos. Enxágue e escorra bem. Em uma panela, refogue o alho e a cebola no óleo, junte o quiabo e refogue até ficar al dente. e junte a farinha de milho aos poucos, mexendo até misturar bem. Quando der o ponto,e coloque o sal e a pimento do reino, desligue o fogo e junte o cheiro verde, misture e sirva a seguir. Fica maravilhosa como acompanhamento para frango assado ou ao molho. ");
+                Preparo.setText("Refogue o alho em uma frigideira anti-aderente untada com azeite e acrescente o chuchu ralado. Em seguida tempere como preferir, com pimenta, salsinha e sal. Bata os ovos em uma tigela e acrescente ao refogado. Coloque o queijo parmesão ralado. Tampe e deixe em fogo baixo até dourar. Vire com cuidado com uma espátula e deixe dourar do outro lado. Sirva.");
                 break;
 
             case "Sopa de Chuchu":
@@ -2059,8 +2057,8 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Talharim de Chuchu":
-                Ingredientes.setText("- ½ chuchu;\n- ½ litro de água;\n- suco de 1 limão espremido;\n- sumo de 1 cubo de gengibre;;\n- 1 cebola picada;\n- 1 dente de alho picado;\n- 1 colher de sobremesa de azeite de oliva;\n- raspas de gengibre. ");
-                Preparo.setText("Corte os tomates ao meio ou em quatro, dependendo do tamanho. Misture os tomates cortados, os dentes de alho, o azeite de oliva, o manjericão e o sal em uma tigela. Cubra e deixe na geladeira por pelo menos 2 horas, da noite para o dia é o ideal. Remova as folhas de manjericão e os dentes de alho. Sirva em cima de uma fatia de pão tostado, que foi esfregado no alho. Enfeite com folhas frescas de manjericão ou tomilho. ");
+                Ingredientes.setText("- ½ chuchu;\n- ½ litro de água;\n- suco de 1 limão espremido;\n- sumo de 1 cubo de gengibre;\n- 1 cebola picada;\n- 1 dente de alho picado;\n- 1 colher de sobremesa de azeite de oliva;\n- raspas de gengibre. ");
+                Preparo.setText("Comece por lavar e descascar o chuchu e rale em pequenas tiras. Deixe de molho em ½ litro de água com o suco do limão e o sumo do gengibre por dez minutos. Refogue a cebola e o dente de alho e adicione o chuchu em tiras. Tempere com o azeite e adicione lascas de gengibre no talharim de chuchu. Sirva!");
                 break;
 
             case "Bolinho de Chucu":
@@ -2074,79 +2072,79 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
 
-                case "Bolo de Beterraba":
-                    Ingredientes.setText("- 240 gramas de BETERRABA depois de limpas e lavadas\n- 200 ml de ÓLEO DE GIRASSOL\n- 3 OVOS\n- 280 gramas de AÇÚCAR\n- 240 gramas de FARINHA DE TRIGO ou 2 xícaras de chá\n- 8 gramas de FERMENTO EM PÓ ou 2 colheres de chá\n- 1/2 colher de café de SAL");
+            case "Bolo de Beterraba":
+                Ingredientes.setText("- 240 gramas de BETERRABA depois de limpas e lavadas\n- 200 ml de ÓLEO DE GIRASSOL\n- 3 OVOS\n- 280 gramas de AÇÚCAR\n- 240 gramas de FARINHA DE TRIGO ou 2 xícaras de chá\n- 8 gramas de FERMENTO EM PÓ ou 2 colheres de chá\n- 1/2 colher de café de SAL");
 
-                    Preparo.setText("Unte e enfarinhe uma forma de bolo com 19 cm de diâmetro. Bata as beterrabas picadas, o óleo, os ovos e o açúcar no liquidificador. Coloque em uma tigela e acrescente a farinha, sal e o fermento peneirados. Misture. Leve para assar a 180°C por aproximadamente 1 hora, ou até que o seu palito saia limpo de dentro do bolo.");
+                Preparo.setText("Unte e enfarinhe uma forma de bolo com 19 cm de diâmetro. Bata as beterrabas picadas, o óleo, os ovos e o açúcar no liquidificador. Coloque em uma tigela e acrescente a farinha, sal e o fermento peneirados. Misture. Leve para assar a 180°C por aproximadamente 1 hora, ou até que o seu palito saia limpo de dentro do bolo.");
 
-                    break;
+                break;
 
-                case "Beterraba em Conserva":
-                    Ingredientes.setText("- 2 Xícaras de beterrabas\n- ½ Xícara de água\n- ½ Xícara de vinagre branco\n- ½ Xícara de açúcar\n- 1 Colher de chá de sal\n- ½ Colher de chá de pimenta do reino");
+            case "Beterraba em Conserva":
+                Ingredientes.setText("- 2 Xícaras de beterrabas\n- ½ Xícara de água\n- ½ Xícara de vinagre branco\n- ½ Xícara de açúcar\n- 1 Colher de chá de sal\n- ½ Colher de chá de pimenta do reino");
 
-                    Preparo.setText("Corte os talos e lave bem as beterrabas e descasque. Cozinhe até ficarem bem macias com água o suficiente para cobrir-las. Esfrie bem e fatie em pequenos pedaços e coloque em um pote de vidro limpo e com tampa. Em uma panela adicione o vinagre, açúcar, água, sal e pimenta, mexa em fogo médio até diluir todo o açúcar e quando começar a ferver desligue, e coloque ainda quente sobre as beterrabas, mexa com cuidado para envolver toda tudo, espere esfriar e leve para a geladeira. Mantenha sempre o pote bem fechado e na geladeira ela vai durar até 8 semanas, isso se você não comer antes.");
+                Preparo.setText("Corte os talos e lave bem as beterrabas e descasque. Cozinhe até ficarem bem macias com água o suficiente para cobrir-las. Esfrie bem e fatie em pequenos pedaços e coloque em um pote de vidro limpo e com tampa. Em uma panela adicione o vinagre, açúcar, água, sal e pimenta, mexa em fogo médio até diluir todo o açúcar e quando começar a ferver desligue, e coloque ainda quente sobre as beterrabas, mexa com cuidado para envolver toda tudo, espere esfriar e leve para a geladeira. Mantenha sempre o pote bem fechado e na geladeira ela vai durar até 8 semanas, isso se você não comer antes.");
 
-                    break;
+                break;
 
-                case "Espagueti ao Molho de Beterraba":
-                    Ingredientes.setText("- 500 gramas de macarrão espaguete\n- 1 unidade de cebola média picada\n- 2 dentes de alho picados\n- 1/2 unidade de pimentão vermelho sem sementes e picado\n- 2 unidades de cenoura médias cortadas em pedaços grandes (sem casca)\n- 1 unidade de beterraba média (sem casca)\n- 2 colheres (sopa) de azeite de oliva\n- 2 colheres (sopa) de vinagre de vinho tinto\n- 1 litro de água\n- 1/2 xícara (chá) de manjericão fresco\n- 1 colher (sopa) de orégano\n- 1 colher (sopa) de molho inglês\n- sal a gosto");
+            case "Espagueti ao Molho de Beterraba":
+                Ingredientes.setText("- 500 gramas de macarrão espaguete\n- 1 unidade de cebola média picada\n- 2 dentes de alho picados\n- 1/2 unidade de pimentão vermelho sem sementes e picado\n- 2 unidades de cenoura médias cortadas em pedaços grandes (sem casca)\n- 1 unidade de beterraba média (sem casca)\n- 2 colheres (sopa) de azeite de oliva\n- 2 colheres (sopa) de vinagre de vinho tinto\n- 1 litro de água\n- 1/2 xícara (chá) de manjericão fresco\n- 1 colher (sopa) de orégano\n- 1 colher (sopa) de molho inglês\n- sal a gosto");
 
-                    Preparo.setText("Cozinhe o espaguete conforme indicado na embalagem, até ficar “al dente”. Reserve. Em uma panela de pressão, frite a cebola no azeite, junte o pimentão, o alho e mexa bem. Acrescente a cenoura, a beterraba e o manjericão, um litro de água e cozinhe sob pressão por 10 minutos. Após o cozimento, deixe em tempo de espera, descansando por alguns minutos. Abra cuidadosamente a panela, retirando a pressão. Bata tudo em um liquidificador, ou usando um mixer, até o molho ficar bem cremoso e homogêneo. Volte para a panela em fogo baixo, acrescente mais água se necessário, o vinagre, o molho inglês e o orégano. Acerte o sal. Cozinhe até ficar com uma consistência cremosa. Sirva sobre o espaguete.");
+                Preparo.setText("Cozinhe o espaguete conforme indicado na embalagem, até ficar “al dente”. Reserve. Em uma panela de pressão, frite a cebola no azeite, junte o pimentão, o alho e mexa bem. Acrescente a cenoura, a beterraba e o manjericão, um litro de água e cozinhe sob pressão por 10 minutos. Após o cozimento, deixe em tempo de espera, descansando por alguns minutos. Abra cuidadosamente a panela, retirando a pressão. Bata tudo em um liquidificador, ou usando um mixer, até o molho ficar bem cremoso e homogêneo. Volte para a panela em fogo baixo, acrescente mais água se necessário, o vinagre, o molho inglês e o orégano. Acerte o sal. Cozinhe até ficar com uma consistência cremosa. Sirva sobre o espaguete.");
 
-                    break;
+                break;
 
-                case "Pasta de Beterraba":
-                    Ingredientes.setText("- 1 beterraba média\n- 150g de ricota fresca\n- 2 colheres (sopa) de leite\n- 1 colher (café) de suco de limão\n- 1 dente de alho amassado\n- Sal a gosto\n- Azeite a gosto");
+            case "Pasta de Beterraba":
+                Ingredientes.setText("- 1 beterraba média\n- 150g de ricota fresca\n- 2 colheres (sopa) de leite\n- 1 colher (café) de suco de limão\n- 1 dente de alho amassado\n- Sal a gosto\n- Azeite a gosto");
 
-                    Preparo.setText("1. Pique a beterraba e cozinhe a vapor para não perder líquido. Deixe esfriar. 2. Junte todos os ingredientes e bata no liquidificador ou mixer.");
+                Preparo.setText("1. Pique a beterraba e cozinhe a vapor para não perder líquido. Deixe esfriar. 2. Junte todos os ingredientes e bata no liquidificador ou mixer.");
 
-                    break;
+                break;
 
-                case "Hummus de Beterraba":
-                    Ingredientes.setText("- 2 beterrabas pequenas (cozidas)\n- 1 xícara (de chá) de grão de bico (cozido)\n- 2 dentes de alho\n- 1 limão (suco)\n- 1/4 xícara (de chá) de azeite de oliva\n- sal e pimenta do reino");
+            case "Hummus de Beterraba":
+                Ingredientes.setText("- 2 beterrabas pequenas (cozidas)\n- 1 xícara (de chá) de grão de bico (cozido)\n- 2 dentes de alho\n- 1 limão (suco)\n- 1/4 xícara (de chá) de azeite de oliva\n- sal e pimenta do reino");
 
-                    Preparo.setText("Deixe 1/2 xícara de grão de bico seco de molho por 24 horas (ou use o cozido enlatado), passado este tempo, escorra e lave os grãos leve para a panela de pressão os grãos de bico para cozinhar, junto com as pequenas beterrabas (se usar o grão de bico de lata coloque para cozinhar apenas a beterraba) por 40 minutos ou até que os grãos de bico e as beterraba estejam maciosNo processador ou mixer coloque o grãqo de bico, a beterraba descascada, o alho, o suco de limão, o azeite e bata até obter um creme cor de rosa, tempere com sal e pimenta e sirva.");
+                Preparo.setText("Deixe 1/2 xícara de grão de bico seco de molho por 24 horas (ou use o cozido enlatado), passado este tempo, escorra e lave os grãos leve para a panela de pressão os grãos de bico para cozinhar, junto com as pequenas beterrabas (se usar o grão de bico de lata coloque para cozinhar apenas a beterraba) por 40 minutos ou até que os grãos de bico e as beterraba estejam maciosNo processador ou mixer coloque o grãqo de bico, a beterraba descascada, o alho, o suco de limão, o azeite e bata até obter um creme cor de rosa, tempere com sal e pimenta e sirva.");
 
-                    break;
-
-
+                break;
 
 
-                case "Bolo de Banana e Canela":
-                    Ingredientes.setText("- 3 ovos\n- 3/4 xícaras (de chá) de óleo\n- 3 bananas grandes (ou 4 pequenas) amassadas\n- 2 xícaras (de chá) de açúcar\n- 2 e 1/2 xícaras (de chá) de farinha de trigo peneirada\n- 1 colher (de sopa) de canela\n- 1 colher (de sopa) de fermento em pó");
-
-                    Preparo.setText("Bata no liquidificador: os ovos, o óleo, as bananas amassadas, o açúcar e a canela. Passe a mistura para um recipiente e junte a farinha e bata com a batedeira ou com uma colher. Depois adicione o fermento e misture com a espátula. Unte uma forma com margarina e polvilhe açúcar, transfira a massa. Leve ao forno pré-aquecido a 200 ºC por aproximadamente 40 minutos.");
-
-                    break;
-
-                case "Bolinho de Chuva com Banana":
-                    Ingredientes.setText("- Massa\n- 1 ovo batido\n- 1 banana amassada\n- 3 colheres de sopa de açúcar\n- 1½ copo de leite\n- 1½ xícara de farinha de trigo\n- 1 colher de chá de fermento em pó\n- Açúcar e canela a gosto");
-
-                    Preparo.setText("Bata o ovo como se fosse fazer uma omelete. Adicione a banana amassada, o açúcar, o leite e a farinha de trigo. Vai formar uma massa pesada, que dê para pegar de colherada (parecida com a de panqueca). Coloque o fermento e misture bem. Com uma colher, despeje pequenas quantidades da massa em uma panela com óleo quente, o suficiente para a massa conseguir “virar”. Outro detalhe importante é que não pode colocar muita massa, senão não cozinha por completo no interior. No fim, é só rolar os bolinhos na mistura de açúcar e canela.");
-
-                    break;
 
 
-                case "Creme de Banana com Chocolate":
-                    Ingredientes.setText("- 4 bananas-maçã maduras e amassadas\n- 1 colher (sobremesa) de manteiga\n- 1 lata de leite condensado\n- 1/2 xícara (chá) de leite\n- 3 colheres (sopa) de chocolate em pó");
+            case "Bolo de Banana e Canela":
+                Ingredientes.setText("- 3 ovos\n- 3/4 xícaras (de chá) de óleo\n- 3 bananas grandes (ou 4 pequenas) amassadas\n- 2 xícaras (de chá) de açúcar\n- 2 e 1/2 xícaras (de chá) de farinha de trigo peneirada\n- 1 colher (de sopa) de canela\n- 1 colher (de sopa) de fermento em pó");
 
-                    Preparo.setText("Em uma panela, misture a banana e a manteiga. Cozinhe, mexendo sem parar, durante 5 minutos. Deixe esfriar e bata no liquidificador. Em uma panela, misture o creme de banana, o leite condensado, o leite e o chocolate em pó. Leve ao fogo brando, mexendo sem parar, até começar a desgrudar do fundo da panela e engrossar ligeiramente. Distribua em taças individuais ou coloque em um refratário. Leve para gelar. Na hora de servir, decore com rodelas de banana.");
+                Preparo.setText("Bata no liquidificador: os ovos, o óleo, as bananas amassadas, o açúcar e a canela. Passe a mistura para um recipiente e junte a farinha e bata com a batedeira ou com uma colher. Depois adicione o fermento e misture com a espátula. Unte uma forma com margarina e polvilhe açúcar, transfira a massa. Leve ao forno pré-aquecido a 200 ºC por aproximadamente 40 minutos.");
 
-                    break;
+                break;
 
-                case "Cookie de Banana e Aveia":
-                    Ingredientes.setText("- 2 bananas nanicas maduras quanto mais maduras mais doces fica\n- 1 xícara (de chá) de aveia em flocos");
+            case "Bolinho de Chuva com Banana":
+                Ingredientes.setText("- Massa\n- 1 ovo batido\n- 1 banana amassada\n- 3 colheres de sopa de açúcar\n- 1½ copo de leite\n- 1½ xícara de farinha de trigo\n- 1 colher de chá de fermento em pó\n- Açúcar e canela a gosto");
 
-                    Preparo.setText("Amasse a banana com um garfo e misture com a aveia, aqueça o forno em temperatura alta,Coloque colheradas da massa em uma assadeira untada. Cada banana tem sua própria história, umas podem estar mais maduras, outras maiores, se achar que a massa está mole ainda, (quando caem a colherada se espalha demais) adicione um pouco mais de aveia. Leve ao forno por 15-20 minutos ou até que esteja douradinho. Retire da assadeira e deixe esfriar sobre uma grade. Sirva em seguida, após o resfriamento ou guarde em pote hermético por até 3 dias.");
+                Preparo.setText("Bata o ovo como se fosse fazer uma omelete. Adicione a banana amassada, o açúcar, o leite e a farinha de trigo. Vai formar uma massa pesada, que dê para pegar de colherada (parecida com a de panqueca). Coloque o fermento e misture bem. Com uma colher, despeje pequenas quantidades da massa em uma panela com óleo quente, o suficiente para a massa conseguir “virar”. Outro detalhe importante é que não pode colocar muita massa, senão não cozinha por completo no interior. No fim, é só rolar os bolinhos na mistura de açúcar e canela.");
 
-                    break;
+                break;
 
-                case "Muffin de Banana":
-                    Ingredientes.setText("- 2 bananas-maçã\n- 1 xic aveia batida no liquidificador para ficar mais farinha\n- 1 ovo\n- 4 a 5 col sopa rasa de amêndoas trituradas\n- 1 col sopa mel\n- 2 col sopa óleo de girassol ou de coco\n- 1 col chá cheia de fermento\n- 1 col sobremesa semente de linhaça");
 
-                    Preparo.setText("Bata as bananas com o ovo e o óleo, depois acrescente o mel e bata novamente. Numa tigela, misture a aveia com a amêndoa e a linhaça. Acrescente o líquido e incorpore. Nesse momento, se precisar coloque 1 col a mais de amêndoa. Por último, coloque o fermento e mexa até incorporar. Polvilhe amêndoas triturada com canela e asse por 25′ à 180 graus.");
+            case "Creme de Banana com Chocolate":
+                Ingredientes.setText("- 4 bananas-maçã maduras e amassadas\n- 1 colher (sobremesa) de manteiga\n- 1 lata de leite condensado\n- 1/2 xícara (chá) de leite\n- 3 colheres (sopa) de chocolate em pó");
 
-                    break;
+                Preparo.setText("Em uma panela, misture a banana e a manteiga. Cozinhe, mexendo sem parar, durante 5 minutos. Deixe esfriar e bata no liquidificador. Em uma panela, misture o creme de banana, o leite condensado, o leite e o chocolate em pó. Leve ao fogo brando, mexendo sem parar, até começar a desgrudar do fundo da panela e engrossar ligeiramente. Distribua em taças individuais ou coloque em um refratário. Leve para gelar. Na hora de servir, decore com rodelas de banana.");
+
+                break;
+
+            case "Cookie de Banana e Aveia":
+                Ingredientes.setText("- 2 bananas nanicas maduras quanto mais maduras mais doces fica\n- 1 xícara (de chá) de aveia em flocos");
+
+                Preparo.setText("Amasse a banana com um garfo e misture com a aveia, aqueça o forno em temperatura alta,Coloque colheradas da massa em uma assadeira untada. Cada banana tem sua própria história, umas podem estar mais maduras, outras maiores, se achar que a massa está mole ainda, (quando caem a colherada se espalha demais) adicione um pouco mais de aveia. Leve ao forno por 15-20 minutos ou até que esteja douradinho. Retire da assadeira e deixe esfriar sobre uma grade. Sirva em seguida, após o resfriamento ou guarde em pote hermético por até 3 dias.");
+
+                break;
+
+            case "Muffin de Banana":
+                Ingredientes.setText("- 2 bananas-maçã\n- 1 xic aveia batida no liquidificador para ficar mais farinha\n- 1 ovo\n- 4 a 5 col sopa rasa de amêndoas trituradas\n- 1 col sopa mel\n- 2 col sopa óleo de girassol ou de coco\n- 1 col chá cheia de fermento\n- 1 col sobremesa semente de linhaça");
+
+                Preparo.setText("Bata as bananas com o ovo e o óleo, depois acrescente o mel e bata novamente. Numa tigela, misture a aveia com a amêndoa e a linhaça. Acrescente o líquido e incorpore. Nesse momento, se precisar coloque 1 col a mais de amêndoa. Por último, coloque o fermento e mexa até incorporar. Polvilhe amêndoas triturada com canela e asse por 25′ à 180 graus.");
+
+                break;
 
             case "Pudim de Ricota com Jabuticaba":
                 Ingredientes.setText("- 3 colheres (sopa) de azeite de oliva \n- 1 xícara (chá) de leite condensado desnatado \n- 2 xícaras (chá) de ricota amassada \n- 5 colheres (sopa) de amido de milho \n- 1 xícara (chá) de leite desnatado \n- 2 colheres (sopa) de adoçante \n- 1 xícara (chá) de jabuticaba \n- 1/2 xícara (chá) de Água \n- 4 clara de ovo \n- 1 gema de ovo");
@@ -2524,7 +2522,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Alcachofra com Molho de Ervas":
-                Ingredientes.setText("- 4 alcachofras\n- 2 dentes de alho\n- Rodelas de limão\n- Sal\n- \n- Molho:\n- \n- 1 tomate sem sementes\n- Azeite de oliva\n- Salsinha\n- Manjericão\n- Cebolinha\n- Tomilho\n- Sal\n- Pimenta ");
+                Ingredientes.setText("- 4 alcachofras\n- 2 dentes de alho\n- Rodelas de limão\n- Sal\n \n- Molho:  \n- 1 tomate sem sementes\n- Azeite de oliva\n-  Salsinha\n- Manjericão\n- Cebolinha\n- Tomilho\n- Sal\n- Pimenta ");
                 Preparo.setText("Começando pelas alcachofras, retire o talo e as folhas externas e descarte. Com uma tesoura, corte as pontas das folhas, coloque em uma panela com os dentes de alho, as rodelas de limão e cubra com água. Leve a panela ao fogo por aproximadamente 40 minutos, para testar arranque uma folha, elas devem soltar com facilidade. Para o molho, pique finamente o tomate sem sementes, adicione todas as ervas picadas, adicione azeite de oliva, sal e pimenta a gosto. Regue as alcachofras ainda quentes com o molho e sirva em seguida. ");
                 teste = "Alcachofras";
                 break;
@@ -2864,7 +2862,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
         }
 
-            //Botão SHARE CRIADO
+        //Botão SHARE CRIADO
         ShareButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
