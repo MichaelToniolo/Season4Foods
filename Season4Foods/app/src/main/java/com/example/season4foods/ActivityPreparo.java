@@ -320,25 +320,27 @@ public class ActivityPreparo extends AppCompatActivity {
 
             case "Pasta de Alho Assado":
                 Ingredientes.setText("- UMA CABEÇA DE ALHO\n- AZEITE DE OLIVA\n- SAL E PIMENTA DO REINO\n- 300GR DE CREAM CHEESE\n- 3 COL. DE SOPA DE MAIONESE ");
-                Preparo.setText("Em fogo baixo, frite na manteiga o alho e a farinha de trigo. Quando estiver douradinho junte bem pouquinho do leite e misture bem, vá juntando o leite aos pouquinhos para não empelotar. Adicione o creme de leite e o queijo e deixe apurar. Se achar que está muito espesso, acrescente um pouquinho mais de leite. Quando estiver cremoso adicione a escarola e desligue o fogo. Misture bem e reserve. Ferva 250ml de água e adicione o sal e o macarrão. Deixe cozinhar pelo tempo indicado pelo fabricante ou até que esteja al dente. Escorra e misture ao molho já pronto. Sirva imediatamente. ");
+                Preparo.setText("PRÉ-AQUEÇA O FORNO A 200ºC. CORTE A “TAMPA” DA CABEÇA DE ALHO, INTEIRA MESMO, SEM TIRAR A CASCA. COLOQUE SOBRE UM QUADRADO DE PAPEL ALUMÍNIO. TEMPERE COM SAL E PIMENTA DO REINO E REGUE COM ALGUNS FIOS DE AZEITE DE OLIVA. FAÇA UMA TROUXINHA COM O PAPEL ALUMÍNIO, VENDANDO BEM O ALHO DENTRO. LEVE AO FORNO DENTRO DE UMA ASSADEIRA (CASO ELE VASE), E ASSE POR 1 HORA. RETIRE O CREAM CHEESE DA GELADEIRA, PARA AMOLECER. ASSIM QUE O ALHO ESTIVER PRONTO – BEM MACIO E LEVEMENTE MARROM – RETIRE DO PAPEL ALUMÍNIO E ESPERE ELE ESFRIAR UM POUCO. ENQUANTO ELE ESFRIA COLOQUE EM UMA TIGELA O CREAM CHEESE E A MAIONESE. QUANDO CONSEGUIR PEGAR O ALHO NA MÃO, ESPREMA OS DENTES PRA FORA DA CASCA NA TIGELA, ISSO DEVE SER BEM FÁCIL. COM UM BATEDOR DE ARAMES OU UM GARFO, MISTURE TUDO COM FORÇA, AMASSANDO BEM OS DENTES DE ALHO PARA ELES SE DESMANCHAREM. TEMPERE COM SAL E PIMENTA DO REINO À GOSTO. LEVE À GELADEIRA ATÉ A HORA DE USAR.");
                 break;
 
             case "Pasta de Alho com Maionese para Pão":
                 Ingredientes.setText("- 1 cabeça pequena de alho descascada\n- ½ copo americano de azeite de oliva\n- 2 colheres de sopa de Maionese\n- 2 colheres de sopa de cheiro-verde finamente picado\n- sal e pimenta-do-reino a gosto ");
-                Preparo.setText("Em fogo baixo, frite na manteiga o alho e a farinha de trigo. Quando estiver douradinho junte bem pouquinho do leite e misture bem, vá juntando o leite aos pouquinhos para não empelotar. Adicione o creme de leite e o queijo e deixe apurar. Se achar que está muito espesso, acrescente um pouquinho mais de leite. Quando estiver cremoso adicione a escarola e desligue o fogo. Misture bem e reserve. Ferva 250ml de água e adicione o sal e o macarrão. Deixe cozinhar pelo tempo indicado pelo fabricante ou até que esteja al dente. Escorra e misture ao molho já pronto. Sirva imediatamente. ");
+                Preparo.setText("Retire sempre o fiozinho do meio do alho porque é ele que causa má-digestão. Bata todos os ingredientes no liquidificador ou mixer e pronto, passe-o nos pães e leve-os ao forninho elétrico, grelha ou forno normal. Se sobrar pode guardar na geladeira por máximo uma semana (mas fique de olho na aparência e cheiro). A receita pode ser feita à mão, socando o alho em um pilão. Neste caso, corte os alhos em pedacinhos bem pequenos para facilitar o trabalho.");
                 break;
+
             case "Creme de Alho":
                 Ingredientes.setText("- 3 dentes de alho\n- 1 copo de Leite\n- 1 pitada de Sal\n- Óleo ou Azeite ");
                 Preparo.setText("Junte o alho, o leite e o sal no Liquidificador . Bata tudo em velocidade média . Acrescente o Óleo ou o Azeite em Fio até ficar em consistência de creme . Está prontinho ! , ideal para servir em churrascos ");
                 break;
-            case "Pão de Alho para Churrasco com Pão Frances Amanhecido":
+
+            case "Pão De Alho Para Churrasco Com Pão Francês Amanhecido":
                 Ingredientes.setText("- 6 pães franceses (médios)\n- 1 vidro pequeno de maionese\n- 2 colheres de sopa de alho picadinho\n- 1 colher de sopa não muito cheia de orégano\n- ½ xícara de chá de cheiro-verde picado\n- ½ xícara de chá de parmesão ralado\n- Sal e pimenta a gosto ");
                 Preparo.setText("Em um recipiente misture a maionese, o alho, o orégano, o cheiro-verde, o sal e a pimenta e reserve. Faça cortes horizontais no pão francês de maneira a formar pequenas fatias (mais ou menos 4), mas sem esprende-las umas das outras (como no pão de alho comprado). Passe a mistura reservada entre as fatias e depois envolvendo todo os pães. Polvilhe sobre os pães o parmesão ralado. Leve à churrasqueira e asse bem de ambos os lados. ");
                 break;
 
 
             case "Doce de Caju":
-                Ingredientes.setText("- Cravo-da-índia a gosto \n- 2 1/2 litros de água \n- 1 kg de açúcar \n- 20 unidades de caju ");
+                Ingredientes.setText("- Cravo-da-índia a gosto \n- 2 1/2 litros de água \n- 1 kg de açúcar \n- 20 unidades de caju.");
                 Preparo.setText("Primeiro, lave bem os cajus. Depois, tire a castanha, descasque e reserve. A calda é feita com a água e o açúcar até borbulhar e ficar consistente. Faça furos no caju com um palito e, delicadamente, esprema, tirando o excesso do suco. Esse passo é importante para que o caju absorva bem a calda do doce. Depois de espremer, coloque os cajus um a um dentro da calda, que não deve ser retirada do fogo. Com generosidade acrescente o cravo - além de dar sabor, ele perfuma o doce. Cozinhe em fogo baixo por cerca de uma hora, até que o doce fique bem dourado. ");
                 break;
 
@@ -348,7 +350,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Suco de Caju Picante":
-                Ingredientes.setText("1/2 unidade de caju 1/2 unidade de limão vodka a gosto adoçante a gosto ");
+                Ingredientes.setText("- 1/2 unidade de caju \n- 4 gomos de tangerina \n- pimenta dedo-de-moça a gosto \n- 1 colher (sopa) de cenoura \n- 100 ml de água de coco natural gelada(s) \n- 2 colheres (sopa) de açúcar");
                 Preparo.setText("Bata o caju, a tangerina e a cenoura na centrífuga. Em seguida misture a água de coco e o açúcar. Se necessário, acrescente gelo. Enfeite com uma fatia fina de pimenta e uma folha de hortelã. ");
                 break;
 
@@ -689,14 +691,14 @@ public class ActivityPreparo extends AppCompatActivity {
 
 
             case "Creme de Feijão com Couve e Alho-Poró":
-                Ingredientes.setText("Dissolva o caldo de frango na água quente e cozinhe o peito até ficar macio. Deixe esfriar e desfie. Reserve o caldo do cozimento. Em uma panela, aqueça o óleo, a margarina e doure a cebola e o alho. Junte o tomate, o pimentão e refogue até o tomate começar a desmanchar. Acrescente o frango, a couve e refogue até a couve murchar. Misture a pimenta, a azeitona, o caldo do cozimento, as farinhas e a salsa. Desligue o fogo, prove o tempero e, se necessário, acrescente sal. Coloque em uma forma com buraco central untada com azeite. Pressione bem o cuscuz, deixe amornar e desenforme. Sirva em seguida. ");
+                Ingredientes.setText("- 4 conchas de feijão carioca cozido\n- 2 colheres (sopa) de requeijão light\n- 2 pratos de sobremesa de couve-manteiga\n- 1 unidade de cebola pequena crua\n- 1 dente de alho pequeno\n- 4 colheres (sobremesa) de alho-poró\n- 2 folhas de louro\n- 1/2 colher (sobremesa) de margarina light\n- 1 colher (chá) de sal refinado");
                 Preparo.setText("Numa panela antiaderente, aqueça a margarina e refogue a cebola picada, o alho amassado, o louro e o sal. Junte o feijão cozido com o caldo. Mantenha em fogo baixo por 5 minutos. Agora, retire as folhas de louro e pegue a mistura do feijão com os outros ingredientes e bata no liquidificador com o requeijão. Volte o creme à panela para apurar. Acerte o sal, corte a couve e o alho-poró em tiras finas e coloque-os no creme. Deixe por 2 minutos no fogo e sirva. ");
                 break;
 
 
             case "Gratinado de Couve Manteiga e Nozes":
                 Ingredientes.setText("- 400 gramas de couve-manteiga\n- 2 clara de ovo\n- 200 creme de leite\n- 30 gramas de queijo parmesão ralado\n- 40 gramas de noz descascadas\n- noz-moscada ralada a gosto\n- sal a gosto\n- pimenta-do-reino a gosto ");
-                Preparo.setText("- 400 gramas de couve-manteiga\n- 2 clara de ovo\n- 200 creme de leite\n- 30 gramas de queijo parmesão ralado\n- 40 gramas de noz descascadas\n- noz-moscada ralada a gosto\n- sal a gosto\n- pimenta-do-reino a gosto ");
+                Preparo.setText("Tire os talos duros da couve, lave as folhas e corte-as. Bata as claras em neve e reserve. Em uma tigela, misture o creme de leite, o queijo, 2/3 das nozes, o sal, a noz-moscada e a pimenta. Junte as claras em neve. Reserve 40 g de couve e junte o resto ao molho. Coloque num refratário e decore com as folhas e nozes reservadas. Asse por 15 minutos a 180 ºC e por mais 3 minutos a 260 ºC.");
                 break;
 
 
@@ -748,8 +750,6 @@ public class ActivityPreparo extends AppCompatActivity {
                 Ingredientes.setText("- 1 alface baby\n- 2 punhados de rúcula selvática ou Espinafre europeu\n- ½ xícara (chá) de tomatinhos cereja ou sweet partidos ao meio.\n- ½ xícara (chá) de fatias ou cubinhos de pepino japonês\n- ¼ de chancliche branco\n- 8 azeitonas pretas.\n- ½ cebola roxa em lâminas\n- ¼ de xícara (chá) de folhas de hortelã.\n- INGREDIENTES DO MOLHO:\n- 3 colheres (sopa) de azeite de oliva.\n- 1 colher (sobremesa) de suco de limão.\n- Sal e pimenta do reino à gosto.");
                 Preparo.setText("Em um bowl dissolva o sal no suco de limao, acrescente o azeite em fio misturando sem parar até obter um molho encorpado. Ajuste o sal. Reserve duas colheres em um potinho.  Incorpore os tomatinhos, pepinos, cebola e azeitonas ao bowl e misture bem com o restante da vinagrete. Disponha em uma travessa.  Sobre a mistura de pepino e tomates disponha a alface o a rúcula, misturados com as folhas de hortelã. Regue com a vinagrete reservada.  Polvilhe toda a salada com o chancliche esfarelado.");
                 break;
-
-
 
             case "Salada Cassar":
                 Ingredientes.setText("- ½ xícara de maionese\n- ⅓ de xícara de parmesão ralado + lascas para decorar\n- suco de 1 limão\n- 2 colheres de sopa de azeite de oliva + azeite de oliva a gosto\n- 1 filé de anchova em conserva\n- 2 dentes de alho\n- 2 fatias de pão de torta fria\n- 2 filés de peito de frango\n- sal a gosto\n- pimenta do reino a gosto\n- 1 maço de alface americana");
@@ -1495,7 +1495,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Canjica Doce":
-                Ingredientes.setText("- 500g de milho para canjica\n- cravo e canela em pau a gosto\n- 0.5 xícara de chá de açúcar\n- 1l de leite\n- 1 lata de leite condensado (395 g)\n- 500ml de leite de coco\n- coco ralado a gosto.");
+                Ingredientes.setText("- 500g de milho para canjica\n- cravo e canela em pau a gosto\n- 0.5 xícara de chá de açúcar\n- 1L de leite\n- 1 lata de leite condensado (395 g)\n- 500ml de leite de coco\n- coco ralado a gosto.");
 
                 Preparo.setText("Deixe a canjica de molho por 4 horasDepois desse tempo, escorra a água e coloque a canjica numa panela de pressão, cubra totalmente com água (4 dedos acima da canjica)Adicione o cravo, a canela em pau, o açúcarLeve ao fogo médio e deixe por 30 minutos após pegar pressãoApague o fogo, retire a pressão, adicione o leite, o leite condensado, o leite de coco, o coco raladoFerva e em fogo baixo até reduzir o líquido pela metade e a canjica ficar cremosa (+/- 10 minutos)Apague o fogo deixe esfriar e sirva.");
                 break;
@@ -1507,7 +1507,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Salada de Chicória Light com Frango":
-                Ingredientes.setText("- 150 gramas de frango em cubos;\n- suco de 1 limão;\n- sal a gosto;\n- pimenta a gosto;\n- 1 colher de sopa de azeite de oliva;\n- 1 maço de chicória picado. \n Tempere o frango em cubos com limão, sal e pimenta. Leve para refogar em uma frigideira com azeite. Quando estiver douradinho, reserve. Lave a chicória, pique e misture com o frango. Adicione mais azeite e acerte sal e pimenta. Sirva.");
+                Ingredientes.setText("- 150 gramas de frango em cubos;\n- suco de 1 limão;\n- sal a gosto;\n- pimenta a gosto;\n- 1 colher de sopa de azeite de oliva;\n- 1 maço de chicória picado.");
 
                 Preparo.setText("Tempere o frango em cubos com limão, sal e pimenta. Leve para refogar em uma frigideira com azeite. Quando estiver douradinho, reserve. Lave a chicória, pique e misture com o frango. Adicione mais azeite e acerte sal e pimenta. Sirva.");
                 break;
@@ -1543,7 +1543,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Misture a abóbora tipo moranga bem amassada (purê) com o leite condensado e manteiga e leve ao fogo, mexendo sempre até começar a soltar da panela. Deixe esfriar e faça bolinhas, passe pelo confeito laranja.");
                 break;
 
-            case "Camarão na Moranga (Prático E Delicioso)":
+            case "Camarão na Moranga":
                 Ingredientes.setText("- 1 abóbora moranga\n- 500 g de camarão (fresco ou congelado)\n- 2 colheres (de sopa) de azeite de oliva\n- ½ cebola ralada\n- 2 dentes de alho amassados\n- 2 tomates bem picadinhos\n- Pimenta do reino (moída na hora) a gosto\n- Sal a gosto\n- 1 caixinha de creme de leite de 200 g\n- 1 copo de requeijão cremoso de 200 g\n- 3 fatias de muçarela. \n ");
 
                 Preparo.setText("Preparando a abóbora: Lave a abóbora moranga e enrole em papel alumínio. Leve ao forno médio até ela ficar cozida. A minha ficou cerca de 40 minutos. Espete um garfo para ver se ela está macia. Depois retire do forno, tire o papel alumínio e corte a “tampa” dela com uma faquinha. Com uma colher, retire todas as sementes e os fiapos e jogue fora. Polvilhe sal em toda a cavidade da abóbora e reserve. Preparando o creme de camarão: A primeira coisa é limpar os camarões (claro se é que você não comprou limpo como eu), tire a cabeça, as cascas, as perninhas e abra nas costas dele com uma faca para tirar o intestino. Reserve uns camarões inteiros para a decoração. Em uma panela coloque o azeite, o alho amassado e a cebola ralada e deixe fritar um pouco. Acrescente os tomates picadinhos e frite mais. Tempere com sal e pimenta do reino. Junte os camarões limpos e misture, assim que eles mudarem de cor, já está bom (uns dois minutinhos). Acrescente o creme de leite, misture e desligue o fogo. Reserve. Montagem do Camarão na Moranga: Espalhe metade do requeijão cremoso pelo interior da abóbora, lambuzando bem. Despeje o creme de camarão dentro da abóbora. Espalhe o restante do requeijão cremoso por cima. Cubra com as fatias de muçarela. Leve ao forno alto para gratinar (ou só para derreter o queijo). Passe os camarões inteiros (reservados para a decoração) em uma frigideira com azeite, tempere com sal e pimenta do reino. Quando o queijo da abóbora derreter, tire do forno, decore com os camarões inteiros e com a tampa da abóbora e sirva quente.");
@@ -1587,9 +1587,13 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Creme de Mandioquinha":
-                Ingredientes.setText("- 800 g de mandioquinha picada\n- 1/2 cebola picada\n- 2 dentes de alho picado\n- 100 g de creme de leite (1/2 caixinha)\n- 1,2 L de Água (quente)\n- 13 mL de óleo (1 colher de sopa)\n- sal a gosto\n- salsinha a gosto");
+                Ingredientes.setText("- 800 g dMandioquinha SautéMandioquinha Sautée mandioquinha picada\n- 1/2 cebola picada\n- 2 dentes de alho picado\n- 100 g de creme de leite (1/2 caixinha)\n- 1,2 L de Água (quente)\n- 13 mL de óleo (1 colher de sopa)\n- sal a gosto\n- salsinha a gosto");
 
-                Preparo.setText("Coloque o óleo em uma panela e deixe aquecerAcrescente a cebola picada, mexa de vez em quando e deixe até que fique levemente douradaEm seguida adicione o alho e refogue mais um poucoJunte a mandioquinha picada e mexa, deixe refogar por uns 2 minutinhosAcrescente a água e um pouco de sal, misture bem e deixe cozinhar em fogo baixo até amolecer a mandioquinhaAssim que as mandioquinhas estiverem bem cozidas, desligue o fogo e bata o creme com a ajuda de um mixer. Você também pode usar um liquidificador. Assim que estiver homogênea coloque o creme de leite e coloque mais um pouquinho de sal a gostoNa hora de servir decore com um pouquinho de creme de leite e salsinha");
+                Preparo.setText("" +
+                        "" +
+                        "" +
+                        "" +
+                        "");
                 break;
 
 
@@ -2166,7 +2170,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Crostata com Geleia de Jabuticaba":
-                Ingredientes.setText("- 1 1/4 xícara de farinha de trigo \n- 1/2 xícara de manteiga \n- 1/2 xícara de açúcar \n- 1/2 xícara de geleia de jabuticaba \n- 1 ovo \n- limão (só a casca) ralada ");
+                Ingredientes.setText("- 1/4 xícara de farinha de trigo \n- 1/2 xícara de manteiga \n- 1/2 xícara de açúcar \n- 1/2 xícara de geleia de jabuticaba \n- 1 ovo \n- limão (só a casca) ralada");
 
                 Preparo.setText("Aqueça o forno em temperatura média (170 °C a 190 °C). Numa superfície lisa, faça um monte com a farinha. No centro, cave um buraco e coloque nele a manteiga, o açúcar, o ovo e a casca de limão. Misture e amasse. Deixe descansar por 30 minutos. Com o rolo, abra 3/4 da massa sobre uma superfície polvilhada com farinha de trigo. Ponha a massa em uma forma de 22 cm, firmando-a no fundo e nas laterais. Por cima espalhe a geleia. Abra o restante da massa, faça rolinhos e ajeite-os como uma grade. Asse por 30 minutos ou até dourar. ");
 
@@ -2182,7 +2186,7 @@ public class ActivityPreparo extends AppCompatActivity {
             case "Salada de Mamão com Aveia":
                 Ingredientes.setText("- 4 xícaras (chá) de mamão verde com casca \n- 2 xícaras ( chá) de tomate picado \n- 1 xícara (chá) de cebola picada \n- 2 colheres (sopa) de hortelã \n- 1 xícara de (chá) de aveia (flocos finos) \n- 1 limão \n- 2 colheres (sopa) de azeite \n- Sal a gosto ");
 
-                Preparo.setText("- 4 xícaras (chá) de mamão verde com casca \n- 2 xícaras ( chá) de tomate picado \n- 1 xícara (chá) de cebola picada \n- 2 colheres (sopa) de hortelã \n- 1 xícara de (chá) de aveia (flocos finos) \n- 1 limão \n- 2 colheres (sopa) de azeite \n- Sal a gosto ");
+                Preparo.setText("Rale o mamão verde no ralo grosso e deixe de molho por 30 minutos. Escorra e reserve. Misture os outros ingredientes ao mamão e tempere com limão, azeite e sal. Sirva fria.");
 
                 break;
 
@@ -2221,7 +2225,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-            case "Sopa de Agrião com Azeite e Tomate Seco":
+                case "Sopa de Agrião com Azeite e Tomate Seco":
                 Ingredientes.setText("- SOPA: \n- 1/2 maço de agrião lavado \n- 1 tablete de Caldo MAGGI® de Legumes \n- 1/2 xícara (chá) de NESTLÉ® Aveia Flocos \n- AZEITE DE TOMATE SECO: \n- 2 tomates secos \n- 2 colheres (sopa) de azeite ");
 
                 Preparo.setText("SOPA: Em uma panela média, ferva três xícaras (chá) de água, junte o agrião e cozinhe por cerca de 10 minutos. Acrescente o Caldo MAGGI, misture bem e deixe amornar. Transfira para um liquidificador e bata até ficar homogêneo. Retorne à panela, misture a Aveia e cozinhe até iniciar fervura. Desligue o fogo e reserve em local aquecido. AZEITE DE TOMATE SECO: Em um liquidificador, bata o tomate seco com o azeite e decore a sopa. Sirva. ");
@@ -2234,8 +2238,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-
-            case "Carne de  Panela com Agrião":
+            case "Carne de Panela com Agrião":
                 Ingredientes.setText("- 2 kg de carne de 2ª (aquelas com tutano ou ossinho) \n- Sal a gosto \n- 2 dentes de alho amassados \n- 1 colher (sopa) de açúcar \n- 2 colheres de óleo ou azeite \n- Pimenta-do-reino, cominho em pó, pimenta de cheiro e demais temperos de sua preferência para carnes \n- 1 cebola grande picadinha ou ralada \n- Pimentão verde e vermelho a gosto (opcional) \n- 3 tomates maduros picados ou 2 colheres (sopa) extrato de tomate (opcional) \n- 1 maço de agrião ");
                 Preparo.setText("Higienize as folhas de agrião e reserve. Tempere a carne com o sal, o alho amassado e demais temperos, e deixe descansar por no mínimo 1 hora. Em uma panela de pressão, coloque o açúcar para derreter, até que fique bem escuro mas sem queimar. Acrescente o óleo e nele doure a carne uniformemente (o açúcar dá um aspecto dourado e brilhante à carne). Coloque a cebola e refogue, em seguida junte o pimentão e o tomate. Se escolher preparar sem o tomate ou o extrato, aumente a quantidade de cebola (para engrossar o caldo). Acrescente água o suficiente para cozinhar a carne na pressão até que fique macia, mas não desmanchando. Observe que o caldo da carne deve estar grosso e cheiroso, e deve ter caldo em abundância, pois na hora de servir, coloque as folhas de agrião no fundo do prato e a carne com o caldo quente por cima. Além do tempero da carne, o agrião cozido apenas no calor do caldo dá um perfume e um sabor todo especial. Pode servir com arroz branco e/ou purê de batatas, ou, dependendo da quantidade de caldo feito a partir da carne, pode ser servido mesmo como caldo para comer em cumbuca com farinha e pimenta. ");
 
@@ -2307,7 +2310,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
             case "Empadão de Palmito":
                 Ingredientes.setText("- MASSA: \n- 4 xícaras (chá) de farinha de trigo \n- 2 ovos \n- 4 colheres (sopa) de manteiga \n- 1 xícara (chá) de gordura vegetal \n- Sal a gosto \n- Filme plástico, o quanto baste \n- RECHEIO: \n- 500 g (2 vidros) de palmito, em conserva \n- 2 dentes de alho picados \n- 1 cebola picada \n- 2 tomates \n- 1 colher (sopa) de farinha de trigo \n- 1 copo de leite \n- 3 colheres (sopa) de azeite \n- 2 gemas de ovo \n- ½ xícara (chá) de salsinha \n- Sal e nozmoscada a gosto ");
-                Preparo.setText("MASSA: Coloque todos os ingredientes numa tigela e misture muito bem com as mãos. Aos poucos o calor da sua mão vai fazer a gordura e a manteiga derreterem. Misture até ficar bem homogêneo. Essa massa não pode ser aberta com rolo de macarrão, pois ela fica com uma textura de farofa bem úmida. Divida a massa em dois. Coloque metade dentro de uma forma de fundo falso e espalhe bem com as mãos para cobrir todo o fundo e toda a lateral. Se faltar massa, pegue um pouco da outra metade. Para fazer a (tampa) da torta, coloque a outra parte da massa sobre um pedaço grande de filme plástico. Com as mãos, abra a massa com cuidado num formato redondo (do tamanho da forma). Reserve esse disco de massa. RECHEIO: Pique o palmito em rodelas não muito finas. Corte o tomate ao meio e retire as sementes. Corte cada metade em tiras finas. As tiras devem ser cortadas em quadrados pequenos. Dissolva a farinha no leite. Cuidado para não ficar empelotado. Coloque o azeite numa panela e leve ao fogo para esquentar. Quando estiver bem quente, junte a cebola e o alho. Misture e deixe refogar por 4 minutos. Acrescente o tomate na panela e misture. Junte o palmito e refogue por 5 minutos. Coloque o leite com a farinha diluída dentro da panela e misture muito bem. Tempere com sal, noz-moscada e salsinha. Quando engrossar, desligue o fogo. Coloque o recheio dentro da forma forrada com a massa e espalhe bem. Coloque o disco de massa reservado por cima da torta. Você deve pegar o disco com o filme plástico por baixo para evitar que a massa se quebre. Retire o filme plástico de cima da massa e aperte bem as bordas para baixo. Coloque as gemas dentro de um potinho e bata com um garfo. Pincele a superfície da massa com a gema batida. Ligue o forno em temperatura média (180 graus) e deixe esquentar. Coloque a torta dentro do forno pré-aquecido e asse por aproximadamente 30 minutos, até a torta ficar bem dourada. Retire do forno e desenforme. Sirva bem quente. ");
+                Preparo.setText("MASSA: Coloque todos os ingredientes numa tigela e misture muito bem com as mãos. Aos poucos o calor da sua mão vai fazer a gordura e a manteiga derreterem. Misture até ficar bem homogêneo. Essa massa não pode ser aberta com rolo de macarrão, pois ela fica com uma textura de farofa bem úmida. Divida a massa em dois. Coloque metade dentro de uma forma de fundo falso e espalhe bem com as mãos para cobrir todo o fundo e toda a lateral. Se faltar massa, pegue um pouco da outra metade. Para fazer a 'tampa' da torta, coloque a outra parte da massa sobre um pedaço grande de filme plástico. Com as mãos, abra a massa com cuidado num formato redondo (do tamanho da forma). Reserve esse disco de massa. RECHEIO: Pique o palmito em rodelas não muito finas. Corte o tomate ao meio e retire as sementes. Corte cada metade em tiras finas. As tiras devem ser cortadas em quadrados pequenos. Dissolva a farinha no leite. Cuidado para não ficar empelotado. Coloque o azeite numa panela e leve ao fogo para esquentar. Quando estiver bem quente, junte a cebola e o alho. Misture e deixe refogar por 4 minutos. Acrescente o tomate na panela e misture. Junte o palmito e refogue por 5 minutos. Coloque o leite com a farinha diluída dentro da panela e misture muito bem. Tempere com sal, noz-moscada e salsinha. Quando engrossar, desligue o fogo. Coloque o recheio dentro da forma forrada com a massa e espalhe bem. Coloque o disco de massa reservado por cima da torta. Você deve pegar o disco com o filme plástico por baixo para evitar que a massa se quebre. Retire o filme plástico de cima da massa e aperte bem as bordas para baixo. Coloque as gemas dentro de um potinho e bata com um garfo. Pincele a superfície da massa com a gema batida. Ligue o forno em temperatura média (180 graus) e deixe esquentar. Coloque a torta dentro do forno pré-aquecido e asse por aproximadamente 30 minutos, até a torta ficar bem dourada. Retire do forno e desenforme. Sirva bem quente.");
 
                 break;
 
@@ -2353,7 +2356,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-            case "Carola de Banana Prata e Queijo":
+            case "Cartola de Banana Prata e Queijo":
                 Ingredientes.setText("- 12 bananas prata\n- 200 g de manteiga\n- 100 g de açúcar cristal\n- 100 g de chocolate em pó ou achocolatado de boa marca\n- 300 g de queijo de manteiga, mussarela ou prato\n- Canela a gosto ");
                 Preparo.setText(" Frite as bananas numa frigideira até deixá - las douradas e ligeiramente queimadas. Em seguida, coloque as bananas num refratário, cubra - as com fatias de queijo e leve ao forno pré - aquecido por quinze minutos. Retire do forno, jogue a mistura homogênea de açúcar, chocolate e canela, polvilhe totalmente sobre as bananas. Sirva quente. ");
 
@@ -2379,7 +2382,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
             case "Mousse de Manga":
                 Ingredientes.setText("- 2 mangas maduras\n- 1 lata de leite condensado\n- 1 lata de creme de leite\n- 1 lata de leite de vaca ");
-                Preparo.setText("- 2 mangas maduras\n- 1 lata de leite condensado\n- 1 lata de creme de leite\n- 1 lata de leite de vaca ");
+                Preparo.setText("Bata tudo no liquidificador e leve à geladeira por 2 horas.");
 
                 break;
 
@@ -2409,12 +2412,12 @@ public class ActivityPreparo extends AppCompatActivity {
 
             case "Salada de Pepino Japones Simples":
                 Ingredientes.setText("- 3 pepinos japoneses cortados em fatias finas; \n- 150ml de vinagre de arroz; \n- 1 colher de sobremesa de adoçante culinário;\n- sementes de gergelim. \n- 1 colher de sopa de sal; ");
-                Preparo.setText("- 3 pepinos japoneses cortados em fatias finas; \n- 150ml de vinagre de arroz; \n- 1 colher de sobremesa de adoçante culinário;\n- sementes de gergelim. \n- 1 colher de sopa de sal; ");
+                Preparo.setText("Misture o sal aos pepinos fatiados, e coloque em uma peneira, por aproximadamente 15 minutos, para desidratá-los. Em uma outra tigelinha misture o açúcar e o vinagre, até dissolver completamente. Lave os pepinos tirando o excesso de sal, disponha em uma saladeira, cubra com o vinagre, salpique o gergelim por cima, e leve à geladeira, por pelo menos 2 horas. Sirva.");
 
                 break;
 
             case "Pepino Japones em Salmora":
-                Ingredientes.setText("- 3 pepinos japoneses cortados em fatias finas; \n- 150ml de vinagre de arroz; \n- 1 colher de sobremesa de adoçante culinário;\n- sementes de gergelim. \n- 1 colher de sopa de sal; ");
+                Ingredientes.setText("- 5 pepinos japoneses \n- 1 cebola grande \n- 2 colheres de sopa sal \n- a gosto Coentro \n- a gosto Pimenta calabresa \n- a gosto Vinagre \n- Folhas louro a gosto");
                 Preparo.setText("Lave e pique os pique os pepinos mais ou menos em 5 cm e corte ao meio Em uma bacia com tampa coloque os pepinos com todo o sal, tampe e deixe por mais ou menos 8 horas No outro dia, esquente água(não ferva) na quantidade que quase cubra os pepinos. Depois acrescente o restante dos ingredientes. ");
 
                 break;
@@ -2431,9 +2434,9 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-            case "Penne aom Molho de Queijo e Brócolis":
+            case "Penne ao Molho de Queijo e Brócolis":
                 Ingredientes.setText("- 1 envelope de Creme de Queijo MAGGI®\n- 2 xícaras (chá) de brócolis picado e aferventado\n- 1 caixinha de Creme de Leite NESTLÉ®\n- 1 e meia xícara (chá) de macarrão tipo penne cozido\n- 2 colheres (sopa) de queijo parmesão ralado ");
-                Preparo.setText("- 1 envelope de Creme de Queijo MAGGI®\n- 2 xícaras (chá) de brócolis picado e aferventado\n- 1 caixinha de Creme de Leite NESTLÉ®\n- 1 e meia xícara (chá) de macarrão tipo penne cozido\n- 2 colheres (sopa) de queijo parmesão ralado ");
+                Preparo.setText("Em uma panela, dissolva o Creme MAGGI em meio litro de água fria e leve ao fogo, até iniciar fervura. Cozinhe por cerca de 5 minutos. Acrescente o brócolis e o Creme de Leite. Sirva sobre o penne e polvilhe o queijo parmesão.");
 
                 break;
 
@@ -2838,7 +2841,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
             case "Entrada Frio de Berinjela Japonesa":
                 Ingredientes.setText("- 3 berinjelas japonesas\n- 1 colher de sopa e meia de alho picado\n- A mesma medida de alho-poró picado\n- A mesma medida de gengibre picado\n- 1 colher de chá de sal\n- 1 colher de chá de maizena\n- 1 pimenta dedo de moça picada\n- Pimenta-do-reino a gosto\n- 3 colheres de sopa de óleo de gergelim ");
-                Preparo.setText("Descasque a berinjelas, corte em cruz no sentido do comprimento e mergulhe em água fria para não escurecer. Forme um molho com todos os outros ingredientes. Coloque a berinjela num refratário e despeje o molho por cima. Cubra com filme plástico e leve ao micro-ondas por 6 minutos. Misture e deixe gelar bem até a hora de montar o prato. Sirva como entrada. ");
+                Preparo.setText("Descasque a berinjBombom De Travessa De Morangoelas, corte em cruz no sentido do comprimento e mergulhe em água fria para não escurecer. Forme um molho com todos os outros ingredientes. Coloque a berinjela num refratário e despeje o molho por cima. Cubra com filme plástico e leve ao micro-ondas por 6 minutos. Misture e deixe gelar bem até a hora de montar o prato. Sirva como entrada. ");
 
                 break;
 

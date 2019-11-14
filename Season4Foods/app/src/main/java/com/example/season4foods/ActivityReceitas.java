@@ -1524,7 +1524,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Creme de Agrião",
                         "Sopa de Agrião com Azeite e Tomate Seco",
                         "Vinagrete com Agrião",
-                        "Carne de  Panela com Agrião"
+                        "Carne de Panela com Agrião"
 
                 };
 
@@ -1591,7 +1591,7 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Banana Prata":
                 valores = new String[]{
                        "Cupcake de Banana Prata com Canela",
-                        "Carola de Banana Prata e Queijo",
+                        "Cartola de Banana Prata e Queijo",
                         "Brioche de Banana Prata",
                         "Torta de Banana Prata Crocante",
                         "Bolinho de Banana Prata Frito"
@@ -1636,7 +1636,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
             case "Brócolis":
                 valores = new String[]{
-                        "Penne aom Molho de Queijo e Brócolis",
+                        "Penne ao Molho de Queijo e Brócolis",
                         "Macarrão com Brócolis e Bacon",
                         "Souflé de Brócolis",
                         "Creme de Brócolis",
