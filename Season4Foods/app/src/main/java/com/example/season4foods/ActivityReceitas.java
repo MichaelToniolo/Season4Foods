@@ -307,10 +307,9 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Tomate Assado",
                         "Molho de Tomate",
                         "Sopa de Tomate",
-                        "Salada Caprese no Tomate",
+                        "Sopa De Tomate Ao Curry",
                         "Tomates Verdes Fritos",
                         "Tomate com Ovo",
-                        "Risoto de Tomate Seco com Rúcula",
                         "Patê de Ricota com Tomate Seco"
 
                 };
@@ -330,7 +329,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
             case "Pimentão":
                 valores = new String[]{
-                        "Antepasto de Pimentão Assado",
+                        "Molho Completo De Pimentão",
                         "Geléia de Pimentão",
                         "Pimentão Recheado com Carne Móida",
                         "Molho de Pimentão Vermelho Assado",
@@ -385,7 +384,7 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Coco Verde":
                 valores = new String[]{
                         "Pudim de Coco Verde",
-                        "Queijo de Coco Verde (Para Sobremesas)",
+                        "Queijo de Coco Verde",
                         "Farofa de Coco Verde",
                         "Camarão ao Coco Verde",
                         "Falsa Mousse de Coco Verde"
@@ -839,7 +838,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Bolo de Beterraba",
                         "Beterraba Assada",
                         "Carutinhos de Folhas de Beterraba",
-                        "Crepes de Beterraba",
                         "Sopa de Beterraba",
                         "Refresco de Laranja e Beterraba",
                         "Panqueca de Beterraba e Frango",
@@ -874,7 +872,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Omelete de Chuchu light",
                         "Sopa de Chuchu",
                         "Talharim de Chuchu",
-                        "Bolinho de Chucu",
+                        "Bolinho de Chuchu",
                         "Chuchu à Milanesa"
 
 
@@ -1725,6 +1723,28 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
+            case "Pernil":
+                valores = new String[]{
+                        "Pernil Assado Com Batata",
+                        "Pernil Assado Com Molho De Abacaxi",
+                        "Pernil Suíno Com Molho De Damasco",
+                        "Pernil À Portuguesa",
+                        "Pernil De Cordeiro À Moda Italiana"
+
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
+
             case "Couve-Flor":
                 valores = new String[]{
                         "Omelete de Forno com Couve-Flor",
@@ -1956,6 +1976,8 @@ public class ActivityReceitas extends AppCompatActivity {
                     }
                 });
                 break;
+
+
 
         }
         AdapterView listView;
