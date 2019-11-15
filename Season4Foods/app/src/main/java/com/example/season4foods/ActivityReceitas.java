@@ -87,6 +87,8 @@ public class ActivityReceitas extends AppCompatActivity {
         //MES DE JANEIRO
         switch (NomeAlimento) {
             case "Abobrinha":
+                Imagem.setImageResource(R.drawable.abobrinha);
+
                 //Definindo Array
                 String[] valores = new String[]{
                         "Abobrinha Gratinada",
@@ -117,6 +119,8 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Alface":
+
+                Imagem.setImageResource(R.drawable.alface);
                 valores = new String[]{
                         "Trouxinha de Alface (Embrulhadinho Veloz)",
                         "Rolinho de Alface Fácil",
@@ -149,6 +153,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Couve":
+                Imagem.setImageResource(R.drawable.couve);
                 valores = new String[]{
                         "Couve Refogada Piná",
                         "Purê de Couve",
@@ -175,6 +180,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Cupuaçu":
+                Imagem.setImageResource(R.drawable.cupuacu);
                 valores = new String[]{
                         "Mousse de Cupuaçu",
                         "Bolo de Cupuaçu",
@@ -197,6 +203,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Goiaba":
+                Imagem.setImageResource(R.drawable.goiaba);
                 valores = new String[]{
                         "Doce de Goiaba",
                         "Mousse de Goiaba",
@@ -231,6 +238,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Limão":
+                Imagem.setImageResource(R.drawable.limao);
                 valores = new String[]{
                         "Mousse Fácil de Limão",
                         "Brigadeiro Branco com Limão",
@@ -259,6 +267,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Maracujá":
+                Imagem.setImageResource(R.drawable.maracuja);
                 valores = new String[]{
                         "Mousse de Maracujá",
                         "Tiramisu de Maracujá",
@@ -294,6 +303,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Tomate":
+                Imagem.setImageResource(R.drawable.tomate);
                 valores = new String[]{
                         "Tomate Recheado",
                         "Bruschetta de Tomate",
@@ -328,6 +338,8 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Pimentão":
+                Imagem.setImageResource(R.drawable.pimentao);
+
                 valores = new String[]{
                         "Molho Completo De Pimentão",
                         "Geléia de Pimentão",
@@ -356,6 +368,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
                 /////// Fim de Algumas Receitas de Janeiro, Caso repetidas será adicionada receitas acima
             case "Abacate":
+                Imagem.setImageResource(R.drawable.abacate);
                 valores = new String[]{
                         "Bolo de Abacate",
                         "Sorvete de Abacate",
@@ -382,6 +395,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Coco Verde":
+                Imagem.setImageResource(R.drawable.cocoverde);
                 valores = new String[]{
                         "Pudim de Coco Verde",
                         "Queijo de Coco Verde",
@@ -404,6 +418,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Maçã":
+                Imagem.setImageResource(R.drawable.maca);
                 valores = new String[]{
                     "Tortinha de Maçã",
                     "Crumble de Maçã",
@@ -427,6 +442,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Pêra":
+                Imagem.setImageResource(R.drawable.pera);
                 valores = new String[]{
                        "Molho de Pêra",
                         "Pêra Caramelisada",
@@ -451,6 +467,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Pêssego":
+                Imagem.setImageResource(R.drawable.pessego);
                 valores = new String[]{
                         "Crocante de Pêssego",
                         "Gelado de Pêssego",
@@ -475,6 +492,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Hortelã":
+                Imagem.setImageResource(R.drawable.hortela);
                 valores = new String[]{
                        "Molho de Hortelã",
                         "Salada de Frutas com Creme de Hotelã",
@@ -499,6 +517,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Repolho":
+                Imagem.setImageResource(R.drawable.repolho);
                 valores = new String[]{
                      "Farofa de Repolho",
                         "Torta de Repolho",
@@ -523,6 +542,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Abóbora":
+                Imagem.setImageResource(R.drawable.abobora);
                 valores = new String[]{
                         "Purê de Abóbora",
                         "Gratinado de abóbora de Frango",
@@ -550,6 +570,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Milho Verde":
+                Imagem.setImageResource(R.drawable.milhoverde);
                 valores = new String[]{
                         "Viradinho de Milho Verde",
                         "Cural de Milho Verde",
@@ -577,6 +598,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Abacaxi":
+
                 Imagem.setImageResource(R.drawable.abacaxi);
                 valores = new String[]{
                         "Gelado de Abacaxi",
@@ -614,6 +636,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Alho Poró":
+                Imagem.setImageResource(R.drawable.alhoporo);
                 valores = new String[]{
                         "Quiche de Alho Poró",
                         "Sopa de Alho Poró",
@@ -638,6 +661,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Ameixa":
+                Imagem.setImageResource(R.drawable.ameixa);
                 valores = new String[]{
                        "Bolo de Ameixa",
                         "Geléia de Ameixa",
@@ -661,6 +685,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Berinjela":
+                Imagem.setImageResource(R.drawable.berinjela);
                 valores = new String[]{
                         "Berijela Recheada",
                         "Berinjela à Pamegiana",
@@ -688,6 +713,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Berinjela Japonesa":
+                Imagem.setImageResource(R.drawable.berinjelajaponesa);
                 valores = new String[]{
                         "Entrada Frio de Berinjela Japonesa",
                         "Salada de Berinjela Grelhada e Queijo de Cabra",
@@ -708,6 +734,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Cará":
+                Imagem.setImageResource(R.drawable.cara);
                 valores = new String[]{
                         "Bolinho de Cará",
                         "Sopa de Cará",
@@ -734,6 +761,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Endívias":
+                Imagem.setImageResource(R.drawable.endivias);
                 valores = new String[]{
                        "Endívias Gratinadas",
                         "Salada de Endívias com cream cheese",
@@ -754,6 +782,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Rúcula":
+                Imagem.setImageResource(R.drawable.rucula);
                 valores = new String[]{
                         "Macarrão com pesto de Rúcula, hortelã e Gorgonzola",
                         "Crepioca de Frango e Rúcula",
@@ -776,6 +805,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Tangerina":
+                Imagem.setImageResource(R.drawable.tangerina);
                 valores = new String[]{
                         "Bolo Cremoso de Tangerina",
                         "Cookie de casca de Tangerina",
@@ -807,6 +837,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Banana-Maçã":
+                Imagem.setImageResource(R.drawable.bananamaca);
                 valores = new String[]{
                         "Muffin de Banana",
                         "Cookie de Banana e Aveia",
@@ -830,6 +861,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Beterraba":
+                Imagem.setImageResource(R.drawable.beterraba);
                 valores = new String[]{
                         "Hummus de Beterraba",
                         "Pasta de Beterraba",
@@ -859,6 +891,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Chuchu":
+                Imagem.setImageResource(R.drawable.chuchu);
                 valores = new String[]{
                         "Chuchu Mexicano",
                         "Chuchu Recheado",
@@ -891,6 +924,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Inhame":
+                Imagem.setImageResource(R.drawable.inhame);
                 valores = new String[]{
                         "Purê de Inhame",
                         "Bolinho de Inhame",
@@ -919,6 +953,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Kiwi":
+                Imagem.setImageResource(R.drawable.kiwi);
                 valores = new String[]{
                         "Vinagrete de Kiwi",
                         "Delicia de Kiwi",
@@ -947,6 +982,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Mamão":
+                Imagem.setImageResource(R.drawable.maracuja);
                 valores = new String[]{
                         "Doce de Mamão",
                         "Ceviche de Mamão",
@@ -969,6 +1005,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Nabo":
+                Imagem.setImageResource(R.drawable.nabo);
                 valores = new String[]{
                         "Creme de Nabo",
                         "Salada de Nabo",
@@ -995,6 +1032,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Uva":
+                Imagem.setImageResource(R.drawable.uva);
                 valores = new String[]{
                         "Escondidinho de Uva",
                         "Surpresa de Uva",
@@ -1017,6 +1055,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Batata Doce":
+                Imagem.setImageResource(R.drawable.batatadoce);
                 valores = new String[]{
                         "Purê de Batata Doce Amarela",
                         "Batata Doce Assada",
@@ -1045,6 +1084,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Mandioca":
+                Imagem.setImageResource(R.drawable.abobrinha);
                 valores = new String[]{
                         "Palitos de Mandioca Assada",
                         "Bolinho de Mandioca",
@@ -1076,6 +1116,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Espinafre":
+                Imagem.setImageResource(R.drawable.espinafre);
                 valores = new String[]{
                         "Espinafre Cremose",
                         "Gratinado de Espinafre",
@@ -1103,6 +1144,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Morango":
+                Imagem.setImageResource(R.drawable.morango);
                 valores = new String[]{
                         "Bolo de Morango Low Carb",
                         "Pavê de Morangos",
@@ -1130,6 +1172,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Ovos":
+                Imagem.setImageResource(R.drawable.ovos);
                 valores = new String[]{
                         "Ovos Gratinados",
                         "Ovos no Purgatório",
@@ -1152,6 +1195,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Mandioquinha":
+                Imagem.setImageResource(R.drawable.mandioquinha);
                 valores = new String[]{
                         "Creme de Mandoquinha",
                         "Mandioquinha",
@@ -1174,6 +1218,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Abóbora Moranga":
+                Imagem.setImageResource(R.drawable.aboboramoranga);
                 valores = new String[]{
                         "Frango cremoso na Moranga",
                         "Abóbora recheada com Ricota",
@@ -1197,6 +1242,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Chicória":
+                Imagem.setImageResource(R.drawable.chicoria);
                 valores = new String[]{
                         "Salada de Chicória light com Damasco e nozes",
                         "Salada de Chicória light com Tomate",
@@ -1218,6 +1264,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Canjica":
+                Imagem.setImageResource(R.drawable.canjica);
                 valores = new String[]{
                         "Canjica Doce",
                         "Canjica Doce com leite condensado",
@@ -1237,6 +1284,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Caqui":
+                Imagem.setImageResource(R.drawable.caqui);
                 valores = new String[]{
                         "Geleia de Caqui",
                         "Doce de Caqui",
@@ -1259,6 +1307,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Pinhão":
+                Imagem.setImageResource(R.drawable.pinhao);
                 valores = new String[]{
                         "Badejo em Crosta de Pinhão",
                         "Brownie de Pinho",
@@ -1281,6 +1330,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Pepino Japonês":
+                Imagem.setImageResource(R.drawable.pepinojapones);
                 valores = new String[]{
                         "Salada de Pepino Japones Simples",
                         "Pepino Japones em Salmora",
@@ -1303,6 +1353,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Pepino":
+                Imagem.setImageResource(R.drawable.pepino);
                 valores = new String[]{
                         "Tzatziki",
                         "Vinagrete de Pepino",
@@ -1330,6 +1381,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Rabanete":
+                Imagem.setImageResource(R.drawable.rabanete);
                 valores = new String[]{
                         "Smoothie de Rabanete e Morango",
                         "Sopa de Rabanete",
@@ -1356,6 +1408,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Cenoura":
+                Imagem.setImageResource(R.drawable.cenoura);
                 valores = new String[]{
                         "Suco de Cenoura e Maçã",
                         "Bolinho de Cenoura",
@@ -1390,6 +1443,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Banana":
+                Imagem.setImageResource(R.drawable.banana);
                 valores = new String[]{
                         "Canapé de Banana com Parmesão",
                         "Bolo de Banana",
@@ -1413,6 +1467,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Escarola":
+                Imagem.setImageResource(R.drawable.escarola);
                 valores = new String[]{
                         "Panqueca Integral de Ricota, Alho-poró, Tomate e Escarola",
                         "Sopa de Escarola com Arroz",
@@ -1434,6 +1489,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Alho":
+                Imagem.setImageResource(R.drawable.alho);
                 valores = new String[]{
                         "Pasta de Alho Assado",
                         "Pasta de Alho com Maionese para Pão",
@@ -1455,6 +1511,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Caju":
+                Imagem.setImageResource(R.drawable.caju);
             valores = new String[]{
                     "Doce de Caju",
                     "Caipirosca de Caju",
@@ -1476,6 +1533,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Jabuticaba":
+                Imagem.setImageResource(R.drawable.jabuticaba);
                 valores = new String[]{
                         "Pudim de Ricota com Jabuticaba",
                         "Suflê Gelado de Jabuticaba",
@@ -1496,6 +1554,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
             case "Mamão Havaí":
+                Imagem.setImageResource(R.drawable.mamaohavai);
                 valores = new String[]{
                         "Frango ao Molho de Mamão Havaí",
                         "Salada de Mamão com Aveia",
@@ -1516,7 +1575,9 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
-            case "Agrio":
+            case "Agriao":
+                Imagem.setImageResource(R.drawable.agriao);
+
                 valores = new String[]{
                         "Rabada com Agrião",
                         "Creme de Agrião",
@@ -1539,6 +1600,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Almeirão":
+                Imagem.setImageResource(R.drawable.almeirao);
                 valores = new String[]{
                         "Salada de Almeirão",
                         "Salada de Almeirão com Alcaparras",
@@ -1561,6 +1623,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Palmito":
+                Imagem.setImageResource(R.drawable.palmito);
                 valores = new String[]{
                         "Creme de Palmito",
                         "Pastel de Palmito Cremoso",
@@ -1587,6 +1650,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Banana Prata":
+                Imagem.setImageResource(R.drawable.bananaprata);
                 valores = new String[]{
                        "Cupcake de Banana Prata com Canela",
                         "Cartola de Banana Prata e Queijo",
@@ -1610,6 +1674,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Manga":
+                Imagem.setImageResource(R.drawable.manga);
                 valores = new String[]{
                         "Mousse de Manga",
                         "Bavaroise de Manga",
@@ -1633,6 +1698,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Brócolis":
+                Imagem.setImageResource(R.drawable.brocolis);
                 valores = new String[]{
                         "Penne ao Molho de Queijo e Brócolis",
                         "Macarrão com Brócolis e Bacon",
@@ -1655,6 +1721,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Acerola":
+                Imagem.setImageResource(R.drawable.acerola);
                 valores = new String[]{
                         "Geleia de Acerola",
                         "Licor de Acerola",
@@ -1677,6 +1744,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Nozes":
+                Imagem.setImageResource(R.drawable.nozes);
                 valores = new String[]{
                         "Brownie de Nozes",
                         "Strogonoff de Nozes",
@@ -1700,6 +1768,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Alcachofras":
+                Imagem.setImageResource(R.drawable.alcachofra);
                 valores = new String[]{
                         "Alcachofras Grelhadas",
                         "Alcachofra com Molho de Ervas",
@@ -1746,6 +1815,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Couve-Flor":
+                Imagem.setImageResource(R.drawable.couveflor);
                 valores = new String[]{
                         "Omelete de Forno com Couve-Flor",
                         "Couve-Flor Recheada de Microondas",
@@ -1768,6 +1838,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Abacaxi Pérola":
+                Imagem.setImageResource(R.drawable.abacaxiperola);
                 valores = new String[]{
                         "Doce de Abacaxi Pérola",
                         "Torta de Abacaxi",
@@ -1790,6 +1861,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Amêndoas":
+                Imagem.setImageResource(R.drawable.amendoas);
                 valores = new String[]{
                         "Amêndoas Caramelizadas",
                         "Salgadinhos de Amêndoas",
@@ -1818,6 +1890,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Amora":
+                Imagem.setImageResource(R.drawable.amora);
                 valores = new String[]{
                         "Geleia de Morango",
                         "Mousse de Amora",
@@ -1842,6 +1915,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Castanha Nacional":
+                Imagem.setImageResource(R.drawable.castanhanacional);
                 valores = new String[]{
                         "Mousse de Cupuaçu com Castanha",
                         "Farofa de Castanha",
@@ -1864,6 +1938,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Jaca":
+                Imagem.setImageResource(R.drawable.jaca);
                 valores = new String[]{
                         "Doce de Jaca em Calda",
                         "Fricasse de Jaca",
@@ -1886,6 +1961,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Melão":
+                Imagem.setImageResource(R.drawable.melao);
                 valores = new String[]{
                         "Suchá de Melão com Mel",
                         "Sopa de Melão",
@@ -1908,6 +1984,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Maxixe":
+                Imagem.setImageResource(R.drawable.maxixe);
                 valores = new String[]{
                         "Ensopadinho de Maxixe",
                         "Maxixe com Coco",
@@ -1930,6 +2007,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Laranja":
+                Imagem.setImageResource(R.drawable.laranja);
             valores = new String[]{
                     "Doce de Laranja",
                     "Bolo Vulcão de Laranja",
@@ -1954,6 +2032,7 @@ public class ActivityReceitas extends AppCompatActivity {
 
 
             case "Quiabo":
+                Imagem.setImageResource(R.drawable.quiabo);
                 valores = new String[]{
                         "Quiabo sem Baba com Molho Delicioso",
                         "Quiabo com Linguinça",
