@@ -445,7 +445,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 Imagem.setImageResource(R.drawable.pera);
                 valores = new String[]{
                        "Molho de Pêra",
-                        "Pêra Caramelisada",
+                        "Pêra Caramelizada",
                         "Pêras ao Vinho Branco",
                         "Fritadinhas de Pêra com massa de Cerveja",
                         "Torta de Pêra"
@@ -551,7 +551,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Abóbora assada com shoyu e mel",
                         "Sopa de Abóbora com Grão de Bico e Costela",
                         "Creme de Abóbora com Bacon",
-                        "Bacon Frito e Cebolinha picada para Polvilhar",
                         "Croquete de Abóbora com Carne-Seca",
                         "Risoto de Abóbora com Carne-Seca",
                         "Doce de Abóbora com Coco Ralado"
@@ -578,7 +577,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Tortilha de Milho",
                         "Nhoque de Milho Verde",
                         "Bolo de Milho",
-                        "Curau",
                         "Canjica",
                         "Pamonha Assada",
                         "Creme de Milho",
@@ -619,7 +617,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Abacaxi com Calda de Maracujá",
                         "Taça de Abacaxi",
                         "Doce De Abacaxi Com Doce De Leite",
-                        "hajjhahkjakjhajhkajhjahkhjahkja"
 
                 };
 
@@ -687,8 +684,8 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Berinjela":
                 Imagem.setImageResource(R.drawable.berinjela);
                 valores = new String[]{
-                        "Berijela Recheada",
-                        "Berinjela à Pamegiana",
+                        "Berinjela Recheada",
+                        "Berinjela à Parmegiana",
                         "Antepasto de Berinjela",
                         "Escabeche de Berinjela",
                         "Strogonoff de Berinjela",
@@ -813,12 +810,10 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Frango ao molho de Tangerina",
                         "Salada de Folhas verdes com Tangerina",
                         "Salmão ao molho de Tangerina",
-                        "Casquinha Cristalizada de Mexerica",
                         "Bolo de Mexerica",
                         "Mousse de Tangerina",
                         "Bolo de Mexerica com Cachaça",
                         "Geleia de Tangerina",
-                        "Frango Assado ao Molho de Tangerina"
 
 
                 };
@@ -966,7 +961,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Picolé de Kiwi"
 
 
-
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -1011,10 +1005,10 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Salada de Nabo",
                         "Nabo Crocante",
                         "Nabo Gratinado",
-                        "Salada com nabo light para emagrecer",
+                        "Salada com nabo light",
                         "Nabo gratinado light",
                         "Frango curry com nabo light",
-                        "Sopa de nabo light para emagrece",
+                        "Sopa de nabo light",
                         "Wrap com Nabo light"
 
                 };
