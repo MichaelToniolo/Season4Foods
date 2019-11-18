@@ -80,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="296dp"
             android:background="@color/CalendarColor"
+            android:shownWeekCount="5"
             android:maxDate="12/31/2019"
             android:minDate="01/01/2019"
 

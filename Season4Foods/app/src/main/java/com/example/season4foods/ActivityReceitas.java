@@ -36,7 +36,6 @@ public class ActivityReceitas extends AppCompatActivity {
     String IngredienteReceita;
     Button button;
     ImageView Imagem;
-    DbHelper db;
 
 
     @SuppressLint("SetTeast18n")
@@ -339,7 +338,6 @@ public class ActivityReceitas extends AppCompatActivity {
 
             case "Pimentão":
                 Imagem.setImageResource(R.drawable.pimentao);
-
                 valores = new String[]{
                         "Molho Completo De Pimentão",
                         "Geléia de Pimentão",
@@ -1786,27 +1784,6 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
-            case "Pernil":
-                valores = new String[]{
-                        "Pernil Assado Com Batata",
-                        "Pernil Assado Com Molho De Abacaxi",
-                        "Pernil Suíno Com Molho De Damasco",
-                        "Pernil À Portuguesa",
-                        "Pernil De Cordeiro À Moda Italiana"
-
-                };
-
-                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
-                lista_receitas.setAdapter(adapter);
-
-                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-
-                    }
-                });
-                break;
 
             case "Couve-Flor":
                 Imagem.setImageResource(R.drawable.couveflor);

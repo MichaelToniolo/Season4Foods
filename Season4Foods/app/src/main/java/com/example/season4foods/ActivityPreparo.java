@@ -2,27 +2,21 @@ package com.example.season4foods;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.ContentValues;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class ActivityPreparo extends AppCompatActivity {
 
     TextView Preparo;
     TextView Ingredientes;
     TextView Nome_prato;
-    ImageView Foto_alimento;
-    LinearLayout GeralLayout;
     Button ShareButton;
     Button btn_volte;
 
@@ -2939,30 +2933,6 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-            case "Pernil Assado Com Batata":
-                Ingredientes.setText("- 2,5 kg de pernil desossado\n- 1 copo de vinagre branco\n- 1 pimentão verde\n- 1/2 xicara de suco de limão\n- 1/2 xícara de azeite\n- 2 cebolas médias\n- 6 dentes de alho\n- 2 cubos de caldo de carne\n- 1 xícara de água\n- 6 batatas médias\n- Pimenta-do-reino e sal a gosto.");
-                Preparo.setText("Coloque o pernil em uma vasilha onde as bordas sejam maiores que a altura do mesmo. Jogue o vinagre sobre o pernil, reserve. Bata no liquidificador o pimentão, o limão, o azeite, a cebola, o caldo de carne, o sal, a pimenta-do-reino e a água, bata até formar uma pasta. Reserve. Lave o pernil com água corrente para retirar o vinagre. Dê diversos furos com faca no pernil. Jogue a pasta sobre o pernil, o tempero deverá cobrir toda a peça da carne. Reserve por 12 horas em geladeira com a vasilha coberta, de preferência com filme plástico. Leve ao forno por 1 hora com papel-alumínio a carne com um pouco do tempero usado (a carne já deve estar no ponto de cozimento e com um pouco de caldo). Depois desse tempo, coloque as batatas e leve para assar por mais 30 minutos, ainda com papel alumínio. Após, retire o papel-alumínio e deixe no forno para dourar por, mais ou menos, mais 1 hora. O tempo de cozimento pode variar de acordo com a potência do forno.");
-
-                break;
-
-            case "Pernil Assado Com Molho De Abacaxi":
-                Ingredientes.setText("- PARA A MARINADA:\n- 1 peça de pernil suíno com osso e pele (cerca de 4 kg)\n- 1 abacaxi\n- ½ xícara (chá) de vinho branco\n- 4 cebolas\n- 6 dentes de alho\n- 3 folhas de louro\n- 3 cravos-da-índia\n- 1 canela em rama\n- 5 grãos de pimenta-do-reino\n- PARA O MOLHO:\n- todo o líquido da marinada\n- ½ cebola (reservada no preparo da marinada)\n- 1 colher (sopa) de manteiga\n- 1 colher (sopa) de farinha de trigo\n- 1 ½ colher (sopa) de mel\n- sal e pimenta-do-reino moída na hora a gosto");
-                Preparo.setText("Prepare os ingredientes da marinada: descasque e corte o abacaxi em pedaços, transfira para o liquidificador e bata com o vinho branco até ficar liso; descasque e amasse os dentes de alho; corte as cebolas em quartos: passe a faca pelo meio da raiz, descasque e mantenha a raiz de cada gomo, assim as pétalas ficam unidas - reserve uma das metades para fazer o molho. Utilize uma assadeira funda, pois o pernil solta bastante líquido e gordura ao assar. É nela que você vai preparar a marinada: coloque o pernil, junte as cebolas, os dentes de alho, as folhas de louro, os cravos, a canela e os grãos de pimenta-do-reino. Regue toda a carne com o suco de abacaxi, cubra com filme e deixe marinar na geladeira por pelo menos 3 horas - vire a carne durante esse período para todos os lados ficarem imersos na marinada. Se preferir, deixe na geladeira da noite para o dia. PARA ASSAR: Preaqueça o forno a 180 ºC (temperatura média). Retire o pernil da geladeira e deixe em temperatura ambiente enquanto o forno aquece - a carne não deve ir gelada ao forno. Transfira o pernil para a tábua e coe o líquido da marinada sobre uma tigela. Descarte a canela, as folhas de louro, os cravos e os grãos de pimenta. Volte as cebolas e os dentes de alho para a assadeira. Reserve o líquido na geladeira - ele vai ser usado para fazer o molho. Com um papel toalha seque bem a pele do pernil. Com uma faca afiada faça cortes diagonais na pele, formando losangos - corte apenas a pele, superficialmente, sem chegar até a carne. Coloque o pernil na assadeira, tempere toda a peça com 2 colheres (sopa) de sal e regue a pele com azeite. Cubra a assadeira com 2 folhas de papel-alumínio e leve ao forno para assar por 3h30 até cozinhar. Para verificar, espete uma faca no centro da peça rente ao osso e verifique se o líquido sai limpo – se ainda estiver com sangue, deixe cozinhar por mais tempo (o cálculo total é de 1 hora de forno por quilo de carne; a última meia hora sem cobertura). Assim que estiver assado, retire o papel-alumínio e volte o pernil ao forno. Aumente a temperatura para 240 ºC (temperatura alta) e deixe assar por mais 30 minutos até a pele ficar crocante. Enquanto isso, aproveite para preparar o molho. Pique fino a metade da cebola reservada. Numa panela média, coloque a manteiga e leve ao fogo baixo. Quando derreter, adicione a cebola e tempere com uma pitada de sal. Refogue por cerca de 3 minutos até murchar. Junte o mel e misture bem. Polvilhe a farinha e mexa por cerca de 3 minutos, até ficar parecendo uma cola - essa mistura de manteiga com farinha, chamada roux, vai engrossar o molho. Regue o líquido da marinada aos poucos, misturando bem com um batedor de arame para dissolver todos os gruminhos de farinha. Deixe cozinhar, mexendo de vez em quando, por 5 minutos depois que começar a ferver. Desligue a panela, acerte o sal e a pimenta-do-reino e transfira para uma molheira.");
-
-                break;
-
-            case "Pernil Suíno Com Molho De Damasco":
-                Ingredientes.setText("- 1,5 k de pernil suíno com osso\n- ½ xícara de vinho branco seco\n- 10 damascos secos\n- Suco de um limão (usei o bergamota)\n- 5 dentes de alho inteiros\n- Manjerona ou sálvia fresca\n- Pimenta preta\n- Sal");
-                Preparo.setText("Coloque o vinho branco em uma tigela, adicione os damascos e deixe descansando por 20 minutos. Se você não tiver esse tempo você pode liquidificar sem a etapa da hidratação, mas eu gosto de hidratar pois facilita para obter uma pasta homogênea. Coloque no liquidificador o vinho e os damascos, adicione o suco do limão, um dente de alho e bata bem até obter um creme completamente homogêneo. Tempere o pernil com sal, pimenta moída na hora e as ervas picadas. Em seguida espalhe todo o creme de damasco por todos os lados do pernil e deixe descansando por no minimo uma hora. Se puder deixar marinando na geladeira na véspera o resultado será ainda melhor. Coloque o pernil em uma forma, adicione os dentes de alho inteiros e todo o tempero da marinada, cubra com papel alumínio e leve para assar por 1h30 a 2h a 200C. O tempo dessa etapa vai variar de acordo com características da carne e forno, o importante é a carne esteja bem macia ao tocar com o garfo, quase desfiando. Retire o papel alumínio, com uma cocha retire praticamente todo o líquido que se formou e reserve. Coloque a carne de volta no forno e deixe assando a 250C, sempre que começar a secar e caramelizar vá adicionando o líquido reservado aos poucos até que a carne esteja bem dourada e com um molho espesso e caramelizado. Esse processo de deixar iniciar a caramelização e regar com os sucos do assado, vai dar cor e um sabor único ao prato. Então é hora de servir.");
-
-                break;
-
-
-            case "Pernil À Portuguesa":
-                Ingredientes.setText("- ½ kg. de pernil cortado em cubinhos\n- 2 dentes de alho picado\n- 1 colher (chá) de colorau\n- 1 folha de louro\n- Suco de 1 limão\n- 100 ml de vinho branco\n- Sal e pimenta\n- 1 xicara (chá) de agua\n- 2 colheres (sopa) de azeite\n- 1 pimentão verde picado\n- 1 pimentão vermelho picado\n- 1 pimentão amarelo picado\n- 1 cebola picada\n- 1/2 xicara (chá) de azeitonas\n- 1 ramo de brócolis cozidos al dente\n- 500 g de batatas cozidas al dente\n- 3 ovos cozidos\n- Salsa á gosto");
-                Preparo.setText("Tempere o pernil, com o alho, o coloral, o louro, o limão, o vinho, o sal e a pimenta, deixe marinar por meia hora, em seguida coloque na panela de pressão, com a agua e após pegar pressão, conte 20 minutos, reserve. Em uma panela coloque o azeite, frite os pimentões e a cebola, junte o pernil cozido, e os demais ingredientes, mexa, deixe uns 2 minutos e desligue e sirva.");
-
-                break;
 
             case "Mabonasu (Berinjela Apimentada)":
                 Ingredientes.setText("- 200 g de carne moída\n- 3 berinjelas japonesas\n- 1 colher (sopa) de gengibre ralado\n- 1 dente de alho picado\n- 2 colheres (sopa) shoyu\n- 2 colheres (sopa) molho de ostra\n- 1 colher (sopa) de tobanja (pasta de pimenta vermelha)\n- 2 colheres (sopa) de saquê\n- 1 colher (chá) de açúcar\n- 1 colher (sopa) de amido de milho diluído em 3 colheres (sopa) de água\n- 1 colher (sopa) de óleo de gergelim\n- cebolinha picada a gosto\n- óleo para fritar ");
@@ -2970,11 +2940,6 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-            case "Pernil De Cordeiro À Moda Italiana":
-                Ingredientes.setText("- Para o Cordeiro: \n- 2,2 kg de pernil de cordeiro, desossado e cortado aberto como uma borboleta\n- 3 colheres de sopa de azeite de oliva\n- 6 dentes de alho, picados\n- 2 ramos de alecrim fresco, com as folhas removidas e picadas\n- 1/4 de colher de chá de pimenta calabresa em flocos\n- 1/2 xícara de nozes, picadas\n- 140 g de folhas de baby espinafre, picadas grosseiramente \n- 1 1/2 colheres de chá de sal kosher\n- 3/4 de xícara de passas\n- 1/2 colher de chá de grãos de pimenta-do-reino, moídos na hora \n- 1/2 xícara de mostarda de grãos inteiros \n- Para a Gremolata (tempero): \n- 1/2 colher de sopa de azeite de oliva extravirgem\n- 1/3 de xícara de farinha panko\n- 1/3 de xícara de salsinha italiana, picada grosseiramente\n- 1 colher de chá de raspas de limão-siciliano (de 1 limão grande)\n- 1/4 de colher de chá de pimenta calabresa em flocos\n- 1/8 de colher de chá de sal kosher");
-                Preparo.setText("Para o Cordeiro: Retire o cordeiro da geladeira 30 minutos antes de cozinhar. Aqueça 2 colheres de sopa de azeite de oliva, em uma panela grande em fogo médio-alto. Adicione o alho, o alecrim, a pimenta em flocos e as nozes. Refogue até começar a exalar um perfume e começar a dourar. Acrescente o espinafre picado, 1/2 colher de chá de sal, e cozinhe até murchar, junte as passas e misture. Preaqueça o forno a 175ºC. Em sua superfície de trabalho, espalhe o cordeiro com a gordura voltada para baixo. Se o pernil de cordeiro estiver muito grosso, utilize um martelo de cozinha e bata delicadamente, até todo o pedaço do cordeiro fique com a mesma espessura (aprox. 2,5 cm). Tempere com 1/2 colher de chá de sal e 1/2 colher de chá de pimenta, espalhe a mostarda uniformemente e distribua a mistura de espinafre em cima da mostarda. Enrole o cordeiro com o recheio dentro, a partir de um lado, de modo que mantenha a forma do pernil. Amarre com barbante de açougueiro, em intervalos de 5 cm. Tempere o lado de fora com a1/2 colher de chá sal, restante. Limpe a panela e adicione a colher de sopa de azeite restante. Coloque a panela em fogo alto e deixe-a ficar quente. Coloque o cordeiro na panela e sele todos os lados até dourar, cerca de dois minutos de cada lado. Transfira o cordeiro para uma assadeira e asse, por cerca de 1 hora e 15 minutos, até que a temperatura interna atinja 60 graus C (utilize um termômetro de cozinha com leitura instantânea). Remova para uma tábua de corte e deixe descansar, por pelo menos 15 minutos, antes de cortar. Para a Gremolata: Enquanto o cordeiro assa, prepare a gremolata em uma pequena panela. Aqueça o azeite, em fogo médio-alto, adicione a farinha panko e cozinhe, mexendo regularmente, até dourar. Acrescente a salsinha, as raspas de limão, os flocos de pimenta e o sal e mexa os ingredientes. Reserve para permitir que os sabores se misturem. Sirva o cordeiro fatiado, e polvilhe com um pouco da gremolata.");
-
-                break;
 
         }
 

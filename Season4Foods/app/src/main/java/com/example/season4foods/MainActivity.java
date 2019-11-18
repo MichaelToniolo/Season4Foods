@@ -1,38 +1,21 @@
 package com.example.season4foods;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.Manifest;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.ContextMenu;
-import android.view.LayoutInflater;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
-import android.app.ListActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.SearchView;
-
-import org.w3c.dom.Text;
-
-import java.io.StringReader;
-import java.time.Period;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,9 +25,7 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     String Omes;
     LinearLayout LinearLayout;
-    SearchView Pesquisa;
     Button AboutButton;
-    TextView MeuTeste;
 
 
 
@@ -58,30 +39,15 @@ public class MainActivity extends AppCompatActivity {
         TxtMain = (TextView) findViewById(R.id.TxtMain);
         listView = (ListView) findViewById(R.id.lista_alimentos);
         LinearLayout = (LinearLayout) findViewById(R.id.menu_principal);
-        //Pesquisa = (SearchView) findViewById(R.id.Pesquisa);
         AboutButton = (Button) findViewById(R.id.AboutButton);
-        //MeuTeste = (TextView) findViewById(R.id.MeuTeste);
+        CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
 
 
-        BancoController crud = new BancoController(getBaseContext());
-        String A = crud.carregaDados().toString();
-
-       // MeuTeste.setText(A);
-
-
-
-
-            //DEFINE VALOR LIST VIEW
-            CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
-
-            CalendarioView.getFirstDayOfWeek();
-
-
-            CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
-                @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+        CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
+            @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
 
             @Override
-            public void onSelectedDayChange(@NonNull CalendarView calendarView, int i, int i1, int i2) {
+            public void onSelectedDayChange(CalendarView calendarView, int i, int i1, int i2) {
 
                 //Mes = (i1 +1)
                 //Dia = i2
@@ -89,8 +55,10 @@ public class MainActivity extends AppCompatActivity {
 
                 String date = i2 + "/" + (i1 + 1) + "/" + i;
 
+
                 switch (i1 + 1) {
                     case 1:
+
                         TxtMain.setText(date);
                         TxtMain.setText("JANEIRO");
                         String[] Omes = new String[]
@@ -105,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Quiabo",
                                         "Tomate",
                                         "Pimentão"
+
                                 };
                         LinearLayout.setBackgroundResource(R.drawable.summer_bg);
 
@@ -254,6 +223,7 @@ public class MainActivity extends AppCompatActivity {
 
                         listView.setAdapter(adapter);
                         break;
+
                     case 8:
                         TxtMain.setText(date);
                         TxtMain.setText("AGOSTO");
@@ -326,6 +296,7 @@ public class MainActivity extends AppCompatActivity {
 
                         break;
                     case 11:
+
                         TxtMain.setText(date);
                         TxtMain.setText("NOVEMBRO");
                         Omes = new String[]
@@ -357,15 +328,11 @@ public class MainActivity extends AppCompatActivity {
                         Omes = new String[]
                                 {
                                         "Abacaxi",
-                                        "Amêndoa",
-                                        "Bacalhau",
+                                        "Amêndoas",
                                         "Berinjela Japonesa",
                                         "Cenoura",
                                         "Laranja",
-                                        "Palmito",
-                                        "Pernil",
-                                        "Salmão",
-                                        "Tender"
+                                        "Palmito"
 
 
                                 };
