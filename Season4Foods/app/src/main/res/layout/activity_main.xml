@@ -23,9 +23,11 @@
 
         <Button
             android:id="@+id/AboutButton"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:background="@drawable/btn_sobre" />
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_sobre"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="7dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -34,12 +36,12 @@
             android:fontFamily="cursive"
             android:gravity="center"
             android:text="Season4Foods"
-
             android:textColor="@color/colorPrimaryDark"
             android:textSize="40dp">
 
 
         </TextView>
+
 
     </LinearLayout>
 
@@ -85,7 +87,9 @@
             android:minDate="01/01/2019"
 
 
-            android:weekDayTextAppearance="@color/cardview_dark_background"></CalendarView>
+            android:weekDayTextAppearance="@color/cardview_dark_background"
+            >
+        </CalendarView>
     </LinearLayout>
 
     <TextView

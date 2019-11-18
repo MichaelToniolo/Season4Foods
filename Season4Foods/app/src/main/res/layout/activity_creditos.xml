@@ -19,6 +19,7 @@ android:background="@drawable/backgroundmain3"
         android:gravity="center"
         android:text="Quem Somos"
         android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"
         android:textSize="50dp">
 
     </TextView>
@@ -41,7 +42,7 @@ android:background="@drawable/backgroundmain3"
             android:text="Desenvolvedores:\n\nEvandro Lopes\nMatheus Bondadenco\nMatheus Tomazzo\nMichael Saraiva\nVictor Reis\n\n Receitas\n\n Daniela Oliveira\nLuanna Garcia\nMilena Gonçalves\nTamires Benassi"
             android:textAlignment="center"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="25dp"
+            android:textSize="26dp"
 
             >
 
@@ -51,6 +52,11 @@ android:background="@drawable/backgroundmain3"
             android:id="@+id/btn_volte_principal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/MyBackgroundFontColor"
+            android:layout_gravity="bottom"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="70dp"
             android:text="Voltar" />
 
     </LinearLayout>
