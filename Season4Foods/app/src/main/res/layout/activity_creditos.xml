@@ -56,7 +56,7 @@ android:background="@drawable/backgroundmain3"
             android:layout_gravity="bottom"
             android:fontFamily="cursive"
             android:textColor="@color/colorPrimaryDark"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="10dp"
             android:text="Voltar" />
 
     </LinearLayout>
