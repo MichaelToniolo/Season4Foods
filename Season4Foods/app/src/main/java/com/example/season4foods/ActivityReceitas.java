@@ -91,7 +91,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 //Definindo Array
                 String[] valores = new String[]{
                         "Abobrinha Gratinada",
-                        "Quibe de Aborinha na Travessa",
+                        "Quibe de Abobrinha na Travessa",
                         "Macarrão com Abobrinha com Manjericão",
                         "Abobrinha de Forno com Tomate",
                         "Rolinhos de Abobrinha (Wrap de Abobrinha)",
@@ -372,7 +372,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Sorvete de Abacate",
                         "Sopa de Abacate e Tomate",
                         "Macarrão com molho de abacate",
-                        "Chutney de Pimentão",
                         "Vitamina de Abacate",
                         "Guacamole",
                         "Salada de Abacate",
@@ -865,7 +864,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Carutinhos de Folhas de Beterraba",
                         "Sopa de Beterraba",
                         "Refresco de Laranja e Beterraba",
-                        "Panqueca de Beterraba e Frango",
+                        //"Panqueca de Beterraba e Frango",
                         "Carpaccio de Beterraba",
                         "Pão de Beterraba",
                         "Sopa Russa de Beterraba"

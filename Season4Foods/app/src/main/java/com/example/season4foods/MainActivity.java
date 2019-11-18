@@ -40,7 +40,9 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.lista_alimentos);
         LinearLayout = (LinearLayout) findViewById(R.id.menu_principal);
         AboutButton = (Button) findViewById(R.id.AboutButton);
-        CalendarioView = (CalendarView)findViewById(R.id.CalendarioView);
+
+
+        long date = CalendarioView.getDate();
 
 
         CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
