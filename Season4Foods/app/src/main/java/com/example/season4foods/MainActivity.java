@@ -42,8 +42,6 @@ public class MainActivity extends AppCompatActivity {
         AboutButton = (Button) findViewById(R.id.AboutButton);
 
 
-        long date = CalendarioView.getDate();
-
 
         CalendarioView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
