@@ -235,7 +235,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Bata no liquidificador a cenoura, o leite e os ovos. Em uma vasilha, acrescente o açúcar, o fermento e o chocolate, despeje o conteúdo do liquidificador e adicione a farinha aos poucos até obter uma massa nem muito mole, nem muito dura. Coloque o óleo em uma panela na quantidade que o bolinho não encoste no fundo, quando estiver quente, frite os bolinhos colocando uma colher (de sobremesa) da massa para fritar. Passe no açúcar com canela. ");
                 break;
 
-            case "Hamburguer de Cenoura":
+            case "Hambúrguer de Cenoura":
                 Ingredientes.setText("- 1 cenoura grande (ralada)\n- 1 cebola (média) bem picada\n- 1/4 xícara de cebolinha picada\n- 1 ovo grande\n- 2 colheres (sopa) de leite\n- 2 colheres (sopa) de farinha de trigo\n- 1 colher (chá) de orégano\n- sal a gosto\n- óleo para fritar ");
                 Preparo.setText("Misture todos os ingredientes e amasse bem. Faça o formato de hambúrguer ou o que desejar. Frite e sirva. ");
                 break;
@@ -283,7 +283,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Torta de Banana e Suspiro":
-                Ingredientes.setText("Amasse as bananas com um garfo e misture-as à manteiga derretida. Mexendo com uma colher, junte o bicarbonato, o sal, o açúcar, o ovo, a farinha, as uvas passas ou mirtilos e a baunilha. Despeje a massa em uma forma untada e enfarinhada. Salpique as amêndoas por cima. Leve ao forno pré-aquecido a 180ºC. O bolo estará pronto quando ficar levemente dourado e, quando espetado com um palito de madeira no centro, o palito sair seco, sem massa grudada. ");
+                Ingredientes.setText("- 5 colheres (sopa) de açúcar\\n- 1 ovo\\n- 75 gramas de manteiga\\n- 1 e ½  xícara de farinha de trigo\\n- ½ colher (chá) de fermento químico\\n- 4 bananas maduras\\n- Para o suspiro:\\n- 2 claras\\n- 4 colheres (sopa) de açúcar");
                 Preparo.setText("Amasse as bananas com um garfo e misture-as à manteiga derretida. Mexendo com uma colher, junte o bicarbonato, o sal, o açúcar, o ovo, a farinha, as uvas passas ou mirtilos e a baunilha. Despeje a massa em uma forma untada e enfarinhada. Salpique as amêndoas por cima. Leve ao forno pré-aquecido a 180ºC. O bolo estará pronto quando ficar levemente dourado e, quando espetado com um palito de madeira no centro, o palito sair seco, sem massa grudada. ");
                 break;
 
@@ -1978,14 +1978,14 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-            case "Dadinho de Inhame":
-                Ingredientes.setText("- 250 g de inhame \n- Pimenta-do-reino a gosto \n- Sal marinho a gosto \n- 100 ml de azeite \n- ½ pimenta dedo-de-moça \n- 1 talo de tomilho pequeno \n- 1 talo de alecrim pequeno");
+            //case "Dadinho de Inhame":
+                //Ingredientes.setText("- 250 g de inhame \n- Pimenta-do-reino a gosto \n- Sal marinho a gosto \n- 100 ml de azeite \n- ½ pimenta dedo-de-moça \n- 1 talo de tomilho pequeno \n- 1 talo de alecrim pequeno");
 
-                Preparo.setText("250 g de inhame Pimenta-do-reino a gosto Sal marinho a gosto 100 ml de azeite ½ pimenta dedo-de-moça 1 talo de tomilho pequeno 1 talo de alecrim pequeno");
+                //        Preparo.setText("250 g de inhame Pimenta-do-reino a gosto Sal marinho a gosto 100 ml de azeite ½ pimenta dedo-de-moça 1 talo de tomilho pequeno 1 talo de alecrim pequeno");
 
-                break;
+        //        break;
 
-            case "Inhame do Murro":
+            case "Inhame ao Murro":
                 Ingredientes.setText("- 4 inhames (cerca de 500 g)\n- 2 colheres (sopa) de azeite\n- tomilho a gosto\n- sal e pimenta-do-reino moída na hora a gosto");
 
                 Preparo.setText("Pré aqueça o forno a 200 ºC (temperatura média). Regue uma assadeira pequena com 1 colher (sopa) de azeite. Com uma escovinha para legumes, lave bem os inhames sob água corrente, esfregando bem para tirar os pelinhos da casca. Transfira para uma panela média, cubra com água e leve para cozinhar em fogo alto. Quando começar a ferver, diminua o fogo e deixar cozinhar por mais 30 minutos, até ficarem macios. Assim que estiverem cozidos, escorra a água. Sobre a tábua, abra um pano de prato limpo e coloque um inhame, ainda quente, no centro - cuidado para não se queimar. Dobre o pano sobre o inhame e dê um murro certeiro para achatar levemente o inhame, sem rachar completamente. Transfira para a assadeira e repita com os demais. Debulhe as folhas de tomilho sobre os inhames, regue com o azeite restante e tempere com sal a gosto - o sal moído na hora, além de temperar, dá uma textura crocante. Leve ao forno para assar por cerca de 30 minutos, ou até ficarem dourados. Retire do forno e sirva a seguir. Fica ótimo servido com ragu de carne.");
@@ -1999,7 +1999,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-            case "Pure de Inhame":
+            case "Purê de Inhame":
                 Ingredientes.setText("- 4 inhames\n- 1 xícara (chá) de leite\n- 2 dentes de alho descascados\n- 2 colheres (sopa) de manteiga\n- noz-moscada ralada na hora a gosto\n- sal e pimenta-do-reino moída na hora a gosto");
 
                 Preparo.setText("Lave, descasque, seque e corte os inhames em pedaços médios. Transfira para uma panela média, cubra com água e junte 1 colher (chá) de sal e os alhos já descascados.  Leve para cozinhar em fogo alto. Assim que começar a ferver, abaixe o fogo para médio e cozinhe por 25 minutos, ou até que os pedaços fiquem macios - espete com um garfo para verificar.  Desligue o fogo e escorra a água numa peneira. Enquanto isso, numa panelinha, leve o leite ao fogo baixo para aquecer, sem deixar ferver - para o purê não empelotar, o leite deve estar na mesma temperatura do inhame. Passe os inhames com os dentes de alho ainda quentes pelo espremedor e volte para a mesma panela. Leve ao fogo médio e acrescente o leite, aos poucos, mexendo com um batedor de arame para incorporar. Desligue o fogo, misture a manteiga e tempere com sal, pimenta-do-reino moída na hora a gosto e uma pitada de noz-moscada e sirva.");
@@ -2090,7 +2090,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Omelete de Chuchu light":
-                Ingredientes.setText("- 1 dente de alho picadol\n- 1 chuchu ralado crul\n- 2 ovosl\n- salsinha a gostol\n- sal a gostol\n- pimenta a gostol\n- parmesão a gosto. ");
+                Ingredientes.setText("- 1 dente de alho picado\n- 1 chuchu ralado cru\n- 2 ovos\n- salsinha a gosto\n- sal a gosto\n- pimenta a gosto\n- parmesão a gosto. ");
                 Preparo.setText("Refogue o alho em uma frigideira anti-aderente untada com azeite e acrescente o chuchu ralado. Em seguida tempere como preferir, com pimenta, salsinha e sal. Bata os ovos em uma tigela e acrescente ao refogado. Coloque o queijo parmesão ralado. Tampe e deixe em fogo baixo até dourar. Vire com cuidado com uma espátula e deixe dourar do outro lado. Sirva.");
                 break;
 
@@ -2557,7 +2557,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
-            case "Baklavá De Nozes":
+            case "Baklavá de Nozes":
                 Ingredientes.setText("- MASSA: \n- 750 g de massa folhada\n- RECHEIO: \n- 500 g de nozes (4 xícaras de chá)\n- ½ xícara (chá) de açúcar\n- 1 colher (chá) de canela em pó\n- CALDA: \n- 3 xícaras (chá) de água\n- 3 ½ xícaras (chá) de açúcar\n- 1 ½ xícara (chá) de mel\n- 1 pedaço de canela em pau\n- 5 ou 6 cravos");
                 Preparo.setText("MASSA: Abra a massa folhada pronta e corte 5 partes no tamanho da forma que será usada e 1 parte um pouco maior que a forma (total: 6 partes). Corte mais 2 folhas de massa folhada, coloque-as sobre uma assadeira e sobre as 2 partes coloque uma grade, para que não percam a forma. Asse as duas partes em forno pré-aquecido a 170°C por 25 ou 30 min. Reserve. RECHEIO: Passe os 500 g de nozes no processador, misture o açúcar, a canela e as nozes. Servirá como recheio. Reserve. MONTAGEM NA FORMA: Forre o fundo e a lateral de uma forma quadrada (24 cm x 24 cm x 6,5 cm) com manteiga e papel-manteiga e monte o doce da seguinte forma: Coloque 4 folhas de massa folhada cruas untadas com manteiga coloque mais 1 folha de massa crua sem untar com manteiga. Espalhe um pouco do recheio de nozes. Coloque sobre a farofa 1 folha de massa folhada assada. Espalhe mais recheio de nozes e cubra com a outra folha de massa folhada assada. Espalhe o restante do recheio e finalize com a folha de massa folhada crua maior, acertando as laterais na forma. Pincele manteiga derretida. Mergulhe os dedos em uma vasilha com água fria e polvilhe sobre a massa crua. Com uma faca afiada, risque pedaços em quadrados (ou losangos) no doce. Coloque em forno pré-aquecido a 170°C e asse por 1 h. Retire o doce do forno, deixe esfriar e regue com a calda ainda quente. Deixe esfriar novamente. Corte o doce em pedaços onde houve os riscos e decore com nozes. Sirva frio. CALDA: Ferva 3 xícaras (chá) de água com 3 ½ xícaras (chá) de açúcar por 5 min. Adicione 1 ½ xícara (chá) de mel, 1 pedaço de canela em pau, 5 ou 6 cravos e ferva por mais 5 min. Retire os cravos e a canela e deixe ferver por mais 5 min, mexendo sempre.");
 
@@ -2696,7 +2696,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
             case "Geleia de Morango":
                 Ingredientes.setText("- 10 xícaras de amoras (medir com elas inteiras)\n- 5 xícaras de açucar\n- Água o suficiente (ver a quantidade no preparo) ");
-                Preparo.setText("Lave e retire os cabinhos das amoras e coloque no liquidificador para bater. Vai ficar um caldo bem grosso, passe numa peneira aos poucos e coloque um pouquinho de água na própria peneira para ajudar a coar. Para 10 xícaras de amoras, pode-se usar uns dois copos (tipo requeijão) de água para ajudar a coar. Depois disso leve o caldo juntamente com o açucar numa panela grande para cozinhar. Deixe o fogo alto até começar a ferver, depois baixe no mínimo. Deixe cozinhar até reduzir mais ou menos pela metade e mexa de vez em quando. Daí em diante comece a verificar o ponto. PONTO DE GELÉIA: Coloque uma colher do doce num pires e coloque no freezer, espere um ou dois minutos para esfriar e retire, passe o dedo no meio, se enrugar está pronta. (esta dica do ponto eu aprendi com a amiga Eny Feliz e realmente funciona!). Ela fica liquida mesmo quando chega no ponto de geléia e só vai gelificar uns dois dias depois. Coloque em potes bem esterilizados ainda quente, feche bem, vire de cabeça para baixo e desvire depois que esfriar (desse jeito cria vácuo e pode durar até 1 ano fora da geladeira. Guarde em lugar protegido da luz.");
+                Preparo.setText("Lave e retire os cabinhos das amoras e coloque no liquidificador para bater. Vai ficar um caldo bem grosso, passe numa peneira aos poucos e coloque um pouquinho de água na própria peneira para ajudar a coar. Para 10 xícaras de amoras, pode-se usar uns dois copos (tipo requeijão) de água para ajudar a coar. Depois disso leve o caldo juntamente com o açucar numa panela grande para cozinhar. Deixe o fogo alto até começar a ferver, depois baixe no mínimo. Deixe cozinhar até reduzir mais ou menos pela metade e mexa de vez em quando. Daí em diante comece a verificar o ponto. PONTO DE GELÉIA: Coloque uma colher do doce num pires e coloque no freezer, espere um ou dois minutos para esfriar e retire, passe o dedo no meio, se enrugar está pronta. x'Ela fica liquida mesmo quando chega no ponto de geléia e só vai gelificar uns dois dias depois. Coloque em potes bem esterilizados ainda quente, feche bem, vire de cabeça para baixo e desvire depois que esfriar (desse jeito cria vácuo e pode durar até 1 ano fora da geladeira. Guarde em lugar protegido da luz.");
 
                 break;
             case "Mousse de Amora":
@@ -2758,7 +2758,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Retire os caroços da jaca, lave e escorra bem. Em uma panela coloque o açúcar, os cravos e a água, leve ao fogo até ferver e formar uma calda rala. O meu ficou uns 10 minutos no fogo. Quando a calda ficar pronta adicione a jaca e volte para o fogo, mexendo de vez em quando. Deixe cerca de 30 minutos cozinhando. Estará pronta quando a calda começar a mudar de cor e a jaca ficar meio transparente. Retire do fogo, coloque em um vidro e espere esfriar. Conserve na geladeira em um vidro bem fechado. ");
 
                 break;
-            case "Fricasse de Jaca":
+            case "Fricassé de Jaca":
                 Ingredientes.setText("- 1/2 xícara (de chá) de aveia em flocos\n- 1/2 xícara (de chá) de água\n- 1/2 xícara (de chá) de leite de coco\n- 1 xícara (de chá) de batata cozida e amassada Sal a gosto ");
                 Preparo.setText("Antes de tudo, prepare seu molho de jaca, caso quiser fazer com proteína de soja, fica muito bom também! Linkei a receita na lista de ingredientes. Cozinhe uma batata grande e amasse. Em um liquidificador, coloque a aveia, a água, o leite de coco, a batata cozida e tempere com sal a gosto (lembrando que já tem sal no molho). Bata até virar uma mistura uniforme, e caso sentir necessidade acrescente mais água. Adicione este creme ao molho já pronto e misture bem em fogo médio até começar a borbulhar. Está pronto! Sirva com batata palha e arroz (: ");
 

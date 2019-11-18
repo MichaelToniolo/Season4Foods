@@ -284,7 +284,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Cenoura",
                                         "Pepino Japonês",
                                         "Acerola",
-                                        "Noses",
+                                        "Nozes",
                                         "Chuchu"
                                 };
                         LinearLayout.setBackgroundResource(R.drawable.spring_bg);

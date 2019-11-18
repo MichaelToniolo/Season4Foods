@@ -549,9 +549,9 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Abóbora assada com shoyu e mel",
                         "Sopa de Abóbora com Grão de Bico e Costela",
                         "Creme de Abóbora com Bacon",
-                        "Croquete de Abóbora com Carne-Seca",
+                        "Doce de Abóbora com Coco Ralado",
                         "Risoto de Abóbora com Carne-Seca",
-                        "Doce de Abóbora com Coco Ralado"
+                        "Croquete de Abóbora com Carne-Seca"
                 };
 
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
@@ -922,7 +922,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Purê de Inhame",
                         "Bolinho de Inhame",
                         "Inhame ao Murro",
-                        "Dadinho de Inhame",
+                       // "Dadinho de Inhame",
                         "Sopa de Inhame",
                         "Panqueca de Inhame",
                         "Brigadeiro de Inhame",
@@ -1049,7 +1049,7 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Batata Doce":
                 Imagem.setImageResource(R.drawable.batatadoce);
                 valores = new String[]{
-                        "Purê de Batata Doce Amarela",
+
                         "Batata Doce Assada",
                         "Batata Doce Frita",
                         "Salada de Batata Doce Amarela com Bacalhau",
@@ -1216,7 +1216,8 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Abóbora recheada com Ricota",
                         "Camarão na Moranga",
                         "Docinho de Abóbora Moranga",
-                        "Costelinha de Porco com Moranga Caramelizada e abobrinha"
+                        "Costelinha de Porco com Moranga Caramelizada e abobrinha",
+                        "Doce de Abóbora com Coco Ralado"
 
 
                 };
@@ -1396,9 +1397,6 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
-
-
-
             case "Cenoura":
                 Imagem.setImageResource(R.drawable.cenoura);
                 valores = new String[]{
@@ -1411,7 +1409,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Refogado de Cenoura com Chuchu",
                         "Bolinho de Chuva de Cenoura com Chocolate",
                         "Cupcake de Cenoura e Brigadeiro",
-                        "Hamburguer de Cenoura",
+                        "Hambúrguer de Cenoura",
                         "Cenoura Crocante",
                         "Cenouras Salteadas com Mel",
                         "Cenouras Assadas em Palito com Alecrim",
@@ -2027,7 +2025,28 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
+            case "Batata Doce Amarela":
+                Imagem.setImageResource(R.drawable.quiabo);
+                valores = new String[]{
+                        "Purê de Batata Doce Amarela",
+                        "Batata Doce Assada",
+                        "Batata Doce Frita",
+                        "Salada De Batata Doce Amarela Com Bacalhau",
+                        "Batata Doce Assada Com Manjerona"
 
+                };
+
+                adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
+                lista_receitas.setAdapter(adapter);
+
+                lista_receitas.setOnItemClickListener(new OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+
+                    }
+                });
+                break;
 
         }
         AdapterView listView;
