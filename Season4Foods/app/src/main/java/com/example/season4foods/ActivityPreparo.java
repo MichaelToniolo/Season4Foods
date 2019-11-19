@@ -2675,7 +2675,7 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
             case "Frango ao Mel, Amêndas e Especiarias":
-                Ingredientes.setText("- 800 gramas de peito de frango\n- 2 dentes de alho sem o germe\n- 2 colheres de sopa de vinagre\n- * a gosto de sal\n- * a gosto de pimenta\n- 1 colher de chá de açafrão\n- 1 colher de chá de cominho\n- 1 colheres de chá de canela em pó\n- 1 colher de chá de gengibre ralado\n- 1/4 xícara de chá de azeite de oliva (o quanto baste para dourar a cebola e refogar o frango)\n- 1 unidade de cebola média picada\n- 2 colheres de sopa de mel\n- 100 gramas de amêndoas laminadas sem casca");
+                Ingredientes.setText("- 800 gramas de peito de frango\n- 2 dentes de alho sem o germe\n- 2 colheres de sopa de vinagre\n- Sal a gosto\n- Pimenta a gosto\n- 1 colher de chá de açafrão\n- 1 colher de chá de cominho\n- 1 colheres de chá de canela em pó\n- 1 colher de chá de gengibre ralado\n- 1/4 xícara de chá de azeite de oliva (o quanto baste para dourar a cebola e refogar o frango)\n- 1 unidade de cebola média picada\n- 2 colheres de sopa de mel\n- 100 gramas de amêndoas laminadas sem casca");
                 Preparo.setText("Tempere o frango com o alho, vinagre, sal e pimenta. Misture o açafrão, cominho, canela e gengibre e, em seguida, incorpore ao frango, misturando bem. Deixe descansar por aproximadamente 20 minutos. Refogue a cebola no azeite e acrescente o frango. Deixe dourar o frango. Adicione um pouco de água quente para formar um molho e, em seguida, o mel e as amêndoas. Deixe o molho reduzir um pouco. Está pronto! Sirva acompanhado de arroz branco. ");
 
                 break;

@@ -334,7 +334,6 @@ public class MainActivity extends AppCompatActivity {
                                         "Laranja",
                                         "Palmito"
 
-
                                 };
 
                         LinearLayout.setBackgroundResource(R.drawable.summer_bg);

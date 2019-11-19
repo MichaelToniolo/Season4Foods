@@ -1061,7 +1061,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Escondidinho de Frango com Batata Doce"
 
                 };
-     
+
                 adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, android.R.id.text1, valores);
                 lista_receitas.setAdapter(adapter);
 
@@ -1089,8 +1089,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Creme de Mandioca",
                         "Mandioca Crocante com Molho Apimentado",
                         "Gratinado de Mandioca com Carne Moída"
-
-
 
                 };
 
