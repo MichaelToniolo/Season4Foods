@@ -1717,7 +1717,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Cozinhe as tiras de lasanha, aos poucos, em água fervente abundante temperada com sal até que estejam al dente. Escorra e coloque-as lado a lado sobre um pano úmido. Cubra com outro pano úmido e reserve enquanto prepara as demais etapas. Sobre cada folha de lasanha, distribua cerca de 3 colheres (sopa) do recheio e enrole, apertando bem. Se necessário, corte a extremidade. Arrume os canelones em refratário, cubra com o molho e espalhe o parmesão por cima. Leve ao forno quente preaquecido (220 °C) por 20 minutos ou até gratinar. Recheio: Aqueça a manteiga e refogue a cebola até ficar bem dourada. Acrescente o espinafre e tampe a panela. Quando amolecer, retire do fogo e escorra o excesso de água. Acrescente a ricota e o gorgonzola e tempere com sal e noz-moscada a gosto. Molho: Refogue a cebola na manteiga. Junte a farinha e frite até dourar levemente. Aos poucos, despeje o leite e cozinhe, mexendo sempre, até engrossar. Tempere com sal e noz-moscada a gosto e, fora do fogo, incorpore o creme de leite. ");
 
                 break;
-                
+
             case "Nhoque de batata com creme de espinafre":
                 Ingredientes.setText("- 600g de batata Asterix (ou batata-baroa/mandioquinha) cozida e espremida\n- 1colher (sopa) de leite em pó\n- 1/2ovo levemente batido\n- Sal, pimenta-do-reino e noz-moscada ralada a gosto\n- 60farinha de trigo\n- Manteiga para saltear\n- Creme de espinafre\n- 2colheres (sopa) de manteiga\n- 1alho picado\n- Folhas de 1 maço de espinafre (250 g)\n- 500ml de\n- 50parmesão ralado fino a gosto ");
 
