@@ -291,6 +291,22 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Modo de preparo da massa: Misture todos os ingredientes com os dedos até obter uma massa quebradiça. Modo de preparo do recheio: Corte em pedaços a goiabada e a banana e coloque-as em uma panela com um pouco de água. Em fogo baixo, mexa e acrescente água aos poucos até que os ingredientes derretam e virem uma pasta grossa. Montagem: Unte uma forma. Forre a forma com pedaços da massa como se fizesse uma colcha de retalhos bem selada. Despeje o recheio. Leve ao forno a 200ºC por cerca de 20 minutos. ");
                 break;
 
+            case "Geléia de Goiaba":
+                Ingredientes.setText("- 6 unidades de goiabas vermelhas\n- 1 e 1/2 xícara de chá de açúcar\n- 1 colher de sopa de suco de limão ");
+                Preparo.setText("Lave bem as goiabas, corte as extremidades e descarte. No liquidificador bata as goiabas cortadas, com casca e tudo, junto com a água. Passe por uma peneira. Em uma panela misture a polpa da goiaba com o açúcar. Siga mexendo de vez em quando por aproximadamente 30 minutos. Após adicione o suco de limão, misture e deixe apurar um pouco mais até chegar no ponto. Espere esfriar em guarde em potinhos de vidro. ");
+                break;
+
+            case "Smoothie de Goiaba":
+                Ingredientes.setText("- 1 goiaba rosa descascada e cortada em cubos\n- Um copo de iogurte natural\n- 3/4 de xícara de leite desnatado\n- 3 colheres de sopa de farelo de aveia\n- Suco de meio limão\n- Adoçante a gosto ");
+                Preparo.setText("Jogue tudo dentro do liquidificaor e bata. Coe antes de servir");
+                break;
+
+
+            case "Tapioca de Romeu e Julieta":
+                Ingredientes.setText("- 1/2 kg de Tapioca em goma\n- 150 gramas de goiabada em cubos\n- 150 gramas de queijo de minas\n- Água ");
+                Preparo.setText("Em uma tigela grande, coloque a goma de tapioca, adicione aos poucos água até formar torrões e passe por uma peneira fina, pressionando com os dedos ou com uma colher. Sem mexer, coloque de 2 a 2 e 1/2 colheres da goma em uma frigideira média antiaderente. Espalhe delicadamente até formar uma panqueca. Coloque a goiabada em uma panela com 3 colheres de água. Leve ao fogo baixo até amolecer, mexendo de vez em quando e deixando alguns pedaços. Rale o queijo-de-minas na parte grossa. Coloque uma camada de goiabada sobre a tapioca ainda na frigideira. Salpique o queijo e dobre. ");
+                break;
+
             case "Panqueca Integral de Ricota, Alho-poró, Tomate e Escarola":
                 Ingredientes.setText("- Massa:\n- 1 e 1/4  xícara de farinha de trigo integral\n- 1 xícara de farinha de aveia\n- 1/2 litro de leite (pode ser vegetal)\n- 3 colheres de sopa de margarina ou manteiga\n- 3 ovos\n- 1 pitada de sal\n- 2 de colheres de sopa de óleo ou azeite\n- Opcional para colocar na massa – linhaça, gergelim, chia, manjericão, orégano\n- Recheio:\n- 1/2 xícara de alho e cebola\n- 1/4 xícara alho-poró\n- 1 xícara de ricota\n- 2 tomates\n- pimenta do reino\n- tempero à gosto\n- 1 maço de escarola refogada ");
                 Preparo.setText("Massa: Coloque tudo num liquidificador e bata até ficar homogêneo. Uma dica é começar pelos ingredientes líquidos e deixar as farinhas por último, assim fica mais fácil de bater. Leve à geladeira por duas horas para compactar. De todo modo, se deixar descansar um pouco, sem botar na geladeira e, depois fritar, não fará muita diferença no resultado. Aqueça uma frigideira, untada com manteiga ou azeite. Despeje uma quantidade da massa (geralmente uso uma xícara de café como medida) no centro dela e deixe espalhar por toda superfície para que a panqueca fique lisa. Quando você mexer a frigideira e ela descolar do fundo, use a espátula e vire do outro lado. Evite fritar demais para não queimar. Siga o mesmo procedimento até terminar a massa,  empilhando as panquecas prontas num prato. Recheio: Corte o maço de escarola em fatias finas. Refogue até murchar com um pouco do alho e cebola. Esprema numa peneira para tirar o excesso de água e reserve. Agora refogue o tomate, acrescentando o alho-poró e a ricota. Amasse bem o queijo para que a mistura fique levemente homogênea. Tempere à gosto. Recheie as massas fritas com esta mistura, uma a uma, enrolando a massa no formato de panqueca, como na foto abaixo. ");
@@ -384,7 +400,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             /////////////////// GOIABA
-            case "Doce De Goiaba":
+            case "Doce de Goiaba":
                 Ingredientes.setText("- 1 kg de goiaba madura\n- 500 g de açúcar\n- 1/2 lde água\n- Canela em pau a gosto");
                 Preparo.setText("Lave e descasque a goiaba. Corte - as ao meio e retire as sementes. Em uma panela grande, dissolva o açúcar na água. Junte a canela e leve ao fogo. Deixe a calda engrossar ligeiramente. Junte as goiabas e cozinhe por 15 minutos, cuidando para que a fruta não desmanche. Retire do fogo e dixe esfriar.");
                 break;
