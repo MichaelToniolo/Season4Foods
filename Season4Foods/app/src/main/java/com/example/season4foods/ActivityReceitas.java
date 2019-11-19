@@ -276,14 +276,13 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Cocada de Maracujá",
                         "Pudim de Maracujá com cobertura de Iogurte",
                         "Cheesecake de Maracujá",
-                        "Mousse de Maracujá com Geléia de Maracujá",
                         "Panna Cotta de coco com maracujá",
                         "Milk-Shake de Maracujá",
                         "Geléia de Maracujá",
                         "Bolo Mousse de Maracujá",
                         "Bolo Vegano de Maracujá",
                         "Pavê de Maracujá e Chocolate",
-                        "Tora de Manga com Maracujá"
+                        "Torta de Manga com Maracujá"
 
 
                 };
@@ -311,12 +310,12 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Risoto de Tomate Seco e Rúcula",
                         "Salada Carpaccio de Tomate",
                         "Pasta de Tomate",
-                        "Salada de Tomate ao Curry",
+                        //"Salada de Tomate ao Curry",
                         "Quiche de Tomate e Espinafre",
                         "Tomate Assado",
                         "Molho de Tomate",
                         "Sopa de Tomate",
-                        "Sopa De Tomate Ao Curry",
+                        "Sopa de Tomate ao Curry",
                         "Tomates Verdes Fritos",
                         "Tomate com Ovo",
                         "Patê de Ricota com Tomate Seco"
@@ -441,7 +440,7 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Pêra":
                 Imagem.setImageResource(R.drawable.pera);
                 valores = new String[]{
-                       "Molho de Pêra",
+                        "Molho de Pêra",
                         "Pêra Caramelizada",
                         "Pêras ao Vinho Branco",
                         "Fritadinhas de Pêra com massa de Cerveja",
@@ -493,7 +492,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 valores = new String[]{
                        "Molho de Hortelã",
                         "Salada de Frutas com Creme de Hotelã",
-                        "Pesto de Hotelã",
+                        "Pesto de Hortelã",
                         "Bolo de Hortelã",
                         "Creme de Hortelã"
 
@@ -603,17 +602,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Bolo de Abacaxi",
                         "Mousse de Abacaxi",
                         "Abacaxi com Calda de Maracujá",
-                        "Taça de Abacaxi",
-                        "Doce De Abacaxi Com Doce De Leite",
-                        "Gelado de Abacaxi",
-                        "Torta Gelada de Abacaxi e Coco",
-                        "Abacaxi Assado",
-                        "Frango com Abacaxi",
-                        "Bolo de Abacaxi",
-                        "Mousse de Abacaxi",
-                        "Abacaxi com Calda de Maracujá",
-                        "Taça de Abacaxi",
-                        "Doce De Abacaxi Com Doce De Leite",
+                        "Taça de Abacaxi"
 
                 };
 
@@ -864,7 +853,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Carutinhos de Folhas de Beterraba",
                         "Sopa de Beterraba",
                         "Refresco de Laranja e Beterraba",
-                        //"Panqueca de Beterraba e Frango",
+                        "Panqueca de Beterraba e Frango",
                         "Carpaccio de Beterraba",
                         "Pão de Beterraba",
                         "Sopa Russa de Beterraba"
@@ -948,7 +937,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 Imagem.setImageResource(R.drawable.kiwi);
                 valores = new String[]{
                         "Vinagrete de Kiwi",
-                        "Delicia de Kiwi",
+                        "Delícia de Kiwi",
                         "Picolé de Kiwi Fit",
                         "Tortinha de Kiwi",
                         "Bolo de Kiwi",
@@ -973,7 +962,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Mamão":
-                Imagem.setImageResource(R.drawable.maracuja);
+                Imagem.setImageResource(R.drawable.mamao);
                 valores = new String[]{
                         "Doce de Mamão",
                         "Ceviche de Mamão",
@@ -1004,7 +993,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Nabo Gratinado",
                         "Salada com nabo light",
                         "Nabo gratinado light",
-                        "Frango curry com nabo light",
+                        "Frango ao curry com nabo light",
                         "Sopa de nabo light",
                         "Wrap com Nabo light"
 
@@ -1075,7 +1064,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Mandioca":
-                Imagem.setImageResource(R.drawable.abobrinha);
+                Imagem.setImageResource(R.drawable.mandioca);
                 valores = new String[]{
                         "Palitos de Mandioca Assada",
                         "Bolinho de Mandioca",
@@ -1109,7 +1098,7 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Espinafre":
                 Imagem.setImageResource(R.drawable.espinafre);
                 valores = new String[]{
-                        "Espinafre Cremose",
+                        "Espinafre Cremoso",
                         "Gratinado de Espinafre",
                         "Torradinha com Creme de Espinafre e Ovo",
                         "Bolinho de Espinafre e aveia",
@@ -1527,7 +1516,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Pudim de Ricota com Jabuticaba",
                         "Suflê Gelado de Jabuticaba",
                         "Filé de Frango ao Molho de Jabuticaba",
-                        "Torta com Geléia de Jabuticaba",
+                        //"Torta com Geléia de Jabuticaba",
                         "Crostata com Geleia de Jabuticaba"
                 };
 
@@ -1564,7 +1553,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 });
                 break;
 
-            case "Agriao":
+            case "Agrião":
                 Imagem.setImageResource(R.drawable.agriao);
 
                 valores = new String[]{
@@ -1759,7 +1748,6 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Alcachofras":
                 Imagem.setImageResource(R.drawable.alcachofra);
                 valores = new String[]{
-                        "Alcachofras Grelhadas",
                         "Alcachofra com Molho de Ervas",
                         "Homus de Alcachofra",
                         "Tapenade de Alcachofra",
@@ -2006,7 +1994,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Quiabo com Linguinça",
                         "Arroz 7 Grãos com Quiabo e Frango Desfiado",
                         "Salada de Quiabo",
-                        "Quabo e Grão de Bico Assados",
+                        "Quiabo e Grão de Bico Assados",
                         "Farofa de Quiabo",
                         "Salada de Quiabo com Ricota"
 
@@ -2025,7 +2013,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 break;
 
             case "Batata Doce Amarela":
-                Imagem.setImageResource(R.drawable.quiabo);
+                Imagem.setImageResource(R.drawable.batatadoceamarela);
                 valores = new String[]{
                         "Purê de Batata Doce Amarela",
                         "Batata Doce Assada",

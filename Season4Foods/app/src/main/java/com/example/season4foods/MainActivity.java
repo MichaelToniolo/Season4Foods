@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Abacate",
                                         "Coco Verde",
                                         "Maçã",
-                                        "Pera",
+                                        "Pêra",
                                         "Pêssego",
                                         "Hortelã",
                                         "Repolho",
@@ -282,7 +282,6 @@ public class MainActivity extends AppCompatActivity {
                                         "Tomate",
                                         "Brócolis",
                                         "Cenoura",
-                                        "Pepino Japonês",
                                         "Acerola",
                                         "Nozes",
                                         "Chuchu"
@@ -303,7 +302,7 @@ public class MainActivity extends AppCompatActivity {
                                 {
                                         "Abacaxi Pérola",
                                         "Alcachofras",
-                                        "Amendoas",
+                                        "Amêndoas",
                                         "Amora",
                                         "Berinjela",
                                         "Castanha Nacional",
