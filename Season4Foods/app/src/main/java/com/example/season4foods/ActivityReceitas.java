@@ -343,7 +343,6 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Pimentão Recheado com Carne Móida",
                         "Molho de Pimentão Vermelho Assado",
                         "Chutney de Pimentão",
-                        "Receita de Pimentão",
                         "Arroz com Pimentão",
                         "Carne Louca de Festa"
 
@@ -1516,7 +1515,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Pudim de Ricota com Jabuticaba",
                         "Suflê Gelado de Jabuticaba",
                         "Filé de Frango ao Molho de Jabuticaba",
-                        //"Torta com Geléia de Jabuticaba",
+                        "Torta com Geléia de Jabuticaba",
                         "Crostata com Geleia de Jabuticaba"
                 };
 

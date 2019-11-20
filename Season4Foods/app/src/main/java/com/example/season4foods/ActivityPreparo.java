@@ -296,6 +296,11 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Lave bem as goiabas, corte as extremidades e descarte. No liquidificador bata as goiabas cortadas, com casca e tudo, junto com a água. Passe por uma peneira. Em uma panela misture a polpa da goiaba com o açúcar. Siga mexendo de vez em quando por aproximadamente 30 minutos. Após adicione o suco de limão, misture e deixe apurar um pouco mais até chegar no ponto. Espere esfriar em guarde em potinhos de vidro. ");
                 break;
 
+            case "Cheese de Goiaba":
+                Ingredientes.setText("- Massa:\n- 1 pacote de biscoito tipo maisena processado\n- 1/4 de xícara de chá de açúcar mascavo\n- 1/2 xícara de chá de margarina\n- Recheio:\n- 3 ovos\n- 150g de açúcar\n- 2 embalagens de cream cheese\n- suco de 1/2 limão\n- 1/2 colher de chá de essência de baunilha\n- Cobertura:\n- 300g de goiabada em cubos\n- 1/2 xícara de chá de vinho branco\n- suco de 1/2 limão ");
+                Preparo.setText("Junte o biscoito e o açúcar mascavo, misture com a margarina até formar uma massa homogênea. Com essa massa, forre uma forma de fundo removível de 23 cm de diâmetro, pressionando com uma colher para a superfície ficar lisa, e leve à geladeira. Bata ligeiramente os ovos na batedeira e acrescente os ingredientes restantes. Bata por 20 minutos em velocidade baixa. Espalhe o recheio na forma. Preaqueça o forno a 180º C e asse por 40 minutos ou até que a superfície doure. Aqueça a goiabada, o vinho, o suco de limão e 1/2 xícara (chá) de água, cozinhando em fogo baixo até que todos os grumos se dissolvam e a calda fique espessa. Deixe amornar e despeje sobre a torta. Enfeite o centro com fatias de goiaba e folhas de hortelã. ");
+                break;
+
             case "Smoothie de Goiaba":
                 Ingredientes.setText("- 1 goiaba rosa descascada e cortada em cubos\n- Um copo de iogurte natural\n- 3/4 de xícara de leite desnatado\n- 3 colheres de sopa de farelo de aveia\n- Suco de meio limão\n- Adoçante a gosto ");
                 Preparo.setText("Jogue tudo dentro do liquidificaor e bata. Coe antes de servir");
@@ -354,8 +359,8 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Caipirosca de Caju":
-                Ingredientes.setText("- 1/2 unidade de caju \n- 1/2 unidade de limão \n- vodka a gosto \n- adoçante a gosto ");
-                Preparo.setText("INDISPONÍVEL");
+                Ingredientes.setText("- 1/2 unidade de caju \n- 1/2 unidade de limão \n- vodka a gosto \n- adoçante a gosto");
+                Preparo.setText("Coloque o caju e o sumo do limão em um copo para short drink. Amasse a fruta suavemente. Acrescente gelo, complete com a vodka, adoce a gosto e mexa vigorosamente para misturar tudo muito bem.");
                 break;
 
             case "Suco de Caju Picante":
@@ -477,14 +482,14 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Lemon Curd - Creme de Limão":
-                Ingredientes.setText("- 4 limões tahiti\n- 1 limão siciliano\n- 2 latas de leite condensado\n- 2 latas de creme de leite sem soro\n- 2 pacotinhos de gelatina sem sabor");
-                Preparo.setText("Em uma panela misture todos os ingredientes, exceto a manteiga. Leve ao fogo baixo, mexendo sempre até engrossar. Retire do fogo e acrescente a manteiga e mexa bem. Deixe esfriar.");
+                Ingredientes.setText("- 360ml de ÁGUA\n- 200 gramas de AÇÚCAR\n- 65ml de SUCO DE LIMÃO SICILIANO\n- 60ml de SUCO DE LIMÃO TAITI\n- 6 GEMAS\n- 45 gramas de AMIDO DE MILHO\n- raspas de 2 LIMÕES (1 SICILIANO E 1 TAITI)\n- 1/4 colher de chá de SAL\n- 30 gramas de MANTEIGA SEM SAL GELADA E CORTADA EM CUBOS ");
+                Preparo.setText("Peneire as gemas para retirar a película. Em uma panela, misture todos os ingredientes exceto a manteiga. Leve ao fogo baixo, mexendo sempre até engrossar (quase quando começar a ferver). Retire do fogo e acrescente a manteiga. Mexa até incorporar. Empregue ainda quente na torta. Coloque na geladeira para gelar (no caso de tortas). DICAS: Quanto mais velhos forem os ovos usados, mais a gema fica com aquele cheiro forte característico, portanto sempre use ovos frescos. Se você quiser substituir o suco do limão taiti pelo limão siciliano, o recheio ficará menos ácido e mais perfumado. No entando, não aconselharia o contrário, pois o recheio ficará muito azedo. Para mim, a melhor massa de torta para empregar o lemon curd é a sucrée, pois ela é a mais doce de todas. Ela tem que estar assada e fria antes de você colocar o recheio. DURAÇÃO: 1 semana. ");
                 break;
 
 
             case "Torta de Limão - Chessecake de Limão":
-                Ingredientes.setText("'- INGREDIENTES: BASE\n- 300g de BOLACHA MAIZENA\n- 200g de MANTEIGA SEM SAL\n- INGREDIENTES: RECHEIO\n- 400g de NATA\n- 450g de CREAM CHEESE\n- 200g de AÇÚCAR\n- 6g de GELATINA\n- 22 ml de ÁGUA\n- 130 ml de SUCO DE LIMÃO\n- 55 FOLHAS DE MANJERICÃO ");
-                Preparo.setText("MODO DE PREPARO - BASE: Triture a bolacha no processador. Acrescente a manteiga e bata até a massa ficar moldável. MODO DE PREPARO - RECHEIO: Bata o cream cheese, o açúcar até ficar homogêneo. Em seguida, bata a nata em ponto firme em outro bowl. Misture os dois delicadamente. Derreta a gelatina em banho maria. Depois, misture a gelatina ao creme cheese, açúcar e a nata. Bata o limão e o manjericão e acrescente à massa. MONTAGEM: Utilize forminhas com aro de 6,5cm de diâmetro por 4,5cm de altura. Coloque 30g de base em cada aro e pressione para ficar uniforme. Distribua, com o saco de confeitar, o creme pronto sobre a base. Leve ao refrigerador por 8 horas. Decore com nata batida e uma folha de manjericão. ");
+                Ingredientes.setText("- BASE:\n- 300g de BOLACHA MAISENA\n- 200g de MANTEIGA SEM SAL\n- RECHEIO:\n- 400g de NATA\n- 450g de CREAM CHEESE\n- 200g de AÇÚCAR\n- 6g de GELATINA\n- 22 ml de ÁGUA\n- 130 ml de SUCO DE LIMÃO\n- 55 FOLHAS DE MANJERICÃO");
+                Preparo.setText("BASE: Triture a bolacha no processador. Acrescente a manteiga e bata até a massa ficar moldável. RECHEIO: Bata o cream cheese, o açúcar até ficar homogêneo. Em seguida, bata a nata em ponto firme em outro bowl. Misture os dois delicadamente. Derreta a gelatina em banho maria. Depois, misture a gelatina ao creme cheese, açúcar e a nata. Bata o limão e o manjericão e acrescente à massa. MONTAGEM: Utilize forminhas com aro de 6,5cm de diâmetro por 4,5cm de altura. Coloque 30g de base em cada aro e pressione para ficar uniforme. Distribua, com o saco de confeitar, o creme pronto sobre a base. Leve ao refrigerador por 8 horas. Decore com nata batida e uma folha de manjericão.");
                 break;
 
 
@@ -518,15 +523,15 @@ public class ActivityPreparo extends AppCompatActivity {
 
 
             case "Madeleines de Limão":
-                Ingredientes.setText("- INGREDIENTES: MADELEINES DE LIMÃO\n- 2 OVOS\n- 1/3 de xícara de AÇÚCAR REFINADO\n- 2 colheres de sopa de MEL\n- 3/4 de xícara de FARINHA DE TRIGO peneirada\n- 1 colher de sobremesa de AMIDO DE MILHO\n- 1/2 colher de chá de FERMENTO EM PÓ\n- 30 gramas de CREME DE LEITE\n- Uma pitada de SAL\n- Raspas de 2 LIMÕES\n- 2 colheres de sopa de SUCO DE LIMÃO\n- 130 gramas de MANTEIGA SEM SAL para fazer a Beurre Noisette\n- INGREDIENTES: COBERTURA\n- 150 gramas de CHOCOLATE BRANCO\n- Raspas de LIMÃO");
-                Preparo.setText("Comece batendo em uma tigela os ovos, o açúcar e o mel. Por cima dessa mistura, peneire a farinha, o amido de milho e o fermento em pó. Incorpore os secos delicadamente até obter uma massa homogênea. Acrescente o creme de leite, o sal, junto com as raspas e o suco dos limões. DICA: Você pode substituir as raspas do limão taiti pelo siciliano, laranja, mexirica ou mesmo por um pouco de canela e outras especiarias. Misture novamente e cubra a tigela com plástico filme. Leve à geladeira por 2 horas para que a massa descanse. Enquanto isso, prepare a beurre noisette (é uma manteiga com gostinho de avelã). Derreta a manteiga em uma panelinha até que se forme uma espuma branca. No fundo da panela, vão se formar cristais de cor marrom (isso é o açúcar da manteiga se caramelizando). Desligue o fogo e deixe a manteiga esfriar até aproximadamente 30°C (bem morna). Junte a manteiga na massa e misture bem. Transfira a massa para um saco de confeitar, se você estiver usando uma forma específica para madeleines, ou diretamente para uma forma de bolo. Asse em forno preaquecido a 180°C por aproximadamente 15 minutos ou até que suas madeleines estejam douradas. Derreta o chocolate branco e banhe as madeleines, completando com raspas de limão para decorar.");
+                Ingredientes.setText("- MADELEINES DE LIMÃO:\n- 2 OVOS\n- 1/3 de xícara de AÇÚCAR REFINADO\n- 2 colheres de sopa de MEL\n- 3/4 de xícara de FARINHA DE TRIGO peneirada\n- 1 colher de sobremesa de AMIDO DE MILHO\n- 1/2 colher de chá de FERMENTO EM PÓ\n- 30 gramas de CREME DE LEITE\n- Uma pitada de SAL\n- Raspas de 2 LIMÕES\n- 2 colheres de sopa de SUCO DE LIMÃO\n- 130 gramas de MANTEIGA SEM SAL para fazer a Beurre Noisette\n- COBERTURA:\n- 150 gramas de CHOCOLATE BRANCO\n- Raspas de LIMÃO");
+                Preparo.setText("MADELEINES DE LIMÃO: 2 OVOS1/3 de xícara de AÇÚCAR REFINADO2 colheres de sopa de MEL3/4 de xícara de FARINHA DE TRIGO peneirada1 colher de sobremesa de AMIDO DE MILHO1/2 colher de chá de FERMENTO EM PÓ30 gramas de CREME DE LEITEUma pitada de SALRaspas de 2 LIMÕES2 colheres de sopa de SUCO DE LIMÃO130 gramas de MANTEIGA SEM SAL para fazer a Beurre NoisetteCOBERTURA: 150 gramas de CHOCOLATE BRANCO Raspas de LIMÃO");
                 break;
 
 
 
             case "Bolo de Sorvete de Limão":
-                Ingredientes.setText("- iNGREDIENTES: MASSA\n- 230 gramas de MANTEIGA SEM SAL\n- 180 gramas de AÇÚCAR CRISTAL\n- 4 OVOS\n- 240 gramas de FARINHA DE TRIGO peneirada\n- 10 gramas de FERMENTO EM PÓ\n- Uma pitada de SAL\n- 80 ml de SUCO DE LIMÃO\n- Raspas de 2 LIMÕES SICILIANOS\n- INGREDIENTES: SORVETE\n- 2 latas de CREME DE LEITE de latinha (sem o soro)\n- 2 latas de LEITE CONDENSADO\n- 2 latas de SUCO DE LIMÃO (eu misturei limão siciliano e limão tahiti)\n- 40ml de LIMONCELLO (licor de limão)");
-                Preparo.setText("mODO DE PREPARO: MASSABata a manteiga e o açúcar até obter uma massa fofa e branca. Adicione os ovos um a um, batendo bem a cada adição. Misture a farinha com o fermento e o sal e peneire. Acrescente a farinha aos poucos, intercalando com o suco. Coloque as raspas dos limões e misture. Jogue a massa dentro de uma fôrma de 21 cm, untada e enfarinhada. Leve para assar em forno preaquecido a 170°C até que você espete um palito no centro e ele saia limpo. Retire do forno e deixe esfriar. Corte o topo do bolo, para ele ficar retinho, igualando-o. MODO DE PREPARO: SORVETEBata todos os ingredientes no liquidificador. MONTAGEMEm uma forma de 21 cm coloque folhas de acetato por dentro de toda a borda. Coloque o pedaço do bolo no fundo da forma e depois jogue todo o sorvete por cima. Leve para o congelador por 6 horas. Retire do congelador e sirva! Para conservar, depois de comer, o bolo tem que voltar para o congelador e ser tirado com 20 minutos antes de servir novamente.");
+                Ingredientes.setText("- MASSA:\n- 230 gramas de MANTEIGA SEM SAL\n- 180 gramas de AÇÚCAR CRISTAL\n- 4 OVOS\n- 240 gramas de FARINHA DE TRIGO peneirada\n- 10 gramas de FERMENTO EM PÓ\n- Uma pitada de SAL\n- 80 ml de SUCO DE LIMÃO\n- Raspas de 2 LIMÕES SICILIANOS\n- SORVETE:\n- 2 latas de CREME DE LEITE de latinha (sem o soro)\n- 2 latas de LEITE CONDENSADO\n- 2 latas de SUCO DE LIMÃO (eu misturei limão siciliano e limão tahiti)\n- 40ml de LIMONCELLO (licor de limão)");
+                Preparo.setText("MASSA: Bata a manteiga e o açúcar até obter uma massa fofa e branca. Adicione os ovos um a um, batendo bem a cada adição. Misture a farinha com o fermento e o sal e peneire. Acrescente a farinha aos poucos, intercalando com o suco. Coloque as raspas dos limões e misture. Jogue a massa dentro de uma fôrma de 21 cm, untada e enfarinhada. Leve para assar em forno preaquecido a 170°C até que você espete um palito no centro e ele saia limpo. Retire do forno e deixe esfriar. Corte o topo do bolo, para ele ficar retinho, igualando-o. SORVETE: Bata todos os ingredientes no liquidificador. MONTAGEM: Em uma forma de 21 cm coloque folhas de acetato por dentro de toda a borda. Coloque o pedaço do bolo no fundo da forma e depois jogue todo o sorvete por cima. Leve para o congelador por 6 horas. Retire do congelador e sirva! Para conservar, depois de comer, o bolo tem que voltar para o congelador e ser tirado com 20 minutos antes de servir novamente.");
                 break;
 
 
@@ -1105,7 +1110,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Salada de frutas: Em uma panela, coloque o açúcar e leve ao fogo médio até derreter. Junte o abacaxi, as bananas, a manga e a laranja. Misture delicadamente e cozinhe por três minutos. Divida a salada de frutas em 10 taças individuais e reserve. Creme de hortelã: Bata no liquidificador o leite, o amido de milho, o açúcar e a hortelã por três minutos ou até ficar homogêneo. Coloque a mistura em uma panela média e leve ao fogo médio, mexendo sempre, até engrossar. Retire do fogo, acrescente a margarina e misture rapidamente.");
                 break;
 
-            case "Pesto de Hotelã":
+            case "Pesto de Hortelã":
                 Ingredientes.setText("- 1 maço de hortelã\n- 1 xícara de castanha-de-caju\n- 400 ml de azeite extra virgem\n- Sal e pimenta a gosto");
                 Preparo.setText("Coloque as folhas da hortelã e as castanhas no liquidificador. Acrescente 200 ml de azeite. Bata até virar uma pasta. Acrescente aos poucos o restante do azeite. Tempere a gosto.");
                 break;
@@ -1175,7 +1180,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 break;
 
             case "Creme de Abóbora com Bacon":
-                Ingredientes.setText("- 1kg de abóbora cabotiã em cubos\n- 1 cenoura em cubos\n- 600ml de água\n- 4 colheres (sopa) de azeite\n- 1 cebola picada\n- 1 xícara (chá) de queijo gorgonzola picado\n- 1 pote de requeijão cremoso (200g)\n- Sal e pimenta-do-reino a gosto");
+                Ingredientes.setText("- 1kg de abóbora cabotiã em cubos\n- 1 cenoura em cubos\n- 600ml de água\n- 4 colheres (sopa) de azeite\n- 1 cebola picada\n- 1 xícara (chá) de queijo gorgonzola picado\n- 1 pote de requeijão cremoso (200g)\n- Sal e pimenta-do-reino a gosto\n- Bacon frito e cebolinha picada para polvilhar");
                 Preparo.setText("Cozinhe a abóbora com água e sal até ficar bem macia. Bata no liquidificador ou com um mixer e reserve. Aqueça uma panela com o azeite e frite a cebola até dourar. Adicione o creme de abóbora, o gorgonzola, o requeijão e tempere com com sal e pimenta a gosto e cozinhe até encorpar. Desligue o fogo, transfira para uma sopeira e polvilhe com cebolinha e bacon para servir.");
                 break;
 
@@ -2306,8 +2311,11 @@ public class ActivityPreparo extends AppCompatActivity {
 
                 break;
 
+            case "Torta com Geléia de Jabuticaba":
+                Ingredientes.setText("- 1 1/4 xícara de farinha de trigo\n- 1/2 xícara de manteiga\n- 1/2 xícara de açúcar\n- 1/2 xícara de geleia de jabuticaba\n- 1 ovo\n- limão (só a casca) ralada");
+                Preparo.setText("Cozinhe a beterraba até ficar bem mole, corte em cubos. Bata todos os ingredientes da massa no liquidificador, acrescentando a beterraba cozida em cubos. Reserve. Faça as panquecas com a massa, colocando uma fina camada na frigideira, se for de teflon não precisa acrescentar óleo. ReserveCozinhe o frango em uma panela com água e o 1/2 tablete de frango. Desfie o frango e reserve. Doure a cebola, o coentro, a cenoura, com o óleo e o shoyu, depois acrescente a mostarda, e em seguida o frango, acrescente o milho e refogue por alguns minutos. No final acrescente o requeijão. Reserve o recheioPara o molho branco, coloque a margarina e o sal, e acrescente a mistura de leite, creme de leite e farinha de trigo. Mexa até engrossar um pouco e reserve. MONTAGEM: Em um refratário, coloque um pouco de azeite português. Monte as panquecas acrescentando o recheio e fazendo rolinhos. Coloque todas na forma e acrescente o molho branco por cima, se quiser pode colocar queijo mussarela fatiado por cima. Deixe gratinar por 15 minutos no forno médio.");
 
-
+                break;
 
                 //// MAMÃO
 
