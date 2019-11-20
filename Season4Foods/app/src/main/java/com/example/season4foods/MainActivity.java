@@ -160,7 +160,6 @@ public class MainActivity extends AppCompatActivity {
                                         "Mandioca",
                                         "Espinafre",
                                         "Morango",
-                                        "Ovos Brancos",
                                         "Mandioquinha",
                                         "Abóbora Moranga",
                                         "Chicória",
