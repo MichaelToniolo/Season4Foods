@@ -99,8 +99,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Lasanha de Abobrinha",
                         "Macarrão com Abobrinha",
                         "Mil folhas de Abobrinha",
-                        "Abobrinha à Milanesa",
-                        "Rolinhos de Abobrinha"
+                        "Abobrinha à Milanesa"
 
 
                 };
