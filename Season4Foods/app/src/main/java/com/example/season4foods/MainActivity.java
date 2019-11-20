@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
                                         "Chuchu",
                                         "Inhame",
                                         "Kiwi",
-                                        "Maracuja",
+                                        "Maracujá",
                                         "Nabo",
                                         "Pinhão",
                                         "Tangerina"
