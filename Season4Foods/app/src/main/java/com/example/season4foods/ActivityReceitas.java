@@ -184,7 +184,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Bolo de Cupuaçu",
                         "Geleia de Cupuaçu",
                         "Pavê de Cupuaçu",
-                        "Pudim de Capuaçu"
+                        "Pudim de Cupuaçu"
 
                 };
 
@@ -1174,7 +1174,6 @@ public class ActivityReceitas extends AppCompatActivity {
                 Imagem.setImageResource(R.drawable.mandioquinha);
                 valores = new String[]{
                         "Creme de Mandioquinha",
-                        "Mandioquinha",
                         "Purê de Mandioquinha",
                         "Escondidinho de Frango com Purê de Mandioquinha",
                         "Sopa de Mandioquinha com Carne"
@@ -1893,7 +1892,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 Imagem.setImageResource(R.drawable.jaca);
                 valores = new String[]{
                         "Doce de Jaca em Calda",
-                        "Fricasse de Jaca",
+                        "Fricassé de Jaca",
                         "Carne de Jaca com Creme de Milho",
                         "Curry de Jaca Verde",
                         "Antepasto de Carne de Jaca"

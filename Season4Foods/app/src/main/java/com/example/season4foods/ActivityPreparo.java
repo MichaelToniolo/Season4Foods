@@ -347,7 +347,7 @@ public class ActivityPreparo extends AppCompatActivity {
                 Preparo.setText("Junte o alho, o leite e o sal no Liquidificador . Bata tudo em velocidade média . Acrescente o Óleo ou o Azeite em Fio até ficar em consistência de creme . Está prontinho ! , ideal para servir em churrascos ");
                 break;
 
-            case "Pão De Alho Para Churrasco Com Pão Francês Amanhecido":
+            case "Pão de Alho para Churrasco com Pão Frances Amanhecido":
                 Ingredientes.setText("- 6 pães franceses (médios)\n- 1 vidro pequeno de maionese\n- 2 colheres de sopa de alho picadinho\n- 1 colher de sopa não muito cheia de orégano\n- ½ xícara de chá de cheiro-verde picado\n- ½ xícara de chá de parmesão ralado\n- Sal e pimenta a gosto ");
                 Preparo.setText("Em um recipiente misture a maionese, o alho, o orégano, o cheiro-verde, o sal e a pimenta e reserve. Faça cortes horizontais no pão francês de maneira a formar pequenas fatias (mais ou menos 4), mas sem esprende-las umas das outras (como no pão de alho comprado). Passe a mistura reservada entre as fatias e depois envolvendo todo os pães. Polvilhe sobre os pães o parmesão ralado. Leve à churrasqueira e asse bem de ambos os lados. ");
                 break;
