@@ -310,8 +310,6 @@ public class MainActivity extends AppCompatActivity {
                                         "Jaca",
                                         "Maxixe",
                                         "Melão"
-
-
                                 };
                         LinearLayout.setBackgroundResource(R.drawable.spring_bg);
 

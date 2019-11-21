@@ -1988,7 +1988,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 Imagem.setImageResource(R.drawable.quiabo);
                 valores = new String[]{
                         "Quiabo sem Baba com Molho Delicioso",
-                        "Quiabo com Linguinça",
+                        "Quiabo com Linguiça",
                         "Arroz 7 Grãos com Quiabo e Frango Desfiado",
                         "Salada de Quiabo",
                         "Quiabo e Grão de Bico Assados",
