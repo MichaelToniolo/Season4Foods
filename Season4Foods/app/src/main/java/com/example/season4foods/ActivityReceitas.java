@@ -99,8 +99,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Lasanha de Abobrinha",
                         "Macarrão com Abobrinha",
                         "Mil folhas de Abobrinha",
-                        "Abobrinha à Milanesa",
-                        "Rolinhos de Abobrinha"
+                        "Abobrinha à Milanesa"
 
 
                 };
@@ -185,7 +184,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Bolo de Cupuaçu",
                         "Geleia de Cupuaçu",
                         "Pavê de Cupuaçu",
-                        "Pudim de Capuaçu"
+                        "Pudim de Cupuaçu"
 
                 };
 
@@ -214,7 +213,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Goiabada",
                         "Bolo de Goiaba",
                         "Goiaba Assada com Mel",
-                        "Cheese de Goiaba",
+                        "Cheesecake de Goiaba",
                         "Smoothie de Goiaba",
                         "Tapioca de Romeu e Julieta",
                         "Geléia de Goiaba",
@@ -572,7 +571,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Tortilha de Milho",
                         "Nhoque de Milho Verde",
                         "Bolo de Milho",
-                        "Canjica",
+                        //"Canjica",
                         "Pamonha Assada",
                         "Creme de Milho",
 
@@ -1174,10 +1173,9 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Mandioquinha":
                 Imagem.setImageResource(R.drawable.mandioquinha);
                 valores = new String[]{
-                        "Creme de Mandoquinha",
-                        "Mandioquinha",
+                        "Creme de Mandioquinha",
                         "Purê de Mandioquinha",
-                        "Escondidinho de frango com purê de Mandioquinha",
+                        "Escondidinho de Frango com Purê de Mandioquinha",
                         "Sopa de Mandioquinha com Carne"
 
                 };
@@ -1197,11 +1195,11 @@ public class ActivityReceitas extends AppCompatActivity {
             case "Abóbora Moranga":
                 Imagem.setImageResource(R.drawable.aboboramoranga);
                 valores = new String[]{
-                        "Frango cremoso na Moranga",
+                        "Frango Cremoso na Moranga",
                         "Abóbora recheada com Ricota",
                         "Camarão na Moranga",
                         "Docinho de Abóbora Moranga",
-                        "Costelinha de Porco com Moranga Caramelizada e abobrinha",
+                        "Costelinha de Porco com Moranga Caramelizada e Abobrinha",
                         "Doce de Abóbora com Coco Ralado"
 
 
@@ -1224,8 +1222,8 @@ public class ActivityReceitas extends AppCompatActivity {
                 valores = new String[]{
                         "Salada de Chicória light com Damasco e nozes",
                         "Salada de Chicória light com Tomate",
-                        "Salada de Chicória light com abobrinha",
-                        "Salada de Chicória light com Frango",
+                        "Salada de Chicória Light com Abobrinha",
+                        "Salada de Chicória Light com Frango",
                         "Torta Cremosa de Chicória"
                 };
 
@@ -1245,7 +1243,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 Imagem.setImageResource(R.drawable.canjica);
                 valores = new String[]{
                         "Canjica Doce",
-                        "Canjica Doce com leite condensado",
+                        "Canjica Doce com Leite Condensado",
                         "Canjica Temperada com Limão e Lavanda",
                         "Sorvete de Canjica",
                         "Canjica Vegana"
@@ -1266,9 +1264,9 @@ public class ActivityReceitas extends AppCompatActivity {
                 valores = new String[]{
                         "Geleia de Caqui",
                         "Doce de Caqui",
-                        "Bolo de Caqui",
+                        "Bolo De Caqui",
                         "Salada de Couve-flor, banana e caqui",
-                        "Mufin de Caqui"
+                        "Muffin de Caqui"
 
                 };
 
@@ -1290,7 +1288,7 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Badejo em Crosta de Pinhão",
                         "Brownie de Pinho",
                         "Nhoque de Pinhão",
-                        "Molho ao sugo com mini almondegas de Pinhão",
+                        "Molho ao sugo com mini almôndegas de Pinhão",
                         "Tapas de Pinhão e Palmito pupunha"
 
                 };
@@ -1894,7 +1892,7 @@ public class ActivityReceitas extends AppCompatActivity {
                 Imagem.setImageResource(R.drawable.jaca);
                 valores = new String[]{
                         "Doce de Jaca em Calda",
-                        "Fricasse de Jaca",
+                        "Fricassé de Jaca",
                         "Carne de Jaca com Creme de Milho",
                         "Curry de Jaca Verde",
                         "Antepasto de Carne de Jaca"
@@ -2015,8 +2013,8 @@ public class ActivityReceitas extends AppCompatActivity {
                         "Purê de Batata Doce Amarela",
                         "Batata Doce Assada",
                         "Batata Doce Frita",
-                        "Salada De Batata Doce Amarela Com Bacalhau",
-                        "Batata Doce Assada Com Manjerona"
+                        "Salada de Batata Doce Amarela com Bacalhau",
+                        "Batata Doce Assada com Manjerona"
 
                 };
 
